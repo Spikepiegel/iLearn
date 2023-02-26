@@ -1,0 +1,32 @@
+{
+    "wordInformation":[
+        {
+            "id": 1,
+            "origin": "Hello",
+            "translation": "Здравствуйте",
+            "image": "",
+            "example": "Hello, my name is Steve"
+        },
+        {
+            "id": 2,
+            "origin": "Hi",
+            "translation": "Привет",
+            "image": "",
+            "example": "Hi, how are you?"
+        },
+        {
+            "id": 3,
+            "origin": "You",
+            "translation": "Ты",
+            "image": "",
+            "example": "You are good?"
+        },
+        {
+            "id": 4,
+            "origin": "Take",
+            "translation": "Взять",
+            "image": "",
+            "example": "Take my money"
+        }
+    ]
+}
