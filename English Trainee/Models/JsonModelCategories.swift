@@ -32,5 +32,5 @@ struct CategoryWordsList: Codable {
 
 struct WordInformation: Codable {
     let id: Int
-    let origin, translation, image, example: String
+    let origin, translation, transcription, image, example: String
 }

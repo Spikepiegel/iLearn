@@ -43,6 +43,7 @@ extension JsonServiceImpl {
                 let data = try Data(contentsOf: url)
                 let decoder = JSONDecoder()
                 let jsonResponse = try decoder.decode(CategoryWordsList.self, from: data)
+                print(jsonResponse.wordInformation.count)
                 return jsonResponse.wordInformation
             } catch {
                 print("error:\(error)")

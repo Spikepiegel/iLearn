@@ -14,7 +14,7 @@ final class CategoriesVC: UIViewController {
     lazy var tableCategories: UITableView = {
         let tableView = UITableView(frame: .zero, style: .grouped)
         tableView.register(CategoriesCell.self, forCellReuseIdentifier: "CategoriesCell")
-        tableView.backgroundColor = #colorLiteral(red: 0.476841867, green: 0.5048075914, blue: 1, alpha: 1)
+        tableView.backgroundColor = .appBackgroundColor
         tableView.delegate = self
         tableView.dataSource = self
         return tableView
@@ -32,7 +32,7 @@ final class CategoriesVC: UIViewController {
 extension CategoriesVC {
     func setupViews() {
         view.addSubview(tableCategories)
-        view.backgroundColor = #colorLiteral(red: 0.476841867, green: 0.5048075914, blue: 1, alpha: 1)
+        view.backgroundColor = .appBackgroundColor
 
     }
     
@@ -78,7 +78,7 @@ extension CategoriesVC: UITableViewDataSource {
                                          y: header.bounds.origin.y,
                                          width: 100,
                                          height: header.bounds.height)
-        header.textLabel?.textColor = .white
+        header.textLabel?.textColor = .black
         header.textLabel?.text = "All Categories"
         header.textLabel?.font = UIFont(name: "Arial Rounded MT Bold", size: 40)
     

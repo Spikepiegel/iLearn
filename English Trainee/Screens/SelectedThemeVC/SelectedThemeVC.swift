@@ -12,6 +12,7 @@ final class SelectedThemeVC: UIViewController {
     
     //easy cohesion
     var jsonService: JsonServiceProtocol?
+    var headerProtocol = SelectedThemeHeader()
     
     var words = [WordInformation]()
     
@@ -32,13 +33,17 @@ final class SelectedThemeVC: UIViewController {
     lazy var wordsTable: UITableView = {
         let tableView = UITableView(frame: .zero, style: .grouped)
         tableView.register(SelectedThemeCell.self, forCellReuseIdentifier: SelectedThemeCell.identifier)
-        tableView.backgroundColor = #colorLiteral(red: 0.476841867, green: 0.5048075914, blue: 1, alpha: 1)
-        let headerView = SelectedThemeView(frame: CGRect(x: 0, y: 0, width: 0, height: 200))
+        tableView.backgroundColor = .appBackgroundColor
+        let headerView = SelectedThemeHeader(frame: CGRect(x: 0, y: 0, width: 0, height: 200))
         tableView.tableHeaderView = headerView
+        headerView.themeLabel.text = selectedTheme
+        tableView.layer.cornerRadius = 20
+        tableView.layer.masksToBounds = true
         tableView.delegate = self
         tableView.dataSource = self
+        
         return tableView
-            }()
+    }()
     
     lazy var backButton: UIButton = {
         let button = UIButton()
@@ -57,26 +62,38 @@ final class SelectedThemeVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let vc = SelectedThemeHeader()
+        vc.updateTheme(theme: selectedTheme)
         setupViews()
         setupConstraints()
         
         words = loadWords() //Array with words of selected Category
+        headerProtocol.themeLabel.text = selectedTheme
         }
     
     //MARK: Fetch Data from json with words of selected theme
     func loadWords() -> [WordInformation] {
         return jsonService?.loadJsonWords(filename: selectedTheme) ?? []
     }
+    
 }
 
 extension SelectedThemeVC: UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return words.count
     }
-    
+
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 80
     }
+    
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let headerView = UIView()
+        headerView.backgroundColor = view.backgroundColor
+        return headerView
+    }
+
 
 }
 
@@ -85,18 +102,19 @@ extension SelectedThemeVC: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: SelectedThemeCell.identifier, for: indexPath) as? SelectedThemeCell else {
             return UITableViewCell() }
-        
+  
         let word = words[indexPath.row]
         cell.update(word)
+        
         return cell
     }
-
+    
 }
 
 extension SelectedThemeVC {
     
     func setupViews() {
-        view.backgroundColor = #colorLiteral(red: 0.476841867, green: 0.5048075914, blue: 1, alpha: 1)
+        view.backgroundColor = .white
         view.addSubview(backButton)
         view.addSubview(wordsTable)
     }

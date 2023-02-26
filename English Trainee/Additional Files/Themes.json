@@ -4,104 +4,7 @@
             "id": 1,
             "themes":[
             {
-                "name": "Basic Words"
-            },
-            {
-                "name": "The most popular verbs"
-            }
-            ]
-        },
-        {
-            "id": 3,
-            "themes":[
-            {
-                "name": "English words similar to Russian"
-            }
-            ]
-        },
-        {
-            "id": 4,
-            "themes":[
-            {
-                "name": "Travelling"
-            },
-            {
-                "name": "Aviation"
-            },
-            {
-                "name": "Summer"
-            }
-            ]
-        },
-        {
-            "id": 5,
-            "themes":[
-            {
-                "name": "Weather"
-            },
-            {
-                "name": "Weekday"
-            }
-            ]
-        },
-        {
-            "id": 6,
-            "themes":[
-            {
-                "name": "Work"
-            },
-            {
-                "name": "Proffesions"
-            },
-            {
-                "name": "Colors"
-            }
-            ]
-        },
-        {
-            "id": 7,
-            "themes":[
-            {
-                "name": "School subjects"
-            },
-            {
-                "name": "Emotions and feelings"
-            }
-            ]
-        },
-        {
-            "id": 8,
-            "themes":[
-            {
-                "name": "Geometry"
-            },
-            {
-                "name": "Kitchen"
-            },
-            {
-                "name": "Hobbies"
-            }
-            ]
-        },
-        {
-            "id": 9,
-            "themes":[
-            {
-                "name": "Berries"
-            },
-            {
-                "name": "Fruits"
-            },
-            {
-                "name": "Vegetables"
-            }
-            ]
-        },
-        {
-            "id": 10,
-            "themes":[
-            {
-                "name": "Fish"
+                "name": "Anatomy"
             },
             {
                 "name": "Animals"
@@ -109,39 +12,100 @@
             ]
         },
         {
-            "id": 11,
+            "id": 2,
             "themes":[
             {
-                "name": "Halloween"
+                "name": "Appearance"
             },
             {
-                "name": "Sport"
-            },
-            {
-                "name": "Home"
+                "name": "Archeology"
             }
             ]
         },
         {
-            "id": 12,
+            "id": 3,
+            "themes":[
+            {
+                "name": "Architecture"
+            },
+            {
+                "name": "Art"
+            },
+            {
+                "name": "Aviation"
+            }
+            ]
+        },
+        {
+            "id": 4,
+            "themes":[
+            {
+                "name": "Basic Words"
+            },
+            {
+                "name": "Berries"
+            },
+            {
+                "name": "Body"
+            }
+            ]
+        },
+        {
+            "id": 5,
+            "themes":[
+            {
+                "name": "Business"
+            },
+            {
+                "name": "Career"
+            },
+            {
+                "name": "City"
+            }
+            ]
+        },
+        {
+            "id": 6,
             "themes":[
             {
                 "name": "Clothes"
             },
             {
-                "name": "Body"
+                "name": "Colors"
             },
             {
-                "name": "Diseases"
+                "name": "Computer"
             }
             ]
         },
         {
-            "id": 13,
+            "id": 8,
             "themes":[
             {
-                "name": "Tastes"
+                "name": "Diseases"
             },
+            {
+                "name": "Drinks"
+            },
+            {
+                "name": "Drugs"
+            }
+            ]
+        },
+        {
+            "id": 7,
+            "themes":[
+            {
+                "name": "Economics"
+            },
+            {
+                "name": "Emotions and Feelings"
+            }
+            ]
+        },
+        {
+            "id": 8,
+            "themes":[
             {
                 "name": "Family"
             },
@@ -151,13 +115,60 @@
             ]
         },
         {
+            "id": 11,
+            "themes":[
+            {
+                "name": "Furniture"
+            },
+            {
+                "name": "Geography"
+            },
+            {
+                "name": "Geometry"
+            }
+            ]
+        },
+        {
+            "id": 12,
+            "themes":[
+            {
+                "name": "Halloween"
+            },
+            {
+                "name": "Health"
+            },
+            {
+                "name": "Hobbies"
+            }
+            ]
+        },
+        
+        
+        
+        
+ 
+        {
+            "id": 13,
+            "themes":[
+            {
+                "name": "Home"
+            },
+            {
+                "name": "Kitchen"
+            },
+            {
+                "name": "Law"
+            }
+            ]
+        },
+        {
             "id": 14,
             "themes":[
             {
-                "name": "New Year"
+                "name": "Mathematics"
             },
             {
-                "name": "Drugs"
+                "name": "Money"
             },
             {
                 "name": "Months"
@@ -168,10 +179,10 @@
             "id": 15,
             "themes":[
             {
-                "name": "Seasons"
+                "name": "Movie"
             },
             {
-                "name": "Finger names"
+                "name": "Music"
             }
             ]
         },
@@ -179,12 +190,103 @@
             "id": 16,
             "themes":[
             {
-                "name": "City"
+                "name": "New Year"
             },
             {
-                "name": "Drinks"
+                "name": "Numerals"
+            }
+            ]
+        },
+        {
+            "id": 16,
+            "themes":[
+            {
+                "name": "Personality"
+            },
+            {
+                "name": "Politics"
+            },
+            {
+                "name": "Professions"
+            }
+            ]
+        },
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        {
+            "id": 16,
+            "themes":[
+            {
+                "name": "School subjects"
+            },
+            {
+                "name": "Seasons"
+            },
+            {
+                "name": "Space"
+            }
+            ]
+        },
+        {
+            "id": 16,
+            "themes":[
+            {
+                "name": "Sport"
+            },
+            {
+                "name": "Summer"
+            },
+            {
+                "name": "Tastes"
+            }
+            ]
+        },
+        {
+            "id": 16,
+            "themes":[
+            {
+                "name": "The most popular verbs"
+            },
+            {
+                "name": "Time"
+            }
+            ]
+        },
+        {
+            "id": 16,
+            "themes":[
+            {
+                "name": "Travelling"
+            },
+            {
+                "name": "Vegetables"
+            },
+            {
+                "name": "Weather"
+            }
+            ]
+        },
+        {
+            "id": 16,
+            "themes":[
+            {
+                "name": "Weekday"
+            },
+            {
+                "name": "Work"
             }
             ]
         }
     ]
 }
+

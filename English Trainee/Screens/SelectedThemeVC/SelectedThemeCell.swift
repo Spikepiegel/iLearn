@@ -43,16 +43,17 @@ extension SelectedThemeCell {
     func setupViews() {
         contentView.layer.borderWidth = 1.0
         contentView.layer.borderColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
-        contentView.layer.cornerRadius = 30
-        contentView.backgroundColor = .white
-        backgroundColor = #colorLiteral(red: 0.476841867, green: 0.5048075914, blue: 1, alpha: 1)
+        contentView.backgroundColor = .appBackgroundColor
+        contentView.layer.cornerRadius = 10
+        backgroundColor = .white
         selectionStyle = .none
 
-        
         contentView.addSubview(wordLabel)
     }
     
     func setupConstraints() {
+
+        
         wordLabel.snp.makeConstraints { make in
             make.top.equalTo(contentView).inset(30)
             make.left.equalTo(contentView).inset(40)

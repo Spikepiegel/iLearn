@@ -1,30 +1,45 @@
 import UIKit
 import SnapKit
 
-final class SelectedThemeView: UIView {
+
+final class SelectedThemeHeader: UIView {
     
     lazy var containerView: UIView = {
         let view = UIView()
-        view.backgroundColor = UIColor(white: 1, alpha: 0.5)
         view.layer.cornerRadius = 20
         view.clipsToBounds = true
-      
-
+        view.layer.borderColor = UIColor.lightGray.cgColor
+        view.layer.borderWidth = 0.8
+        view.backgroundColor = .clear
+        view.alpha = 0.3
+        
         return view
     }()
     
     lazy var gradientLayer: CAGradientLayer = {
         let gradientLayer:CAGradientLayer = CAGradientLayer()
 
-        gradientLayer.colors = [UIColor.systemPink.cgColor,UIColor.white.withAlphaComponent(0).cgColor] //Or any colors
-        containerView.layer.addSublayer(gradientLayer)
+        gradientLayer.type = .axial
+        gradientLayer.colors = [
+            UIColor.lightPurpleGradientColor.cgColor,
+            UIColor.cyanGradientColor.cgColor
+            ]
+        gradientLayer.locations = [0.3, 1.0]
+        gradientLayer.startPoint = CGPoint(x: 0, y: 0.5)
+        gradientLayer.endPoint = CGPoint(x: 1, y: 0.5)
+        containerView.layer.insertSublayer(gradientLayer, at: 0)
+
         return gradientLayer
     }()
     
+    override class var layerClass: AnyClass {
+        return CAGradientLayer.classForCoder()
+    }
+    
     lazy var themeLabel: UILabel = {
         let label = UILabel()
-        label.text = "Fruits"
         label.font = UIFont(name: "Arial Rounded MT Bold", size: 30)
+        label.numberOfLines = 2
         return label
     }()
     
@@ -55,26 +70,25 @@ final class SelectedThemeView: UIView {
         super.init(frame: frame)
         setupViwes()
         setupConstraints()
-
     }
     required init?(coder: NSCoder) {
         fatalError()
     }
+    
+    func updateTheme(theme: String) {
+        themeLabel.text = theme
+    }
+
 }
 
-extension SelectedThemeView {
+extension SelectedThemeHeader {
     func setupViwes() {
         
         backgroundColor = .clear
+        backgroundColor = UIColor.white.withAlphaComponent(0.5)
         addSubview(containerView)
-        containerView.addSubview(themeLabel)
-        containerView.addSubview(progressLabel)
-        //containerView.addSubview(headerSegmentedControl)
-        
-       
-        
-       
-        
+        addSubview(themeLabel)
+        addSubview(progressLabel)
     }
     
     func setupConstraints() {
@@ -84,32 +98,23 @@ extension SelectedThemeView {
         }
         
         themeLabel.snp.makeConstraints { make in
-            make.top.left.equalTo(self).inset(30)
+            make.top.left.right.equalTo(self).inset(30)
         }
 
         progressLabel.snp.makeConstraints { make in
-            make.top.equalTo(themeLabel).inset(50)
+            make.top.equalTo(themeLabel).inset(100)
             make.left.equalTo(self).inset(30)
         }
-
-//        headerSegmentedControl.snp.makeConstraints { make in
-//            make.left.right.equalTo(containerView)
-//            make.bottom.equalTo(containerView)
-//            make.height.equalTo(60)
-//        }
-        
-       
     }
     
     override func layoutSubviews() {
         super.layoutSubviews()
         setupGradient()
+        containerView.backgroundColor?.withAlphaComponent(0.4)
     }
     
     private func setupGradient() {
         gradientLayer.frame = containerView.bounds
-        print(gradientLayer.frame, containerView.bounds)
-
     }
     
    

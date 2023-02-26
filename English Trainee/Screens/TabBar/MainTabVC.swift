@@ -27,7 +27,7 @@ final class AppTabBar: UITabBarController {
                      title: "All Categories",
                      image: UIImage(systemName: "rectangle.stack.badge.person.crop.fill"))
         ]
-        UITabBar.appearance().barTintColor = #colorLiteral(red: 0.476841867, green: 0.5048075914, blue: 1, alpha: 1)
+        UITabBar.appearance().barTintColor = .black
     }
     
     private func setupVCs(viewController: UIViewController, title: String, image: UIImage?) -> UIViewController {
@@ -55,10 +55,10 @@ final class AppTabBar: UITabBarController {
         tabBar.itemWidth = tabBar.bounds.width / 3
         tabBar.itemPositioning = .centered
         
-        roundLayer.fillColor = UIColor.mainWhite.cgColor
+        roundLayer.fillColor = UIColor.black.cgColor
         
-        tabBar.tintColor = .tabBarItemAccent
-        tabBar.unselectedItemTintColor = .tabBarItemLight
+        tabBar.tintColor = .white
+        tabBar.unselectedItemTintColor = .unselectedItem
         
     }
     

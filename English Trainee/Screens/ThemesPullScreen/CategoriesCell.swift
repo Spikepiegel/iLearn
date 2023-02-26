@@ -16,7 +16,7 @@ final class CategoriesCell: UITableViewCell {
         stack.axis = .vertical
         stack.distribution = .fillEqually
         stack.spacing = 10
-        stack.backgroundColor = #colorLiteral(red: 0.476841867, green: 0.5048075914, blue: 1, alpha: 1)
+        stack.backgroundColor = .appBackgroundColor
         return stack
     }()
     
@@ -62,9 +62,9 @@ final class CategoriesCell: UITableViewCell {
         button.titleLabel?.font = UIFont.systemFont(ofSize: 15)
         button.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         button.layer.cornerRadius = 12
-        button.layer.borderWidth = 0
+        button.layer.borderWidth = 0.6
         button.setImage(UIImage(named: buttonText), for: .normal)
-        button.layer.borderColor = UIColor.black.cgColor
+        button.layer.borderColor = UIColor.lightGray.cgColor
         button.setTitle(buttonText, for: .normal)
         button.snp.makeConstraints { make in
         button.addTarget(self, action: #selector(themeWasTapped) , for: .touchUpInside)
@@ -88,7 +88,8 @@ final class CategoriesCell: UITableViewCell {
 extension CategoriesCell {
     func setupViews() {
         contentView.addSubview(containerStack)
-        contentView.backgroundColor = #colorLiteral(red: 0.476841867, green: 0.5048075914, blue: 1, alpha: 1)
+        contentView.backgroundColor = .appBackgroundColor
+        contentView.layer.borderWidth = 0
     }
     
     func setupConstraints() {

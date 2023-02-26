@@ -12,9 +12,9 @@
 		3130D816299AC27300BF6041 /* MainTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3130D815299AC27300BF6041 /* MainTabVC.swift */; };
 		31B435F529A9557D00EFEA90 /* SelectedThemeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B435F429A9557D00EFEA90 /* SelectedThemeCell.swift */; };
 		31B435F729A95E9300EFEA90 /* Basic Words.json in Resources */ = {isa = PBXBuildFile; fileRef = 31B435F629A95E9300EFEA90 /* Basic Words.json */; };
-		31B435F929AA332E00EFEA90 /* sasha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B435F829AA332D00EFEA90 /* sasha.swift */; };
 		31B435FB29AA95FE00EFEA90 /* Fruits.json in Resources */ = {isa = PBXBuildFile; fileRef = 31B435FA29AA95FE00EFEA90 /* Fruits.json */; };
-		31B435FD29AA9B4500EFEA90 /* FetchDataForSelectedThemeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B435FC29AA9B4500EFEA90 /* FetchDataForSelectedThemeVC.swift */; };
+		31C903E329ABD97600D9B615 /* Anatomy1.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C903E229ABD97600D9B615 /* Anatomy1.json */; };
+		31C903E529ABE48F00D9B615 /* Anatomy.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C903E429ABE48F00D9B615 /* Anatomy.json */; };
 		31F005EB29A0163C0097C22E /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F005EA29A0163C0097C22E /* CategoriesVC.swift */; };
 		31F005ED29A2134E0097C22E /* CategoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F005EC29A2134E0097C22E /* CategoriesCell.swift */; };
 		31F005F029A510820097C22E /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F005EF29A510820097C22E /* UIColorExtension.swift */; };
@@ -38,9 +38,9 @@
 		3130D815299AC27300BF6041 /* MainTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabVC.swift; sourceTree = "<group>"; };
 		31B435F429A9557D00EFEA90 /* SelectedThemeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedThemeCell.swift; sourceTree = "<group>"; };
 		31B435F629A95E9300EFEA90 /* Basic Words.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Basic Words.json"; sourceTree = SOURCE_ROOT; };
-		31B435F829AA332D00EFEA90 /* sasha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sasha.swift; sourceTree = "<group>"; };
 		31B435FA29AA95FE00EFEA90 /* Fruits.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Fruits.json; path = "English Trainee/Additional Files/Fruits.json"; sourceTree = SOURCE_ROOT; };
-		31B435FC29AA9B4500EFEA90 /* FetchDataForSelectedThemeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchDataForSelectedThemeVC.swift; sourceTree = "<group>"; };
+		31C903E229ABD97600D9B615 /* Anatomy1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Anatomy1.json; sourceTree = SOURCE_ROOT; };
+		31C903E429ABE48F00D9B615 /* Anatomy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Anatomy.json; sourceTree = SOURCE_ROOT; };
 		31F005EA29A0163C0097C22E /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
 		31F005EC29A2134E0097C22E /* CategoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCell.swift; sourceTree = "<group>"; };
 		31F005EF29A510820097C22E /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
@@ -95,8 +95,10 @@
 			isa = PBXGroup;
 			children = (
 				31F005EF29A510820097C22E /* UIColorExtension.swift */,
+				31C903E229ABD97600D9B615 /* Anatomy1.json */,
 				31F005F729A550370097C22E /* Themes.json */,
 				31B435F629A95E9300EFEA90 /* Basic Words.json */,
+				31C903E429ABE48F00D9B615 /* Anatomy.json */,
 				31B435FA29AA95FE00EFEA90 /* Fruits.json */,
 			);
 			path = "Additional Files";
@@ -121,7 +123,6 @@
 		31F005FC29A6A3B00097C22E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				31B435FC29AA9B4500EFEA90 /* FetchDataForSelectedThemeVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -183,7 +184,6 @@
 				31F005F529A54C8D0097C22E /* JsonModelCategories.swift */,
 				31FB997329942A1700FC1DF6 /* Words.swift */,
 				31FDF3922997BBB9000E2ABA /* PopUp.swift */,
-				31B435F829AA332D00EFEA90 /* sasha.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -275,9 +275,11 @@
 				31B435FB29AA95FE00EFEA90 /* Fruits.json in Resources */,
 				31B435F729A95E9300EFEA90 /* Basic Words.json in Resources */,
 				31FB991F2985956400FC1DF6 /* LaunchScreen.storyboard in Resources */,
+				31C903E329ABD97600D9B615 /* Anatomy1.json in Resources */,
 				31F005F829A550370097C22E /* Themes.json in Resources */,
 				31F9BCB829A7732700C913AE /* Assets.xcassets in Resources */,
 				31FB991A2985956200FC1DF6 /* Main.storyboard in Resources */,
+				31C903E529ABE48F00D9B615 /* Anatomy.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +297,6 @@
 				31FB99132985956200FC1DF6 /* AppDelegate.swift in Sources */,
 				31F005F029A510820097C22E /* UIColorExtension.swift in Sources */,
 				31F005F229A54C520097C22E /* JsonService.swift in Sources */,
-				31B435FD29AA9B4500EFEA90 /* FetchDataForSelectedThemeVC.swift in Sources */,
 				31F005EB29A0163C0097C22E /* CategoriesVC.swift in Sources */,
 				31F9BCBD29A7FF9100C913AE /* SelectedThemeHeader.swift in Sources */,
 				31FB99152985956200FC1DF6 /* SceneDelegate.swift in Sources */,
@@ -304,7 +305,6 @@
 				31B435F529A9557D00EFEA90 /* SelectedThemeCell.swift in Sources */,
 				31F9BCBB29A7D17A00C913AE /* SelectedThemeVC.swift in Sources */,
 				3130D816299AC27300BF6041 /* MainTabVC.swift in Sources */,
-				31B435F929AA332E00EFEA90 /* sasha.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
