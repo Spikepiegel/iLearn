@@ -1,0 +1,749 @@
+{
+    "wordInformation":[
+        {
+            "id": 1,
+            "origin": "alligator",
+            "translation": "аллигатор",
+            "transcription": "[ ælɪgeɪtə ]",
+            "image": "",
+            "example": ""
+        },
+       {
+            "id": 2,
+            "origin": "antelope",
+            "translation": "антилопа",
+            "transcription": "[ æntɪləup ]",
+            "image": "",
+            "example": ""
+        },
+       {
+            "id": 3,
+            "origin": "ass",
+            "translation": "ишак",
+            "transcription": "[ æs ]",
+            "image": "",
+            "example": ""
+        },
+       {
+            "id": 4,
+            "origin": "bat",
+            "translation": "летучая мышь",
+            "transcription": "[ bæt ]",
+            "image": "",
+            "example": ""
+        },
+       {
+            "id": 5,
+            "origin": "bear",
+            "translation": "медведь",
+            "transcription": "[ beə ]",
+            "image": "",
+            "example": ""
+        },
+       {
+            "id": 6,
+            "origin": "beaver",
+            "translation": "бобер",
+            "transcription": "[ ‘bi:və ]",
+            "image": "",
+            "example": ""
+        },
+       {
+            "id": 7,
+            "origin": "bison",
+            "translation": "бизон",
+            "transcription": "[ ’baɪs(ə)n ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 8,
+            "origin": "boa constrictor",
+            "translation": "удав",
+            "transcription": "[ ’bəuəkən’strɪktə ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 9,
+            "origin": "budgerigar",
+            "translation": "волнистый попугай",
+            "transcription": "[ ’bʌʤ(ə)rɪgɑ: ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 10,
+            "origin": "bull",
+            "translation": "бык",
+            "transcription": "[ bul ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 11,
+            "origin": "camel",
+            "translation": "верблюд",
+            "transcription": "[ ’kæm(ə)l ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 12,
+            "origin": "cheetah",
+            "translation": "гепард",
+            "transcription": "[ ’ʧi:tə ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 13,
+            "origin": "chimpanzee",
+            "translation": "шимпанзе",
+            "transcription": "[ ’ʧɪmpæn’zi: ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 14,
+            "origin": "cobra",
+            "translation": "кобра",
+            "transcription": "[ [‘kɔbrə ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 15,
+            "origin": "crab",
+            "translation": "краб",
+            "transcription": "[ kræb ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 15,
+            "origin": "crocodile",
+            "translation": "крокодил",
+            "transcription": "[ ’krɔkədaɪl ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 16,
+            "origin": "deer",
+            "translation": "олень",
+            "transcription": "[ dɪə ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 17,
+            "origin": "dolphin",
+            "translation": "дельфин",
+            "transcription": "[ ’dɔlfɪn]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 18,
+            "origin": "donkey",
+            "translation": "осел",
+            "transcription": "[ ’dɔŋkɪ ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 19,
+            "origin": "eagle",
+            "translation": "орел",
+            "transcription": "[ ’i:g(ə)l ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 20,
+            "origin": "elephant",
+            "translation": "слон",
+            "transcription": "[ ’elɪfənt ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 21,
+            "origin": "elk",
+            "translation": "лось",
+            "transcription": "[ elk ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 22,
+            "origin": "emu",
+            "translation": "эму",
+            "transcription": "[ ’i:mju: ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 23,
+            "origin": "falcon",
+            "translation": "сокол",
+            "transcription": "[ ’fɔ:lkən ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 24,
+            "origin": "fox",
+            "translation": "лиса",
+            "transcription": "[ fɔks ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 25,
+            "origin": "frog",
+            "translation": "лягушка",
+            "transcription": "[ frɔg ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 26,
+            "origin": "gazelle",
+            "translation": "газель",
+            "transcription": "[ gə’zel ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 27,
+            "origin": "giraffe",
+            "translation": "жираф",
+            "transcription": "[ ʤɪ’rɑ:f]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 28,
+            "origin": "goat",
+            "translation": "козел",
+            "transcription": "[ gəut ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 29,
+            "origin": "goose",
+            "translation": "гусь",
+            "transcription": "[ gu:s ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 30,
+            "origin": "gorilla",
+            "translation": "горила",
+            "transcription": "[ gə’rɪlə ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 31,
+            "origin": "guinea-pig",
+            "translation": "морская свинка",
+            "transcription": "[ gɪnɪpɪg ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 32,
+            "origin": "hamster",
+            "translation": "хомяк",
+            "transcription": "[ ’hæmstə ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 33,
+            "origin": "hare",
+            "translation": "заяц",
+            "transcription": "[ heə ]",
+            "image": "",
+            "example": ""
+        },
+
+    {
+            "id": 34,
+            "origin": "hawk",
+            "translation": "ястреб",
+            "transcription": "[ hɔ:k ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 35,
+            "origin": "hedgehog",
+            "translation": "еж",
+            "transcription": "[ ’heʤhɔg ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 36,
+            "origin": "hippo",
+            "translation": "гиппопотам",
+            "transcription": "[ ’hɪpəu ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 37,
+            "origin": "horse",
+            "translation": "лошадь",
+            "transcription": "[ hɔ:s ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 38,
+            "origin": "hyena",
+            "translation": "гиена",
+            "transcription": "[ haɪ’i:nə ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 39,
+            "origin": "iguana",
+            "translation": "игуана",
+            "transcription": "[ ɪ’gwɑ:nə ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 40,
+            "origin": "jackal",
+            "translation": "шакал",
+            "transcription": "[ ’ʤækɔ:l ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 41,
+            "origin": "kangaroo",
+            "translation": "кенгуру",
+            "transcription": "[ ’kæŋgə’ru: ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 42,
+            "origin": "kiwi",
+            "translation": "киви",
+            "transcription": "[ ’ki:wi: ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 43,
+            "origin": "koala",
+            "translation": "коала",
+            "transcription": "[ kəu’ɑ:lə ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 44,
+            "origin": "leopard",
+            "translation": "леопард",
+            "transcription": "[ ’lepəd] ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 45,
+            "origin": "lion",
+            "translation": "лев",
+            "transcription": "[ ’laɪən ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 46,
+            "origin": "mink",
+            "translation": "норка",
+            "transcription": "[ mɪŋk ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 47,
+            "origin": "mule",
+            "translation": "мул",
+            "transcription": "[ mju:l ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 48,
+            "origin": "newt",
+            "translation": "тритон",
+            "transcription": "[ nju:t ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 49,
+            "origin": "octopus",
+            "translation": "осьминог",
+            "transcription": "[ ’ɔktəpəs ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 50,
+            "origin": "orang outang",
+            "translation": "орангутан",
+            "transcription": "[ ɔ:’ræŋu:’tæŋ ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 51,
+            "origin": "ostrich",
+            "translation": "страус",
+            "transcription": "[ ’ɔstrɪʧ] ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 52,
+            "origin": "otter",
+            "translation": "выдра",
+            "transcription": "[ ’ɔtə ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 53,
+            "origin": "panda",
+            "translation": "панда",
+            "transcription": "[ ’pændə ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 54,
+            "origin": "panther",
+            "translation": "пантера",
+            "transcription": "[ ’pænθə] ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 55,
+            "origin": "peacock",
+            "translation": "павлин",
+            "transcription": "[ ’pi:kɔk ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 56,
+            "origin": "penguin",
+            "translation": "пингвин",
+            "transcription": "[ ’peŋgwɪn ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 57,
+            "origin": "pigeon",
+            "translation": "голубь",
+            "transcription": "[ ’pɪʤɪn ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 58,
+            "origin": "polar bear",
+            "translation": "полярный медведь",
+            "transcription": "[ ’pəulə’beə ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 59,
+            "origin": "porcupine",
+            "translation": "дикобраз",
+            "transcription": "[ ’pɔ:kjupaɪn ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 60,
+            "origin": "porpoise",
+            "translation": "морская свинья (вид дельфинов)",
+            "transcription": "[ ’pɔ:pəs ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 61,
+            "origin": "python",
+            "translation": "питон",
+            "transcription": "[ ’paɪθ(ə)n ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 62,
+            "origin": "rabbit",
+            "translation": "кролик",
+            "transcription": "[ ˈræbɪt ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 63,
+            "origin": "racoon",
+            "translation": "енот",
+            "transcription": "[ rə’ku:n ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 64,
+            "origin": "rat",
+            "translation": "крыса",
+            "transcription": "[ ræt ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 65,
+            "origin": "rattlesnake",
+            "translation": "гремучая змея",
+            "transcription": "[ ’rætlsneɪk ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 66,
+            "origin": "reindeer",
+            "translation": "северный олень",
+            "transcription": "[ ’reɪndɪə ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 67,
+            "origin": "rhino(ceros)",
+            "translation": "носорог",
+            "transcription": "[ ’raɪnəu ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 68,
+            "origin": "robin",
+            "translation": "снегирь",
+            "transcription": "[ ’rɔbɪn ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 69,
+            "origin": "seal",
+            "translation": "тюлень",
+            "transcription": "[ si:l ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 70,
+            "origin": "shark",
+            "translation": "акула",
+            "transcription": "[ [ʃɑ:k] ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 71,
+            "origin": "skunk",
+            "translation": "скунс",
+            "transcription": "[ skʌŋk ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 72,
+            "origin": "snail",
+            "translation": "улитка",
+            "transcription": "[ sneɪl ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 73,
+            "origin": "sparrow",
+            "translation": "воробей",
+            "transcription": "[ ’spærəu ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 74,
+            "origin": "squirrel",
+            "translation": "белка",
+            "transcription": "[ ‘skwɪrəl ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 75,
+            "origin": "stag",
+            "translation": "благородный олень",
+            "transcription": "[ stæg ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 76,
+            "origin": "stoat",
+            "translation": "горностай",
+            "transcription": "[ stəut ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 77,
+            "origin": "swallow",
+            "translation": "ласточка",
+            "transcription": "[ ’swɔləu ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 78,
+            "origin": "thrush",
+            "translation": "дрозд",
+            "transcription": "[ θrʌʃ ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 79,
+            "origin": "tiger",
+            "translation": "тигр",
+            "transcription": "[ ’taɪgə ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 80,
+            "origin": "tortoise",
+            "translation": "черепаха",
+            "transcription": "[ ’tɔ:təs ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 81,
+            "origin": "turtle",
+            "translation": "морская черепаха",
+            "transcription": "[ ’tɜ:tl ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 82,
+            "origin": "viper",
+            "translation": "змея",
+            "transcription": "[ ’vaɪpə ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 83,
+            "origin": "vulture",
+            "translation": "гриф",
+            "transcription": "[ ’vʌlʧə ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 84,
+            "origin": "walrus",
+            "translation": "морж",
+            "transcription": "[ ’wɔ:lrəs ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 85,
+            "origin": "weasel",
+            "translation": "ласка",
+            "transcription": "[ ’wi:z(ə)l ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 86,
+            "origin": "whale",
+            "translation": "кит",
+            "transcription": "[ weɪl ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 87,
+            "origin": "wildebeest",
+            "translation": "гну",
+            "transcription": "[ wildəbi:st ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 88,
+            "origin": "wolf",
+            "translation": "волк",
+            "transcription": "[ wulf ]",
+            "image": "",
+            "example": ""
+        },
+       {
+            "id": 89,
+            "origin": "woodpecker",
+            "translation": "дятел",
+            "transcription": "[ ’wud’pekə ]",
+            "image": "",
+            "example": ""
+        },
+       {
+            "id": 90,
+            "origin": "wolf",
+            "translation": "волк",
+            "transcription": "[ wulf ]",
+            "image": "",
+            "example": ""
+        },
+       {
+            "id": 88,
+            "origin": "yak",
+            "translation": "як",
+            "transcription": "[ jæk ]",
+            "image": "",
+            "example": ""
+        },
+      {
+            "id": 89,
+            "origin": "zebra",
+            "translation": "зебра",
+            "transcription": "[ ’zεbrə ]",
+            "image": "",
+            "example": ""
+        }
+    ]
+}

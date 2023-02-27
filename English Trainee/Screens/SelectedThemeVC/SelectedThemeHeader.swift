@@ -116,7 +116,4 @@ extension SelectedThemeHeader {
     private func setupGradient() {
         gradientLayer.frame = containerView.bounds
     }
-    
-   
-
 }

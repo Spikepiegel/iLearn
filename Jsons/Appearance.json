@@ -1,0 +1,788 @@
+{
+  "wordInformation": [
+{
+  "id": 1,
+  "origin": "arched",
+  "translation": "дугой (брови)",
+  "transcription": "[ ɑːtʃt ]",
+  "image": "",
+  "example": ""
+},
+{
+    "id": 1,
+    "origin": "arched",
+    "translation": "дугой (брови)",
+    "transcription": "[ ɑːtʃt ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 2,
+    "origin": "attractive",
+    "translation": "привлекательный",
+    "transcription": "[ əˈtræktɪv ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 3,
+    "origin": "attractive",
+    "translation": "привлекательный",
+    "transcription": "[ əˈtræktɪv ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 4,
+    "origin": "bald",
+    "translation": "лысый",
+    "transcription": "[ bɔːld ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 5,
+    "origin": "bald patch",
+    "translation": "лысина",
+    "transcription": "[ bɔːld pætʃ ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 6,
+    "origin": "beard",
+    "translation": "борода",
+    "transcription": "[ bɪəd ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 7,
+    "origin": "beautiful, lovely, pretty",
+    "translation": "красивый (о женщине или ребенке)",
+    "transcription": "[ ˈbjuːtəfl̩ ] [ ˈlʌvli ] [ ˈprɪti ",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "beauty",
+    "translation": "красотка",
+    "transcription": "[ ˈbjuːti ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "big / great toe",
+    "translation": "большой палец (на ноге)",
+    "transcription": "[ bɪɡ ] [ ˈɡreɪt təʊ ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "breast",
+    "translation": "грудь",
+    "transcription": "[ brest ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "broad forehead",
+    "translation": "широкий лоб",
+    "transcription": "[ brɔːd ˈfɒrɪd ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "brows",
+    "translation": "брови",
+    "transcription": "[ braʊz ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "bushy",
+    "translation": "густые (о бровях)",
+    "transcription": "[ ˈbʊʃi ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "chin",
+    "translation": "подбородок",
+    "transcription": "[ tʃɪn ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "close-set eyes",
+    "translation": "близко посаженные глаза",
+    "transcription": "[ ˈkləʊs set aɪz ] ",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "common",
+    "translation": "обычный",
+    "transcription": "[ ˈkɒmən ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "complexion",
+    "translation": " цвет лица",
+    "transcription": "[ kəmˈplekʃn̩ ",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "cropped head",
+    "translation": "стриженная голова",
+    "transcription": "[ krɒpt hed ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "curly hair",
+    "translation": "кудрявые волосы",
+    "transcription": "[ ˈkɜːli heə ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "deep-set eyes",
+    "translation": "глубоко посаженные глаза",
+    "transcription": "[ diːp set aɪz ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "dimples",
+    "translation": " ямочки (на щеках",
+    "transcription": "[ ˈdɪmpl̩z ",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "dull glance",
+    "translation": "тусклый взгляд",
+    "transcription": "[ dʌl ɡlɑːns ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "ear",
+    "translation": "ухо",
+    "transcription": "[ ɪə ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "elbow",
+    "translation": "локоть",
+    "transcription": "[ ˈelbəʊ ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "face",
+    "translation": "лицо",
+    "transcription": "[ feɪs ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "fair hair",
+    "translation": "белокурые волосы",
+    "transcription": "[ feə heə ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "fat",
+    "translation": "толстый",
+    "transcription": "[ fæt ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "figure",
+    "translation": "фигура",
+    "transcription": "[ ˈfɪɡə ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "finger",
+    "translation": "палец (на руке)",
+    "transcription": "[ ˈfɪŋɡə ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "first tooth",
+    "translation": "молочный зуб",
+    "transcription": "[ ˈfɜːst tuːθ ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "flush",
+    "translation": "[ flʌʃ ]",
+    "transcription": "румянец",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "foot",
+    "translation": "ступня",
+    "transcription": "[ fʊt ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "fourth finger",
+    "translation": "безымянный палец",
+    "transcription": "[ ˈfɔːθ ˈfɪŋɡə ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "fresh",
+    "translation": "свежий",
+    "transcription": "[ freʃ ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "glassy eyes",
+    "translation": "тусклые глаза",
+    "transcription": "[ ˈɡlɑːsi aɪz ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "good-looking, handsome",
+    "translation": "красивый (о мужчине)",
+    "transcription": "[ ɡʊd ˈlʊkɪŋ ] [ ˈhænsəm ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "hair-cut",
+    "translation": "стрижка",
+    "transcription": "[ ˈheəkʌt ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "height",
+    "translation": "рост",
+    "transcription": "[ haɪt ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "hooked nose",
+    "translation": "нос крючком",
+    "transcription": "[ hʊkt nəʊz ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "imposing appearance",
+    "translation": "внушительная внешность",
+    "transcription": "[ ɪmˈpəʊzɪŋ əˈpɪərəns ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "index finger, forefinger",
+    "translation": "указательный палец",
+    "transcription": "[ ˈɪndeks ˈfɪŋɡə ] [ ˈfɔːfɪŋɡə ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "intelligent expression",
+    "translation": " умный взгляд",
+    "transcription": "[ ɪnˈtelɪdʒənt ɪkˈspreʃn̩ ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "knee",
+    "translation": "колено",
+    "transcription": "[ niː ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "lashes",
+    "translation": "ресницы",
+    "transcription": "[ ˈlæʃɪz ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "leg",
+    "translation": "нога",
+    "transcription": "[ leɡ ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "little finger",
+    "translation": " мизинец (на руке)",
+    "transcription": "[ ˈlɪtl̩ ˈfɪŋɡə ] ",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "little toe",
+    "translation": "мизинец (на ноге)",
+    "transcription": "[ ˈlɪtl̩ təʊ ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "lobe",
+    "translation": "мочка",
+    "transcription": "[ ləʊb ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "locks, curls",
+    "translation": "кудри",
+    "transcription": "[ lɒks ] [ kɜːlz ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "lower lip",
+    "translation": "нижняя губа",
+    "transcription": "[ ˈləʊə lɪp ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "middle / second finger",
+    "translation": " средний палец",
+    "transcription": "[ ˈmɪdl̩ ] [ ˈsekənd ˈfɪŋɡə ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "middle-sized",
+    "translation": "средний",
+    "transcription": "[ ˈmɪdlˈsaɪzd ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "moustache",
+    "translation": "усы",
+    "transcription": "[ məˈstɑːʃ ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "mouth",
+    "translation": "рот",
+    "transcription": "[ maʊθ ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "nail",
+    "translation": "ноготь",
+    "transcription": "[ neɪl ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "neck",
+    "translation": "шея",
+    "transcription": "[ nek ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "oval",
+    "translation": "овальный",
+    "transcription": "[ ˈəʊvl̩ ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "pale",
+    "translation": "бледный",
+    "transcription": "[ peɪl ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "palm (of the hand)",
+    "translation": "ладонь",
+    "transcription": "[ pɑːm ] [ əv ðə hænd ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "penciled",
+    "translation": "нарисованные",
+    "transcription": "[ ˈpensəld ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "plain",
+    "translation": "простой",
+    "transcription": "[ pleɪn ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "",
+    "translation": "",
+    "transcription": "",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "plump",
+    "translation": "пухлый",
+    "transcription": "[ plʌmp ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "prominent ears",
+    "translation": "оттопыренные уши",
+    "transcription": "[ ˈprɒmɪnənt ɪəz ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "ring finger",
+    "translation": "безымянный палец (на правой руке)",
+    "transcription": "[ rɪŋ ˈfɪŋɡə ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "round",
+    "translation": "круглый",
+    "transcription": "[ ˈraʊnd ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "shock of hair",
+    "translation": "шапка волос",
+    "transcription": "[ ʃɒk əv heə ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "short",
+    "translation": "низкий",
+    "transcription": "[ ʃɔːt ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "slim",
+    "translation": "тонкий",
+    "transcription": "[ slɪm ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "snow-white teeth",
+    "translation": "белоснежные зубы",
+    "transcription": "[ ˈsnəʊ waɪt tiːθ ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "sparse hair",
+    "translation": "жидкие волосы",
+    "transcription": "[ spɑːs heə ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "splendid hair",
+    "translation": "пышные волосы",
+    "transcription": "[ ˈsplendɪd heə ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "square",
+    "translation": "квадратный",
+    "transcription": "[ skweə ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "stomach, belly",
+    "translation": "живот",
+    "transcription": "[ ˈstʌmək ] [ ˈbeli ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "stooping",
+    "translation": "согнутый",
+    "transcription": "[ ˈstuːpɪŋ ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "stout",
+    "translation": "полный",
+    "transcription": "[ staʊt ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "straight",
+    "translation": "прямой",
+    "transcription": "[ streɪt ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "tall",
+    "translation": "высокий",
+    "transcription": "[ tɔːl ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "thin",
+    "translation": "худой",
+    "transcription": "[ θɪn ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "thumb",
+    "translation": "большой палец (на руке)",
+    "transcription": "[ θʌm ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "to arrange",
+    "translation": "делать прическу",
+    "transcription": "[ tu əˈreɪndʒ ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "to dye hair",
+    "translation": "красить волосы",
+    "transcription": "",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "to keep fit",
+    "translation": "держать форму",
+    "transcription": "[ tə kiːp fɪt ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "to paint / rouge cheeks",
+    "translation": "красить щеки",
+    "transcription": "[ tə peɪnt ] [ ruːʒ tʃiːks ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "to put on lipstick",
+    "translation": "красить губы",
+    "transcription": "[ tə ˈpʊt ɒn ˈlɪpstɪk ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "to use / wear make-up",
+    "translation": "краситься",
+    "transcription": "[ tə ˈjuːz ] [ weə ˈmeɪkʌp ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "toe",
+    "translation": "палец (на ноге)",
+    "transcription": "[ təʊ ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "tongue",
+    "translation": "язык",
+    "transcription": "[ tʌŋ ] ",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "turned up",
+    "translation": "вздернутый (нос)",
+    "transcription": "[ tɜːnd ʌp ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "ugly",
+    "translation": "уродливый",
+    "transcription": "[ ˈʌɡli ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "unpleasant look in one’s eyes",
+    "translation": "тяжелый взгляд",
+    "transcription": "[ ʌnˈpleznt lʊk ɪn wʌnz aɪz ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "unprepossessing appearance",
+    "translation": "непривлекательная внешность",
+    "transcription": "[ ˌʌnpriːpəˈzesɪŋ əˈpɪərəns ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "upper lip",
+    "translation": "верхняя губа",
+    "transcription": "[ ˈʌpə lɪp ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "waist",
+    "translation": "waist",
+    "transcription": "[ weɪst ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "wavy hair",
+    "translation": "волнистые волосы",
+    "transcription": "[ ˈweɪvi heə ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "weight",
+    "translation": "вес",
+    "transcription": "[ weɪt ]",
+    "image": "",
+    "example": ""
+},
+{
+    "id": 1,
+    "origin": "wrist",
+    "translation": "запястье",
+    "transcription": "[ rɪst ]",
+    "image": "",
+    "example": ""
+}
+  ]
+}

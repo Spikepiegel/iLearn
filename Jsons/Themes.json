@@ -8,68 +8,68 @@
             },
             {
                 "name": "Animals"
-            }
-            ]
-        },
-        {
-            "id": 2,
-            "themes":[
+            },
             {
                 "name": "Appearance"
-            },
-            {
-                "name": "Archeology"
             }
             ]
         },
         {
-            "id": 3,
+            "id": 1,
             "themes":[
             {
-                "name": "Architecture"
+                "name": "Archeology"
             },
+            {
+                "name": "Architecture"
+            }
+            ]
+        },
+        {
+            "id": 1,
+            "themes":[
             {
                 "name": "Art"
             },
             {
                 "name": "Aviation"
+            },
+            {
+                "name": "Basic words"
             }
             ]
         },
         {
-            "id": 4,
+            "id": 1,
             "themes":[
-            {
-                "name": "Basic Words"
-            },
             {
                 "name": "Berries"
             },
             {
                 "name": "Body"
+            },
+            {
+                "name": "Business"
             }
             ]
         },
         {
-            "id": 5,
+            "id": 1,
             "themes":[
-            {
-                "name": "Business"
-            },
             {
                 "name": "Career"
             },
             {
                 "name": "City"
+            },
+            {
+                "name": "Clothes"
             }
             ]
         },
         {
-            "id": 6,
+            "id": 1,
             "themes":[
-            {
-                "name": "Clothes"
-            },
             {
                 "name": "Colors"
             },
@@ -79,7 +79,7 @@
             ]
         },
         {
-            "id": 8,
+            "id": 1,
             "themes":[
             {
                 "name": "Diseases"
@@ -93,7 +93,7 @@
             ]
         },
         {
-            "id": 7,
+            "id": 1,
             "themes":[
             {
                 "name": "Economics"
@@ -104,10 +104,13 @@
             ]
         },
         {
-            "id": 8,
+            "id": 1,
             "themes":[
             {
                 "name": "Family"
+            },
+            {
+                "name": "Fish"
             },
             {
                 "name": "Food"
@@ -115,7 +118,7 @@
             ]
         },
         {
-            "id": 11,
+            "id": 1,
             "themes":[
             {
                 "name": "Furniture"
@@ -129,7 +132,7 @@
             ]
         },
         {
-            "id": 12,
+            "id": 1,
             "themes":[
             {
                 "name": "Halloween"
@@ -142,13 +145,8 @@
             }
             ]
         },
-        
-        
-        
-        
- 
         {
-            "id": 13,
+            "id": 1,
             "themes":[
             {
                 "name": "Home"
@@ -162,33 +160,36 @@
             ]
         },
         {
-            "id": 14,
+            "id": 1,
             "themes":[
             {
-                "name": "Mathematics"
+                "name": "Literature"
             },
+            {
+                "name": "Mathematics"
+            }
+            ]
+        },
+        {
+            "id": 1,
+            "themes":[
             {
                 "name": "Money"
             },
             {
                 "name": "Months"
-            }
-            ]
-        },
-        {
-            "id": 15,
-            "themes":[
-            {
-                "name": "Movie"
             },
             {
-                "name": "Music"
+                "name": "Movie"
             }
             ]
         },
         {
-            "id": 16,
+            "id": 1,
             "themes":[
+            {
+                "name": "Music"
+            },
             {
                 "name": "New Year"
             },
@@ -198,87 +199,75 @@
             ]
         },
         {
-            "id": 16,
+            "id": 1,
             "themes":[
             {
                 "name": "Personality"
             },
             {
                 "name": "Politics"
-            },
-            {
-                "name": "Professions"
             }
             ]
         },
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
         {
-            "id": 16,
+            "id": 1,
             "themes":[
             {
-                "name": "School subjects"
+                "name": "Professions"
             },
+            {
+                "name": "School Subjects"
+            }
+            ]
+        },
+        {
+            "id": 1,
+            "themes":[
             {
                 "name": "Seasons"
             },
             {
                 "name": "Space"
+            },
+            {
+                "name": "Sport"
             }
             ]
         },
         {
-            "id": 16,
+            "id": 1,
             "themes":[
-            {
-                "name": "Sport"
-            },
             {
                 "name": "Summer"
             },
             {
                 "name": "Tastes"
-            }
-            ]
-        },
-        {
-            "id": 16,
-            "themes":[
-            {
-                "name": "The most popular verbs"
             },
             {
-                "name": "Time"
+                "name": "The most popular verbs"
             }
             ]
         },
         {
-            "id": 16,
+            "id": 1,
             "themes":[
+            {
+                "name": "Time"
+            },
             {
                 "name": "Travelling"
             },
             {
                 "name": "Vegetables"
-            },
-            {
-                "name": "Weather"
             }
             ]
         },
         {
-            "id": 16,
+            "id": 1,
             "themes":[
+            {
+                "name": "Weather"
+            },
             {
                 "name": "Weekday"
             },
@@ -289,4 +278,3 @@
         }
     ]
 }
-

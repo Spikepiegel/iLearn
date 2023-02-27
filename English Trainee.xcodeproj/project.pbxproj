@@ -11,16 +11,16 @@
 		3130D8142998DDD700BF6041 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3130D8132998DDD700BF6041 /* SnapKit */; };
 		3130D816299AC27300BF6041 /* MainTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3130D815299AC27300BF6041 /* MainTabVC.swift */; };
 		31B435F529A9557D00EFEA90 /* SelectedThemeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B435F429A9557D00EFEA90 /* SelectedThemeCell.swift */; };
-		31B435F729A95E9300EFEA90 /* Basic Words.json in Resources */ = {isa = PBXBuildFile; fileRef = 31B435F629A95E9300EFEA90 /* Basic Words.json */; };
-		31B435FB29AA95FE00EFEA90 /* Fruits.json in Resources */ = {isa = PBXBuildFile; fileRef = 31B435FA29AA95FE00EFEA90 /* Fruits.json */; };
-		31C903E329ABD97600D9B615 /* Anatomy1.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C903E229ABD97600D9B615 /* Anatomy1.json */; };
-		31C903E529ABE48F00D9B615 /* Anatomy.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C903E429ABE48F00D9B615 /* Anatomy.json */; };
+		31C903F329AD314300D9B615 /* Animals.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C903EE29AD314300D9B615 /* Animals.json */; };
+		31C903F429AD314300D9B615 /* Basic Words.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C903EF29AD314300D9B615 /* Basic Words.json */; };
+		31C903F529AD314300D9B615 /* Themes.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C903F029AD314300D9B615 /* Themes.json */; };
+		31C903F629AD314300D9B615 /* Appearance.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C903F129AD314300D9B615 /* Appearance.json */; };
+		31C903F729AD314300D9B615 /* Anatomy.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C903F229AD314300D9B615 /* Anatomy.json */; };
 		31F005EB29A0163C0097C22E /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F005EA29A0163C0097C22E /* CategoriesVC.swift */; };
 		31F005ED29A2134E0097C22E /* CategoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F005EC29A2134E0097C22E /* CategoriesCell.swift */; };
 		31F005F029A510820097C22E /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F005EF29A510820097C22E /* UIColorExtension.swift */; };
 		31F005F229A54C520097C22E /* JsonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F005F129A54C520097C22E /* JsonService.swift */; };
 		31F005F629A54C8D0097C22E /* JsonModelCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F005F529A54C8D0097C22E /* JsonModelCategories.swift */; };
-		31F005F829A550370097C22E /* Themes.json in Resources */ = {isa = PBXBuildFile; fileRef = 31F005F729A550370097C22E /* Themes.json */; };
 		31F9BCB829A7732700C913AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31F9BCB729A7732700C913AE /* Assets.xcassets */; };
 		31F9BCBB29A7D17A00C913AE /* SelectedThemeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F9BCBA29A7D17A00C913AE /* SelectedThemeVC.swift */; };
 		31F9BCBD29A7FF9100C913AE /* SelectedThemeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F9BCBC29A7FF9100C913AE /* SelectedThemeHeader.swift */; };
@@ -37,16 +37,16 @@
 		3130D8102998DBCA00BF6041 /* WordsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsCell.swift; sourceTree = "<group>"; };
 		3130D815299AC27300BF6041 /* MainTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabVC.swift; sourceTree = "<group>"; };
 		31B435F429A9557D00EFEA90 /* SelectedThemeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedThemeCell.swift; sourceTree = "<group>"; };
-		31B435F629A95E9300EFEA90 /* Basic Words.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Basic Words.json"; sourceTree = SOURCE_ROOT; };
-		31B435FA29AA95FE00EFEA90 /* Fruits.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Fruits.json; path = "English Trainee/Additional Files/Fruits.json"; sourceTree = SOURCE_ROOT; };
-		31C903E229ABD97600D9B615 /* Anatomy1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Anatomy1.json; sourceTree = SOURCE_ROOT; };
-		31C903E429ABE48F00D9B615 /* Anatomy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Anatomy.json; sourceTree = SOURCE_ROOT; };
+		31C903EE29AD314300D9B615 /* Animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Animals.json; path = Jsons/Animals.json; sourceTree = SOURCE_ROOT; };
+		31C903EF29AD314300D9B615 /* Basic Words.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "Basic Words.json"; path = "Jsons/Basic Words.json"; sourceTree = SOURCE_ROOT; };
+		31C903F029AD314300D9B615 /* Themes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Themes.json; path = Jsons/Themes.json; sourceTree = SOURCE_ROOT; };
+		31C903F129AD314300D9B615 /* Appearance.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Appearance.json; path = Jsons/Appearance.json; sourceTree = SOURCE_ROOT; };
+		31C903F229AD314300D9B615 /* Anatomy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Anatomy.json; path = Jsons/Anatomy.json; sourceTree = SOURCE_ROOT; };
 		31F005EA29A0163C0097C22E /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
 		31F005EC29A2134E0097C22E /* CategoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCell.swift; sourceTree = "<group>"; };
 		31F005EF29A510820097C22E /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		31F005F129A54C520097C22E /* JsonService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonService.swift; sourceTree = "<group>"; };
 		31F005F529A54C8D0097C22E /* JsonModelCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonModelCategories.swift; sourceTree = "<group>"; };
-		31F005F729A550370097C22E /* Themes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Themes.json; path = "English Trainee/Additional Files/Themes.json"; sourceTree = SOURCE_ROOT; };
 		31F9BCB729A7732700C913AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31F9BCBA29A7D17A00C913AE /* SelectedThemeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedThemeVC.swift; sourceTree = "<group>"; };
 		31F9BCBC29A7FF9100C913AE /* SelectedThemeHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedThemeHeader.swift; sourceTree = "<group>"; };
@@ -95,11 +95,11 @@
 			isa = PBXGroup;
 			children = (
 				31F005EF29A510820097C22E /* UIColorExtension.swift */,
-				31C903E229ABD97600D9B615 /* Anatomy1.json */,
-				31F005F729A550370097C22E /* Themes.json */,
-				31B435F629A95E9300EFEA90 /* Basic Words.json */,
-				31C903E429ABE48F00D9B615 /* Anatomy.json */,
-				31B435FA29AA95FE00EFEA90 /* Fruits.json */,
+				31C903F229AD314300D9B615 /* Anatomy.json */,
+				31C903EE29AD314300D9B615 /* Animals.json */,
+				31C903F129AD314300D9B615 /* Appearance.json */,
+				31C903EF29AD314300D9B615 /* Basic Words.json */,
+				31C903F029AD314300D9B615 /* Themes.json */,
 			);
 			path = "Additional Files";
 			sourceTree = "<group>";
@@ -272,14 +272,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31B435FB29AA95FE00EFEA90 /* Fruits.json in Resources */,
-				31B435F729A95E9300EFEA90 /* Basic Words.json in Resources */,
+				31C903F429AD314300D9B615 /* Basic Words.json in Resources */,
 				31FB991F2985956400FC1DF6 /* LaunchScreen.storyboard in Resources */,
-				31C903E329ABD97600D9B615 /* Anatomy1.json in Resources */,
-				31F005F829A550370097C22E /* Themes.json in Resources */,
+				31C903F329AD314300D9B615 /* Animals.json in Resources */,
+				31C903F529AD314300D9B615 /* Themes.json in Resources */,
 				31F9BCB829A7732700C913AE /* Assets.xcassets in Resources */,
+				31C903F729AD314300D9B615 /* Anatomy.json in Resources */,
+				31C903F629AD314300D9B615 /* Appearance.json in Resources */,
 				31FB991A2985956200FC1DF6 /* Main.storyboard in Resources */,
-				31C903E529ABE48F00D9B615 /* Anatomy.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

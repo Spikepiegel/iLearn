@@ -35,8 +35,6 @@ final class SelectedThemeCell: UITableViewCell {
     func update(_ word: WordInformation) {
         wordLabel.text = word.origin
     }
-
-    
 }
 
 extension SelectedThemeCell {
