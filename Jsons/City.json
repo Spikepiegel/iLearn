@@ -1,0 +1,948 @@
+{
+"wordInformation":[
+  {
+    "id": 1,
+    "origin": "arch",
+    "translation": "арка",
+    "transcription": "[ ɑːtʃ ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 2,
+    "origin": "bakery / baker's (shop)",
+    "translation": "булочная",
+    "transcription": "[ ˈbeɪkəri ] / [ ˈbeɪkəz ʃɒp ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 3,
+    "origin": "bank",
+    "translation": "банк",
+    "transcription": "[ bæŋk ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 4,
+    "origin": "bar",
+    "translation": "бар",
+    "transcription": "[ bɑː ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 5,
+    "origin": "bench / seat",
+    "translation": "скамья",
+    "transcription": "[ bentʃ ] / [ siːt ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 6,
+    "origin": "bookshop",
+    "translation": "книжный магазин",
+    "transcription": "[ ˈbʊkʃɒp ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 7,
+    "origin": "bridge",
+    "translation": "мост",
+    "transcription": "[ brɪdʒ ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 8,
+    "origin": "building",
+    "translation": "здание",
+    "transcription": "[ ˈbɪldɪŋ ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 9,
+    "origin": "butcher's (shop)",
+    "translation": "мясной магазин",
+    "transcription": "[ ˈbʊtʃərz ʃɒp ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 10,
+    "origin": "buyer / purchaser / customer",
+    "translation": "покупатель",
+    "transcription": "[ ˈbaɪə ] / [ ˈpɜːtʃəsə ] / [ ˈkʌstəmə ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 11,
+    "origin": "cafe",
+    "translation": "кафе",
+    "transcription": "[ ˈkæfeɪ ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 12,
+    "origin": "car park",
+    "translation": "стоянка машин",
+    "transcription": "[ kɑː pɑːk ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 13,
+    "origin": "cash machine / dispenser",
+    "translation": "денежный автомат",
+    "transcription": "[ kæʃ məˈʃiːn ] / [ dɪˈspensə ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 14,
+    "origin": "cathedral",
+    "translation": "собор",
+    "transcription": "[ kəˈθiːdrəl ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 15,
+    "origin": "change",
+    "translation": "мелочь",
+    "transcription": "[ smɔːl tʃeɪndʒ ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 16,
+    "origin": "cheap",
+    "translation": "дешёвый",
+    "transcription": "[ tʃiːp ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 17,
+    "origin": "checkout / cash-desk",
+    "translation": "касса",
+    "transcription": "[ ˈtʃekaʊt ] / [ kæʃ desk ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 18,
+    "origin": "chemist's (shop)",
+    "translation": "аптека",
+    "transcription": "[ ˈkemɪsts ] [ ʃɒp ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 19,
+    "origin": "cheque",
+    "translation": "чек (банковский)",
+    "transcription": "[ tʃek ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 20,
+    "origin": "chequebook",
+    "translation": "чековая книжка",
+    "transcription": "[ ˈtʃekbʊk ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 21,
+    "origin": "church",
+    "translation": "церковь",
+    "transcription": "[ tʃɜːtʃ ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 22,
+    "origin": "cinema",
+    "translation": "кино",
+    "transcription": "[ ˈsɪnəmə ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 23,
+    "origin": "circus",
+    "translation": "цирк",
+    "transcription": "[ ˈsɜːkəs ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 24,
+    "origin": "coin",
+    "translation": "монета",
+    "transcription": "[ kɔɪn ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 25,
+    "origin": "corner",
+    "translation": "угол",
+    "transcription": "[ ˈkɔːnə ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 26,
+    "origin": "counter",
+    "translation": "прилавок",
+    "transcription": "[ ˈkaʊntə ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 27,
+    "origin": "credit card",
+    "translation": "кредитная карточка",
+    "transcription": "[ ˈkredɪt kɑːd ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 28,
+    "origin": "crossing (zebra crossing)",
+    "translation": "переход (зебра)",
+    "transcription": "[ pɪˈdestrɪən ˈkrɒsɪŋ ] [ ˈzebrə ˈkrɒsɪŋ ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 29,
+    "origin": "crossroads, junction",
+    "translation": "перекрёсток",
+    "transcription": "[ ˈkrɒsrəʊdz ] [ ˈdʒʌŋkʃn̩ ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 30,
+    "origin": "dead end / blind alley",
+    "translation": "тупик",
+    "transcription": "[ ded end ] / [ blaɪnd ˈæli ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 31,
+    "origin": "expensive (стоимость)",
+    "translation": "дорогой",
+    "transcription": "[ dɪə ] [ ɪkˈspensɪv ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 32,
+    "origin": "department store",
+    "translation": "универмаг",
+    "transcription": "[ dɪˈpɑːtmənt stɔː ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 33,
+    "origin": "discount / (price) reduction",
+    "translation": "скидка",
+    "transcription": "[ ˈdɪskaʊnt ] / [ praɪs rɪˈdʌkʃn̩ ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 34,
+    "origin": "entrance / way in",
+    "translation": "вход",
+    "transcription": "[ ɪnˈtrɑːns ] / [ ˈweɪ ɪn ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 35,
+    "origin": "escalator",
+    "translation": "эскалатор",
+    "transcription": "[ ˈeskəleɪtə ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 36,
+    "origin": "exit, way out",
+    "translation": "выход",
+    "transcription": "[ ˈeksɪt ] [ ˈweɪ aʊt ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 37,
+    "origin": "fire station",
+    "translation": "пожарное депо",
+    "transcription": "[ ˈfaɪə ˈsteɪʃn̩ ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 38,
+    "origin": "fish shop / fishmonger's (shop)",
+    "translation": "рыбный магазин",
+    "transcription": "[ fɪʃ ʃɒp ] / [ ˈfɪʃmʌŋɡəɪz ʃɒp ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 39,
+    "origin": "fitting / changing room",
+    "translation": "примерочная",
+    "transcription": "[ ˈfɪtɪŋ ] [ ˈtʃeɪndʒɪŋ ruːm ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 40,
+    "origin": "floor / storey",
+    "translation": "этаж",
+    "transcription": "[ flɔː ] / [ ˈstɔːri ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 41,
+    "origin": "flower-bed",
+    "translation": "клумба",
+    "transcription": "[ ˈflaʊəbed ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 42,
+    "origin": "fountain",
+    "translation": "фонтан",
+    "transcription": "[ ˈfaʊntɪn ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 43,
+    "origin": "gallery",
+    "translation": "галерея",
+    "transcription": "[ ˈɡæləri ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 44,
+    "origin": "gate(s)",
+    "translation": "ворота",
+    "transcription": "[ ɡeɪt ˈes ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 45,
+    "origin": "grocer's / grocery (shop)",
+    "translation": "гастроном",
+    "transcription": "[ ˈɡrosərz ] / [ ˈɡrəʊsəri ʃɒp ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 46,
+    "origin": "hairdresser's / hair salon",
+    "translation": "парикмахерская",
+    "transcription": "[ ˈheədresəɪz ] / [ heə ˈsælɒn ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 47,
+    "origin": "high-quality",
+    "translation": "высококачественный",
+    "transcription": "[ haɪ ˈkwɒlɪti ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 48,
+    "origin": "hospital",
+    "translation": "больница",
+    "transcription": "[ ˈhɒspɪtl̩ ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 49,
+    "origin": "impressive",
+    "translation": "впечатляющий",
+    "transcription": "[ ɪmˈpresɪv ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 50,
+    "origin": "jeweller's (shop) / jewellery shop",
+    "translation": "ювелирный магазин",
+    "transcription": "[ ˈdʒuːələɪz ʃɒp ] / [ ˈdʒuːəlri ʃɒp ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 51,
+    "origin": "library",
+    "translation": "библиотека",
+    "transcription": "[ ˈlaɪbrəri ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 52,
+    "origin": "lift",
+    "translation": "лифт",
+    "transcription": "[ lɪft ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 53,
+    "origin": "lost property office",
+    "translation": "бюро находок",
+    "transcription": "[ lɒst ˈprɒpəti ˈɒfɪs ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 54,
+    "origin": "market",
+    "translation": "рынок",
+    "transcription": "[ ˈmɑːkɪt ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 55,
+    "origin": "memorial, monument",
+    "translation": "памятник",
+    "transcription": "[ mɪˈmɔːrɪəl ] / [ ˈmɒnjʊmənt ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 56,
+    "origin": "money",
+    "translation": "деньги",
+    "transcription": "[ ˈmʌni ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 57,
+    "origin": "mosque",
+    "translation": "мечеть",
+    "transcription": "[ mɒsk ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 58,
+    "origin": "museum",
+    "translation": "музей",
+    "transcription": "[ mjuːˈzɪəm ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 59,
+    "origin": "narrow",
+    "translation": "узкий",
+    "transcription": "[ ˈnærəʊ ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 60,
+    "origin": "new",
+    "translation": "новый",
+    "transcription": "[ njuː ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 61,
+    "origin": "nightclub",
+    "translation": "ночной клуб",
+    "transcription": "[ ˈnaɪtklʌb ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 62,
+    "origin": "on / to the left",
+    "translation": "налево",
+    "transcription": "[ ɒn ] / [ tə ðə left ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 63,
+    "origin": "on / to the right",
+    "translation": "направо",
+    "transcription": "[ ɒn ] / [ tə ðə raɪt ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 64,
+    "origin": "on the first floor",
+    "translation": "на втором этаже",
+    "transcription": "[ ɒn ðə ˈfɜːst flɔː]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 65,
+    "origin": "on the ground floor",
+    "translation": "на первом этаже",
+    "transcription": "[ ɒn ðə ɡraʊnd flɔː ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 66,
+    "origin": "park",
+    "translation": "парк",
+    "transcription": "[ pɑːk ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 67,
+    "origin": "pavement",
+    "translation": "тротуар (мостовая)",
+    "transcription": "[ ˈpeɪvmənt ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 68,
+    "origin": "pedestrian",
+    "translation": "пешеход",
+    "transcription": "[ pɪˈdestrɪən ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 69,
+    "origin": "post office",
+    "translation": "почта",
+    "transcription": "[ pəʊst ˈɒfɪs ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 70,
+    "origin": "postbox / pillar box",
+    "translation": "почтовый ящик",
+    "transcription": "[ ˈpəʊstbɒks ] / [ ˈpɪlə bɒks ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 71,
+    "origin": "present / gift",
+    "translation": "подарок",
+    "transcription": "[ prɪˈzent ] / [ ɡɪft ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 72,
+    "origin": "price / cost",
+    "translation": "цена",
+    "transcription": "[ praɪs ] / [ kɒst ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 73,
+    "origin": "receipt",
+    "translation": "квитанция (чек)",
+    "transcription": "[ rɪˈsiːt ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 74,
+    "origin": "restaurant",
+    "translation": "ресторан",
+    "transcription": "[ ˈrestrɒnt ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 75,
+    "origin": "road",
+    "translation": "дорога",
+    "transcription": "[ rəʊd ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 76,
+    "origin": "sale",
+    "translation": "распродажа",
+    "transcription": "[ ˈklɪərəns seɪl ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 77,
+    "origin": "road sign",
+    "translation": "дорожный знак",
+    "transcription": "[ rəʊd saɪn ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 78,
+    "origin": "second-hand",
+    "translation": "подержанный",
+    "transcription": "[ ˈsekənd hænd ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 79,
+    "origin": "shoe shop",
+    "translation": "обувной магазин",
+    "transcription": "[ ʃuː ʃɒp ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 80,
+    "origin": "shop",
+    "translation": "магазин",
+    "transcription": "[ ʃɒp ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 81,
+    "origin": "shopping / centre",
+    "translation": "торговый центр",
+    "transcription": "[ ˈʃɒpɪŋ ˈsentə ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 82,
+    "origin": "square",
+    "translation": "площадь",
+    "transcription": "[ taʊn skweə ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 83,
+    "origin": "stadium",
+    "translation": "стадион",
+    "transcription": "[ ˈsteɪdɪəm ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 84,
+    "origin": "stall",
+    "translation": "киоск",
+    "transcription": "[ stɔːl ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 85,
+    "origin": "statue",
+    "translation": "статуя",
+    "transcription": "[ ˈstætʃuː ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 86,
+    "origin": "street",
+    "translation": "улица",
+    "transcription": "[ striːt ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 87,
+    "origin": "supermarket",
+    "translation": "универсам",
+    "transcription": "[ ˈsuːpəmɑːkɪt ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 88,
+    "origin": "swimming pool / baths",
+    "translation": "бассейн",
+    "transcription": "[ ˈswɪmɪŋ puːl ] / [ bɑːðz ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 89,
+    "origin": "synagogue",
+    "translation": "синагога",
+    "transcription": "[ ˈsɪnəɡɒɡ ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 90,
+    "origin": "taxi-rank",
+    "translation": "стоянка такси",
+    "transcription": "[ ˈtæksi ræŋk ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 91,
+    "origin": "theatre",
+    "translation": "театр",
+    "transcription": "[ ˈθɪətə ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 92,
+    "origin": "to (go for a) walk / stroll",
+    "translation": "гулять / погулять",
+    "transcription": "[ tə ɡəʊ fər ə wɔːk ] / [ strəʊl ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 93,
+    "origin": "to bargain / haggle (with)",
+    "translation": "торговаться (с кем-л.)",
+    "transcription": "[ tə ˈbɑːɡɪn ] / [ ˈhæɡl̩ wɪð ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 94,
+    "origin": "to buy, to purchase",
+    "translation": "покупать / купить",
+    "transcription": "[ tə baɪ ] / [ tə ˈpɜːtʃəs ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 95,
+    "origin": "to choose / to pick",
+    "translation": "выбирать / выбрать",
+    "transcription": "[ tə tʃuːz ] / [ tə pɪk ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 96,
+    "origin": "to cost",
+    "translation": "стоить",
+    "transcription": "[ tə kɒst ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 97,
+    "origin": "to cross the street / road",
+    "translation": "перейти (через) улицу",
+    "transcription": "[ tə krɒs ðə striːt ] / [ rəʊd ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 98,
+    "origin": "to find",
+    "translation": "находить/найти",
+    "transcription": "[ tə faɪnd ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 99,
+    "origin": "to get / grow tired",
+    "translation": "уставать",
+    "transcription": "[ tə ˈɡet ] / [ ɡrəʊ ˈtaɪəd ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 100,
+    "origin": "to get lost",
+    "translation": "заблудиться",
+    "transcription": "[ tə ˈɡet lɒst ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 101,
+    "origin": "to look for / search for",
+    "translation": "искать",
+    "transcription": "[ tə lʊk fɔː ] [ sɜːtʃ fɔː ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 102,
+    "origin": "to pay (for)",
+    "translation": "платить / заплатить (за что)",
+    "transcription": "[ tə peɪ fɔː ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 103,
+    "origin": "to pay (in) cash",
+    "translation": "заплатить наличными",
+    "transcription": "[ tə peɪ ɪn kæʃ ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 104,
+    "origin": "to queue up (for)",
+    "translation": "стоять в очереди",
+    "transcription": "[ tə kjuː ʌp fɔː ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 105,
+    "origin": "to receive",
+    "translation": "получить",
+    "transcription": "[ tə rɪˈsiːv ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 106,
+    "origin": "to sell",
+    "translation": "продавать",
+    "transcription": "[ tə sel ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 107,
+    "origin": "to send / post a letter",
+    "translation": "послать письмо",
+    "transcription": "[ tə send / pəʊst ə ˈletə ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 108,
+    "origin": "to shop / to go shopping",
+    "translation": "делать / сделать покупки",
+    "transcription": "[ tə ʃɒp ] / [ tə ɡəʊ ˈʃɒpɪŋ ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 109,
+    "origin": "to try on",
+    "translation": "примерять",
+    "transcription": "[ tə traɪ ɒn ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 110,
+    "origin": "town plan / street map",
+    "translation": "план города",
+    "transcription": "[ taʊn plæn ] / [ striːt mæp ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 111,
+    "origin": "toyshop",
+    "translation": "игрушечный магазин",
+    "transcription": "[ ˈtɔɪʃɒp ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 112,
+    "origin": "traffic",
+    "translation": "движение",
+    "transcription": "[ ˈtræfɪk ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 113,
+    "origin": "traffic jam / congestion",
+    "translation": "затор",
+    "transcription": "[ ˈtræfɪk dʒæm ] / [ kənˈdʒestʃən ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 114,
+    "origin": "traffic lights",
+    "translation": "светофор",
+    "transcription": "[ set əv ˈtræfɪk laɪts ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 115,
+    "origin": "underpass / subway",
+    "translation": "подземный переход",
+    "transcription": "[ ˈʌndəpɑːs ] / [ ˈsʌbweɪ ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 116,
+    "origin": "wide / broad",
+    "translation": "широкий",
+    "transcription": "[ waɪd ] / [ brɔːd ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 117,
+    "origin": "window",
+    "translation": "витрина",
+    "transcription": "[ ʃɒp ˈwɪndəʊ ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 118,
+    "origin": "zoo",
+    "translation": "зоопарк",
+    "transcription": "[ zuː ]",
+    "image": " ",
+    "example": " "
+  }
+]
+}

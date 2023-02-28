@@ -1,0 +1,844 @@
+{
+"wordInformation":[
+  {
+    "id": 1,
+    "origin": "abscess",
+    "translation": "абсцесс, нарыв",
+    "transcription": "[ˈæbses]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 2,
+    "origin": "acute respiratory disease",
+    "translation": "острое респираторное заболевание",
+    "transcription": "[əˈkjuːt rɪˈspɪrət(ə)ri dɪˈziːz]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 3,
+    "origin": "acute respiratory viral disease",
+    "translation": "острое респираторное вирусное заболевание",
+    "transcription": "[əˈkjuːt rɪˈspɪrət(ə)ri ˈvaɪərəl dɪˈziːz]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 4,
+    "origin": "aids",
+    "translation": "спид",
+    "transcription": "[eɪdz]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 5,
+    "origin": "ailment",
+    "translation": "недомогание, не очень серьезная болезнь",
+    "transcription": "[ˈeɪlmənt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 6,
+    "origin": "allergy",
+    "translation": "аллергия",
+    "transcription": "[ˈæləʤɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 7,
+    "origin": "an open wound",
+    "translation": "открытая рана",
+    "transcription": "[æn ˈəʊpən wuːnd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 8,
+    "origin": "anemia",
+    "translation": "анемия",
+    "transcription": "[əˈniːmɪə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 9,
+    "origin": "aneurysm",
+    "translation": "аневризма",
+    "transcription": "[ˈænjʊrɪz(ə)m]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 10,
+    "origin": "angina pectoris",
+    "translation": "стенокардия грудной клетки",
+    "transcription": "[ænˈʤaɪnə ˈpektərɪs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 11,
+    "origin": "anorexia",
+    "translation": "анорексия",
+    "transcription": "[ænəˈreksɪə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 12,
+    "origin": "appendicitis",
+    "translation": "аппендицит",
+    "transcription": "[əpendɪˈsaɪtɪs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 13,
+    "origin": "arrhythmia",
+    "translation": "аритмия",
+    "transcription": "[əˈrɪðmɪə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 14,
+    "origin": "arthritis",
+    "translation": "артрит",
+    "transcription": "[ɑːˈθraɪtɪs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 15,
+    "origin": "asthma",
+    "translation": "астма",
+    "transcription": "[ˈæsmə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 16,
+    "origin": "astigmatism",
+    "translation": "астигматизм",
+    "transcription": "[əˈstɪgmətɪz(ə)m]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 17,
+    "origin": "atherosclerosis",
+    "translation": "атеросклероз",
+    "transcription": "[æθərəskləˈrəʊsɪs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 18,
+    "origin": "atrophy",
+    "translation": "атрофия",
+    "transcription": "[ˈætrəfɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 19,
+    "origin": "autism",
+    "translation": "аутизм",
+    "transcription": "[ˈɔːtɪzəm]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 20,
+    "origin": "bleeding",
+    "translation": "кровотечение",
+    "transcription": "[ˈbliːdɪŋ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 21,
+    "origin": "bloating",
+    "translation": "вздутие живота",
+    "transcription": "[ˈbləʊtɪŋ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 22,
+    "origin": "boil",
+    "translation": "фурункул",
+    "transcription": "[bɔɪl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 23,
+    "origin": "botulism",
+    "translation": "ботулизм",
+    "transcription": "[ˈbɒtjʊlɪzm]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 24,
+    "origin": "broken arm",
+    "translation": "перелом руки",
+    "transcription": "[ˈbrəʊkən ɑːm]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 25,
+    "origin": "bronchitis",
+    "translation": "бронхит",
+    "transcription": "[brɒŋˈkaɪtɪs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 26,
+    "origin": "bruise",
+    "translation": "ушиб",
+    "transcription": "[bruːz]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 27,
+    "origin": "bulimia",
+    "translation": "булимия",
+    "transcription": "[bjuːˈlɪmɪə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 28,
+    "origin": "burn",
+    "translation": "ожог",
+    "transcription": "[bɜːn]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 29,
+    "origin": "cancer",
+    "translation": "рак",
+    "transcription": "[ˈkænsə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 30,
+    "origin": "chickenpox",
+    "translation": "ветрянка",
+    "transcription": "[ˈʧɪkɪnpɒks]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 31,
+    "origin": "cold",
+    "translation": "простуда",
+    "transcription": "[kəʊld]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 32,
+    "origin": "colitis",
+    "translation": "колит",
+    "transcription": "[kəˈlaɪtɪs]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 33,
+    "origin": "concussion",
+    "translation": "сотрясение мозга",
+    "transcription": "[kənˈkʌʃn]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 34,
+    "origin": "condition",
+    "translation": "хроническое заболевание",
+    "transcription": "[kənˈdɪʃn]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 35,
+    "origin": "conjunctivitis",
+    "translation": "конъюнктивит",
+    "transcription": "[kənʤʌŋktɪˈvaɪtɪs]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 36,
+    "origin": "constipation",
+    "translation": "запор",
+    "transcription": "[kɒnstɪˈpeɪʃn]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 37,
+    "origin": "contagious disease",
+    "translation": "заразное заболевание",
+    "transcription": "[kənˈteɪʤəs dɪˈziːz]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 38,
+    "origin": "coronavirus",
+    "translation": "коронавирус",
+    "transcription": "[kəˈrəʊnəvaɪ(ə)rəs]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 39,
+    "origin": "dermatitis",
+    "translation": "дерматит",
+    "transcription": "[dɜːməˈtaɪtɪs]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 40,
+    "origin": "disease",
+    "translation": "болезнь",
+    "transcription": "[dɪˈziːz]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 41,
+    "origin": "diabetes mellitus",
+    "translation": "сахарный диабет",
+    "transcription": "[daɪəˈbiːtiːz məˈlaɪts]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 42,
+    "origin": "diarrhea",
+    "translation": "диарея",
+    "transcription": "[daɪəˈriːə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 43,
+    "origin": "diathesis",
+    "translation": "диатез",
+    "transcription": "[daɪˈæθɪsɪs]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 44,
+    "origin": "disease",
+    "translation": "болезнь, которая имеет название и симптоматику",
+    "transcription": "[dɪˈziːz]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 45,
+    "origin": "dislocation",
+    "translation": "вывих",
+    "transcription": "[dɪsləˈkeɪʃn]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 46,
+    "origin": "dropsy",
+    "translation": "водянка",
+    "transcription": "[ˈdrɒpsɪ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 47,
+    "origin": "dysentery",
+    "translation": "дизентерия",
+    "transcription": "[ˈdɪsntrɪ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 48,
+    "origin": "earache",
+    "translation": "ушная боль",
+    "transcription": "[ˈɪəreɪk]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 49,
+    "origin": "eczema",
+    "translation": "экзема",
+    "transcription": "[ˈeksɪmə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 50,
+    "origin": "epilepsy",
+    "translation": "эпилепсия",
+    "transcription": "[ˈepɪlepsɪ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 51,
+    "origin": "fainting",
+    "translation": "обморок",
+    "transcription": "[ˈfeɪntɪŋ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 52,
+    "origin": "farsightedness",
+    "translation": "дальнозоркость",
+    "transcription": "[fəˈseɪtɪdnəs]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 53,
+    "origin": "fever",
+    "translation": "лихорадка",
+    "transcription": "[ˈfiːvə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 54,
+    "origin": "finger fracture",
+    "translation": "перелом пальца",
+    "transcription": "[ˈfɪŋgə ˈfrækʧə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 55,
+    "origin": "flatulence",
+    "translation": "метеоризм",
+    "transcription": "[ˈflætjʊləns]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 56,
+    "origin": "flu",
+    "translation": "грипп",
+    "transcription": "[flu]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 57,
+    "origin": "gastritis",
+    "translation": "гастрит",
+    "transcription": "[gæsˈtraɪtɪs]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 58,
+    "origin": "glaucoma",
+    "translation": "глаукома",
+    "transcription": "[glɔːˈkəʊmə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 59,
+    "origin": "heart attack",
+    "translation": "сердечный приступ",
+    "transcription": "[hɑːt əˈtæk]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 60,
+    "origin": "heart attack",
+    "translation": "инфаркт",
+    "transcription": "[hɑːt əˈtæk]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 61,
+    "origin": "hematoma",
+    "translation": "гематома",
+    "transcription": "[hemətəˈmɑː]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 62,
+    "origin": "hiv",
+    "translation": "вич",
+    "transcription": "[hiv]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 63,
+    "origin": "hypertension",
+    "translation": "гипертония",
+    "transcription": "[haɪpəˈtenʃn]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 64,
+    "origin": "hypotension",
+    "translation": "гипотония",
+    "transcription": "[haɪpəʊˈtenʃn]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 65,
+    "origin": "infertility",
+    "translation": "бесплодие",
+    "transcription": "[ɪnfɜːˈtɪlɪtɪ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 66,
+    "origin": "inflammatory process",
+    "translation": "воспалительный процесс",
+    "transcription": "[ɪnˈflæmətərɪ ˈprəʊsəs]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 67,
+    "origin": "insomnia",
+    "translation": "бессонница",
+    "transcription": "[ɪnˈsɒmnɪə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 68,
+    "origin": "intoxication",
+    "translation": "интоксикация",
+    "transcription": "[ɪntɒksɪˈkeɪʃn]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 69,
+    "origin": "jaundice",
+    "translation": "желтуха",
+    "transcription": "[ˈʤɔːndɪs]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 70,
+    "origin": "leg fracture",
+    "translation": "перелом ноги",
+    "transcription": "[leg ˈfrækʧə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 71,
+    "origin": "measles",
+    "translation": "корь",
+    "transcription": "[miːzlz]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 72,
+    "origin": "meningitis",
+    "translation": "менингит",
+    "transcription": "[menɪnˈʤaɪtɪs]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 73,
+    "origin": "migraine",
+    "translation": "мигрень",
+    "transcription": "[ˈmiːgreɪn]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 74,
+    "origin": "myopia",
+    "translation": "близорукость",
+    "transcription": "[maɪˈəʊpɪə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 75,
+    "origin": "neoplasm",
+    "translation": "новообразование",
+    "transcription": "[ˈniːə(ʊ)plæz(ə)m]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 76,
+    "origin": "nephritis",
+    "translation": "нефрит",
+    "transcription": "[nɪˈtraɪtɪs]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 77,
+    "origin": "nervous breakdown",
+    "translation": "нервное расстройство",
+    "transcription": "[ˈnɜːvəs ˈbreɪkdaʊn]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 78,
+    "origin": "non-contagious disease",
+    "translation": "незаразное заболевание",
+    "transcription": "[nɔn-kənˈteɪʤəs dɪˈziːz]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 79,
+    "origin": "pharyngitis",
+    "translation": "фарингит",
+    "transcription": "[færɪnˈʤaɪtɪs]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 80,
+    "origin": "pneumonia",
+    "translation": "воспаление легких",
+    "transcription": "[njuːˈməʊnɪə]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 81,
+    "origin": "poisoning",
+    "translation": "отравление",
+    "transcription": "[ˈpɔɪznɪŋ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 82,
+    "origin": "psoriasis",
+    "translation": "псориаз",
+    "transcription": "[(p)səˈraɪəsɪs]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 83,
+    "origin": "putrid throat",
+    "translation": "гнойная ангина",
+    "transcription": "[ˈpjuːtrɪd θrəʊt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 84,
+    "origin": "rabies",
+    "translation": "бешенство",
+    "transcription": "[ˈreɪbiːz]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 85,
+    "origin": "rheumatism",
+    "translation": "ревматизм",
+    "transcription": "[ˈruːmətɪzm]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 86,
+    "origin": "rhinitis",
+    "translation": "насморк",
+    "transcription": "[raɪˈnaɪtɪs]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 87,
+    "origin": "rotaviruses",
+    "translation": "ротавирусы",
+    "transcription": "[rotaviruses]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 88,
+    "origin": "rubella",
+    "translation": "краснуха",
+    "transcription": "[ruːˈbelə]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 89,
+    "origin": "scabies",
+    "translation": "чесотка",
+    "transcription": "[ˈskeɪbɪz]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 90,
+    "origin": "schizophrenia",
+    "translation": "шизофрения",
+    "transcription": "[skɪtsəˈfriːnɪə]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 91,
+    "origin": "sinusitis",
+    "translation": "гайморит",
+    "transcription": "[saɪənəˈsaɪtɪs]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 92,
+    "origin": "smallpox",
+    "translation": "оспа",
+    "transcription": "[ˈsmɔːlpɒks]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 93,
+    "origin": "stomach ulcer",
+    "translation": "язва желудка",
+    "transcription": "[ˈstʌmək ˈʌlsə]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 94,
+    "origin": "stomatitis",
+    "translation": "стоматит",
+    "transcription": "[stəʊməˈtaɪtɪs]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 95,
+    "origin": "stretching",
+    "translation": "растяжение",
+    "transcription": "[ˈstreʧɪŋ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 96,
+    "origin": "stroke",
+    "translation": "инсульт",
+    "transcription": "[strəʊk]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 97,
+    "origin": "the tumor",
+    "translation": "опухоль",
+    "transcription": "[ðiː ˈtjuːmə]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 98,
+    "origin": "tonsillitis",
+    "translation": "ангина",
+    "transcription": "[tɒnsɪˈlaɪtɪs]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 99,
+    "origin": "tonsillitis",
+    "translation": "тонзиллит",
+    "transcription": "[tɒnsɪˈlaɪtɪs]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 100,
+    "origin": "toothache",
+    "translation": "зубная боль",
+    "transcription": "[ˈtuːθeɪk]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 101,
+    "origin": "traumatic brain injury",
+    "translation": "черепно-мозговая травма",
+    "transcription": "[trɔːˈmætɪk breɪn ˈɪnʤərɪ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 102,
+    "origin": "upset stomach",
+    "translation": "расстройство желудка",
+    "transcription": "[ʌpˈset ˈstʌmək]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 103,
+    "origin": "urticaria",
+    "translation": "крапивница",
+    "transcription": "[ɜːtɪˈke(ə)rɪə]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 104,
+    "origin": "varicose veins",
+    "translation": "варикоз",
+    "transcription": "[ˈværɪkəʊs veɪnz]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 105,
+    "origin": "whooping cough",
+    "translation": "коклюш",
+    "transcription": "[ˈhuːpɪŋ kɒf]",
+    "image": " ",
+    "example": " "
+  }
+]
+}

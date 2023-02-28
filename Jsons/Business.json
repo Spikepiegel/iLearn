@@ -1,0 +1,644 @@
+{
+"wordInformation":[
+  {
+    "id": 1,
+    "origin": "absence from work",
+    "translation": "отсутствие на работе",
+    "transcription": "[ˈæbsəns frɒm wɜːk]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 2,
+    "origin": "accept a job offer",
+    "translation": "принять предложение о работе",
+    "transcription": "[əkˈsept ɑ ʤɒb ˈɒfə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 3,
+    "origin": "accounting",
+    "translation": "бухгалтерия",
+    "transcription": "[əˈkaʊntɪŋ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 4,
+    "origin": "advertisement",
+    "translation": "реклама",
+    "transcription": "[ədˈvɜːtɪsmənt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 5,
+    "origin": "agency",
+    "translation": "агентство",
+    "transcription": "[ˈeɪʤənsɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 6,
+    "origin": "analytics",
+    "translation": "аналитика",
+    "transcription": "[ænəˈlɪtɪks]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 7,
+    "origin": "apply for a job",
+    "translation": "подать заявление о приеме на работу",
+    "transcription": "[əˈplaɪ fɔː ɑ ʤɒb]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 8,
+    "origin": "bank",
+    "translation": "банк",
+    "transcription": "[bæŋk]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 9,
+    "origin": "bankruptcy",
+    "translation": "банкротство",
+    "transcription": "[ˈbæŋkrʌp(t)sɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 10,
+    "origin": "bargain",
+    "translation": "торговаться",
+    "transcription": "[ˈbɑːgɪn]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 11,
+    "origin": "board of directors",
+    "translation": "совет директоров",
+    "transcription": "[bɔːd ɒv directors]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 12,
+    "origin": "brand name",
+    "translation": "торговая марка",
+    "transcription": "[brænd neɪm]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 13,
+    "origin": "budget",
+    "translation": "бюджет",
+    "transcription": "[ˈbʌʤɪt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 14,
+    "origin": "business suit",
+    "translation": "деловой костюм",
+    "transcription": "[ˈbɪznɪs sjuːt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 15,
+    "origin": "capital",
+    "translation": "капитал",
+    "transcription": "[ˈkæpɪtl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 16,
+    "origin": "chairman of the board of directors",
+    "translation": "председатель совета директоров",
+    "transcription": "[ˈʧeəmən ɒv ðiː bɔːd ɒv directors]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 17,
+    "origin": "chief",
+    "translation": "начальник",
+    "transcription": "[ʧiːf]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 18,
+    "origin": "consumers",
+    "translation": " потребители",
+    "transcription": "[consumers]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 19,
+    "origin": "contract",
+    "translation": "договор",
+    "transcription": "[ˈkɒntrækt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 20,
+    "origin": "corporation",
+    "translation": "корпорация",
+    "transcription": "[kɔːpəˈreɪʃn]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 21,
+    "origin": "cost",
+    "translation": "стоимость",
+    "transcription": "[kɒst]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 22,
+    "origin": "credit",
+    "translation": "кредит",
+    "transcription": "[ˈkredɪt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 23,
+    "origin": "customers",
+    "translation": "клиенты",
+    "transcription": "[ˈkʌstəməz]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 24,
+    "origin": "deal",
+    "translation": "сделка",
+    "transcription": "[diːl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 25,
+    "origin": "department",
+    "translation": "отдел",
+    "transcription": "[dɪˈpɑːtmənt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 26,
+    "origin": "director",
+    "translation": "директор",
+    "transcription": "[d(a)ɪˈrektə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 27,
+    "origin": "document",
+    "translation": "документ",
+    "transcription": "[ˈdɒkjʊmənt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 28,
+    "origin": "economy",
+    "translation": "экономика",
+    "transcription": "[ɪˈkɒnəmɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 29,
+    "origin": "employee",
+    "translation": "сотрудник",
+    "transcription": "[emplɔɪˈiː]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 30,
+    "origin": "financial analysis",
+    "translation": "финансовый анализ",
+    "transcription": "[faɪˈnænʃəl əˈnælɪsɪs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 31,
+    "origin": "financial services",
+    "translation": "финансовые услуги",
+    "transcription": "[faɪˈnænʃəl ˈsɜːvɪsɪz]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 32,
+    "origin": "head of the department",
+    "translation": "начальник отдела",
+    "transcription": "[hed ɒv ðiː dɪˈpɑːtmənt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 33,
+    "origin": "hr department",
+    "translation": "отдел кадров",
+    "transcription": "[r dɪˈpɑːtmənt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 34,
+    "origin": "individual entrepreneur",
+    "translation": "индивидуальный предприниматель",
+    "transcription": "[ɪndɪˈvɪʤʊəl ɒntrəprəˈnɜː]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 35,
+    "origin": "insurance",
+    "translation": "страхование",
+    "transcription": "[ɪnˈʃʊərəns]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 36,
+    "origin": "investment",
+    "translation": "инвестиции",
+    "transcription": "[ɪnˈvestmənt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 37,
+    "origin": "invoice",
+    "translation": "накладная",
+    "transcription": "[ˈɪnvɔɪs]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 38,
+    "origin": "legal department",
+    "translation": "юридический отдел",
+    "transcription": "[ˈliːgəl dɪˈpɑːtmənt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 39,
+    "origin": "limited liability company",
+    "translation": "общество с ограниченной ответственностью",
+    "transcription": "[ˈlɪmɪtɪd laɪəˈbɪlɪtɪ ˈkʌmpənɪ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 40,
+    "origin": "logistics",
+    "translation": "логистика",
+    "transcription": "[ləˈʤɪstɪks]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 41,
+    "origin": "magnate",
+    "translation": "магнат",
+    "transcription": "[ˈmægneɪt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 42,
+    "origin": "main business",
+    "translation": "основной бизнес",
+    "transcription": "[meɪn ˈbɪznɪs]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 43,
+    "origin": "make a deal",
+    "translation": "заключить сделку",
+    "transcription": "[meɪk ɑ diːl]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 44,
+    "origin": "make a profit",
+    "translation": "извлекать прибыль",
+    "transcription": "[meɪk ɑ ˈprɒfɪt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 45,
+    "origin": "management",
+    "translation": "управление",
+    "transcription": "[ˈmænɪʤmənt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 46,
+    "origin": "manager",
+    "translation": "менеджер",
+    "transcription": "[ˈmænɪʤə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 47,
+    "origin": "marketing",
+    "translation": "маркетинг",
+    "transcription": "[ˈmɑːkɪtɪŋ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 48,
+    "origin": "mutual benefit",
+    "translation": "взаимная выгода",
+    "transcription": "[ˈmjuːʧʊəl ˈbenɪfɪt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 49,
+    "origin": "negotiations between the customer and the supplier",
+    "translation": "переговоры между заказчиком и поставщиком",
+    "transcription": "[nɪgəʊʃɪˈeɪʃnz bɪˈtwiːn ðiː ˈkʌstəmə ænd ðiː səˈplaɪə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 50,
+    "origin": "net profit",
+    "translation": "чистая прибыль",
+    "transcription": "[net ˈprɒfɪt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 51,
+    "origin": "non-cash payment",
+    "translation": "безналичный расчет",
+    "transcription": "[nɔn-kæʃ ˈpeɪmənt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 52,
+    "origin": "non-profit organization",
+    "translation": "некоммерческая организация",
+    "transcription": "[nɔn-ˈprɒfɪt ɔːgənaɪˈzeɪʃn]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 53,
+    "origin": "office",
+    "translation": "офис",
+    "transcription": "[ˈɒfɪs]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 54,
+    "origin": "organization",
+    "translation": "организация",
+    "transcription": "[ɔːgənaɪˈzeɪʃn]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 55,
+    "origin": "partners",
+    "translation": "партнеры",
+    "transcription": "[partners]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 56,
+    "origin": "payment account",
+    "translation": "расчетный счет",
+    "transcription": "[ˈpeɪmənt əˈkaʊnt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 57,
+    "origin": "price",
+    "translation": "цена",
+    "transcription": "[praɪs]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 58,
+    "origin": "print",
+    "translation": "печать",
+    "transcription": "[prɪnt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 59,
+    "origin": "product",
+    "translation": "товар",
+    "transcription": "[ˈprɒdʌkt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 60,
+    "origin": "production",
+    "translation": "производство",
+    "transcription": "[prəˈdʌkʃn]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 61,
+    "origin": "profit",
+    "translation": "прибыль",
+    "transcription": "[ˈprɒfɪt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 62,
+    "origin": "public catering",
+    "translation": "общественное питание",
+    "transcription": "[ˈpʌblɪk ˈkeɪtərɪŋ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 63,
+    "origin": "purchasing department",
+    "translation": "отдел закупок",
+    "transcription": "[ˈpɜːʧəsɪŋ dɪˈpɑːtmənt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 64,
+    "origin": "realty",
+    "translation": "недвижимость",
+    "transcription": "[ˈrɪəltɪ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 65,
+    "origin": "reduction",
+    "translation": "сокращение",
+    "transcription": "[rɪˈdʌkʃn]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 66,
+    "origin": "representative",
+    "translation": "представитель",
+    "transcription": "[reprɪˈzentətɪv]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 67,
+    "origin": "research and development department",
+    "translation": "отдел исследований и разработок",
+    "transcription": "[rɪˈsɜːʧ ænd dɪˈveləpmənt dɪˈpɑːtmənt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 68,
+    "origin": "risks",
+    "translation": "риски",
+    "transcription": "[risks]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 69,
+    "origin": "shop",
+    "translation": "магазин",
+    "transcription": "[ʃɒp]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 70,
+    "origin": "sign the contract",
+    "translation": "подписать договор",
+    "transcription": "[saɪn ðiː ˈkɒntrækt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 71,
+    "origin": "signature",
+    "translation": "подпись",
+    "transcription": "[ˈsɪgnɒʧə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 72,
+    "origin": "statement",
+    "translation": "заявление",
+    "transcription": "[ˈsteɪtmənt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 73,
+    "origin": "stocks",
+    "translation": "акции",
+    "transcription": "[stɒks]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 74,
+    "origin": "successful businessman",
+    "translation": "преуспевающий бизнесмен",
+    "transcription": "[ɑ səkˈsesf(ə)l ˈbɪznɪsmən]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 75,
+    "origin": "suppliers",
+    "translation": "поставщики",
+    "transcription": "[səˈplaɪəz]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 76,
+    "origin": "tax",
+    "translation": "налог",
+    "transcription": "[tæks]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 77,
+    "origin": "tender",
+    "translation": "тендер",
+    "transcription": "[ˈtendə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 78,
+    "origin": "the agenda",
+    "translation": "повестка дня",
+    "transcription": "[ðiː əˈʤendə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 79,
+    "origin": "trading",
+    "translation": "торговля",
+    "transcription": "[ˈtreɪdɪŋ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 80,
+    "origin": "wages",
+    "translation": "заработная плата",
+    "transcription": "[ˈweɪʤɪz]",
+    "image": " ",
+    "example": " "
+  }
+]
+}

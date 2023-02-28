@@ -1,0 +1,332 @@
+{
+"wordInformation":[
+  {
+    "id": 1,
+    "origin": "one (first)",
+    "translation": "один (первый)",
+    "transcription": "[wʌn] ([fɜ:st])",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 2,
+    "origin": "two (second)",
+    "translation": "два (второй)",
+    "transcription": "[tu:] ([ʹsekənd])",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 3,
+    "origin": "three (third)",
+    "translation": "три (третий)",
+    "transcription": "[θri:] ([θɜ:d])",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 4,
+    "origin": "four (fourth)",
+    "translation": "четыре (четвертый)",
+    "transcription": "[fɔ:] ([fɔ:θ])",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 5,
+    "origin": "five (fifth)",
+    "translation": "пять (пятая)",
+    "transcription": "[faıv] ([fıfθ])",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 6,
+    "origin": "six (sixth)",
+    "translation": "шесть (шестой)",
+    "transcription": "[sıks] ([sıksθ])",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 7,
+    "origin": "seven (seventh)",
+    "translation": "семь (седьмой)",
+    "transcription": "[ʹsev(ə)n] ([ʹsev(ə)nθ])",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 8,
+    "origin": "eight (eighth)",
+    "translation": "восемь (восьмая)",
+    "transcription": "[eıt] ([eıtθ])",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 9,
+    "origin": "nine (ninth)",
+    "translation": "девять (девятый)",
+    "transcription": "[naın] ([naınθ])",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 10,
+    "origin": "ten (tenth)",
+    "translation": "десять (десятый)",
+    "transcription": "[ten] ([tenθ])",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 11,
+    "origin": "eleven (eleventh)",
+    "translation": "одиннадцать (одиннадцатый)",
+    "transcription": "[ıʹlev(ə)n] ([ıʹlev(ə)nθ])",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 12,
+    "origin": "twelve (twelfth)",
+    "translation": "двенадцать (двенадцатый)",
+    "transcription": "[twelv] ([twelfθ])",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 13,
+    "origin": "thirteen (thirteenth)",
+    "translation": "тринадцать (тринадцатый)",
+    "transcription": "[͵θɜ:ʹti:n] ([͵θɜ:ʹti:nθ])",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 14,
+    "origin": "fourteen (fourteenth)",
+    "translation": "четырнадцать (четырнадцатый)",
+    "transcription": "[͵fɔ:ʹti:n] ([͵fɔ:ʹti:nθ])",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 15,
+    "origin": "fifteen (fifteenth)",
+    "translation": "пятнадцать (пятнадцатый)",
+    "transcription": "[fıfʹti:n] ([fıfʹti:nθ])",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 16,
+    "origin": "sixteen (sixteenth)",
+    "translation": "шестнадцать (шестнадцатый)",
+    "transcription": "[͵sıkʹsti:n] ([͵sıkʹsti:nθ])",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 17,
+    "origin": "seventeen (seventeenth)",
+    "translation": "семнадцать (семнадцатый)",
+    "transcription": "[͵sev(ə)nʹti:n] ([͵sev(ə)nʹti:nθ])",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 18,
+    "origin": "eighteen (eighteenth)",
+    "translation": "восемнадцать (восемнадцатый)",
+    "transcription": "[eıʹti:n] ([eıʹti:nθ])",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 19,
+    "origin": "nineteen nineteenth)",
+    "translation": "девятнадцать девятнадцатый)",
+    "transcription": "[͵naınʹti:n] [͵naınʹti:nθ])",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 20,
+    "origin": "twenty (twentieth)",
+    "translation": "двадцать (двадцатый)",
+    "transcription": "[ʹtwentı] ([ʹtwentııθ])",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 21,
+    "origin": "twenty-one (twenty-first)",
+    "translation": "двадцать один (двадцать) первый)",
+    "transcription": "[ʹtwentı - wʌn] ([ʹtwentı - fɜ:st])",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 22,
+    "origin": "twenty-two (twenty-second)",
+    "translation": "двадцать два (двадцать второй)",
+    "transcription": "[ʹtwentı - tu:] ([ʹtwentı - ʹsekənd])",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 23,
+    "origin": "twenty-three (twenty-third)",
+    "translation": "двадцать три (двадцать третий)",
+    "transcription": "[ʹtwentı - θri:] ([ʹtwentı - θɜ:d])",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 24,
+    "origin": "twenty-four (twenty-fourth)",
+    "translation": "двадцать четыре (двадцать) четвертый)",
+    "transcription": "[ʹtwentı - fɔ:] ([ʹtwentı - fɔ:θ])",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 25,
+    "origin": "twenty-five (twenty-fifth)",
+    "translation": "двадцать пять (двадцать пятый)",
+    "transcription": "[ʹtwentı - faıv] ([ʹtwentı - fıfθ])",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 26,
+    "origin": "twenty-six (twenty-sixth)",
+    "translation": "двадцать шесть (двадцать) шестой)",
+    "transcription": "[ʹtwentı - sıks] ([ʹtwentı - sıksθ])",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 27,
+    "origin": "twenty-seven (twenty-seventh)",
+    "translation": "двадцать семь (двадцать) седьмой)",
+    "transcription": "[ʹtwentı - ʹsev(ə)n] ([ʹtwentı - ʹsev(ə)nθ])",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 28,
+    "origin": "twenty-eight (twenty-eighth)",
+    "translation": "двадцать восемь (двадцать) восьмой)",
+    "transcription": "[ʹtwentı - eıt] ([ʹtwentı - eıtθ])",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 29,
+    "origin": "twenty-nine (twenty-ninth)",
+    "translation": "двадцать девять (двадцать) девятый)",
+    "transcription": "[ʹtwentı - naın] ([ʹtwentı - naınθ])",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 30,
+    "origin": "thirty (thirtieth",
+    "translation": "тридцать (тридцатый)",
+    "transcription": "[ʹθɜ:tı] ([ʹθɜ:tııθ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 31,
+    "origin": "forty (fortieth)",
+    "translation": "сорок (сороковой)",
+    "transcription": "[ʹfɔ:tı] ([ʹfɔ:tıəθ])",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 32,
+    "origin": "fifty (fiftieth)",
+    "translation": "пятьдесят (пятидесятое)",
+    "transcription": "[ʹfıftı] ([ʹfıftııθ])",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 33,
+    "origin": "sixty (sixtieth)",
+    "translation": "шестьдесят (шестидесятая)",
+    "transcription": "[ʹsıkstı] ([ʹsıkstııθ])",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 34,
+    "origin": "seventy (seventieth)",
+    "translation": "семьдесят (семидесятая)",
+    "transcription": "[ʹsev(ə)ntı] ([ʹsev(ə)ntıθ])",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 35,
+    "origin": "eighty (eightieth)",
+    "translation": "восемьдесят (восьмидесятый)",
+    "transcription": "[ʹeıtı] ([ʹeıtıəθ])",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 36,
+    "origin": "ninety (ninetieth)",
+    "translation": "девяносто (девяностолетний)",
+    "transcription": "[ʹnaıntı] ([ʹnaıntıəθ])",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 37,
+    "origin": "one hundred (hundredth)",
+    "translation": "сто (сотый)",
+    "transcription": "[wʌn ʹhʌndrəd] ([ʹhʌndrədθ])",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 38,
+    "origin": "five hundred (five hundredth)",
+    "translation": "пятьсот (пятисотый)",
+    "transcription": "[faıv ʹhʌndrəd] ([faıv ʹhʌndrədθ])",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 39,
+    "origin": "one thousand (thousandth)",
+    "translation": "одна тысяча (тысячный)",
+    "transcription": "[wʌn ʹθaʋz(ə)nd] ([ʹθaʋz(ə)ndθ])",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 40,
+    "origin": "one hundred thousand (hundred thousandth)",
+    "translation": "сто тысяч (стотысячный)",
+    "transcription": "[wʌn ʹhʌndrəd ʹθaʋz(ə)nd] ([ʹhʌndrəd] [ʹθaʋz(ə)ndθ])",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 41,
+    "origin": "one million (millionth)",
+    "translation": "один миллион (миллионный)",
+    "transcription": "[wʌn ʹmıljən] ([ʹmıljənθ])",
+    "image": " ",
+    "example": "  "
+  }
+]
+}

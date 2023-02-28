@@ -1,0 +1,412 @@
+{
+"wordInformation":[
+  {
+    "id": 1,
+    "origin": "aggressive",
+    "translation": "агрессивный, нападающий, захватнический",
+    "transcription": "[ə'gresıv]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 2,
+    "origin": "afraid",
+    "translation": "испуганный, напуганный, боящийся",
+    "transcription": "[ə'freıd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 3,
+    "origin": "agitated",
+    "translation": "взволнованный, возбуждённый",
+    "transcription": "['æʤıteıtıd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 4,
+    "origin": "amazed",
+    "translation": "изумлённый, поражённый",
+    "transcription": "[əˈmeɪzıd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 5,
+    "origin": "amazing",
+    "translation": "изумительный, удивительный, поразительный",
+    "transcription": "[ə'meızıŋ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 6,
+    "origin": "angry",
+    "translation": "сердитый, недовольный, разгневанный",
+    "transcription": "['æŋgrı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 7,
+    "origin": "annoyed",
+    "translation": "недовольный, раздосадованный, раздражённый",
+    "transcription": "[ə'nɔıd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 8,
+    "origin": "anxious",
+    "translation": "озабоченный, беспокоящийся",
+    "transcription": "['æŋkʃəs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 9,
+    "origin": "astir",
+    "translation": "взволнованный, возбужденный",
+    "transcription": "[ə'stə:]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 10,
+    "origin": "bodacious",
+    "translation": "безрассудный",
+    "transcription": "[bɔ:'deıʃəs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 11,
+    "origin": "calm",
+    "translation": "спокойный, мирный, невозмутимый",
+    "transcription": "[kɑ:m]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 12,
+    "origin": "cheerful",
+    "translation": "весёлый, радостный",
+    "transcription": "['ʧıəful]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 13,
+    "origin": "cheerless",
+    "translation": "угрюмый, мрачный, подавленный",
+    "transcription": "['ʧıəlıs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 14,
+    "origin": "depressed",
+    "translation": "подавленный, унылый",
+    "transcription": "[dı'prest]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 15,
+    "origin": "depressing",
+    "translation": "унылый, тягостный, гнетущий",
+    "transcription": "[dı'presıŋ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 16,
+    "origin": "despondent",
+    "translation": "унылый, подавленный, отчаявшийся",
+    "transcription": "[dıs'pɔndənt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 17,
+    "origin": "disgusting",
+    "translation": "противный, отвратительный",
+    "transcription": "[dıs'gʌstıŋ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 18,
+    "origin": "doleful",
+    "translation": "печальный, унылый",
+    "transcription": "['dəulful]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 19,
+    "origin": "dull",
+    "translation": "безрадостный, унылый, скучный",
+    "transcription": "[dʌl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 20,
+    "origin": "elated",
+    "translation": "ликующий",
+    "transcription": "[ı'leıtıd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 21,
+    "origin": "excited",
+    "translation": "взволнованный, возбуждённый",
+    "transcription": "[ɪkˈsaɪtɪd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 22,
+    "origin": "fabulous",
+    "translation": "невероятный",
+    "transcription": "['fæbjuləs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 23,
+    "origin": "fascinating",
+    "translation": "очаровательный, обворожительный",
+    "transcription": "['fæsıneıtıŋ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 24,
+    "origin": "frightened",
+    "translation": "испуганный",
+    "transcription": "['fraıtnd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 25,
+    "origin": "furious",
+    "translation": "взбешённый, неистовый, яростный",
+    "transcription": "['fjuərıəs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 26,
+    "origin": "glad",
+    "translation": "рад, доволен, счастлив, весёлый",
+    "transcription": "[glæd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 27,
+    "origin": "gorgeous",
+    "translation": "великолепный",
+    "transcription": "['gɔ:ʤəs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 28,
+    "origin": "happy",
+    "translation": "счастливый, довольный, весёлый",
+    "transcription": "['hæpı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 29,
+    "origin": "hilarious",
+    "translation": "шумный, весёлый",
+    "transcription": "[hı'leərıəs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 30,
+    "origin": "joyful",
+    "translation": "радостный, счастливый",
+    "transcription": "['ʤɔıful]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 31,
+    "origin": "lazy",
+    "translation": "ленивый",
+    "transcription": "['leızı]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 32,
+    "origin": "lonely",
+    "translation": "одинокий, страдающий от одиночества",
+    "transcription": "['ləunlı]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 33,
+    "origin": "magnificent",
+    "translation": "великолепный, прекрасный",
+    "transcription": "[mæg'nıfısnt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 34,
+    "origin": "miserable",
+    "translation": "жалкий, несчастный",
+    "transcription": "['mızərəbl]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 35,
+    "origin": "mournful",
+    "translation": "унылый, угрюмый, печальный, скорбный",
+    "transcription": "['mɔ:nful]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 36,
+    "origin": "moving",
+    "translation": "волнующий, трогательный",
+    "transcription": "['mu:vıŋ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 37,
+    "origin": "nervous",
+    "translation": "нервный, взволнованный",
+    "transcription": "['nə:vəs]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 38,
+    "origin": "outrageous",
+    "translation": "возмутительный, оскорбительный, скандальный",
+    "transcription": "[aut'reıʤəs]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 39,
+    "origin": "proud",
+    "translation": "гордый",
+    "transcription": "[praud]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 40,
+    "origin": "sad",
+    "translation": "грустный, печальный",
+    "transcription": "[sæd]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 41,
+    "origin": "scared",
+    "translation": "испуганный",
+    "transcription": "[skeəd]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 42,
+    "origin": "shy",
+    "translation": "застенчивый, стеснительный, робкий",
+    "transcription": "[ʃaı]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 43,
+    "origin": "stunning",
+    "translation": "великолепный, сногсшибательный",
+    "transcription": "['stʌnıŋ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 44,
+    "origin": "tense",
+    "translation": "возбуждённый, напряжённый",
+    "transcription": "[tens]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 45,
+    "origin": "terrible",
+    "translation": "страшный, ужасный, громадный",
+    "transcription": "['terəbl]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 46,
+    "origin": "terrific",
+    "translation": "ужасающий, необычайный, огромный",
+    "transcription": "[tə'rıfık]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 47,
+    "origin": "thoughtful",
+    "translation": "задумчивый, созерцательный, погружённый в размышления ",
+    "transcription": "[θɔ:tful]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 48,
+    "origin": "thrilling",
+    "translation": "волнующий, захватывающий",
+    "transcription": "['θrılıŋ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 49,
+    "origin": "touching",
+    "translation": "трогательный",
+    "transcription": "['tʌʧıŋ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 50,
+    "origin": "unhappy",
+    "translation": "несчастливый, несчастный",
+    "transcription": "[ʌn'hæpı]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 51,
+    "origin": "upset",
+    "translation": "расстроенный, огорчённый",
+    "transcription": "[ʌp'set]",
+    "image": " ",
+    "example": "  "
+  }
+]
+}

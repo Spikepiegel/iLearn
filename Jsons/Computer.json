@@ -1,0 +1,775 @@
+{
+"wordInformation":[
+  {
+    "id": 1,
+    "origin": "ability",
+    "translation": "способность, возможность",
+    "transcription": "[əʹbılıtı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 2,
+    "origin": "accurate",
+    "translation": "точный",
+    "transcription": "[ʹækjərət]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 3,
+    "origin": "to affect",
+    "translation": "воздействовать",
+    "transcription": "[tu: ʹæfekt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 4,
+    "origin": "amount of data",
+    "translation": "объем данных",
+    "transcription": "[əʹmaʋnt ɒv ʹdeıtə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 5,
+    "origin": "approximately",
+    "translation": "приблизительно",
+    "transcription": "[əʹprɒksımıtlı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 6,
+    "origin": "to attain",
+    "translation": "достигать",
+    "transcription": "[tu: əʹteın]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 7,
+    "origin": "available",
+    "translation": "доступный",
+    "transcription": "[əʹveıləb(ə)l]",
+    "image": "  ",
+    "example": "  "
+  },
+  
+  {
+    "id": 8,
+    "origin": "broadband connection",
+    "translation": "выделенное подключение",
+    "transcription": "[ˈbrɔːd.bænd kəʹnekʃ(ə)n]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 9,
+    "origin": "to browse",
+    "translation": "просматривать",
+    "transcription": "[tu: braʋz]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 10,
+    "origin": "browser",
+    "translation": "браузер, окно просмотра",
+    "transcription": "[ʹbraʋzə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 11,
+    "origin": "to carry out",
+    "translation": "выполнять",
+    "transcription": "[tu: ʹkærı aʋt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 12,
+    "origin": "computer desk",
+    "translation": "компьютерный стол",
+    "transcription": "[kəmʹpju:tə desk]",
+    "image": "  ",
+    "example": "  "
+  },
+  
+  {
+    "id": 13,
+    "origin": "computer mouse",
+    "translation": "компьютерная мышка",
+    "transcription": "[kəmʹpju:tə maʋs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 14,
+    "origin": "(photo)copier",
+    "translation": "ксерокс, копир",
+    "transcription": "([ʹfəʋtəʋ])[ʹkɒpıə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 15,
+    "origin": "to count",
+    "translation": "считать, сосчитать",
+    "transcription": "[tu: kaʋnt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 16,
+    "origin": "CPU",
+    "translation": "центральный процессор",
+    "transcription": " ",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 17,
+    "origin": "to crack",
+    "translation": "взломать",
+    "transcription": "[tu: kræk]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 18,
+    "origin": "dangerous",
+    "translation": "опасный",
+    "transcription": "[ʹdeındʒərəs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 19,
+    "origin": "data (datum)",
+    "translation": "данные, сведения",
+    "transcription": "[ʹdeıtə] ([ʹdeıtəm])",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 20,
+    "origin": "defense",
+    "translation": "оборона, защита",
+    "transcription": "[dıʹfens]",
+    "image": "  ",
+    "example": "  "
+  },
+  
+  {
+    "id": 21,
+    "origin": "to deploy",
+    "translation": "использовать, употреблять",
+    "transcription": "[tu: dıʹplɔı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 22,
+    "origin": "to design",
+    "translation": "задумывать, придумывать, разрабатывать",
+    "transcription": "[tu: dıʹzaın]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 23,
+    "origin": "to determine",
+    "translation": "определить",
+    "transcription": "[tu: dıʹtɜ:mın]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 24,
+    "origin": "dial up",
+    "translation": "доступ к сети через модемное подключение",
+    "transcription": "[ʹdaıəl ʌp]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 25,
+    "origin": "digital",
+    "translation": "цифровой",
+    "transcription": "[ʹdıdʒıt(ə)l]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 26,
+    "origin": "display",
+    "translation": "дисплей",
+    "transcription": "[dısʹpleı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 27,
+    "origin": "to download",
+    "translation": "загружать, скачать",
+    "transcription": "[tu: ʹdaʋn͵ləʋd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 28,
+    "origin": "drive",
+    "translation": "диск, привод",
+    "transcription": "[draıv]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 29,
+    "origin": "electronic device",
+    "translation": "электронное устройство",
+    "transcription": "[ı͵lekʹtrɒnık dıʹvaıs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 30,
+    "origin": "electronic mail (e-mail)",
+    "translation": "электронная почта",
+    "transcription": "[ı͵lekʹtrɒnık meıl] ([i: - meıl])",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 31,
+    "origin": "email accounts",
+    "translation": "учетные записи электронной почты",
+    "transcription": "['i:meil əˈkaʊnts]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 32,
+    "origin": "to enable",
+    "translation": "давать возможность или право на ч-т",
+    "transcription": "[tu: ıʹneıb(ə)l]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 33,
+    "origin": "to enhance",
+    "translation": "повышать, увеличивать",
+    "transcription": "[tu: ınʹhɑ:ns]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 34,
+    "origin": "essential",
+    "translation": "существенный",
+    "transcription": "[ıʹsenʃ(ə)l]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 35,
+    "origin": "except",
+    "translation": "за исключением, кроме",
+    "transcription": "[ıkʹsept]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 36,
+    "origin": "fast modem",
+    "translation": "быстрый модем",
+    "transcription": "[fɑ:st ʹməʋdem]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 37,
+    "origin": "to find",
+    "translation": "находить",
+    "transcription": "[tu: faınd]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 38,
+    "origin": "flash drive (card)",
+    "translation": "флеш-диск (карта)",
+    "transcription": "[flæʃ draıv] ([kɑ:d])",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 39,
+    "origin": "floppy disk",
+    "translation": "дискета",
+    "transcription": "[ʹflɒpı dısk]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 40,
+    "origin": "to handle",
+    "translation": "обращаться, иметь дело с",
+    "transcription": "[tu: ʹhændl]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 41,
+    "origin": "hard drive",
+    "translation": "жесткий диск",
+    "transcription": "[hɑ:d draıv]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 42,
+    "origin": "infrared",
+    "translation": "инфракрасный",
+    "transcription": "[,infrə'red]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 43,
+    "origin": "informational server",
+    "translation": "информационный сервер",
+    "transcription": "[,infə'meiʃ(ə)n(ə)l ʹsɜ:və]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 44,
+    "origin": "to intercept",
+    "translation": "перехватить (сигнал и т.д.)",
+    "transcription": "[tu: ʹıntəsept]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 45,
+    "origin": "interface",
+    "translation": "интерфейс",
+    "transcription": "[ʹıntəfeıs]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 46,
+    "origin": "keyboard",
+    "translation": "клавиатура",
+    "transcription": "[ʹki:bɔ:d]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 47,
+    "origin": "laptop",
+    "translation": "ноутбук",
+    "transcription": "['læptɔp]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 48,
+    "origin": "to last",
+    "translation": "длиться",
+    "transcription": "[tu: lɑ:st]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 49,
+    "origin": "layman",
+    "translation": "непрофессионал, любитель, ламер",
+    "transcription": "[ʹleımən]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 50,
+    "origin": "link",
+    "translation": "ссылка",
+    "transcription": "[lıŋk]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 51,
+    "origin": "to log in",
+    "translation": "входить, подключаться",
+    "transcription": "[tu: lɒg ın]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 52,
+    "origin": "to matсh",
+    "translation": "подходить, соответствовать",
+    "transcription": "[tu: mæʧ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 53,
+    "origin": "message",
+    "translation": "послание",
+    "transcription": "[ʹmesıdʒ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 54,
+    "origin": "memory",
+    "translation": "память",
+    "transcription": "[ʹmem(ə)rı]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 55,
+    "origin": "monitor",
+    "translation": "монитор",
+    "transcription": "[ʹmɒnıtə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 56,
+    "origin": "motherboard",
+    "translation": "материнская плата",
+    "transcription": "['mʌðəbɔ:d]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 57,
+    "origin": "the net",
+    "translation": "сеть, (Интернет)",
+    "transcription": "[ðə net]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 58,
+    "origin": "network",
+    "translation": "сеть",
+    "transcription": "[ʹnetwɜ:k]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 59,
+    "origin": "obsolete",
+    "translation": "устаревший",
+    "transcription": "[ʹɒbsəli:t]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 60,
+    "origin": "operating system",
+    "translation": "операционная система",
+    "transcription": "[ʹɒpəreıtıŋ ʹsıstım]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 61,
+    "origin": "overload",
+    "translation": "перегрузка",
+    "transcription": "[ʹəʋvələʋd]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 62,
+    "origin": "to perform",
+    "translation": "выполнять, осуществлять",
+    "transcription": "[tu: pəʹfɔ:m]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 63,
+    "origin": "player",
+    "translation": "проигрыватель",
+    "transcription": "[ʹpleıə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 64,
+    "origin": "printer",
+    "translation": "принтер",
+    "transcription": "[ʹprıntə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 65,
+    "origin": "processing unit",
+    "translation": "вычислительное устройство",
+    "transcription": "[ʹprəʋsesıŋ ʹju:nıt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 66,
+    "origin": "to provide",
+    "translation": "снабжать, доставлять; обеспечивать",
+    "transcription": "[tu: prəʹvaıd]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 67,
+    "origin": "provider",
+    "translation": "провайдер, поставщик",
+    "transcription": "[prəʹvaıdə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 68,
+    "origin": "query",
+    "translation": "запрос, вопрос",
+    "transcription": "[ʹkwı(ə)rı]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 69,
+    "origin": "to receive",
+    "translation": "получать, принимать",
+    "transcription": "[tu: rıʹsi:v]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 70,
+    "origin": "reliable",
+    "translation": "надежный",
+    "transcription": "[rıʹlaıəb(ə)l]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 71,
+    "origin": "to respond",
+    "translation": "отвечать, реагировать",
+    "transcription": "[tu: rıʹspɒnd]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 72,
+    "origin": "scale",
+    "translation": "масштаб",
+    "transcription": "[skeıl]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 73,
+    "origin": "to scan",
+    "translation": "сканировать",
+    "transcription": "[tu: skæn]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 74,
+    "origin": "scanner",
+    "translation": "сканер",
+    "transcription": "[ʹskænə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 75,
+    "origin": "search-program",
+    "translation": "программа-поисковик",
+    "transcription": "[sɜ:tʃ - ʹprəʋgræm]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 76,
+    "origin": "security",
+    "translation": "безопасность",
+    "transcription": "[sıʹkjʋ(ə)rıtı]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 77,
+    "origin": "to send",
+    "translation": "отправлять",
+    "transcription": "[tu: send]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 78,
+    "origin": "set of instructions",
+    "translation": "набор (свод инструкций)",
+    "transcription": "[set ɒv ɪnˈstrʌk.ʃən]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 79,
+    "origin": "significant",
+    "translation": "значительный, важный, существенный",
+    "transcription": "[sıgʹnıfıkənt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 80,
+    "origin": "site",
+    "translation": "сайт",
+    "transcription": "[saıt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 81,
+    "origin": "society",
+    "translation": "общество",
+    "transcription": "[səʹsaıətı]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 82,
+    "origin": "to solve",
+    "translation": "решать, разрешать; находить выход",
+    "transcription": "[tu: sɒlv]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 83,
+    "origin": "source",
+    "translation": "источник",
+    "transcription": "[sɔ:s]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 84,
+    "origin": "speakers",
+    "translation": "колонки",
+    "transcription": "[ˈspiː.kər]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 85,
+    "origin": "storage",
+    "translation": "хранение",
+    "transcription": "[ʹstɔ:rıdʒ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 86,
+    "origin": "to surf",
+    "translation": "просматривать различные сайты в сети",
+    "transcription": "[tu: sɜ:f]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 87,
+    "origin": "system unit",
+    "translation": "системный блок",
+    "transcription": "[ʹsıstım ʹju:nıt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 88,
+    "origin": "tool",
+    "translation": "инструмент, орудие",
+    "transcription": "[tu:l]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 89,
+    "origin": "to type",
+    "translation": "печатать, напечатать",
+    "transcription": "[tu: taıp]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 90,
+    "origin": "to update",
+    "translation": "обновить",
+    "transcription": "[tu: ʹʌpdeıt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 91,
+    "origin": "user",
+    "translation": "пользователь",
+    "transcription": "[ʹju:zə]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 92,
+    "origin": "virtual reality",
+    "translation": "виртуальная реальность",
+    "transcription": "[ʹvɜ:tʃʋəl rıʹælıtı]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 93,
+    "origin": "voice message",
+    "translation": "голосовое послание",
+    "transcription": "[vɔıs ʹmesıdʒ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 94,
+    "origin": "voltage",
+    "translation": "напряжение",
+    "transcription": "[ʹvəʋltıdʒ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 95,
+    "origin": "window",
+    "translation": "окно",
+    "transcription": "[ʹwındəʋ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 96,
+    "origin": "www (worldwide web)",
+    "translation": "всемирная сеть",
+    "transcription": "([͵wɜ:ldʹwaıd web])",
+    "image": " ",
+    "example": " "
+  }
+]
+}

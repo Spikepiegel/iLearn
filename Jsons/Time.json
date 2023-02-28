@@ -1,0 +1,764 @@
+{
+"wordInformation":[
+  {
+    "id": 1,
+    "origin": "time",
+    "translation": "время",
+    "transcription": "[taım]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 2,
+    "origin": "long",
+    "translation": "длительный",
+    "transcription": "[lɒŋ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 3,
+    "origin": "prolonged",
+    "translation": "продолжительный",
+    "transcription": "[prəʹlɒŋd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 4,
+    "origin": "extended",
+    "translation": "продленный",
+    "transcription": "[ıkʹstendıd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 5,
+    "origin": "duration",
+    "translation": "продолжительность",
+    "transcription": "[djʋ(ə)ʹreıʃ(ə)n]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 6,
+    "origin": "last",
+    "translation": "длиться",
+    "transcription": "[lɑ:st]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 7,
+    "origin": "carry on",
+    "translation": "продолжаться",
+    "transcription": "[ʹkærı] [ɒn]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 8,
+    "origin": "rare",
+    "translation": "редкий",
+    "transcription": "[reə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 9,
+    "origin": "seldom",
+    "translation": "редко",
+    "transcription": "[ʹseldəm]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 10,
+    "origin": "now and then",
+    "translation": "изредка",
+    "transcription": "[naʋ] [ænd] [ðen]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 11,
+    "origin": "often",
+    "translation": "часто",
+    "transcription": "[ʹɒf(t)ən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 12,
+    "origin": "quite often",
+    "translation": "нередко",
+    "transcription": "[kwaıt] [ʹɒf(t)ən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 13,
+    "origin": "again",
+    "translation": "снова",
+    "transcription": "[əʹge(ı)n]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 14,
+    "origin": "more",
+    "translation": "больше",
+    "transcription": "[mɔ:]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 15,
+    "origin": "periodical",
+    "translation": "периодический",
+    "transcription": "[͵pı(ə)rıʹɒdık(ə)l]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 16,
+    "origin": "daily",
+    "translation": "ежедневный",
+    "transcription": "[ʹdeılı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 17,
+    "origin": "annual",
+    "translation": "ежегодный",
+    "transcription": "[ʹænjʋəl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 18,
+    "origin": "regular",
+    "translation": "регулярный",
+    "transcription": "[ʹregjʋlə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 19,
+    "origin": "systematic",
+    "translation": "систематический",
+    "transcription": "[,sistə'mætik(əl)]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 20,
+    "origin": "sometimes",
+    "translation": "иногда",
+    "transcription": "[ʹsʌmtaımz]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 21,
+    "origin": "permanent",
+    "translation": "постоянный",
+    "transcription": "[ʹpɜ:mənənt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 22,
+    "origin": "constantly",
+    "translation": "постоянно",
+    "transcription": "[ʹkɒnstəntlı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 23,
+    "origin": "always",
+    "translation": "всегда",
+    "transcription": "[ʹɔ:lw(e)ız]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 24,
+    "origin": "temporary",
+    "translation": "временный",
+    "transcription": "[ʹtemp(ə)rərı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 25,
+    "origin": "endless",
+    "translation": "бесконечный",
+    "transcription": "[ʹendlıs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 26,
+    "origin": "uninterrupted",
+    "translation": "непрерывный",
+    "transcription": "[͵ʌnıntəʹrʌptıd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 27,
+    "origin": "forever",
+    "translation": "навсегда",
+    "transcription": "[fəʹrevə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 28,
+    "origin": "never",
+    "translation": "никогда",
+    "transcription": "[ʹnevə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 29,
+    "origin": "period",
+    "translation": "период",
+    "transcription": "[ʹpı(ə)rıəd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 30,
+    "origin": "interval",
+    "translation": "промежуток",
+    "transcription": "[ʹıntəv(ə)l]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 31,
+    "origin": "decade",
+    "translation": "десятилетие",
+    "transcription": "[ʹdekeıd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 32,
+    "origin": "epoch",
+    "translation": "эпоха",
+    "transcription": "[ʹi:pɒk]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 33,
+    "origin": "era",
+    "translation": "эра",
+    "transcription": "[ʹı(ə)rə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 34,
+    "origin": "the time",
+    "translation": "времена",
+    "transcription": "[ðə] [taım]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 35,
+    "origin": "break",
+    "translation": "перерыв",
+    "transcription": "[breık]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 36,
+    "origin": "pause",
+    "translation": "пауза",
+    "transcription": "[pɔ:z]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 37,
+    "origin": "lifespan",
+    "translation": "продолжительность жизни",
+    "transcription": "[ʹlaıfspæn]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 38,
+    "origin": "long ago",
+    "translation": "давно",
+    "transcription": "[lɒŋ] [əʹgəʋ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 39,
+    "origin": "short",
+    "translation": "короткий",
+    "transcription": "[ʃɔ:t]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 40,
+    "origin": "not long",
+    "translation": "недолго",
+    "transcription": "[nɒt] [lɒŋ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 41,
+    "origin": "brief",
+    "translation": "краткий",
+    "transcription": "[bri:f]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 42,
+    "origin": "now",
+    "translation": "сейчас",
+    "transcription": "[naʋ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 43,
+    "origin": "recently",
+    "translation": "недавно",
+    "transcription": "[ʹri:s(ə)ntlı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 44,
+    "origin": "moment",
+    "translation": "мгновение",
+    "transcription": "[ʹməʋmənt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 45,
+    "origin": "instant",
+    "translation": "миг",
+    "transcription": "[ʹınstənt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 46,
+    "origin": "urgent",
+    "translation": "срочный",
+    "transcription": "[ʹɜ:dʒ(ə)nt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 47,
+    "origin": "urgently",
+    "translation": "срочно",
+    "transcription": "urgently",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 48,
+    "origin": "quickly",
+    "translation": "быстро",
+    "transcription": "[ʹkwıklı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 49,
+    "origin": "immediately",
+    "translation": "немедленно",
+    "transcription": "[ıʹmi:dıətlı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 50,
+    "origin": "right away",
+    "translation": "сразу",
+    "transcription": "[raıt] [əʹweı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 51,
+    "origin": "at once",
+    "translation": "тотчас",
+    "transcription": "[æt] [wʌns]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 52,
+    "origin": "second",
+    "translation": "секунда",
+    "transcription": "[ʹsekənd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 53,
+    "origin": "minute",
+    "translation": "минута",
+    "transcription": "[ʹmınıt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 54,
+    "origin": "hour",
+    "translation": "час",
+    "transcription": "[ʹaʋə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 55,
+    "origin": "half an hour",
+    "translation": "полчаса",
+    "transcription": "[hɑ:f] [æn] [ʹaʋə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 56,
+    "origin": "twenty-four hours",
+    "translation": "сутки",
+    "transcription": "[ʹtwentı]-[fɔ:] [ʹaʋəz]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 57,
+    "origin": "day",
+    "translation": "день",
+    "transcription": "[deı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 58,
+    "origin": "week",
+    "translation": "неделя",
+    "transcription": "[wi:k]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 59,
+    "origin": "weekdays",
+    "translation": "будни",
+    "transcription": "[ʹwi:kdeız]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 60,
+    "origin": "Monday",
+    "translation": "понедельник",
+    "transcription": "[ʹmʌndı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 61,
+    "origin": "Tuesday",
+    "translation": "вторник",
+    "transcription": "[ʹtju:zdı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 62,
+    "origin": "Wednesday",
+    "translation": "среда",
+    "transcription": "[ʹwenzdı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 63,
+    "origin": "Thursday",
+    "translation": "четверг",
+    "transcription": "[ʹθɜ:zdı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 64,
+    "origin": "Friday",
+    "translation": "пятница",
+    "transcription": "[ʹfraıdı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 65,
+    "origin": "Saturday",
+    "translation": "суббота",
+    "transcription": "[ʹsætədı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 66,
+    "origin": "Sunday",
+    "translation": "воскресенье",
+    "transcription": "[ʹsʌndı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 67,
+    "origin": "month",
+    "translation": "месяц",
+    "transcription": "[mʌnθ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 68,
+    "origin": "January",
+    "translation": "января",
+    "transcription": "[ʹdʒænjʋ(ə)rı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 69,
+    "origin": "February",
+    "translation": "февраль",
+    "transcription": "[ʹfebrʋ(ə)rı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 70,
+    "origin": "March",
+    "translation": "март",
+    "transcription": "[mɑ:tʃ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 71,
+    "origin": "April",
+    "translation": "апрель",
+    "transcription": "[ʹeıprəl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 72,
+    "origin": "May",
+    "translation": "май",
+    "transcription": "[meı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 73,
+    "origin": "June",
+    "translation": "июнь",
+    "transcription": "[dʒu:n]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 74,
+    "origin": "July",
+    "translation": "июль",
+    "transcription": "[dʒʋʹlaı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 75,
+    "origin": "August",
+    "translation": "август",
+    "transcription": "[ʹɔ:gəst]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 76,
+    "origin": "September",
+    "translation": "сентябрь",
+    "transcription": "[sepʹtembə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 77,
+    "origin": "October",
+    "translation": "октябрь",
+    "transcription": "[ɒkʹtəʋbə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 78,
+    "origin": "November",
+    "translation": "ноябрь",
+    "transcription": "[nə(ʋ)ʹvembə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 79,
+    "origin": "December",
+    "translation": "декабрь",
+    "transcription": "[dıʹsembə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 80,
+    "origin": "year",
+    "translation": "год",
+    "transcription": "[jıə]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 81,
+    "origin": "century",
+    "translation": "век",
+    "transcription": "[ʹsentʃərı]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 82,
+    "origin": "half-year",
+    "translation": "полугодие",
+    "transcription": "[hɑ:f]-[jıə]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 83,
+    "origin": "quarter",
+    "translation": "квартал",
+    "transcription": "[ʹkwɔ:tə]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 84,
+    "origin": "season",
+    "translation": "сезон",
+    "transcription": "[ʹsi:z(ə)n]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 85,
+    "origin": "spring",
+    "translation": "весна",
+    "transcription": "[sprıŋ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 86,
+    "origin": "summer",
+    "translation": "лето",
+    "transcription": "[ʹsʌmə]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 87,
+    "origin": "autumn",
+    "translation": "осень",
+    "transcription": "[ʹɔ:təm]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 88,
+    "origin": "winter",
+    "translation": "зима",
+    "transcription": "[ʹwıntə]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 89,
+    "origin": "daybreak",
+    "translation": "рассвет",
+    "transcription": "[ʹdeıbreık]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 90,
+    "origin": "morning",
+    "translation": "утро",
+    "transcription": "[ʹmɔ:nıŋ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 91,
+    "origin": "noon",
+    "translation": "полдень",
+    "transcription": "[nu:n]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 92,
+    "origin": "midday",
+    "translation": "середина дня",
+    "transcription": "[͵mıdʹdeı]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 93,
+    "origin": "evening",
+    "translation": "вечер",
+    "transcription": "[ʹi:vnıŋ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 94,
+    "origin": "night",
+    "translation": "ночь",
+    "transcription": "[naıt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 95,
+    "origin": "midnight",
+    "translation": "полночь",
+    "transcription": "[ʹmıdnaıt]",
+    "image": " ",
+    "example": " "
+  }
+]
+}

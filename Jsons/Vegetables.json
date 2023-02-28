@@ -1,0 +1,484 @@
+{
+"wordInformation":[
+  {
+    "id": 1,
+    "origin": "amaranth",
+    "translation": "амарант",
+    "transcription": "[ˈæmərænθ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 2,
+    "origin": "artichoke",
+    "translation": "артишок",
+    "transcription": "[ˈɑːtɪʧəʊk]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 3,
+    "origin": "arugula",
+    "translation": "руккола",
+    "transcription": "[arugula]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 4,
+    "origin": "asparagus",
+    "translation": "спаржа",
+    "transcription": "[əsˈpærəgəs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 5,
+    "origin": "avocado",
+    "translation": "авокадо",
+    "transcription": "[ævəˈkɑːdəʊ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 6,
+    "origin": "bamboo shoots",
+    "translation": "бамбуковые побеги",
+    "transcription": "[bæmˈbuː ʃuːts]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 7,
+    "origin": "basil",
+    "translation": "базилик",
+    "transcription": "[bæzl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 8,
+    "origin": "beans",
+    "translation": "фасоль",
+    "transcription": "[beans]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 9,
+    "origin": "beet",
+    "translation": "свекла",
+    "transcription": "[biːt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 10,
+    "origin": "broccoli",
+    "translation": "брокколи",
+    "transcription": "[ˈbrɒkəlɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 11,
+    "origin": "brussels sprouts",
+    "translation": "брюссельская капуста",
+    "transcription": "[brʌslz spraʊts]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 12,
+    "origin": "capers",
+    "translation": "каперсы",
+    "transcription": "[capers]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 13,
+    "origin": "carrot",
+    "translation": "морковь",
+    "transcription": "[ˈkærət]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 14,
+    "origin": "cauliflower",
+    "translation": "цветная капуста",
+    "transcription": "[ˈkɒlɪflaʊə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 15,
+    "origin": "celery",
+    "translation": "сельдерей",
+    "transcription": "[ˈselərɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 16,
+    "origin": "champignons",
+    "translation": "шампиньоны",
+    "transcription": "[champignons]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 17,
+    "origin": "cherry tomatoes",
+    "translation": "томаты черри",
+    "transcription": "[ˈʧerɪ tomatoes]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 18,
+    "origin": "chickpeas",
+    "translation": "нут",
+    "transcription": "[ˈʧɪkpiːz]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 19,
+    "origin": "chile",
+    "translation": "чили",
+    "transcription": "[ˈʧɪlɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 20,
+    "origin": "cilantro",
+    "translation": "кинза",
+    "transcription": "[sɪˈlæntrəʊ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 21,
+    "origin": "corn",
+    "translation": "кукуруза",
+    "transcription": "[kɔːn]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 22,
+    "origin": "cucumber",
+    "translation": "огурец",
+    "transcription": "[ˈkjuːkʌmbə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 23,
+    "origin": "daikon",
+    "translation": "дайкон",
+    "transcription": "[ˈdaɪkən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 24,
+    "origin": "dill",
+    "translation": "укроп",
+    "transcription": "[dɪl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 25,
+    "origin": "eggplant",
+    "translation": "баклажан",
+    "transcription": "[ˈegplɑːnt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 26,
+    "origin": "fennel",
+    "translation": "фенхель",
+    "transcription": "[fenl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 27,
+    "origin": "garlic",
+    "translation": "чеснок",
+    "transcription": "[ˈgɑːlɪk]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 28,
+    "origin": "gherkins",
+    "translation": "корнишоны",
+    "transcription": "[gherkins]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 29,
+    "origin": "ginger",
+    "translation": "имбирь",
+    "transcription": "[ˈʤɪnʤə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 30,
+    "origin": "green onions",
+    "translation": "зеленый лук",
+    "transcription": "[griːn ˈʌnɪənz]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 31,
+    "origin": "green string beans",
+    "translation": "зеленая стручковая фасоль",
+    "transcription": "[griːn strɪŋ beans]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 32,
+    "origin": "horseradish",
+    "translation": "хрен",
+    "transcription": "[ˈhɔːsrædɪʃ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 33,
+    "origin": "jalapeno",
+    "translation": "халапеньо",
+    "transcription": "[ʤælɪˈpiːnəʊ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 34,
+    "origin": "kohlrabi",
+    "translation": "кольраби",
+    "transcription": "[kəʊlˈrɑːbɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 35,
+    "origin": "leek",
+    "translation": "лук-порей",
+    "transcription": "[liːk]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 36,
+    "origin": "lentils",
+    "translation": "чечевица",
+    "transcription": "[lentils]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 37,
+    "origin": "lettuce",
+    "translation": "латук",
+    "transcription": "[ˈletɪs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 38,
+    "origin": "mushrooms",
+    "translation": "грибы",
+    "transcription": "[ˈmʌʃrʊmz]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 39,
+    "origin": "olives",
+    "translation": "олива",
+    "transcription": "[ˈɒlɪvz]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 40,
+    "origin": "onion",
+    "translation": "лук (луковица)",
+    "transcription": "[ˈʌnjən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 41,
+    "origin": "parsnips",
+    "translation": "пастернак",
+    "transcription": "[parsnips]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 42,
+    "origin": "pattison",
+    "translation": "патиссон",
+    "transcription": "[ˈpætɪsn]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 43,
+    "origin": "pea",
+    "translation": "бобы",
+    "transcription": "[piː]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 44,
+    "origin": "peas",
+    "translation": "горох",
+    "transcription": "[piːz]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 45,
+    "origin": "peking cabbage",
+    "translation": "пекинская капуста",
+    "transcription": "[piːˈkɪŋ ˈkæbɪʤ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 46,
+    "origin": "potato",
+    "translation": "картошка",
+    "transcription": "[pəˈteɪtəʊ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 47,
+    "origin": "pumpkin",
+    "translation": "тыква",
+    "transcription": "[ˈpʌmpkɪn]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 48,
+    "origin": "punch",
+    "translation": "петрушка",
+    "transcription": "[pʌnʧ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 49,
+    "origin": "radish",
+    "translation": "редиска",
+    "transcription": "[ˈrædɪʃ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 50,
+    "origin": "radish",
+    "translation": "редька",
+    "transcription": "[ˈrædɪʃ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 51,
+    "origin": "rhubarb",
+    "translation": "ревень",
+    "transcription": "[ˈruːbɑːb]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 52,
+    "origin": "root vegetable",
+    "translation": "корнеплод",
+    "transcription": "[ruːt ˈveʤ(ɪ)təb(ə)l]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 53,
+    "origin": "soy",
+    "translation": "соя",
+    "transcription": "[sɔɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 54,
+    "origin": "spinach",
+    "translation": "шпинат",
+    "transcription": "[ˈspɪnɪʧ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 55,
+    "origin": "sweet pepper",
+    "translation": "сладкий перец",
+    "transcription": "[swiːt ˈpepə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 56,
+    "origin": "sweet potato",
+    "translation": "батат",
+    "transcription": "[swiːt pəˈteɪtəʊ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 57,
+    "origin": "tomato",
+    "translation": "томат",
+    "transcription": "[təˈmɑːtəʊ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 58,
+    "origin": "turnips",
+    "translation": "репа",
+    "transcription": "[turnips]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 59,
+    "origin": "white cabbage",
+    "translation": "белокочанная капуста",
+    "transcription": "[waɪt ˈkæbɪʤ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 60,
+    "origin": "zucchini",
+    "translation": "кабачок",
+    "transcription": "[zʊˈkiːnɪ]",
+    "image": "  ",
+    "example": "  "
+  }
+]
+}

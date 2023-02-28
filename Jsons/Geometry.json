@@ -1,0 +1,196 @@
+{
+"wordInformation":[
+  {
+    "id": 1,
+    "origin": "sphere",
+    "translation": "сфера",
+    "transcription": "[sfıə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 2,
+    "origin": "octagon",
+    "translation": "восьмиугольник",
+    "transcription": "['ɔktəgən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 3,
+    "origin": "rhombus",
+    "translation": "ромб",
+    "transcription": "['rɔmbəs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 4,
+    "origin": "rectangle",
+    "translation": "прямоугольник",
+    "transcription": "['rek,tæŋgl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 5,
+    "origin": "parallelepiped",
+    "translation": "параллелепипед",
+    "transcription": "[,pærəle'lepıped]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 6,
+    "origin": "square",
+    "translation": "Квадрат",
+    "transcription": "[skweə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 7,
+    "origin": "quadrilateral",
+    "translation": "четырехугольник",
+    "transcription": "[,kwɔdrı'lætərəl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 8,
+    "origin": "cone",
+    "translation": "конус",
+    "transcription": "[kəun]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 9,
+    "origin": "hexagon",
+    "translation": "шестиугольник",
+    "transcription": "['heksəgən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 10,
+    "origin": "cylinder",
+    "translation": "цилиндр",
+    "transcription": "['sılındə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 11,
+    "origin": "hendecagon",
+    "translation": "одиннадцатиугольник",
+    "transcription": "[hen'dekəgən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 12,
+    "origin": "pyramid",
+    "translation": "пирамида",
+    "transcription": "['pırəmıd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 13,
+    "origin": "triangle",
+    "translation": "треугольник",
+    "transcription": "['traıæŋgl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 14,
+    "origin": "helix",
+    "translation": "спираль",
+    "transcription": "['hi:lıks]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 15,
+    "origin": "trapezium",
+    "translation": "трапеция",
+    "transcription": "[trə'pi:zɪəm]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 16,
+    "origin": "hemisphere",
+    "translation": "полушарие",
+    "transcription": "['hemısfıə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 17,
+    "origin": "parallelogram",
+    "translation": "параллелограмм",
+    "transcription": "[,pærə'leləugræm]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 18,
+    "origin": "heptagon",
+    "translation": "семиугольник",
+    "transcription": "['heptəgən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 19,
+    "origin": "pentagon",
+    "translation": "пятиугольник",
+    "transcription": "['pentəgən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 20,
+    "origin": "torus",
+    "translation": "тор",
+    "transcription": "['tɔ:rəs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 21,
+    "origin": "octahedron",
+    "translation": "октаэдр",
+    "transcription": "['ɔktə'hedrən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 22,
+    "origin": "dodecagon",
+    "translation": "двенадцатиугольник",
+    "transcription": "[dəu'dekəgən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 23,
+    "origin": "decagon",
+    "translation": "десятиугольник",
+    "transcription": "['dekəgən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 24,
+    "origin": "cube",
+    "translation": "куб",
+    "transcription": "[kju:b]",
+    "image": "  ",
+    "example": "  "
+  }
+]
+}

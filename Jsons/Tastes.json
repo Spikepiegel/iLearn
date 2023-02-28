@@ -1,0 +1,156 @@
+{
+"wordInformation":[
+  {
+    "id": 1,
+    "origin": "acid",
+    "translation": "кислый",
+    "transcription": "[ʹæsıd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 2,
+    "origin": "astringent",
+    "translation": "вяжущий",
+    "transcription": "[əʹstrındʒənt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 3,
+    "origin": "bitter",
+    "translation": "горький",
+    "transcription": "[ʹbıtə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 4,
+    "origin": "buckwheat ",
+    "translation": "греча",
+    "transcription": "[ʹbʌkwi:t] ",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 5,
+    "origin": "can",
+    "translation": "консервы (в жестяных банках)",
+    "transcription": "[kæn]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 6,
+    "origin": "cereals",
+    "translation": "крупы",
+    "transcription": "[ˈsɪə.ri.əl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 7,
+    "origin": "delicious",
+    "translation": "очень вкусно (очень изысканный вкус)",
+    "transcription": "[dıʹlıʃəs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 8,
+    "origin": "flour   ",
+    "translation": "мука",
+    "transcription": "[ʹflaʋə]   ",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 9,
+    "origin": "pepper   ",
+    "translation": "перец",
+    "transcription": "[ʹpepə]   ",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 10,
+    "origin": "salt",
+    "translation": "соль",
+    "transcription": "[sɔ:lt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 11,
+    "origin": "salty",
+    "translation": "соленый",
+    "transcription": "[ʹsɔ:ltı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 12,
+    "origin": "savory",
+    "translation": "вкусно (пикантно)",
+    "transcription": "[ʹseıv(ə)rı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 13,
+    "origin": "semolina",
+    "translation": "манка",
+    "transcription": "[͵seməʹli:nə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 14,
+    "origin": "spicy",
+    "translation": "острый",
+    "transcription": "[ʹspaısı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 15,
+    "origin": "sugar",
+    "translation": "сахар",
+    "transcription": "[ʹʃʋgə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 16,
+    "origin": "sweet",
+    "translation": "сладкий",
+    "transcription": "[swi:t]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 17,
+    "origin": "sweet  ",
+    "translation": "вкусняшка (лакомство, лакомый кусочек)",
+    "transcription": "[swi:t]  ",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 18,
+    "origin": "tasty ",
+    "translation": "вкусно (просто и без затей)",
+    "transcription": "[ʹteıstı] ",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 19,
+    "origin": "yummy",
+    "translation": "вкусно (сытно, питательно)",
+    "transcription": "[ʹjʌmı]",
+    "image": "  ",
+    "example": "  "
+  }
+]
+}

@@ -1,0 +1,236 @@
+{
+"wordInformation":[
+  {
+    "id": 1,
+    "origin": "ack-o’-lantern",
+    "translation": "фонарь из тыквы",
+    "transcription": "[ˌʤækə’læntən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 2,
+    "origin": "apple",
+    "translation": "яблоко",
+    "transcription": "[ˈæp(ə)l]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 3,
+    "origin": "bat",
+    "translation": "летучая мышь",
+    "transcription": "[bæt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 4,
+    "origin": "black cat",
+    "translation": "чёрная кошка",
+    "transcription": "[blæk kæt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 5,
+    "origin": "blood",
+    "translation": "кровь",
+    "transcription": "[blʌd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 6,
+    "origin": "bonfire",
+    "translation": "костёр",
+    "transcription": "[ˈbɒnfaɪə(r)]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 7,
+    "origin": "candle",
+    "translation": "свеча",
+    "transcription": "[‘kændl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 8,
+    "origin": "candy",
+    "translation": "конфета, леденец",
+    "transcription": "[‘kændɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 9,
+    "origin": "costume",
+    "translation": "костюм",
+    "transcription": "[ˈkɒstjuːm]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 10,
+    "origin": "death",
+    "translation": "смерть",
+    "transcription": "[deθ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 11,
+    "origin": "devil",
+    "translation": "чёрт, бес",
+    "transcription": "[ˈdev(ə)l]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 12,
+    "origin": "ghost",
+    "translation": "привидение, призрак",
+    "transcription": "[gəust]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 13,
+    "origin": "graveyard",
+    "translation": "кладбище",
+    "transcription": "[ˈɡreɪv.jɑːd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 14,
+    "origin": "hat",
+    "translation": "шляпа",
+    "transcription": "[hæt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 15,
+    "origin": "haunted house",
+    "translation": "дом с приведениями",
+    "transcription": "[hɔːntɪd haʊs ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 16,
+    "origin": "monster",
+    "translation": "чудовище",
+    "transcription": "[mɒnstə(r)]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 17,
+    "origin": "mummy",
+    "translation": "мумия",
+    "transcription": "[ˈmʌmɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 18,
+    "origin": "prank",
+    "translation": "проказа, выходка, шалость, проделка",
+    "transcription": "[præŋk]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 19,
+    "origin": "pumpkin",
+    "translation": "тыква",
+    "transcription": "[‘pʌmpkɪn]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 20,
+    "origin": "pumpkin pie",
+    "translation": "тыквенный пирог",
+    "transcription": "[‘pʌmpkɪn paɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 21,
+    "origin": "scarecrow",
+    "translation": "пугало",
+    "transcription": "[ˈskeə.krəʊ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 22,
+    "origin": "scary",
+    "translation": "жуткий, ужасный",
+    "transcription": "[ˈskeərɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 23,
+    "origin": "skeleton",
+    "translation": "скелет",
+    "transcription": "[‘skelɪt(ə)n]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 24,
+    "origin": "spider",
+    "translation": "паук",
+    "transcription": "[‘spaɪdə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 25,
+    "origin": "spooky",
+    "translation": "зловещий",
+    "transcription": "[ˈspuːkɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 26,
+    "origin": "treat",
+    "translation": "угощение",
+    "transcription": "[triːt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 27,
+    "origin": "trick or treat (trick or treat)",
+    "translation": "обычай",
+    "transcription": "[ˌtrɪkɔː’triːt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 28,
+    "origin": "vampire",
+    "translation": "вампир",
+    "transcription": "[ˈvæmpaɪə(r)]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 29,
+    "origin": "witch",
+    "translation": "колдунья, ведьма",
+    "transcription": "[wɪʧ]",
+    "image": "  ",
+    "example": "  "
+  }
+]
+}

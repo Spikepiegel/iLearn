@@ -1,0 +1,756 @@
+{
+"wordInformation":[
+  {
+    "id": 1,
+    "origin": "Action!",
+    "translation": "Мотор!",
+    "transcription": "[ʹækʃ(ə)n]!",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 2,
+    "origin": "2D / 2-D (2-dimensional)",
+    "translation": "2Д, двумерный",
+    "transcription": "2D / 2-[di:] (2-[d(a)ıʹmenʃ(ə)nəl])",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 3,
+    "origin": "3D / 3-D (3-dimensional)",
+    "translation": "3Д, трехмерный",
+    "transcription": "3D / 3-[di:] (3-[d(a)ıʹmenʃ(ə)nəl])",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 4,
+    "origin": "action movie",
+    "translation": "боевик",
+    "transcription": "[ʹækʃ(ə)n ʹmu:vı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 5,
+    "origin": "actor / actress",
+    "translation": "актер / актриса",
+    "transcription": "[ʹæktə] / [ʹæktrıs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 6,
+    "origin": "adventure film",
+    "translation": "приключенческий фильм",
+    "transcription": "[ədʹventʃə fılm]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 7,
+    "origin": "alias",
+    "translation": "вымышленное имя",
+    "transcription": "[ʹeılıəs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 8,
+    "origin": "animator",
+    "translation": "аниматор",
+    "transcription": "[ʹænımeıtə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 9,
+    "origin": "aspect ratio",
+    "translation": "соотношение сторон (формат)",
+    "transcription": "[ʹæspekt ʹreıʃıəʋ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 10,
+    "origin": "backstage, behind the scenes",
+    "translation": "за кулисами",
+    "transcription": "[ʹbæksteıdʒ, bıʹhaınd ðə siːn]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 11,
+    "origin": "black-and-white film",
+    "translation": "черно-белый фильм",
+    "transcription": "[blæk - ænd - waıt fılm]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 12,
+    "origin": "box office",
+    "translation": "касса",
+    "transcription": "[bɒks ʹɒfıs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 13,
+    "origin": "cameraman",
+    "translation": "оператор",
+    "transcription": "[ʹkæm(ə)rəmən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 14,
+    "origin": "caption",
+    "translation": "титр",
+    "transcription": "[ʹkæpʃ(ə)n]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 15,
+    "origin": "cartoon",
+    "translation": "мультфильм",
+    "transcription": "[kɑ:ʹtu:n]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 16,
+    "origin": "cast",
+    "translation": "актерский состав",
+    "transcription": "[kɑ:st]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 17,
+    "origin": "character",
+    "translation": "персонаж",
+    "transcription": "[ʹkærıktə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 18,
+    "origin": "cinema (BrE), movie theater (AmE)",
+    "translation": "кино(театр)",
+    "transcription": "[ʹsınımə] (BrE), [ʹmu:vı ʹθıətə] (AmE)",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 19,
+    "origin": "clapper, clapboard, clapperboard, slate (film)",
+    "translation": "хлопушка",
+    "transcription": "[ʹklæpə], [ʹklæpbɔ:d], [ʹklæpəbɔ:d], [sleıt (fılm)]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 20,
+    "origin": "close-up",
+    "translation": "крупный план",
+    "transcription": "[kləʋs - ʌp]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 21,
+    "origin": "colour film",
+    "translation": "цветной фильм",
+    "transcription": "[ʹkʌlə fılm]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 22,
+    "origin": "comedy",
+    "translation": "комедия",
+    "transcription": "[ʹkɒmədı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 23,
+    "origin": "costume designer",
+    "translation": "дизайнер по костюмам",
+    "transcription": "[ʹkɒstjʋm dıʹzaınə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 24,
+    "origin": "crew",
+    "translation": "съемочная группа",
+    "transcription": "[kru:]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 25,
+    "origin": "crime film",
+    "translation": "детектив",
+    "transcription": "[kraım fılm]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 26,
+    "origin": "crowd scene",
+    "translation": "массовка",
+    "transcription": "[kraʋd si:n]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 27,
+    "origin": "Cut!",
+    "translation": "Снято!",
+    "transcription": "[kʌt]!",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 28,
+    "origin": "director",
+    "translation": "режиссер",
+    "transcription": "[d(a)ıʹrektə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 29,
+    "origin": "documentary film",
+    "translation": "документальный фильм",
+    "transcription": "[͵dɒkjʋʹment(ə)rı fılm]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 30,
+    "origin": "drama",
+    "translation": "драма",
+    "transcription": "[ʹdrɑ:mə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 31,
+    "origin": "drive-in-theatre",
+    "translation": "кинотеатр, куда можно въехать на автомобиле",
+    "transcription": "[draıv - ın - ʹθıətə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 32,
+    "origin": "dubbed film (dubbed in Russian)",
+    "translation": "дублированый фильм (дублированый на русский язык)",
+    "transcription": "[dʌb fılm] ([dʌb [ın ʹrʌʃ(ə)n])",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 33,
+    "origin": "educational film",
+    "translation": "общеобразовательный фильм",
+    "transcription": "[͵edjʋʹkeıʃ(ə)nəl fılm]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 34,
+    "origin": "episode",
+    "translation": "эпизод / серия",
+    "transcription": "[ʹepısəʋd]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 35,
+    "origin": "fade out",
+    "translation": "исчезать постепенно (об изображении)",
+    "transcription": "[feıd aʋt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 36,
+    "origin": "feature film",
+    "translation": "художественный фильм",
+    "transcription": "[ʹfi:tʃə fılm]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 37,
+    "origin": "film",
+    "translation": "фильм / плёнка",
+    "transcription": "[fılm]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 38,
+    "origin": "flash-back",
+    "translation": "воспоминания героя, возврат в прошлое",
+    "transcription": "[flæʃ - bæk]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 39,
+    "origin": "full-length film",
+    "translation": "полнометражный фильм",
+    "transcription": "[fʋl - leŋθ fılm]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 40,
+    "origin": "happy ending",
+    "translation": "счастливый конец",
+    "transcription": "[ʹhæpı ʹendıŋ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 41,
+    "origin": "historical film",
+    "translation": "исторический фильм",
+    "transcription": "[hıʹstɒrık(ə)l fılm]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 42,
+    "origin": "horror film",
+    "translation": "фильм ужасов",
+    "transcription": "[ʹhɒrə fılm]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 43,
+    "origin": "location",
+    "translation": "место натурных съемок",
+    "transcription": "[ləʋʹkeıʃ(ə)n]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 44,
+    "origin": "long shot",
+    "translation": "общий план",
+    "transcription": "[lɒŋ ʃɒt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 45,
+    "origin": "makeup",
+    "translation": "грим",
+    "transcription": "[ˈmeɪk.ʌp]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 46,
+    "origin": "makeup artist",
+    "translation": "художник по гриму (гример)",
+    "transcription": "[ˈmeɪk.ʌp ʹɑ:tıst]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 47,
+    "origin": "movie (AmE), motion picture",
+    "translation": "кинофильм, кинокартина",
+    "transcription": "[ʹmu:vı] (AmE), [ʹməʋʃ(ə)n ʹpıktʃə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 48,
+    "origin": "musical",
+    "translation": "мюзикл",
+    "transcription": "[ʹmju:zık(ə)l]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 49,
+    "origin": "mute film",
+    "translation": "немой фильм",
+    "transcription": "[mju:t fılm]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 50,
+    "origin": "newsreel",
+    "translation": "кинотрейлер, киножурнал, хроникальный фильм",
+    "transcription": "[ʹnju:zri:l]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 51,
+    "origin": "offscreen narration",
+    "translation": "повествование за кадром",
+    "transcription": "[͵ɒfʹskri:n nəʹreıʃ(ə)n]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 52,
+    "origin": "open-air theatre",
+    "translation": "кинотеатр под открытым небом",
+    "transcription": "[ʹəʋpən - eə ʹθıətə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 53,
+    "origin": "original soundtrack (OST)",
+    "translation": "оригинальный саундтрек",
+    "transcription": "[əʹrıdʒın(ə)l ʹsaʋndtræk] (OST)",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 54,
+    "origin": "plot",
+    "translation": "сюжет",
+    "transcription": "[plɒt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 55,
+    "origin": "poster",
+    "translation": "афиша",
+    "transcription": "[ʹpəʋstə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 56,
+    "origin": "post-production",
+    "translation": "пост-продакшн",
+    "transcription": "[pəʋst - prəʹdʌkʃ(ə)n]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 57,
+    "origin": "producer",
+    "translation": "продюсер",
+    "transcription": "[prəʹdju:sə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 58,
+    "origin": "scene",
+    "translation": "сцена",
+    "transcription": "[si:n]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 59,
+    "origin": "science fiction film",
+    "translation": "научно-фантастический фильм",
+    "transcription": "[ʹsaıəns ʹfıkʃ(ə)n fılm]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 60,
+    "origin": "screen",
+    "translation": "экран",
+    "transcription": "[skri:n]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 61,
+    "origin": "screen version (of the novel)",
+    "translation": "экранизация (романа)",
+    "transcription": "[skri:n ʹvɜ:ʃ(ə)n] ([ɒv ðə ʹnɒv(ə)l])",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 62,
+    "origin": "script, screenplay",
+    "translation": "(кино)сценарий",
+    "transcription": "[skrıpt, ʹskri:npleı]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 63,
+    "origin": "scriptwriter, screenwriter",
+    "translation": "(кино)сценарист, драматург",
+    "transcription": "[ʹskrıpt͵raıtə], [ʹskri:n͵raıtə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 64,
+    "origin": "series (TV series)",
+    "translation": "(теле)сериал",
+    "transcription": "[ʹsı(ə)ri:z] ([͵ti:ʹvi: ʹsı(ə)ri:z])",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 65,
+    "origin": "set-decorator",
+    "translation": "декоратор",
+    "transcription": "[set - ʹdekə(͵)reıtə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 66,
+    "origin": "sets",
+    "translation": "декорации",
+    "transcription": "[set]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 67,
+    "origin": "short-length film",
+    "translation": "короткометражный фильм",
+    "transcription": "[ʃɔ:t - leŋθ fılm]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 68,
+    "origin": "shot",
+    "translation": "кадр",
+    "transcription": "[ʃɒt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 69,
+    "origin": "showing",
+    "translation": "показ",
+    "transcription": "[ʹʃəʋıŋ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 70,
+    "origin": "sound effects",
+    "translation": "звуковые эффекты",
+    "transcription": "[saʋnd ıʹfekts]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 71,
+    "origin": "sound film",
+    "translation": "звуковй фильм",
+    "transcription": "[saʋnd fılm]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 72,
+    "origin": "starring",
+    "translation": "в главных ролях",
+    "transcription": "[ʹstɑ:rıŋ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 73,
+    "origin": "star-studded film",
+    "translation": "фильм со звездами",
+    "transcription": "[ˈstɑːˌstʌd.ɪd [fɪlm]]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 74,
+    "origin": "still",
+    "translation": "кадр",
+    "transcription": "[stıl]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 75,
+    "origin": "stunt",
+    "translation": "трюк",
+    "transcription": "[stʌnt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 76,
+    "origin": "stunt man",
+    "translation": "каскадер",
+    "transcription": "[stʌnt mæn]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 77,
+    "origin": "subtitle",
+    "translation": "субтитр, подзаголовок",
+    "transcription": "[ʹsʌb͵taıtl]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 78,
+    "origin": "take",
+    "translation": "дубль (на съемке)",
+    "transcription": "[teık]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 79,
+    "origin": "the final scene",
+    "translation": "финальная сцена",
+    "transcription": "[ðə ʹfaın(ə)l si:n]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 80,
+    "origin": "the main (leading) role",
+    "translation": "главная роль",
+    "transcription": "[ðə meın ([ʹledıŋ]) rəʋl]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 81,
+    "origin": "the opening scene",
+    "translation": "начальная сцена",
+    "transcription": "[ðə ʹəʋp(ə)nıŋ si:n]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 82,
+    "origin": "the supporting (minor) role",
+    "translation": "роль второго плана",
+    "transcription": "[ðə səʹpɔ:tıŋ ([ʹmaınə]) rəʋl]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 83,
+    "origin": "theatrical film",
+    "translation": "экранизация театральной постановки",
+    "transcription": "[θıʹætrık(ə)l fılm]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 84,
+    "origin": "thriller",
+    "translation": "триллер",
+    "transcription": "[ʹθrılə]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 85,
+    "origin": "to act / play",
+    "translation": "играть",
+    "transcription": "[tu: ækt] / [pleı]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 86,
+    "origin": "to book tickets",
+    "translation": "заказывать билеты",
+    "transcription": "[tu: bʋk ˈtɪk.ɪt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 87,
+    "origin": "to come out",
+    "translation": "выходить (о фильме)",
+    "transcription": "[tu: kʌm aʋt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 88,
+    "origin": "to go into production",
+    "translation": "запускать в производство",
+    "transcription": "[tu: gəʋ ʹıntu: prəʹdʌkʃ(ə)n]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 89,
+    "origin": "to release a film",
+    "translation": "выпускать фильм на экраны",
+    "transcription": "[tu: rıʹli:s ə,(eı) fılm]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 90,
+    "origin": "to shoot a film",
+    "translation": "снимать кино",
+    "transcription": "[tu: ʃu:t ə,(eı) fılm]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 91,
+    "origin": "tragedy",
+    "translation": "трагедия",
+    "transcription": "[ʹtrædʒıdı]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 92,
+    "origin": "visual effects",
+    "translation": "визуальные эффекты",
+    "transcription": "[ʹvıʒʋəl ıʹfekts]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 93,
+    "origin": "western",
+    "translation": "вестерн",
+    "transcription": "[ʹwestən]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 94,
+    "origin": "X-rated film",
+    "translation": "фильм для взрослых",
+    "transcription": "[eks - ʹreıtıd fılm]",
+    "image": " ",
+    "example": " "
+  }
+]
+}

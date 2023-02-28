@@ -1,0 +1,428 @@
+{
+"wordInformation":[
+  {
+    "id": 1,
+    "origin": "victim",
+    "translation": "жертва",
+    "transcription": "[ˈvɪktɪm]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 2,
+    "origin": "threat",
+    "translation": "угроза",
+    "transcription": "[θrɛt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 3,
+    "origin": "felony",
+    "translation": "преступление (тяжелое, уголовное)",
+    "transcription": "[ˈfɛləni]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 4,
+    "origin": "misdemeanor",
+    "translation": "мелкое преступление",
+    "transcription": "[ˌmɪsdɪˈmiːnə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 5,
+    "origin": "attorney",
+    "translation": "адвокат",
+    "transcription": "[əˈtɜːni]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 6,
+    "origin": "judge",
+    "translation": "судья",
+    "transcription": "[ˈʤʌʤ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 7,
+    "origin": "safety",
+    "translation": "безопасность",
+    "transcription": "[ˈseɪfti]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 8,
+    "origin": "investigation",
+    "translation": "расследование",
+    "transcription": "[ɪnˌvɛstɪˈgeɪʃən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 9,
+    "origin": "murder",
+    "translation": "убийство",
+    "transcription": "[ˈmɜːdə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 10,
+    "origin": "justice",
+    "translation": "справедливость",
+    "transcription": "[ˈʤʌstɪs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 11,
+    "origin": "danger",
+    "translation": "опасность",
+    "transcription": "[ˈdeɪnʤə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 12,
+    "origin": "jury",
+    "translation": "жюри (присяжные)",
+    "transcription": "[ˈʤʊəri]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 13,
+    "origin": "judgment",
+    "translation": "суждение (решение суда)",
+    "transcription": "[ˈʤʌʤmənt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 14,
+    "origin": "witness",
+    "translation": "свидетель",
+    "transcription": "[ˈwɪtnɪs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 15,
+    "origin": "incident",
+    "translation": "инцидент",
+    "transcription": "[ˈɪnsɪdənt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 16,
+    "origin": "legislation",
+    "translation": "законодательство, законы",
+    "transcription": "[ˌlɛʤɪsˈleɪʃən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 17,
+    "origin": "sentence",
+    "translation": "приговор",
+    "transcription": "[ˈsɛntəns]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 18,
+    "origin": "prosecutor",
+    "translation": "прокурор",
+    "transcription": "[ˈprɒsɪkjuːtə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 19,
+    "origin": "investigator",
+    "translation": "следователь",
+    "transcription": "[ɪnˈvɛstɪgeɪtə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 20,
+    "origin": "lawyer",
+    "translation": "адвокат",
+    "transcription": "[ˈlɔːjə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 21,
+    "origin": "suicide",
+    "translation": "самоубийство",
+    "transcription": "[ˈsjʊɪsaɪd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 22,
+    "origin": "enforcement",
+    "translation": "принуждение к исполнению закона",
+    "transcription": "[ɪnˈfɔːsmənt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 23,
+    "origin": "prisoner",
+    "translation": "заключенный, пленник",
+    "transcription": "[ˈprɪznə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 24,
+    "origin": "inmate",
+    "translation": "заключенный",
+    "transcription": "[ˈɪnmeɪt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 25,
+    "origin": "jail",
+    "translation": "тюрьма",
+    "transcription": "[ʤeɪl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 26,
+    "origin": "killer",
+    "translation": "убийца",
+    "transcription": "[ˈkɪlə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 27,
+    "origin": "gang",
+    "translation": "банда",
+    "transcription": "[gæŋ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 28,
+    "origin": "advocate",
+    "translation": "адвокат",
+    "transcription": "[ˈædvəkɪt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 29,
+    "origin": "lawsuit",
+    "translation": "иск",
+    "transcription": "[ˈlɔːsjuːt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 30,
+    "origin": "testimony",
+    "translation": "свидетельство, показания",
+    "transcription": "[ˈtɛstɪməni]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 31,
+    "origin": "penalty",
+    "translation": "карательная мера",
+    "transcription": "[ˈpɛnlti]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 32,
+    "origin": "offense",
+    "translation": "правонарушение",
+    "transcription": "[əˈfɛns]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 33,
+    "origin": "terrorist",
+    "translation": "террорист",
+    "transcription": "[ˈtɛrərɪst]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 34,
+    "origin": "assault",
+    "translation": "нападение",
+    "transcription": "[əˈsɔːlt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 35,
+    "origin": "proof",
+    "translation": "доказательство",
+    "transcription": "[pruːf]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 36,
+    "origin": "violation",
+    "translation": "нарушение",
+    "transcription": "[ˌvaɪəˈleɪʃən]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 37,
+    "origin": "crime",
+    "translation": "преступление",
+    "transcription": "[kraɪm]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 38,
+    "origin": "cell (prison)",
+    "translation": "камера (тюремная), клетка",
+    "transcription": "[sɛl]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 39,
+    "origin": "trial",
+    "translation": "испытание (судебный процесс)",
+    "transcription": "[ˈtraɪəl]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 40,
+    "origin": "prison",
+    "translation": "тюрьма",
+    "transcription": "[ˈprɪzn]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 41,
+    "origin": "evidence",
+    "translation": "улика",
+    "transcription": "[ˈɛvɪdəns]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 42,
+    "origin": "gun",
+    "translation": "пистолет",
+    "transcription": "[gʌn]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 43,
+    "origin": "protection",
+    "translation": "защита",
+    "transcription": "[prəˈtɛkʃən]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 44,
+    "origin": "court",
+    "translation": "суд",
+    "transcription": "[kɔːt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 45,
+    "origin": "security",
+    "translation": "безопасность (охрана)",
+    "transcription": "[sɪˈkjʊərɪti]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 46,
+    "origin": "officer",
+    "translation": "офицер, должностное лицо",
+    "transcription": "[ˈɒfɪsə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 47,
+    "origin": "cop",
+    "translation": "коп (полицейский)",
+    "transcription": "[kɒp]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 48,
+    "origin": "police",
+    "translation": "полиция",
+    "transcription": "[pəˈliːs]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 49,
+    "origin": "guard",
+    "translation": "охранник",
+    "transcription": "[gɑːd]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 50,
+    "origin": "law",
+    "translation": "закон",
+    "transcription": "[lɔː]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 51,
+    "origin": "will (document)",
+    "translation": "завещание",
+    "transcription": "[wɪl]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 52,
+    "origin": "violence",
+    "translation": "насилие",
+    "transcription": "[ˈvaɪələns]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 53,
+    "origin": "responsibility",
+    "translation": "ответственность",
+    "transcription": "[rɪsˌpɒnsəˈbɪlɪti]",
+    "image": " ",
+    "example": "  "
+  }
+]
+}

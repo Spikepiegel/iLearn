@@ -1,0 +1,244 @@
+{
+"wordInformation":[
+  {
+    "id": 1,
+    "origin": "ashberry, rowan",
+    "translation": "рябина",
+    "transcription": "[faejbari], [’rauan]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 2,
+    "origin": "barberry",
+    "translation": "барбарис",
+    "transcription": "[’ba:bari]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 3,
+    "origin": "bearberry",
+    "translation": "толокнянка",
+    "transcription": "[’baibari]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 4,
+    "origin": "bilberry, « whortleberry",
+    "translation": "черника",
+    "transcription": "[’bilbari], [’w3:tlberi]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 5,
+    "origin": "black rowan",
+    "translation": "рябина черноплодная",
+    "transcription": "[blcek 'rauan",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 6,
+    "origin": "blackberry",
+    "translation": "ежевика",
+    "transcription": "[’blaekbori]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 7,
+    "origin": "blackcurrant",
+    "translation": "смородина чёрная",
+    "transcription": "[blaek 'клгапЦ",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 8,
+    "origin": "blueberry",
+    "translation": "голубика",
+    "transcription": "[’bluiberi]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 9,
+    "origin": "cherry",
+    "translation": "вишня",
+    "transcription": "[ˈʧerɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 10,
+    "origin": "cloudberry",
+    "translation": "морошка",
+    "transcription": "[’klaudberi]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 11,
+    "origin": "cornelian cherry",
+    "translation": "кизил",
+    "transcription": "[ko:'ni:ljan 'Iferi]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 12,
+    "origin": "cowberry",
+    "translation": "брусника",
+    "transcription": "[’kaubari]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 13,
+    "origin": "cranberry",
+    "translation": "клюква",
+    "transcription": "[’kraenbari]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 14,
+    "origin": "crowberry",
+    "translation": "водяника",
+    "transcription": "[’krauberi]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 15,
+    "origin": "elderberry",
+    "translation": "бузина",
+    "transcription": "[’eldabari]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 16,
+    "origin": "ephedra",
+    "translation": "хвойник",
+    "transcription": "[i'fi:dra]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 17,
+    "origin": "gooseberry",
+    "translation": "крыжовник",
+    "transcription": "['guzban]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 18,
+    "origin": "honeysuckle",
+    "translation": "жимолость",
+    "transcription": "['hAni SAkl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 19,
+    "origin": "melon",
+    "translation": "дыня",
+    "transcription": "[’melon]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 20,
+    "origin": "raspberry",
+    "translation": "малина",
+    "transcription": "[’rcrzbari]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 21,
+    "origin": "red currant",
+    "translation": "смородина красная",
+    "transcription": "[’red'kArant]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 22,
+    "origin": "rosehip",
+    "translation": "шиповник",
+    "transcription": "[’rauzip]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 23,
+    "origin": "sea-buckthorn",
+    "translation": "облепиха",
+    "transcription": "[si: ’Ьлк9э:п]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 24,
+    "origin": "shadberry",
+    "translation": "ирга",
+    "transcription": "[Jaedbari]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 25,
+    "origin": "strawberry",
+    "translation": "клубника",
+    "transcription": "[’stroibari]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 26,
+    "origin": "sweet cherry",
+    "translation": "черешня",
+    "transcription": "[swi:t ’Jen]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 27,
+    "origin": "viburnum",
+    "translation": "калина",
+    "transcription": "[vai'b3:nam]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 28,
+    "origin": "watermelon",
+    "translation": "арбуз",
+    "transcription": "[’woitamelan]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 29,
+    "origin": "white currant",
+    "translation": "смородина белая",
+    "transcription": "[wait 'клгап]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 30,
+    "origin": "wild strawberry",
+    "translation": "земляника",
+    "transcription": "[ward stroibari]",
+    "image": "  ",
+    "example": "  "
+  }
+]
+}

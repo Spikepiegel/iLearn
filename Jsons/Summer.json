@@ -1,0 +1,260 @@
+{
+"wordInformation":[
+  {
+    "id": 1,
+    "origin": "bikini",
+    "translation": "бикини",
+    "transcription": "[bıʹki:nı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 2,
+    "origin": "heat",
+    "translation": "жара",
+    "transcription": "[hi:t]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 3,
+    "origin": "outing",
+    "translation": "прогулка, экскурсия, пикник",
+    "transcription": "[ʹaʋtıŋ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 4,
+    "origin": "sandals",
+    "translation": "сандалии",
+    "transcription": "[ˈsæn.dəl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 5,
+    "origin": "summer solstice",
+    "translation": "летнее солнцестояние",
+    "transcription": "[ʹsʌmə ʹsɒlstıs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 6,
+    "origin": "sundress",
+    "translation": "сарафан",
+    "transcription": "[ʹsʌndres]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 7,
+    "origin": "sunscreen / sunblock",
+    "translation": "солнцезащитный крем / лосьон",
+    "transcription": "[ʹsʌn͵skri:n] / ['sʌnblɔk]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 8,
+    "origin": "suntan",
+    "translation": "загар",
+    "transcription": "[ʹsʌntæn]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 9,
+    "origin": "swim fins",
+    "translation": "ласты",
+    "transcription": "[swım fɪn] ",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 10,
+    "origin": "swimsuit",
+    "translation": "купальник",
+    "transcription": "[ˈswɪm.suːt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 11,
+    "origin": "to attend an outdoor concert",
+    "translation": "посетить концерт на открытом воздухе",
+    "transcription": "[tu: əʹtend æn ͵aʋtʹdɔ: ʹkɒnsət]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 12,
+    "origin": "to build sand castles",
+    "translation": "строить замки из песка",
+    "transcription": "[tu: bıld sænd ˈkɑː.sl̩]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 13,
+    "origin": "to do gardening",
+    "translation": "заниматься садоводством",
+    "transcription": "[tu: du: ʹgɑ:d(ə)nıŋ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 14,
+    "origin": "to go backpacking / hiking",
+    "translation": "идти в поход",
+    "transcription": "[tu: gəʋ ʹbæk͵pækıŋ] / [ʹhaıkıŋ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 15,
+    "origin": "to go boating",
+    "translation": "кататься на лодке",
+    "transcription": "[tu: gəʋ ʹbəʋtıŋ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 16,
+    "origin": "to go on a date",
+    "translation": "пойти на свидание",
+    "transcription": "[tu: gəʋ ɒn ə,(eı) deıt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 17,
+    "origin": "to go sailing",
+    "translation": "плавать под парусом",
+    "transcription": "[tu: gəʋ ʹseılıŋ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 18,
+    "origin": "to go scuba diving",
+    "translation": "заниматься дайвингом",
+    "transcription": "[tu: gəʋ ʹsk(j)u:bə ʹdaıvıŋ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 19,
+    "origin": "to go snorkeling",
+    "translation": "плавать с маской и трубкой",
+    "transcription": "[tu: gəʋ ʹsnɔ:klıŋ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 20,
+    "origin": "to go to a water park",
+    "translation": "пойти в аквапарк",
+    "transcription": "[tu: gəʋ tu: ə,(eı) ʹwɔ:tə pɑ:k]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 21,
+    "origin": "to go to the seaside",
+    "translation": "поехать на море",
+    "transcription": "[tu: gəʋ tu: ðə ʹsi:saıd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 22,
+    "origin": "to have a bonfire",
+    "translation": "разжечь костер",
+    "transcription": "[tu: hæv ə,(eı) ʹbɒnfaıə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 23,
+    "origin": "to have a picnic",
+    "translation": "устроить пикник",
+    "transcription": "[tu: hæv ə,(eı) ʹpıknık]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 24,
+    "origin": "to host a barbecue",
+    "translation": "устроить барбекю",
+    "transcription": "[tu: həʋst ə,(eı) ʹbɑ:bıkju:]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 25,
+    "origin": "to lie in the grass",
+    "translation": "лежать в траве",
+    "transcription": "[tu: laı ın ðə grɑ:s]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 26,
+    "origin": "to play frisbee",
+    "translation": "запускать «летающую тарелку» (фризби)",
+    "transcription": "[tu: pleı ˈfrɪz.bi]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 27,
+    "origin": "to sunbathe",
+    "translation": "загорать",
+    "transcription": "[tu: ʹsʌnbeıð]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 28,
+    "origin": "to turn on/ off a fan",
+    "translation": "включить / выключить вентилятор",
+    "transcription": "[tu: tɜ:n ɒn]/ [ɒf ə,(eı) fæn]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 29,
+    "origin": "to visit a botanical garden",
+    "translation": "посетить ботанический сад",
+    "transcription": "[tu: ʹvızıt ə,(eı) bəʹtænık(ə)l gɑ:dn]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 30,
+    "origin": "to watch a fireworks display",
+    "translation": "смотреть салют",
+    "transcription": "[tu:] [wɒtʃ] [ə,(eı) ˈfaɪə.wɜːk dısʹpleı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 31,
+    "origin": "to watch waves",
+    "translation": "смотреть на волны",
+    "transcription": "[tu: wɒtʃ weɪv]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 32,
+    "origin": "trunks",
+    "translation": "плавки",
+    "transcription": "[trʌŋks]",
+    "image": " ",
+    "example": "  "
+  }
+]
+}

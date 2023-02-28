@@ -1,0 +1,348 @@
+{
+"wordInformation":[
+  {
+    "id": 1,
+    "origin": "algebra",
+    "translation": "алгебра",
+    "transcription": "[ˈælʤɪbrə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 2,
+    "origin": "art and design",
+    "translation": "искусство и дизайн",
+    "transcription": "[ɑːt ænd dɪˈzaɪn]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 3,
+    "origin": "astronomy",
+    "translation": "астрономия",
+    "transcription": "[əsˈtrɒnəmɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 4,
+    "origin": "biology",
+    "translation": "биология",
+    "transcription": "[baɪˈɒləʤɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 5,
+    "origin": "botany",
+    "translation": "ботаника",
+    "transcription": "[ˈbɒtənɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 6,
+    "origin": "chemistry",
+    "translation": "химия",
+    "transcription": "[ˈkemɪstrɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 7,
+    "origin": "computer science",
+    "translation": "информатика",
+    "transcription": "[kəmˈpjuːtə ˈsaɪəns]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 8,
+    "origin": "cultural studies",
+    "translation": "культуроведение",
+    "transcription": "[ˈkʌlʧərəl studies]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 9,
+    "origin": "ecology",
+    "translation": "экология",
+    "transcription": "[ɪˈkɒləʤɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 10,
+    "origin": "economy",
+    "translation": "экономика",
+    "transcription": "[ɪˈkɒnəmɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 11,
+    "origin": "English language",
+    "translation": "Английский язык",
+    "transcription": "[ˈɪŋglɪʃ ˈlæŋgwɪʤ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 12,
+    "origin": "financial literacy",
+    "translation": "финансовая грамотность",
+    "transcription": "[faɪˈnænʃəl ˈlɪtərəsɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 13,
+    "origin": "foreign language",
+    "translation": "иностранный язык",
+    "transcription": "[ˈfɒrɪn ˈlæŋgwɪʤ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 14,
+    "origin": "French",
+    "translation": "Французский язык",
+    "transcription": "[frenʧ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 15,
+    "origin": "geography",
+    "translation": "география",
+    "transcription": "[ʤɪˈɒgrəfɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 16,
+    "origin": "geometry",
+    "translation": "геометрия",
+    "transcription": "[ʤɪˈɒmɪtrɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 17,
+    "origin": "German language",
+    "translation": "Немецкий язык",
+    "transcription": "[ˈʤɜːmən ˈlæŋgwɪʤ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 18,
+    "origin": "history",
+    "translation": "история",
+    "transcription": "[ˈhɪstərɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 19,
+    "origin": "home economics",
+    "translation": "домоводство",
+    "transcription": "[həʊm ekəˈnɒmɪks]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 20,
+    "origin": "Italian",
+    "translation": "Итальянский язык",
+    "transcription": "[ɪˈtælɪən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 21,
+    "origin": "jurisprudence",
+    "translation": "правоведение",
+    "transcription": "[ˈʤʊərɪspruːdəns]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 22,
+    "origin": "life safety",
+    "translation": "основы безопасности жизнедеятельности (обж)",
+    "transcription": "[laɪf ˈseɪftɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 23,
+    "origin": "literature",
+    "translation": "литература",
+    "transcription": "[ˈlɪt(ə)rəʧə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 24,
+    "origin": "local history",
+    "translation": "краеведение",
+    "transcription": "[ˈləʊkəl ˈhɪstərɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 25,
+    "origin": "mathematics",
+    "translation": "математика",
+    "transcription": "[mæθɪˈmætɪks]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 26,
+    "origin": "music",
+    "translation": "музыка",
+    "transcription": "[ˈmjuːzɪk]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 27,
+    "origin": "natural study",
+    "translation": "природоведение",
+    "transcription": "[ˈnæʧrəl ˈstʌdɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 28,
+    "origin": "painting",
+    "translation": "рисование",
+    "transcription": "[ˈpeɪntɪŋ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 29,
+    "origin": "physical culture",
+    "translation": "физкультура",
+    "transcription": "[ˈfɪzɪkəl ˈkʌlʧə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 30,
+    "origin": "physics",
+    "translation": "физика",
+    "transcription": "[ˈfɪɪzɪks]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 31,
+    "origin": "reading",
+    "translation": "чтение",
+    "transcription": "[ˈriːdɪŋ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 32,
+    "origin": "religious studies",
+    "translation": "религиоведение",
+    "transcription": "[rɪˈlɪʤəs studies]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 33,
+    "origin": "rhetoric",
+    "translation": "риторика",
+    "transcription": "[ˈretərɪk]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 34,
+    "origin": "rhythmics",
+    "translation": "ритмика",
+    "transcription": "[ˈrɪðmɪks]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 35,
+    "origin": "Russian language",
+    "translation": "Русский язык",
+    "transcription": "[rʌʃn ˈlæŋgwɪʤ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 36,
+    "origin": "social studies",
+    "translation": "обществознание",
+    "transcription": "[ˈsəʊʃəl studies]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 37,
+    "origin": "sociology",
+    "translation": "социология",
+    "transcription": "[səʊsɪˈɒləʤɪ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 38,
+    "origin": "Spanish",
+    "translation": "Испанский язык",
+    "transcription": "[ˈspænɪʃ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 39,
+    "origin": "Tatar language",
+    "translation": "Татарский язык",
+    "transcription": "[ˈtɑːtə ˈlæŋgwɪʤ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 40,
+    "origin": "technical drawing",
+    "translation": "черчение",
+    "transcription": "[ˈteknɪkəl ˈdrɔːɪŋ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 41,
+    "origin": "technology",
+    "translation": "труд (технология)",
+    "transcription": "[tekˈnɒləʤɪ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 42,
+    "origin": "the science",
+    "translation": "наука",
+    "transcription": "[ðiː ˈsaɪəns]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 43,
+    "origin": "zoology",
+    "translation": "зоология",
+    "transcription": "[zəʊˈɒləʤɪ]",
+    "image": " ",
+    "example": "  "
+  }
+]
+}

@@ -1,0 +1,556 @@
+{
+    "wordInformation":[
+  {
+    "id": 1,
+    "origin": "advanced methods",
+    "translation": "усовершенствованные методы",
+    "transcription": "[ ədˈvɑːnst ˈmeθədz ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 2,
+    "origin": "analyze",
+    "translation": "анализировать",
+    "transcription": "[ ˈænəlaɪz ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 3,
+    "origin": "ancient",
+    "translation": "древний",
+    "transcription": "[ ˈeɪnʃənt ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 4,
+    "origin": "archeologist, archaeologist",
+    "translation": "археолог",
+    "transcription": "[ ˌɑːkiˈɒlədʒɪst ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 5,
+    "origin": "archeology, archaeology",
+    "translation": "археология",
+    "transcription": "[ ˌɑːkiˈɒlədʒi ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 6,
+    "origin": "armorer",
+    "translation": "оружейник",
+    "transcription": "[ ˈɑːmərə ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 7,
+    "origin": "arrowhead",
+    "translation": "наконечник",
+    "transcription": "[ ˈærəʊhed ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 8,
+    "origin": "artisan",
+    "translation": "ремесленник",
+    "transcription": "[ ˌɑːtɪˈzæn ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 9,
+    "origin": "B. C.",
+    "translation": "до н. э.",
+    "transcription": "[ biː ] siː ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 10,
+    "origin": "bronze",
+    "translation": "бронза",
+    "transcription": "[ brɒnz ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 11,
+    "origin": "burial",
+    "translation": "захоронение",
+    "transcription": "[ ˈberɪəl ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 12,
+    "origin": "caliper",
+    "translation": "каверномер",
+    "transcription": "[ ˈkælɪpə ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 13,
+    "origin": "celestial body",
+    "translation": "небесное тело",
+    "transcription": "[ sɪˈlestɪəl ˈbɒdi ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 14,
+    "origin": "century",
+    "translation": "век",
+    "transcription": "[ ˈsentʃəri ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 15,
+    "origin": "chemical composition",
+    "translation": "химический состав",
+    "transcription": "[ ˈkemɪkəl ˌkɒmpəˈzɪʃən ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 16,
+    "origin": "chisel",
+    "translation": "долото",
+    "transcription": "[ ˈtʃɪzəl ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 17,
+    "origin": "clay",
+    "translation": "глина",
+    "transcription": "[ kleɪ ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 18,
+    "origin": "clue",
+    "translation": "ключ к разгадке",
+    "transcription": "[ kluː ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 19,
+    "origin": "compare height",
+    "translation": "сравнивать высоту",
+    "transcription": "[ kəmˈpeə haɪt ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 20,
+    "origin": "creation",
+    "translation": "создание",
+    "transcription": "[ kriːˈeɪʃən ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 21,
+    "origin": "credence",
+    "translation": "жертвенник",
+    "transcription": "[ ˈkriːdns ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 22,
+    "origin": "crossbow",
+    "translation": "арбалет",
+    "transcription": "[ ˈkrɒsbəʊ ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 23,
+    "origin": "death",
+    "translation": "гибель",
+    "transcription": "[ deθ ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 24,
+    "origin": "deduce",
+    "translation": "делать вывод",
+    "transcription": "[ dɪˈdjuːs ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 25,
+    "origin": "dig, excavate",
+    "translation": "копать",
+    "transcription": "[ dɪɡ ] [ ˈekskəveɪt ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 26,
+    "origin": "digital technologies",
+    "translation": "цифровые технологии",
+    "transcription": "[ ˈdɪdʒɪtəl tekˈnɒlədʒɪz ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 27,
+    "origin": "discover",
+    "translation": "обнаруживать",
+    "transcription": "[ dɪˈskʌvə ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 28,
+    "origin": "exhibit",
+    "translation": "экспонат",
+    "transcription": "[ ɪɡˈzɪbɪt ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 29,
+    "origin": "exploration, research",
+    "translation": "исследование",
+    "transcription": "[ ˌekspləˈreɪʃən ] [ rɪˈsɜːtʃ ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 30,
+    "origin": "halberd",
+    "translation": "алебарда",
+    "transcription": "[ ˈhælbəd ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 31,
+    "origin": "historian",
+    "translation": "историк",
+    "transcription": "[ hɪˈstɔːrɪən ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 32,
+    "origin": "hypothesize",
+    "translation": "строить гипотезу",
+    "transcription": "[ haɪˈpɑːθəˌsaɪz ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 33,
+    "origin": "imaging technology",
+    "translation": "технология изображения",
+    "transcription": "[ ˈɪmɪdʒɪŋ tekˈnɒlədʒi ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 34,
+    "origin": "initial sample",
+    "translation": "исходный образец",
+    "transcription": "[ ɪˈnɪʃəl ˈsɑːmpəl ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 35,
+    "origin": "inscriptions",
+    "translation": "надписи",
+    "transcription": "[ ɪnˈskrɪpʃənz ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 36,
+    "origin": "lance",
+    "translation": "копье",
+    "transcription": "[ lɑːns ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 37,
+    "origin": "life-size figure",
+    "translation": "фигура размером с человека",
+    "transcription": "[ ˈlaɪf saɪz ˈfɪɡə ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 38,
+    "origin": "mausoleum",
+    "translation": "мавзолей",
+    "transcription": "[ ˌmɔːsəˈliːəm ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 39,
+    "origin": "measurement",
+    "translation": "измерение",
+    "transcription": "[ ˈmeʒəmənt ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 40,
+    "origin": "member",
+    "translation": "участник",
+    "transcription": "[ ˈmembə ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 41,
+    "origin": "metal",
+    "translation": "металл",
+    "transcription": "[ ˈmetəl ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 42,
+    "origin": "mete out",
+    "translation": "отмерять",
+    "transcription": "[ miːt aʊt ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 43,
+    "origin": "mound",
+    "translation": "насыпь",
+    "transcription": "[ maʊnd ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 44,
+    "origin": "museum",
+    "translation": "музей",
+    "transcription": "[ mjuːˈzɪəm ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 45,
+    "origin": "necropolis",
+    "translation": "некрополь",
+    "transcription": "[ nɪˈkrɒpəlɪs ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 46,
+    "origin": "photograph",
+    "translation": "фотографировать",
+    "transcription": "[ ˈfəʊtəɡrɑːf ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 47,
+    "origin": "pick",
+    "translation": "кирка",
+    "transcription": "[ pɪk ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 48,
+    "origin": "pit",
+    "translation": "яма",
+    "transcription": "[ pɪt ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 49,
+    "origin": "portray",
+    "translation": "изображать",
+    "transcription": "[ pɔːˈtreɪ ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 50,
+    "origin": "preliminary finding",
+    "translation": "предварительное открытие",
+    "transcription": "[ prɪˈlɪmɪnəri ˈfaɪndɪŋ ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 51,
+    "origin": "project",
+    "translation": "проект",
+    "transcription": "[ 'prɒdʒekt ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 52,
+    "origin": "quiver",
+    "translation": "колчан",
+    "transcription": "[ ˈkwɪvə ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 53,
+    "origin": "reconstruction",
+    "translation": "реконструкция",
+    "transcription": "[ ˌriːkənˈstrʌkʃən ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 54,
+    "origin": "rediscover",
+    "translation": "открыть заново",
+    "transcription": "[ ˌriːdɪˈskʌvə ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 55,
+    "origin": "represent",
+    "translation": "символизировать",
+    "transcription": "[ ˌriːprɪˈzent ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 56,
+    "origin": "result",
+    "translation": "итог",
+    "transcription": "[ rɪˈzʌlt ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 57,
+    "origin": "statistical analysis",
+    "translation": "статистический анализ",
+    "transcription": "[ stəˈtɪstɪkəl əˈnæləsɪs ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 58,
+    "origin": "statue",
+    "translation": "статуя",
+    "transcription": "[ ˈstætʃuː ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 59,
+    "origin": "surface",
+    "translation": "поверхность",
+    "transcription": "[ ˈsɜːfɪs ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 60,
+    "origin": "sword",
+    "translation": "меч",
+    "transcription": "[ sɔːd ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 61,
+    "origin": "technology",
+    "translation": "техника",
+    "transcription": "[ tekˈnɒlədʒi ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 62,
+    "origin": "terra-cotta",
+    "translation": "терракота",
+    "transcription": "[ ˌterə ˈkɒtə ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 63,
+    "origin": "three-dimensional",
+    "translation": "трёхмерный",
+    "transcription": "[ ˌθriː dɪˈmenʃnəl ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 64,
+    "origin": "tomb",
+    "translation": "гробница",
+    "transcription": "[ tuːm ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 65,
+    "origin": "treasure",
+    "translation": "сокровище",
+    "transcription": "[ ˈtreʒə ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 66,
+    "origin": "trigger",
+    "translation": "триггер",
+    "transcription": "[ ˈtrɪɡə ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 67,
+    "origin": "vantage point",
+    "translation": "пункт наблюдения",
+    "transcription": "[ ˈvɑːntɪdʒ pɔɪnt ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 68,
+    "origin": "weapon",
+    "translation": "оружие",
+    "transcription": "[ ˈwepən ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 69,
+    "origin": "were modeled",
+    "translation": "были смоделированы",
+    "transcription": "[ wə ˈmɑːdəld ]",
+    "image": " ",
+    "example": " "
+  }
+    ]
+  }

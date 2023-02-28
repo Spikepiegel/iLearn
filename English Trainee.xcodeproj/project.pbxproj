@@ -12,10 +12,60 @@
 		3130D816299AC27300BF6041 /* MainTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3130D815299AC27300BF6041 /* MainTabVC.swift */; };
 		31B435F529A9557D00EFEA90 /* SelectedThemeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B435F429A9557D00EFEA90 /* SelectedThemeCell.swift */; };
 		31C903F329AD314300D9B615 /* Animals.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C903EE29AD314300D9B615 /* Animals.json */; };
-		31C903F429AD314300D9B615 /* Basic Words.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C903EF29AD314300D9B615 /* Basic Words.json */; };
 		31C903F529AD314300D9B615 /* Themes.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C903F029AD314300D9B615 /* Themes.json */; };
 		31C903F629AD314300D9B615 /* Appearance.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C903F129AD314300D9B615 /* Appearance.json */; };
 		31C903F729AD314300D9B615 /* Anatomy.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C903F229AD314300D9B615 /* Anatomy.json */; };
+		31C903F929AD4DBF00D9B615 /* Archeology.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C903F829AD4DBF00D9B615 /* Archeology.json */; };
+		31C903FB29AD4F2000D9B615 /* Architecture.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C903FA29AD4F1F00D9B615 /* Architecture.json */; };
+		31C903FD29ADEF4000D9B615 /* Art.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C903FC29ADEF4000D9B615 /* Art.json */; };
+		31C903FF29ADFC0F00D9B615 /* Aviation.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C903FE29ADFC0F00D9B615 /* Aviation.json */; };
+		31C9040329AE061800D9B615 /* Basic words.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9040229AE061800D9B615 /* Basic words.json */; };
+		31C9040929AE348900D9B615 /* Berries.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9040829AE348900D9B615 /* Berries.json */; };
+		31C9040B29AE499E00D9B615 /* Body.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9040A29AE499D00D9B615 /* Body.json */; };
+		31C9040D29AE585400D9B615 /* Business.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9040C29AE585400D9B615 /* Business.json */; };
+		31C9040F29AE5EE600D9B615 /* Career.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9040E29AE5EE600D9B615 /* Career.json */; };
+		31C9041129AE602900D9B615 /* City.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9041029AE602800D9B615 /* City.json */; };
+		31C9041329AE659200D9B615 /* Clothes.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9041229AE659200D9B615 /* Clothes.json */; };
+		31C9041529AE67A900D9B615 /* Colors.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9041429AE67A800D9B615 /* Colors.json */; };
+		31C9041729AE6A9F00D9B615 /* Computer.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9041629AE6A9F00D9B615 /* Computer.json */; };
+		31C9041929AE6D6300D9B615 /* Diseases.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9041829AE6D6300D9B615 /* Diseases.json */; };
+		31C9041B29AE6F8000D9B615 /* Drinks.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9041A29AE6F8000D9B615 /* Drinks.json */; };
+		31C9041D29AE71AD00D9B615 /* Economics.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9041C29AE71AD00D9B615 /* Economics.json */; };
+		31C9041F29AE725700D9B615 /* Emotions and Feelings.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9041E29AE725700D9B615 /* Emotions and Feelings.json */; };
+		31C9042129AE731300D9B615 /* Family.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9042029AE731300D9B615 /* Family.json */; };
+		31C9042329AE739400D9B615 /* Fish.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9042229AE739400D9B615 /* Fish.json */; };
+		31C9042529AE743500D9B615 /* Food.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9042429AE743500D9B615 /* Food.json */; };
+		31C9042729AE74C900D9B615 /* Furniture.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9042629AE74C900D9B615 /* Furniture.json */; };
+		31C9042929AE761800D9B615 /* Geography.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9042829AE761800D9B615 /* Geography.json */; };
+		31C9042B29AE790600D9B615 /* Geometry.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9042A29AE790600D9B615 /* Geometry.json */; };
+		31C9042D29AE7B3400D9B615 /* Halloween.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9042C29AE7B3400D9B615 /* Halloween.json */; };
+		31C9042F29AE7C4900D9B615 /* Health.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9042E29AE7C4900D9B615 /* Health.json */; };
+		31C9043129AE7CD100D9B615 /* Hobbies.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9043029AE7CD100D9B615 /* Hobbies.json */; };
+		31C9043329AE7D2C00D9B615 /* Home.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9043229AE7D2C00D9B615 /* Home.json */; };
+		31C9043529AE7E6A00D9B615 /* Kitchen.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9043429AE7E6A00D9B615 /* Kitchen.json */; };
+		31C9043729AE7EE000D9B615 /* Law.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9043629AE7EE000D9B615 /* Law.json */; };
+		31C9043929AE7F6B00D9B615 /* Literature.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9043829AE7F6B00D9B615 /* Literature.json */; };
+		31C9043B29AE7FEA00D9B615 /* Mathematics.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9043A29AE7FEA00D9B615 /* Mathematics.json */; };
+		31C9043D29AE813E00D9B615 /* Money.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9043C29AE813E00D9B615 /* Money.json */; };
+		31C9043F29AE823100D9B615 /* Months.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9043E29AE823100D9B615 /* Months.json */; };
+		31C9044129AE857900D9B615 /* Movie.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9044029AE857900D9B615 /* Movie.json */; };
+		31C9044329AE865000D9B615 /* Music.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9044229AE865000D9B615 /* Music.json */; };
+		31C9044529AE879000D9B615 /* New Year.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9044429AE879000D9B615 /* New Year.json */; };
+		31C9044729AE89A200D9B615 /* Numerals.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9044629AE89A200D9B615 /* Numerals.json */; };
+		31C9044929AE8A2100D9B615 /* Personality.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9044829AE8A2000D9B615 /* Personality.json */; };
+		31C9044B29AE8AF900D9B615 /* School Subjects.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9044A29AE8AF900D9B615 /* School Subjects.json */; };
+		31C9044D29AE8C1000D9B615 /* Space.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9044C29AE8C1000D9B615 /* Space.json */; };
+		31C9044F29AE8C9800D9B615 /* Sport.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9044E29AE8C9800D9B615 /* Sport.json */; };
+		31C9045129AE8EBD00D9B615 /* Summer.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9045029AE8EBD00D9B615 /* Summer.json */; };
+		31C9045329AE8FA200D9B615 /* Tastes.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9045229AE8FA200D9B615 /* Tastes.json */; };
+		31C9045529AE900600D9B615 /* Time.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9045429AE900600D9B615 /* Time.json */; };
+		31C9045729AE935F00D9B615 /* Travelling.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9045629AE935F00D9B615 /* Travelling.json */; };
+		31C9045929AE947700D9B615 /* Vegetables.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9045829AE947700D9B615 /* Vegetables.json */; };
+		31C9045B29AE95A700D9B615 /* Weather.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9045A29AE95A700D9B615 /* Weather.json */; };
+		31C9045D29AE95F900D9B615 /* Weekday.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9045C29AE95F900D9B615 /* Weekday.json */; };
+		31C9045F29AE991600D9B615 /* Work.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9045E29AE991600D9B615 /* Work.json */; };
+		31C9046129AE9CF800D9B615 /* Politics.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9046029AE9CF800D9B615 /* Politics.json */; };
+		31C9046329AE9D6800D9B615 /* Professions.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9046229AE9D6800D9B615 /* Professions.json */; };
 		31F005EB29A0163C0097C22E /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F005EA29A0163C0097C22E /* CategoriesVC.swift */; };
 		31F005ED29A2134E0097C22E /* CategoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F005EC29A2134E0097C22E /* CategoriesCell.swift */; };
 		31F005F029A510820097C22E /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F005EF29A510820097C22E /* UIColorExtension.swift */; };
@@ -38,10 +88,60 @@
 		3130D815299AC27300BF6041 /* MainTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabVC.swift; sourceTree = "<group>"; };
 		31B435F429A9557D00EFEA90 /* SelectedThemeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedThemeCell.swift; sourceTree = "<group>"; };
 		31C903EE29AD314300D9B615 /* Animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Animals.json; path = Jsons/Animals.json; sourceTree = SOURCE_ROOT; };
-		31C903EF29AD314300D9B615 /* Basic Words.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "Basic Words.json"; path = "Jsons/Basic Words.json"; sourceTree = SOURCE_ROOT; };
 		31C903F029AD314300D9B615 /* Themes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Themes.json; path = Jsons/Themes.json; sourceTree = SOURCE_ROOT; };
 		31C903F129AD314300D9B615 /* Appearance.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Appearance.json; path = Jsons/Appearance.json; sourceTree = SOURCE_ROOT; };
 		31C903F229AD314300D9B615 /* Anatomy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Anatomy.json; path = Jsons/Anatomy.json; sourceTree = SOURCE_ROOT; };
+		31C903F829AD4DBF00D9B615 /* Archeology.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Archeology.json; path = Jsons/Archeology.json; sourceTree = SOURCE_ROOT; };
+		31C903FA29AD4F1F00D9B615 /* Architecture.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Architecture.json; path = Jsons/Architecture.json; sourceTree = SOURCE_ROOT; };
+		31C903FC29ADEF4000D9B615 /* Art.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Art.json; path = Jsons/Art.json; sourceTree = SOURCE_ROOT; };
+		31C903FE29ADFC0F00D9B615 /* Aviation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Aviation.json; path = Jsons/Aviation.json; sourceTree = SOURCE_ROOT; };
+		31C9040229AE061800D9B615 /* Basic words.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "Basic words.json"; path = "Jsons/Basic words.json"; sourceTree = SOURCE_ROOT; };
+		31C9040829AE348900D9B615 /* Berries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Berries.json; path = Jsons/Berries.json; sourceTree = SOURCE_ROOT; };
+		31C9040A29AE499D00D9B615 /* Body.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Body.json; path = Jsons/Body.json; sourceTree = SOURCE_ROOT; };
+		31C9040C29AE585400D9B615 /* Business.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Business.json; path = Jsons/Business.json; sourceTree = SOURCE_ROOT; };
+		31C9040E29AE5EE600D9B615 /* Career.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Career.json; path = Jsons/Career.json; sourceTree = SOURCE_ROOT; };
+		31C9041029AE602800D9B615 /* City.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = City.json; path = Jsons/City.json; sourceTree = SOURCE_ROOT; };
+		31C9041229AE659200D9B615 /* Clothes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Clothes.json; path = Jsons/Clothes.json; sourceTree = SOURCE_ROOT; };
+		31C9041429AE67A800D9B615 /* Colors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Colors.json; path = Jsons/Colors.json; sourceTree = SOURCE_ROOT; };
+		31C9041629AE6A9F00D9B615 /* Computer.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Computer.json; path = Jsons/Computer.json; sourceTree = SOURCE_ROOT; };
+		31C9041829AE6D6300D9B615 /* Diseases.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Diseases.json; path = Jsons/Diseases.json; sourceTree = SOURCE_ROOT; };
+		31C9041A29AE6F8000D9B615 /* Drinks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Drinks.json; path = Jsons/Drinks.json; sourceTree = SOURCE_ROOT; };
+		31C9041C29AE71AD00D9B615 /* Economics.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Economics.json; path = Jsons/Economics.json; sourceTree = SOURCE_ROOT; };
+		31C9041E29AE725700D9B615 /* Emotions and Feelings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "Emotions and Feelings.json"; path = "Jsons/Emotions and Feelings.json"; sourceTree = SOURCE_ROOT; };
+		31C9042029AE731300D9B615 /* Family.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Family.json; path = Jsons/Family.json; sourceTree = SOURCE_ROOT; };
+		31C9042229AE739400D9B615 /* Fish.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Fish.json; path = Jsons/Fish.json; sourceTree = SOURCE_ROOT; };
+		31C9042429AE743500D9B615 /* Food.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Food.json; path = Jsons/Food.json; sourceTree = SOURCE_ROOT; };
+		31C9042629AE74C900D9B615 /* Furniture.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Furniture.json; path = Jsons/Furniture.json; sourceTree = SOURCE_ROOT; };
+		31C9042829AE761800D9B615 /* Geography.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Geography.json; path = Jsons/Geography.json; sourceTree = SOURCE_ROOT; };
+		31C9042A29AE790600D9B615 /* Geometry.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Geometry.json; path = Jsons/Geometry.json; sourceTree = SOURCE_ROOT; };
+		31C9042C29AE7B3400D9B615 /* Halloween.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Halloween.json; path = Jsons/Halloween.json; sourceTree = SOURCE_ROOT; };
+		31C9042E29AE7C4900D9B615 /* Health.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Health.json; path = Jsons/Health.json; sourceTree = SOURCE_ROOT; };
+		31C9043029AE7CD100D9B615 /* Hobbies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Hobbies.json; path = Jsons/Hobbies.json; sourceTree = SOURCE_ROOT; };
+		31C9043229AE7D2C00D9B615 /* Home.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Home.json; path = Jsons/Home.json; sourceTree = SOURCE_ROOT; };
+		31C9043429AE7E6A00D9B615 /* Kitchen.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Kitchen.json; path = Jsons/Kitchen.json; sourceTree = SOURCE_ROOT; };
+		31C9043629AE7EE000D9B615 /* Law.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Law.json; path = Jsons/Law.json; sourceTree = SOURCE_ROOT; };
+		31C9043829AE7F6B00D9B615 /* Literature.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Literature.json; path = Jsons/Literature.json; sourceTree = SOURCE_ROOT; };
+		31C9043A29AE7FEA00D9B615 /* Mathematics.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Mathematics.json; path = Jsons/Mathematics.json; sourceTree = SOURCE_ROOT; };
+		31C9043C29AE813E00D9B615 /* Money.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Money.json; path = Jsons/Money.json; sourceTree = SOURCE_ROOT; };
+		31C9043E29AE823100D9B615 /* Months.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Months.json; path = Jsons/Months.json; sourceTree = SOURCE_ROOT; };
+		31C9044029AE857900D9B615 /* Movie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Movie.json; path = Jsons/Movie.json; sourceTree = SOURCE_ROOT; };
+		31C9044229AE865000D9B615 /* Music.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Music.json; path = Jsons/Music.json; sourceTree = SOURCE_ROOT; };
+		31C9044429AE879000D9B615 /* New Year.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "New Year.json"; path = "Jsons/New Year.json"; sourceTree = SOURCE_ROOT; };
+		31C9044629AE89A200D9B615 /* Numerals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Numerals.json; path = Jsons/Numerals.json; sourceTree = SOURCE_ROOT; };
+		31C9044829AE8A2000D9B615 /* Personality.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Personality.json; path = Jsons/Personality.json; sourceTree = SOURCE_ROOT; };
+		31C9044A29AE8AF900D9B615 /* School Subjects.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "School Subjects.json"; path = "Jsons/School Subjects.json"; sourceTree = SOURCE_ROOT; };
+		31C9044C29AE8C1000D9B615 /* Space.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Space.json; path = Jsons/Space.json; sourceTree = SOURCE_ROOT; };
+		31C9044E29AE8C9800D9B615 /* Sport.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Sport.json; path = Jsons/Sport.json; sourceTree = SOURCE_ROOT; };
+		31C9045029AE8EBD00D9B615 /* Summer.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Summer.json; path = Jsons/Summer.json; sourceTree = SOURCE_ROOT; };
+		31C9045229AE8FA200D9B615 /* Tastes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Tastes.json; path = Jsons/Tastes.json; sourceTree = SOURCE_ROOT; };
+		31C9045429AE900600D9B615 /* Time.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Time.json; path = Jsons/Time.json; sourceTree = SOURCE_ROOT; };
+		31C9045629AE935F00D9B615 /* Travelling.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Travelling.json; path = Jsons/Travelling.json; sourceTree = SOURCE_ROOT; };
+		31C9045829AE947700D9B615 /* Vegetables.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Vegetables.json; path = Jsons/Vegetables.json; sourceTree = SOURCE_ROOT; };
+		31C9045A29AE95A700D9B615 /* Weather.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Weather.json; path = Jsons/Weather.json; sourceTree = SOURCE_ROOT; };
+		31C9045C29AE95F900D9B615 /* Weekday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Weekday.json; path = Jsons/Weekday.json; sourceTree = SOURCE_ROOT; };
+		31C9045E29AE991600D9B615 /* Work.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Work.json; path = Jsons/Work.json; sourceTree = SOURCE_ROOT; };
+		31C9046029AE9CF800D9B615 /* Politics.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Politics.json; path = Jsons/Politics.json; sourceTree = SOURCE_ROOT; };
+		31C9046229AE9D6800D9B615 /* Professions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Professions.json; path = Jsons/Professions.json; sourceTree = SOURCE_ROOT; };
 		31F005EA29A0163C0097C22E /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
 		31F005EC29A2134E0097C22E /* CategoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCell.swift; sourceTree = "<group>"; };
 		31F005EF29A510820097C22E /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
@@ -98,7 +198,57 @@
 				31C903F229AD314300D9B615 /* Anatomy.json */,
 				31C903EE29AD314300D9B615 /* Animals.json */,
 				31C903F129AD314300D9B615 /* Appearance.json */,
-				31C903EF29AD314300D9B615 /* Basic Words.json */,
+				31C903F829AD4DBF00D9B615 /* Archeology.json */,
+				31C903FA29AD4F1F00D9B615 /* Architecture.json */,
+				31C903FC29ADEF4000D9B615 /* Art.json */,
+				31C903FE29ADFC0F00D9B615 /* Aviation.json */,
+				31C9040229AE061800D9B615 /* Basic words.json */,
+				31C9040829AE348900D9B615 /* Berries.json */,
+				31C9040A29AE499D00D9B615 /* Body.json */,
+				31C9040C29AE585400D9B615 /* Business.json */,
+				31C9040E29AE5EE600D9B615 /* Career.json */,
+				31C9041029AE602800D9B615 /* City.json */,
+				31C9041229AE659200D9B615 /* Clothes.json */,
+				31C9041429AE67A800D9B615 /* Colors.json */,
+				31C9041629AE6A9F00D9B615 /* Computer.json */,
+				31C9041829AE6D6300D9B615 /* Diseases.json */,
+				31C9041A29AE6F8000D9B615 /* Drinks.json */,
+				31C9041C29AE71AD00D9B615 /* Economics.json */,
+				31C9041E29AE725700D9B615 /* Emotions and Feelings.json */,
+				31C9042029AE731300D9B615 /* Family.json */,
+				31C9042229AE739400D9B615 /* Fish.json */,
+				31C9042429AE743500D9B615 /* Food.json */,
+				31C9042629AE74C900D9B615 /* Furniture.json */,
+				31C9042829AE761800D9B615 /* Geography.json */,
+				31C9042A29AE790600D9B615 /* Geometry.json */,
+				31C9042C29AE7B3400D9B615 /* Halloween.json */,
+				31C9042E29AE7C4900D9B615 /* Health.json */,
+				31C9043029AE7CD100D9B615 /* Hobbies.json */,
+				31C9043229AE7D2C00D9B615 /* Home.json */,
+				31C9043429AE7E6A00D9B615 /* Kitchen.json */,
+				31C9043629AE7EE000D9B615 /* Law.json */,
+				31C9043829AE7F6B00D9B615 /* Literature.json */,
+				31C9043A29AE7FEA00D9B615 /* Mathematics.json */,
+				31C9043C29AE813E00D9B615 /* Money.json */,
+				31C9043E29AE823100D9B615 /* Months.json */,
+				31C9044029AE857900D9B615 /* Movie.json */,
+				31C9044229AE865000D9B615 /* Music.json */,
+				31C9044429AE879000D9B615 /* New Year.json */,
+				31C9044629AE89A200D9B615 /* Numerals.json */,
+				31C9044829AE8A2000D9B615 /* Personality.json */,
+				31C9046029AE9CF800D9B615 /* Politics.json */,
+				31C9046229AE9D6800D9B615 /* Professions.json */,
+				31C9044A29AE8AF900D9B615 /* School Subjects.json */,
+				31C9044C29AE8C1000D9B615 /* Space.json */,
+				31C9044E29AE8C9800D9B615 /* Sport.json */,
+				31C9045029AE8EBD00D9B615 /* Summer.json */,
+				31C9045229AE8FA200D9B615 /* Tastes.json */,
+				31C9045429AE900600D9B615 /* Time.json */,
+				31C9045629AE935F00D9B615 /* Travelling.json */,
+				31C9045829AE947700D9B615 /* Vegetables.json */,
+				31C9045A29AE95A700D9B615 /* Weather.json */,
+				31C9045C29AE95F900D9B615 /* Weekday.json */,
+				31C9045E29AE991600D9B615 /* Work.json */,
 				31C903F029AD314300D9B615 /* Themes.json */,
 			);
 			path = "Additional Files";
@@ -272,14 +422,64 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31C903F429AD314300D9B615 /* Basic Words.json in Resources */,
+				31C9043729AE7EE000D9B615 /* Law.json in Resources */,
+				31C9041929AE6D6300D9B615 /* Diseases.json in Resources */,
+				31C9043129AE7CD100D9B615 /* Hobbies.json in Resources */,
+				31C9046129AE9CF800D9B615 /* Politics.json in Resources */,
+				31C903FF29ADFC0F00D9B615 /* Aviation.json in Resources */,
+				31C9042729AE74C900D9B615 /* Furniture.json in Resources */,
+				31C9040329AE061800D9B615 /* Basic words.json in Resources */,
+				31C903FB29AD4F2000D9B615 /* Architecture.json in Resources */,
+				31C9042B29AE790600D9B615 /* Geometry.json in Resources */,
+				31C9045D29AE95F900D9B615 /* Weekday.json in Resources */,
+				31C9044729AE89A200D9B615 /* Numerals.json in Resources */,
+				31C9043B29AE7FEA00D9B615 /* Mathematics.json in Resources */,
+				31C9044929AE8A2100D9B615 /* Personality.json in Resources */,
+				31C9040B29AE499E00D9B615 /* Body.json in Resources */,
 				31FB991F2985956400FC1DF6 /* LaunchScreen.storyboard in Resources */,
+				31C9041B29AE6F8000D9B615 /* Drinks.json in Resources */,
+				31C9042F29AE7C4900D9B615 /* Health.json in Resources */,
+				31C9041129AE602900D9B615 /* City.json in Resources */,
+				31C9043329AE7D2C00D9B615 /* Home.json in Resources */,
+				31C9041F29AE725700D9B615 /* Emotions and Feelings.json in Resources */,
+				31C9044129AE857900D9B615 /* Movie.json in Resources */,
+				31C9040F29AE5EE600D9B615 /* Career.json in Resources */,
+				31C9042529AE743500D9B615 /* Food.json in Resources */,
 				31C903F329AD314300D9B615 /* Animals.json in Resources */,
+				31C9045B29AE95A700D9B615 /* Weather.json in Resources */,
+				31C9044529AE879000D9B615 /* New Year.json in Resources */,
+				31C9040929AE348900D9B615 /* Berries.json in Resources */,
+				31C9043D29AE813E00D9B615 /* Money.json in Resources */,
+				31C903F929AD4DBF00D9B615 /* Archeology.json in Resources */,
+				31C903FD29ADEF4000D9B615 /* Art.json in Resources */,
+				31C9044B29AE8AF900D9B615 /* School Subjects.json in Resources */,
+				31C9040D29AE585400D9B615 /* Business.json in Resources */,
+				31C9043529AE7E6A00D9B615 /* Kitchen.json in Resources */,
+				31C9042D29AE7B3400D9B615 /* Halloween.json in Resources */,
+				31C9045329AE8FA200D9B615 /* Tastes.json in Resources */,
 				31C903F529AD314300D9B615 /* Themes.json in Resources */,
 				31F9BCB829A7732700C913AE /* Assets.xcassets in Resources */,
+				31C9041529AE67A900D9B615 /* Colors.json in Resources */,
+				31C9043929AE7F6B00D9B615 /* Literature.json in Resources */,
+				31C9045529AE900600D9B615 /* Time.json in Resources */,
 				31C903F729AD314300D9B615 /* Anatomy.json in Resources */,
+				31C9046329AE9D6800D9B615 /* Professions.json in Resources */,
+				31C9042329AE739400D9B615 /* Fish.json in Resources */,
+				31C9045129AE8EBD00D9B615 /* Summer.json in Resources */,
+				31C9041729AE6A9F00D9B615 /* Computer.json in Resources */,
 				31C903F629AD314300D9B615 /* Appearance.json in Resources */,
+				31C9045F29AE991600D9B615 /* Work.json in Resources */,
+				31C9042929AE761800D9B615 /* Geography.json in Resources */,
+				31C9045929AE947700D9B615 /* Vegetables.json in Resources */,
+				31C9041329AE659200D9B615 /* Clothes.json in Resources */,
+				31C9043F29AE823100D9B615 /* Months.json in Resources */,
+				31C9044F29AE8C9800D9B615 /* Sport.json in Resources */,
 				31FB991A2985956200FC1DF6 /* Main.storyboard in Resources */,
+				31C9045729AE935F00D9B615 /* Travelling.json in Resources */,
+				31C9041D29AE71AD00D9B615 /* Economics.json in Resources */,
+				31C9044D29AE8C1000D9B615 /* Space.json in Resources */,
+				31C9042129AE731300D9B615 /* Family.json in Resources */,
+				31C9044329AE865000D9B615 /* Music.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

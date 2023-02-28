@@ -1,0 +1,276 @@
+{
+"wordInformation":[
+  {
+    "id": 1,
+    "origin": "ancestor",
+    "translation": "предок",
+    "transcription": "['ænsıstə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 2,
+    "origin": "aunt",
+    "translation": "тетя",
+    "transcription": "[ʌ::nt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 3,
+    "origin": "brother",
+    "translation": "брат",
+    "transcription": "['brʌðə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 4,
+    "origin": "brother-in-law",
+    "translation": "шурин, деверь",
+    "transcription": "[ˈbrʌðəınlɔ:]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 5,
+    "origin": "child",
+    "translation": "ребенок, дитя",
+    "transcription": "[ʧaıld]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 6,
+    "origin": "children",
+    "translation": "дети",
+    "transcription": "['tʃıldrən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 7,
+    "origin": "cousin",
+    "translation": "двоюродный брат, кузен, двоюродная сестра, кузина",
+    "transcription": "['kʌzn]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 8,
+    "origin": "daughter",
+    "translation": "дочь",
+    "transcription": "['dɔ:tə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 9,
+    "origin": "daughter-in-law",
+    "translation": "жена сына, невестка, сноха",
+    "transcription": "[ˈdɔ:təınlɔ:]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 10,
+    "origin": "descendant",
+    "translation": "потомок",
+    "transcription": "[dı'sendənt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 11,
+    "origin": "family",
+    "translation": "семья",
+    "transcription": "['fæmılı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 12,
+    "origin": "father",
+    "translation": "папа",
+    "transcription": "['fʌ:ðə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 13,
+    "origin": "father-in-law",
+    "translation": "свекор(отец мужа), тесть(отец жены)",
+    "transcription": "[ˈfɑ:ðəınlɔ:]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 14,
+    "origin": "grandchild",
+    "translation": "внук, внучка",
+    "transcription": "['græntʃaıld]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 15,
+    "origin": "granddaughter",
+    "translation": "внучка",
+    "transcription": "['græn,dɔ:tə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 16,
+    "origin": "grandfather",
+    "translation": "дедушка",
+    "transcription": "['grænd,fʌ:ðə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 17,
+    "origin": "grandmother",
+    "translation": "бабушка",
+    "transcription": "['græn,mʌðə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 18,
+    "origin": "grandparents",
+    "translation": "дедушка и бабушка",
+    "transcription": "['græn,ˈpɛərənt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 19,
+    "origin": "grandson",
+    "translation": "внук",
+    "transcription": "['grænsʌn]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 20,
+    "origin": "husband",
+    "translation": "муж, супруг",
+    "transcription": "['hʌzbənd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 21,
+    "origin": "man",
+    "translation": "человек",
+    "transcription": "[mæn]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 22,
+    "origin": "mother",
+    "translation": "мама",
+    "transcription": "['mʌðə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 23,
+    "origin": "mother-in-law",
+    "translation": "теща; свекровь",
+    "transcription": "['mʌðərınlɔ:]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 24,
+    "origin": "nephew",
+    "translation": "племянник",
+    "transcription": "['nevju:]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 25,
+    "origin": "niece",
+    "translation": "племянница",
+    "transcription": "[nı:s]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 26,
+    "origin": "parent",
+    "translation": "родитель",
+    "transcription": "['pɜərənt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 27,
+    "origin": "relative",
+    "translation": "родственник; родственница",
+    "transcription": "['relətıv]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 28,
+    "origin": "second cousin",
+    "translation": "троюродный брат, троюродная сестра",
+    "transcription": "['sek(ə)nd,ˈkʌzn]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 29,
+    "origin": "sister",
+    "translation": "сестра",
+    "transcription": "['sıstə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 30,
+    "origin": "sister-in-law",
+    "translation": "невестка; золовка; свояченица",
+    "transcription": "['sıstəınlɔ:]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 31,
+    "origin": "son",
+    "translation": "сын",
+    "transcription": "[sʌn]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 32,
+    "origin": "uncle",
+    "translation": "дядя",
+    "transcription": "['ʌŋkl]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 33,
+    "origin": "wife",
+    "translation": "жена, супруга",
+    "transcription": "[waıf]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 34,
+    "origin": "youngster",
+    "translation": "ребенок, юнец",
+    "transcription": "['jʌŋstə]",
+    "image": " ",
+    "example": "  "
+  }
+]
+}

@@ -1,0 +1,396 @@
+{
+"wordInformation":[
+  {
+    "id": 1,
+    "origin": "ankle",
+    "translation": "лодыжка",
+    "transcription": "[‘æŋkl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 2,
+    "origin": "arm",
+    "translation": "рука",
+    "transcription": "[ɑːm]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 3,
+    "origin": "back",
+    "translation": "спина",
+    "transcription": "[bæk]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 4,
+    "origin": "bald",
+    "translation": "лысый",
+    "transcription": "[bɔːld]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 5,
+    "origin": "beard",
+    "translation": "борода",
+    "transcription": "[bɪəd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 6,
+    "origin": "body",
+    "translation": "тело",
+    "transcription": "[‘bɔdɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 7,
+    "origin": "bottom",
+    "translation": "зад",
+    "transcription": "[‘bɔtəm]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 8,
+    "origin": "calf (calves)",
+    "translation": "икра (икры ног)",
+    "transcription": "[kɑːf] [kɑːvz]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 9,
+    "origin": "cheek",
+    "translation": "щека",
+    "transcription": "[ʧiːk]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 10,
+    "origin": "chest",
+    "translation": "грудная клетка",
+    "transcription": "[ʧest]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 11,
+    "origin": "chin",
+    "translation": "подбородок",
+    "transcription": "[ʧɪn]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 12,
+    "origin": "elbow",
+    "translation": "локоть",
+    "transcription": "[‘elbəu]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 13,
+    "origin": "eye(s)",
+    "translation": "глаз, глаза",
+    "transcription": "[aɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 14,
+    "origin": "eyebrow",
+    "translation": "бровь",
+    "transcription": "[‘aɪbrau]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 15,
+    "origin": "eyelash",
+    "translation": "ресница",
+    "transcription": "[‘aɪlæʃ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 16,
+    "origin": "eyelid",
+    "translation": "веко",
+    "transcription": "[‘aɪlɪd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 17,
+    "origin": "face",
+    "translation": "лицо",
+    "transcription": "[feɪs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 18,
+    "origin": "fingernail",
+    "translation": "ноготь",
+    "transcription": "[‘fɪŋgəneɪl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 19,
+    "origin": "foot (feet)",
+    "translation": "ступня (ступни)",
+    "transcription": "[fut] [fiːt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 20,
+    "origin": "forehead",
+    "translation": "лоб",
+    "transcription": "[‘fɔːhed]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 21,
+    "origin": "hair",
+    "translation": "волосы",
+    "transcription": "[heə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 22,
+    "origin": "hairy",
+    "translation": "волосатый",
+    "transcription": "[‘heərɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 23,
+    "origin": "hand",
+    "translation": "рука (кисть)",
+    "transcription": "[hænd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 24,
+    "origin": "head",
+    "translation": "голова",
+    "transcription": "[hed]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 25,
+    "origin": "heel",
+    "translation": "пятка",
+    "transcription": "[hiːl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 26,
+    "origin": "index finger",
+    "translation": "указательный палец",
+    "transcription": "[‘ɪndeks ‘fɪŋgə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 27,
+    "origin": "knee",
+    "translation": "колено",
+    "transcription": "[niː]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 28,
+    "origin": "leg",
+    "translation": "нога",
+    "transcription": "[leg]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 29,
+    "origin": "lip(s)",
+    "translation": "губа, губы",
+    "transcription": "[lɪp]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 30,
+    "origin": "little finger",
+    "translation": "мизинец",
+    "transcription": "[‘lɪtl ‘fɪŋgə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 31,
+    "origin": "man",
+    "translation": "человек, мужчина",
+    "transcription": "[mæn]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 32,
+    "origin": "middle finger",
+    "translation": "средний палец",
+    "transcription": "[‘mɪdl ‘fɪŋgə]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 33,
+    "origin": "moustache",
+    "translation": "усы",
+    "transcription": "[mə’stɑːʃ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 34,
+    "origin": "mouth",
+    "translation": "рот",
+    "transcription": "[mauθ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 35,
+    "origin": "neck",
+    "translation": "шея",
+    "transcription": "[nek]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 36,
+    "origin": "nose",
+    "translation": "нос",
+    "transcription": "[nəuz]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 37,
+    "origin": "pupil",
+    "translation": "зрачок",
+    "transcription": "[‘pjuːp(ə)l]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 38,
+    "origin": "ring finger",
+    "translation": "безымянный палец",
+    "transcription": "[rɪŋ ‘fɪŋgə]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 39,
+    "origin": "shin",
+    "translation": "голень",
+    "transcription": "[ʃɪn]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 40,
+    "origin": "shoulder",
+    "translation": "плечо",
+    "transcription": "[‘ʃəuldə]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 41,
+    "origin": "stomach",
+    "translation": "живот, желудок",
+    "transcription": "[‘stʌmək]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 42,
+    "origin": "thigh",
+    "translation": "бедро",
+    "transcription": "[θaɪ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 43,
+    "origin": "thumb",
+    "translation": "большой палец",
+    "transcription": "[θʌm]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 44,
+    "origin": "toe",
+    "translation": "палец ноги",
+    "transcription": "[təu]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 45,
+    "origin": "toenail",
+    "translation": "ноготь на пальце ноги",
+    "transcription": "[‘təuneɪl]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 46,
+    "origin": "tongue",
+    "translation": "язык",
+    "transcription": "[tʌŋ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 47,
+    "origin": "tooth (teeth)",
+    "translation": "зуб, зубы",
+    "transcription": "[tuːθ] [tiːθ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 48,
+    "origin": "waist",
+    "translation": "талия",
+    "transcription": "[weɪst]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 49,
+    "origin": "woman",
+    "translation": "женщина",
+    "transcription": "[‘wumən]",
+    "image": " ",
+    "example": " "
+  }
+]
+}

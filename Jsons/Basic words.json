@@ -1,0 +1,796 @@
+{
+"wordInformation":[
+  {
+    "id": 1,
+    "origin": "be",
+    "translation": " «быть», «существовать», но обычно не переводится",
+    "transcription": "[biː]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 2,
+    "origin": "a",
+    "translation": "неопределённый артикль: не переводится",
+    "transcription": "[ə]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 3,
+    "origin": "about",
+    "translation": "около",
+    "transcription": "[əˈbaʊt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 4,
+    "origin": "after",
+    "translation": "после",
+    "transcription": "[ˈɑːftə(r)]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 5,
+    "origin": "all",
+    "translation": "все",
+    "transcription": "[ɔːl]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 6,
+    "origin": "also",
+    "translation": "тоже, также",
+    "transcription": "[ˈɔːlsəʊ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 7,
+    "origin": "an",
+    "translation": "неопределённый артикль: не переводится",
+    "transcription": "[æn]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 8,
+    "origin": "and",
+    "translation": "и",
+    "transcription": "[ænd]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 9,
+    "origin": "any",
+    "translation": "любой, сколько-нибудь",
+    "transcription": "[ˈeni]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 10,
+    "origin": "as",
+    "translation": "как",
+    "transcription": "[æz]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 11,
+    "origin": "at",
+    "translation": "у",
+    "transcription": "[æt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 12,
+    "origin": "back",
+    "translation": "назад",
+    "transcription": "[bæk]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 13,
+    "origin": "because",
+    "translation": "потому что",
+    "transcription": "[bɪˈkɒz]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 14,
+    "origin": "but",
+    "translation": "но",
+    "transcription": "[bʌt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 15,
+    "origin": "by",
+    "translation": "при",
+    "transcription": "[baɪ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 16,
+    "origin": "can",
+    "translation": "мочь",
+    "transcription": "[kæn]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 17,
+    "origin": "come",
+    "translation": "приходить",
+    "transcription": "[kʌm]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 18,
+    "origin": "could",
+    "translation": "мог",
+    "transcription": "[kʊd]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 19,
+    "origin": "day",
+    "translation": "день",
+    "transcription": "[deɪ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 20,
+    "origin": "do",
+    "translation": "делать",
+    "transcription": "[duː]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 21,
+    "origin": "even",
+    "translation": "даже",
+    "transcription": "[ˈiːv(ə)n]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 22,
+    "origin": "first",
+    "translation": "первый",
+    "transcription": "[fɜː(r)st]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 23,
+    "origin": "for",
+    "translation": "для",
+    "transcription": "[fɔː(r)]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 24,
+    "origin": "from",
+    "translation": "из",
+    "transcription": "[frɒm]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 25,
+    "origin": "get",
+    "translation": "доставать, получать",
+    "transcription": "[ɡet]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 26,
+    "origin": "give",
+    "translation": "давать",
+    "transcription": "[gɪv]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 27,
+    "origin": "go",
+    "translation": "идти",
+    "transcription": "[ɡəʊ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 28,
+    "origin": "good",
+    "translation": "хороший",
+    "transcription": "[ɡʊd]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 29,
+    "origin": "have",
+    "translation": "(has) [hæz] глагол связка: «иметь»",
+    "transcription": "[hæv]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 30,
+    "origin": "he",
+    "translation": "он",
+    "transcription": "[hiː]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 31,
+    "origin": "her",
+    "translation": "ее",
+    "transcription": "[hɜː(r)]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 32,
+    "origin": "him",
+    "translation": "его, ему",
+    "transcription": "[hɪm]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 33,
+    "origin": "his",
+    "translation": "его",
+    "transcription": "[hɪz]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 34,
+    "origin": "how",
+    "translation": "как, каким образом",
+    "transcription": "[haʊ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 35,
+    "origin": "I",
+    "translation": "я (всегда с заглавной буквы в английском языке)",
+    "transcription": "[aɪ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 36,
+    "origin": "if",
+    "translation": "если",
+    "transcription": "[ɪf]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 37,
+    "origin": "in",
+    "translation": "в",
+    "transcription": "[ɪn]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 38,
+    "origin": "into",
+    "translation": "в",
+    "transcription": "[ˈɪntuː]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 39,
+    "origin": "it",
+    "translation": "это",
+    "transcription": "[ɪt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 40,
+    "origin": "its",
+    "translation": "его, её",
+    "transcription": "[ɪts]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 41,
+    "origin": "just",
+    "translation": "только что, просто",
+    "transcription": "[dʒʌst]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 42,
+    "origin": "know",
+    "translation": "знать",
+    "transcription": "[nəʊ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 43,
+    "origin": "like",
+    "translation": "нравиться",
+    "transcription": "[laɪk]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 44,
+    "origin": "look",
+    "translation": "смотреть, выглядеть",
+    "transcription": "[lʊk]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 45,
+    "origin": "make",
+    "translation": "делать",
+    "transcription": "[meɪk]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 46,
+    "origin": "me",
+    "translation": "мне",
+    "transcription": "[miː]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 47,
+    "origin": "most",
+    "translation": "много",
+    "transcription": "[məʊst]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 48,
+    "origin": "my",
+    "translation": "мой",
+    "transcription": "[maɪ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 49,
+    "origin": "new",
+    "translation": "новый",
+    "transcription": "[njuː]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 50,
+    "origin": "no",
+    "translation": "не",
+    "transcription": "[nəʊ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 51,
+    "origin": "not",
+    "translation": "не",
+    "transcription": "[nɒt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 52,
+    "origin": "now",
+    "translation": "сейчас",
+    "transcription": "[naʊ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 53,
+    "origin": "of",
+    "translation": "из",
+    "transcription": "[ɒv]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 54,
+    "origin": "on",
+    "translation": "на",
+    "transcription": "[ɒn]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 55,
+    "origin": "one",
+    "translation": "один",
+    "transcription": "[wʌn]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 56,
+    "origin": "only",
+    "translation": "только",
+    "transcription": "[ˈəʊnli]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 57,
+    "origin": "or",
+    "translation": "или",
+    "transcription": "[ɔː(r)]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 58,
+    "origin": "other",
+    "translation": "другой",
+    "transcription": "[ˈʌðə(r)]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 59,
+    "origin": "our",
+    "translation": "наш, наша, наше, наши",
+    "transcription": "[aʊə(r)]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 60,
+    "origin": "out",
+    "translation": "из",
+    "transcription": "[aʊt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 61,
+    "origin": "over",
+    "translation": "над, вновь",
+    "transcription": "[ˈəʊvə(r)]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 62,
+    "origin": "person",
+    "translation": "человек, личность",
+    "transcription": "[ˈpɜː(r)s(ə)n]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 63,
+    "origin": "say",
+    "translation": "говорить",
+    "transcription": "[seɪ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 64,
+    "origin": "see",
+    "translation": "видеть",
+    "transcription": "[siː]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 65,
+    "origin": "she",
+    "translation": "она",
+    "transcription": "[ʃiː]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 66,
+    "origin": "so",
+    "translation": "так",
+    "transcription": "[səʊ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 67,
+    "origin": "some",
+    "translation": "какой-то, некоторое количество",
+    "transcription": "[sʌm]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 68,
+    "origin": "take",
+    "translation": "брать",
+    "transcription": "[teɪk]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 69,
+    "origin": "than",
+    "translation": "чем",
+    "transcription": "[ðæn]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 70,
+    "origin": "that",
+    "translation": "тот, та, то",
+    "transcription": "[ðæt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 71,
+    "origin": "their",
+    "translation": "их",
+    "transcription": "[ðeə(r)]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 72,
+    "origin": "them",
+    "translation": "их, им",
+    "transcription": "[ðem]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 73,
+    "origin": "then",
+    "translation": "тогда",
+    "transcription": "[ðen]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 74,
+    "origin": "there",
+    "translation": "там",
+    "transcription": "[ðeə(r)]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 75,
+    "origin": "these",
+    "translation": "эти",
+    "transcription": "[ðiːz]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 76,
+    "origin": "they",
+    "translation": "они",
+    "transcription": "[ðeɪ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 77,
+    "origin": "think",
+    "translation": "думать",
+    "transcription": "[θɪŋk]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 78,
+    "origin": "this",
+    "translation": "этот, эта, это",
+    "transcription": "[ðɪs]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 79,
+    "origin": "time",
+    "translation": "время",
+    "transcription": "[taɪm]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 80,
+    "origin": "to",
+    "translation": "к",
+    "transcription": "[tuː]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 81,
+    "origin": "two",
+    "translation": "два",
+    "transcription": "[tuː]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 82,
+    "origin": "up",
+    "translation": "вверх",
+    "transcription": "[ʌp]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 83,
+    "origin": "us",
+    "translation": "нас, нам, нами",
+    "transcription": "[ʌs]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 84,
+    "origin": "use",
+    "translation": "употребление, употреблять",
+    "transcription": "[juːs], [juːz]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 85,
+    "origin": "want",
+    "translation": "хотеть",
+    "transcription": "[wɒnt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 86,
+    "origin": "way",
+    "translation": "путь, дорога",
+    "transcription": "[weɪ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 87,
+    "origin": "we",
+    "translation": "мы",
+    "transcription": "[wiː]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 88,
+    "origin": "well",
+    "translation": "хорошо, отлично",
+    "transcription": "[wel]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 89,
+    "origin": "what",
+    "translation": "что",
+    "transcription": "[wɒt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 90,
+    "origin": "when",
+    "translation": "когда",
+    "transcription": "[wen]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 91,
+    "origin": "which",
+    "translation": "какой, который",
+    "transcription": "[wɪtʃ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 92,
+    "origin": "who",
+    "translation": "кто",
+    "transcription": "[huː]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 93,
+    "origin": "will",
+    "translation": "буду",
+    "transcription": "[wɪl]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 94,
+    "origin": "with",
+    "translation": "с",
+    "transcription": "[wɪð]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 95,
+    "origin": "work",
+    "translation": "работать",
+    "transcription": "[wɜː(r)k]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 96,
+    "origin": "would",
+    "translation": "бы",
+    "transcription": "[wʊd]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 97,
+    "origin": "year",
+    "translation": "год",
+    "transcription": "[jɪə(r)]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 98,
+    "origin": "you",
+    "translation": "ты",
+    "transcription": "[juː]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 99,
+    "origin": "your",
+    "translation": "твой, ваш",
+    "transcription": "[jɔː(r)]",
+    "image": " ",
+    "example": " "
+  }
+]
+}

@@ -1,0 +1,468 @@
+{
+    "wordInformation":[
+  {
+    "id": 1,
+    "origin": "above-zero temperature",
+    "translation": "[əˈbʌv-ˈzɪərəʊ ˈtemp(ə)rəʧə]",
+    "transcription": "плюсовая температура",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 2,
+    "origin": "brightly",
+    "translation": "[ˈbraɪtlɪ]",
+    "transcription": "ярко (про солнечный свет)",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 3,
+    "origin": "chilly weather",
+    "translation": "[ˈʧɪlɪ ˈweðə]",
+    "transcription": "промозглая погода",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 4,
+    "origin": "clear",
+    "translation": "[klɪə]",
+    "transcription": "ясная",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 5,
+    "origin": "clear day",
+    "translation": "[klɪə deɪ]",
+    "transcription": "ясный день",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 6,
+    "origin": "cloud",
+    "translation": "[klaʊd]",
+    "transcription": "облачная",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 7,
+    "origin": "cold",
+    "translation": "[kəʊld]",
+    "transcription": "холодная",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 8,
+    "origin": "cool",
+    "translation": "[kuːl]",
+    "transcription": "прохладная",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 9,
+    "origin": "damp",
+    "translation": "[dæmp]",
+    "transcription": "сыро",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 10,
+    "origin": "delightful weather",
+    "translation": "[dɪˈlaɪtf(ə)l ˈweðə]",
+    "transcription": "восхитительная погода",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 11,
+    "origin": "dirty",
+    "translation": "[ˈdɜːtɪ]",
+    "transcription": "грязно",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 12,
+    "origin": "drought",
+    "translation": "[draʊt]",
+    "transcription": "засуха",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 13,
+    "origin": "dry",
+    "translation": "[draɪ]",
+    "transcription": "сухо",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 14,
+    "origin": "foggy",
+    "translation": "[ˈfɒgɪ]",
+    "transcription": "туманная",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 15,
+    "origin": "freezing",
+    "translation": "[ˈfriːzɪŋ]",
+    "transcription": "заморозки",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 16,
+    "origin": "frosty",
+    "translation": "[ˈfrɒstɪ]",
+    "transcription": "морозная",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 17,
+    "origin": "gloomy",
+    "translation": "[ˈgluːmɪ]",
+    "transcription": "мрачно",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 18,
+    "origin": "great weather",
+    "translation": "[greɪt ˈweðə]",
+    "transcription": "отличная погода",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 19,
+    "origin": "hail",
+    "translation": "[heɪl]",
+    "transcription": "град",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 20,
+    "origin": "hot",
+    "translation": "[hɒt]",
+    "transcription": "жаркая",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 21,
+    "origin": "hurricane",
+    "translation": "[ˈhʌrɪkən]",
+    "transcription": "ураган",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 22,
+    "origin": "ice",
+    "translation": "[aɪs]",
+    "transcription": "гололед",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 23,
+    "origin": "inclement weather",
+    "translation": "[ɪnˈklemənt ˈweðə]",
+    "transcription": "ненастная погода",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 24,
+    "origin": "it froze at night",
+    "translation": "[ɪt froze æt naɪt]",
+    "transcription": "ночью подморозило",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 25,
+    "origin": "it 's getting colder",
+    "translation": "[ɪt 'es ˈgetɪŋ ˈkəʊldər]",
+    "transcription": "похолодало",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 26,
+    "origin": "it 's getting warmer",
+    "translation": "[ɪt 'es ˈgetɪŋ ˈwɔːmə]",
+    "transcription": "потеплело",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 27,
+    "origin": "it's pouring like a bucket",
+    "translation": "[ɪt'es ˈpɔːrɪŋ laɪk ɑ ˈbʌkɪt]",
+    "transcription": "льет как из ведра",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 28,
+    "origin": "it's snowing wet",
+    "translation": "[ɪt'es ˈsnəʊɪŋ wet]",
+    "transcription": "идет мокрый снег",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 29,
+    "origin": "it's starting to rain",
+    "translation": "[ɪt'es ˈstɑːtɪŋ tuː reɪn]",
+    "transcription": "начинается дождь",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 30,
+    "origin": "lightning",
+    "translation": "[ˈlaɪtnɪŋ]",
+    "transcription": "молния",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 31,
+    "origin": "mushroom rain",
+    "translation": "[ˈmʌʃrum reɪn]",
+    "transcription": "грибной дождь",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 32,
+    "origin": "nasty weather",
+    "translation": "[ˈnɑːstɪ ˈweðə]",
+    "transcription": "противная погода",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 33,
+    "origin": "partly cloudy",
+    "translation": "[ˈpɑːtlɪ ˈklaʊdɪ]",
+    "transcription": "переменная облачность",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 34,
+    "origin": "puddles",
+    "translation": "[puddles]",
+    "transcription": "лужи",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 35,
+    "origin": "rain",
+    "translation": "[reɪn]",
+    "transcription": "дождь",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 36,
+    "origin": "rainbow",
+    "translation": "[ˈreɪnbəʊ]",
+    "transcription": "радуга",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 37,
+    "origin": "rainfall",
+    "translation": "[ˈreɪnfɔːl]",
+    "transcription": "ливень",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 38,
+    "origin": "rainy",
+    "translation": "[ˈreɪnɪ]",
+    "transcription": "дождливая",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 39,
+    "origin": "smog",
+    "translation": "[smɒg]",
+    "transcription": "смог",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 40,
+    "origin": "snowfall",
+    "translation": "[ˈsnəʊfɔːl]",
+    "transcription": "снегопад",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 41,
+    "origin": "snowy",
+    "translation": "[ˈsnəʊɪ]",
+    "transcription": "снежная",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 42,
+    "origin": "solar",
+    "translation": "[ˈsəʊlə]",
+    "transcription": "солнечная",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 43,
+    "origin": "storm",
+    "translation": "[stɔːm]",
+    "transcription": "шторм",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 44,
+    "origin": "stuffy",
+    "translation": "[ˈstʌfɪ]",
+    "transcription": "душно",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 45,
+    "origin": "subzero temperature",
+    "translation": "[sʌbˈzɪ(ə)rəʊ ˈtemp(ə)rəʧə]",
+    "transcription": "минусовая температура",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 46,
+    "origin": "summer heat",
+    "translation": "[ˈsʌmə hiːt]",
+    "transcription": "летний зной",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 47,
+    "origin": "the sky was overcast",
+    "translation": "[ðiː skaɪ wɒz ˈəʊvəkɑːst]",
+    "transcription": "небо затянулось тучами",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 48,
+    "origin": "the sun bakes",
+    "translation": "[ðiː sʌn bakes]",
+    "transcription": "печет солнце",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 49,
+    "origin": "the sun came out",
+    "translation": "[ðiː sʌn keɪm aʊt]",
+    "transcription": "вышло солнце",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 50,
+    "origin": "there's not a cloud in the sky",
+    "translation": "[ðeə'es nɒt ɑ klaʊd ɪn ðiː skaɪ]",
+    "transcription": "на небе ни облачка",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 51,
+    "origin": "thunder",
+    "translation": "[ˈθʌndə]",
+    "transcription": "гром",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 52,
+    "origin": "thunderstorm",
+    "translation": "[ˈθʌndəstɔːm]",
+    "transcription": "гроза",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 53,
+    "origin": "tornado",
+    "translation": "[tɔːˈneɪdəʊ]",
+    "transcription": "торнадо",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 54,
+    "origin": "torrential rain",
+    "translation": "[tɒˈrenʃəl reɪn]",
+    "transcription": "проливной дождь",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 55,
+    "origin": "very windy",
+    "translation": "[ˈverɪ ˈwɪndɪ]",
+    "transcription": "сильно ветреная",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 56,
+    "origin": "warm",
+    "translation": "[wɔːm]",
+    "transcription": "теплая",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 57,
+    "origin": "wet",
+    "translation": "[wet]",
+    "transcription": "влажная",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 58,
+    "origin": "windy",
+    "translation": "[ˈwɪndɪ]",
+    "transcription": "ветреная",
+    "image": "  ",
+    "example": "  "
+  }
+]
+}

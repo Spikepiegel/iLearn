@@ -3,6 +3,14 @@
         {
             "id": 1,
             "themes":[
+                {
+                    "name": "The most popular verbs"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "themes":[
             {
                 "name": "Anatomy"
             },
@@ -86,9 +94,6 @@
             },
             {
                 "name": "Drinks"
-            },
-            {
-                "name": "Drugs"
             }
             ]
         },
@@ -224,9 +229,6 @@
             "id": 1,
             "themes":[
             {
-                "name": "Seasons"
-            },
-            {
                 "name": "Space"
             },
             {
@@ -242,9 +244,6 @@
             },
             {
                 "name": "Tastes"
-            },
-            {
-                "name": "The most popular verbs"
             }
             ]
         },

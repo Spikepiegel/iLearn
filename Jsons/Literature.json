@@ -1,0 +1,252 @@
+{
+"wordInformation":[
+  {
+    "id": 1,
+    "origin": "book",
+    "translation": "книга",
+    "transcription": "[bʊk]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 2,
+    "origin": "author",
+    "translation": "автор",
+    "transcription": "[ˈɔːθə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 3,
+    "origin": "page",
+    "translation": "страница",
+    "transcription": "[peɪʤ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 4,
+    "origin": "language",
+    "translation": "язык",
+    "transcription": "[ˈlæŋgwɪʤ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 5,
+    "origin": "article",
+    "translation": "статья (напр. в газете)",
+    "transcription": "[ˈɑːtɪkl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 6,
+    "origin": "character",
+    "translation": "характер (персонаж)",
+    "transcription": "[ˈkærɪktə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 7,
+    "origin": "reader",
+    "translation": "читатель",
+    "transcription": "[ˈriːdə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 8,
+    "origin": "text",
+    "translation": "текст",
+    "transcription": "[tɛkst]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 9,
+    "origin": "title",
+    "translation": "название",
+    "transcription": "[ˈtaɪtl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 10,
+    "origin": "critic",
+    "translation": "критик",
+    "transcription": "[ˈkrɪtɪk]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 11,
+    "origin": "context",
+    "translation": "контекст",
+    "transcription": "[ˈkɒntɛkst]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 12,
+    "origin": "writing",
+    "translation": "написание, почерк, письмо (процесс письма)",
+    "transcription": "[ˈraɪtɪŋ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 13,
+    "origin": "literature",
+    "translation": "литература",
+    "transcription": "[ˈlɪtərɪʧə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 14,
+    "origin": "reading",
+    "translation": "чтение",
+    "transcription": "[ˈriːdɪŋ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 15,
+    "origin": "novel",
+    "translation": "роман",
+    "transcription": "[ˈnɒvəl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 16,
+    "origin": "tale",
+    "translation": "сказка, история",
+    "transcription": "[teɪl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 17,
+    "origin": "story",
+    "translation": "история, рассказ",
+    "transcription": "[ˈstɔːri]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 18,
+    "origin": "mystery",
+    "translation": "тайна, мистика",
+    "transcription": "[ˈmɪstəri]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 19,
+    "origin": "publication",
+    "translation": "публикация",
+    "transcription": "[ˌpʌblɪˈkeɪʃən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 20,
+    "origin": "poem",
+    "translation": "стихотворение",
+    "transcription": "[ˈpəʊɪm]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 21,
+    "origin": "essay",
+    "translation": "эссе, сочинение",
+    "transcription": "[ˈɛseɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 22,
+    "origin": "drama",
+    "translation": "драма, постановка в театре или на ТВ",
+    "transcription": "[ˈdrɑːmə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 23,
+    "origin": "fiction",
+    "translation": "вымысел",
+    "transcription": "[ˈfɪkʃən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 24,
+    "origin": "journal",
+    "translation": "дневник (журнал)",
+    "transcription": "[ˈʤɜːnl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 25,
+    "origin": "episode",
+    "translation": "эпизод",
+    "transcription": "[ˈɛpɪsəʊd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 26,
+    "origin": "adventure",
+    "translation": "приключение",
+    "transcription": "[ədˈvɛnʧə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 27,
+    "origin": "tragedy",
+    "translation": "трагедия",
+    "transcription": "[ˈtræʤɪdi]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 28,
+    "origin": "poet",
+    "translation": "поэт",
+    "transcription": "[ˈpəʊɪt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 29,
+    "origin": "poetry",
+    "translation": "поэзия",
+    "transcription": "[ˈpəʊɪtri]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 30,
+    "origin": "plot",
+    "translation": "сюжет",
+    "transcription": "[plɒt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 31,
+    "origin": "writer",
+    "translation": "писатель",
+    "transcription": "[ˈraɪtə]",
+    "image": " ",
+    "example": "  "
+  }
+]
+}

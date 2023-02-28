@@ -1,0 +1,812 @@
+{
+"wordInformation":[
+  {
+    "id": 1,
+    "origin": "(air)plane",
+    "translation": "самолёт",
+    "transcription": "([eə])[pleın]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 2,
+    "origin": "(hotel) room",
+    "translation": "номер",
+    "transcription": "([həʋʹtel]) [ru(:)m]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 3,
+    "origin": "abroad",
+    "translation": "за границей",
+    "transcription": "[əʹbrɔ:d]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 4,
+    "origin": "agency",
+    "translation": "агентство",
+    "transcription": "[ʹeıdʒ(ə)nsı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 5,
+    "origin": "airlines",
+    "translation": "авиакомпания",
+    "transcription": "[ˈeə.laɪn]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 6,
+    "origin": "airport",
+    "translation": "аэропорт",
+    "transcription": "[ʹeəpɔ:t]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 7,
+    "origin": "annual vacation",
+    "translation": "ежегодный отпуск",
+    "transcription": "[ʹænjʋəl vəʹkeıʃ(ə)n]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 8,
+    "origin": "arrangements",
+    "translation": "мероприятия",
+    "transcription": "[əˈreɪndʒ.mənt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 9,
+    "origin": "attractions",
+    "translation": "достопримечательности",
+    "transcription": " [əˈtræk.ʃən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 10,
+    "origin": "backpack",
+    "translation": "рюкзак",
+    "transcription": "[ʹbækpæk]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 11,
+    "origin": "baggage / luggage",
+    "translation": "багаж",
+    "transcription": "[ʹbægıdʒ] / [ʹlʌgıdʒ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 12,
+    "origin": "beach",
+    "translation": "пляж",
+    "transcription": "[bi:tʃ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 13,
+    "origin": "bicycle / bike",
+    "translation": "велосипед",
+    "transcription": "[ʹbaısık(ə)l] / [baık]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 14,
+    "origin": "border / frontier",
+    "translation": "граница",
+    "transcription": "[ʹbɔ:də] / [ʹfrʌntıə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 15,
+    "origin": "bus",
+    "translation": "автобус",
+    "transcription": "[bʌs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 16,
+    "origin": "capital",
+    "translation": "столица",
+    "transcription": "[ʹkæpıtl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 17,
+    "origin": "car / automobile",
+    "translation": "машина",
+    "transcription": "[kɑ:] / [ʹɔ:təməbi:l]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 18,
+    "origin": "country",
+    "translation": "страна",
+    "transcription": "[ʹkʌntrı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 19,
+    "origin": "currency",
+    "translation": "валюта",
+    "transcription": "[ʹkʌrənsı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 20,
+    "origin": "direction",
+    "translation": "направление",
+    "transcription": "[d(a)ıʹrekʃ(ə)n]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 21,
+    "origin": "domestic tourism",
+    "translation": "внутренний туризм",
+    "transcription": "[dəʹmestık 'tuəriz(ə)m]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 22,
+    "origin": "eco-tourism",
+    "translation": "экотуризм",
+    "transcription": "[ˈekəʊ-ˈtʊərɪzəm]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 23,
+    "origin": "environment",
+    "translation": "окружающая среда",
+    "transcription": "[ınʹvaı(ə)rənmənt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 24,
+    "origin": "European countries",
+    "translation": "Европейские страны",
+    "transcription": "[͵jʋ(ə)rəʹpıən ˈkʌn.tri]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 25,
+    "origin": "exotic",
+    "translation": "экзотический",
+    "transcription": "[ıgʹzɒtık]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 26,
+    "origin": "flow of tourists",
+    "translation": "поток туристов",
+    "transcription": "[fləʋ ɒv ˈtʊə.rɪst]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 27,
+    "origin": "foreign",
+    "translation": "иностранный",
+    "transcription": "[ʹfɒrın]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 28,
+    "origin": "foreigner",
+    "translation": "иностранец",
+    "transcription": "[ʹfɒrınə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 29,
+    "origin": "gas / gasoline",
+    "translation": "бензин",
+    "transcription": "[gæs] / [ʹgæsəli:n]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 30,
+    "origin": "guest house",
+    "translation": "гостевой дом",
+    "transcription": "[gest haʋs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 31,
+    "origin": "hotel",
+    "translation": "гостиница",
+    "transcription": "[həʋʹtel]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 32,
+    "origin": "hotel chain",
+    "translation": "гостиничная сеть",
+    "transcription": "[həʋʹtel tʃeın]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 33,
+    "origin": "inn / hostelry",
+    "translation": "небольшой отель (постоялый двор)",
+    "transcription": "[ın] / [ʹhɒst(ə)lrı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 34,
+    "origin": "international boundaries",
+    "translation": "международные границы",
+    "transcription": "[͵ıntəʹnæʃ(ə)nəl ˈbaʊn.dər.i]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 35,
+    "origin": "international tourism",
+    "translation": "международный туризм (выездной туризм)",
+    "transcription": "[͵ıntəʹnæʃ(ə)nəl 'tuəriz(ə)m]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 36,
+    "origin": "island state",
+    "translation": "островное государство",
+    "transcription": "[ʹaılənd steıt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 37,
+    "origin": "journey / trip / tour",
+    "translation": "поездка",
+    "transcription": "[ʹdʒɜ:nı] / [trıp] / [tʋə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 38,
+    "origin": "journey / voyage",
+    "translation": "путешествие",
+    "transcription": "[ʹdʒɜ:nı] / [ʹvɔııdʒ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 39,
+    "origin": "life-jacket",
+    "translation": "спасательный жилет",
+    "transcription": "[laıf - ʹdʒækıt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 40,
+    "origin": "light",
+    "translation": "лёгкий",
+    "transcription": "[laıt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 41,
+    "origin": "map",
+    "translation": "карта",
+    "transcription": "[mæp]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 42,
+    "origin": "Mediterranean",
+    "translation": "Средиземноморье",
+    "transcription": "[͵medıtəʹreınıən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 43,
+    "origin": "motorcycle / motorbike",
+    "translation": "мотоцикл",
+    "transcription": "[ʹməʋtə͵saık(ə)l] / [ʹməʋtəbaık]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 44,
+    "origin": "package tour",
+    "translation": "поездка по путевке",
+    "transcription": "[ʹpækıdʒ tʋə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 45,
+    "origin": "paid vacations",
+    "translation": "оплачиваемый отпуск",
+    "transcription": "[peıd veɪˈkeɪ.ʃən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 46,
+    "origin": "passport",
+    "translation": "паспорт",
+    "transcription": "[ʹpɑ:spɔ:t]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 47,
+    "origin": "pilgrimages to sacred places",
+    "translation": "паломничество по святым местам",
+    "transcription": "[ˈpɪl.ɡrɪ.mɪdʒ tu:ʹseıkrıd pleɪs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 48,
+    "origin": "popular destination",
+    "translation": "популярный курорт",
+    "transcription": "[ʹpɒpjʋlə ͵destıʹneıʃ(ə)n]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 49,
+    "origin": "port / harbor",
+    "translation": "порт",
+    "transcription": "[pɔ:t] / [ʹhɑ:bə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 50,
+    "origin": "postcard",
+    "translation": "открытка",
+    "transcription": "[ʹpəʋstkɑ:d]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 51,
+    "origin": "railway",
+    "translation": "железная дорога",
+    "transcription": "[ʹreılweı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 52,
+    "origin": "railway station / train station",
+    "translation": "вокзал",
+    "transcription": "[ʹreılweı ʹsteıʃ(ə)n] / [treın ʹsteıʃ(ə)n]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 53,
+    "origin": "recreation",
+    "translation": "развлечение",
+    "transcription": "[͵rekrıʹeıʃ(ə)n]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 54,
+    "origin": "resort",
+    "translation": "курорт",
+    "transcription": "[rıʹzɔ:t]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 55,
+    "origin": "rest",
+    "translation": "отдых",
+    "transcription": "[rest]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 56,
+    "origin": "route",
+    "translation": "маршрут (дорога)",
+    "transcription": "[ru:t]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 57,
+    "origin": "seaside / coast",
+    "translation": "побережье",
+    "transcription": "[ʹsi:saıd] / [kəʋst]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 58,
+    "origin": "services for travelers",
+    "translation": "услуги для путешественников",
+    "transcription": "[ˈsɜː.vɪs fɔ: ˈtræv.əl.ər]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 59,
+    "origin": "ship",
+    "translation": "корабль",
+    "transcription": "[ʃıp]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 60,
+    "origin": "souvenir shops",
+    "translation": "сувенирные магазины",
+    "transcription": "[͵su:vəʹnıə ʃɒp]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 61,
+    "origin": "spa",
+    "translation": "минеральные источники (как курорт)",
+    "transcription": "[spɑ:]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 62,
+    "origin": "steamship",
+    "translation": "пароход",
+    "transcription": "[ʹsti:m͵ʃıp]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 63,
+    "origin": "strange / odd",
+    "translation": "странный",
+    "transcription": "[streındʒ] / [ɒd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 64,
+    "origin": "streetcar / trolley / tram",
+    "translation": "трамвай",
+    "transcription": "[ʹstri:tkɑ:] / [ʹtrɒlı] / [træm]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 65,
+    "origin": "suitcase",
+    "translation": "чемодан",
+    "transcription": "[ʹs(j)u:tkeıs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 66,
+    "origin": "take the waters",
+    "translation": "лечиться на водах",
+    "transcription": "[teık ðə ˈwɔː.tər]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 67,
+    "origin": "tanned / bronzed",
+    "translation": "загорелый",
+    "transcription": "[tænd] / [brɔnzd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 68,
+    "origin": "taxi",
+    "translation": "такси",
+    "transcription": "[ʹtæksı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 69,
+    "origin": "temporary migration",
+    "translation": "временная миграция",
+    "transcription": "[ʹtemp(ə)rərı maıʹgreıʃ(ə)n]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 70,
+    "origin": "tent",
+    "translation": "палатка",
+    "transcription": "[tent]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 71,
+    "origin": "the South",
+    "translation": "юг (южные страны, регионы)",
+    "transcription": "[ðə saʋθ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 72,
+    "origin": "theme park",
+    "translation": "парк отдыха с аттракционами",
+    "transcription": "[θi:m pɑ:k]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 73,
+    "origin": "thermal spring",
+    "translation": "термальный источник",
+    "transcription": "[ʹθɜ:m(ə)l sprıŋ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 74,
+    "origin": "ticket",
+    "translation": "билет",
+    "transcription": "[ʹtıkıt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 75,
+    "origin": "to arrive",
+    "translation": "прибывать",
+    "transcription": "[tu: əʹraıv]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 76,
+    "origin": "to be on vacation",
+    "translation": "отдыхать",
+    "transcription": "[tu: bi: ɒn vəʹkeıʃ(ə)n]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 77,
+    "origin": "to get a suntan",
+    "translation": "загорать",
+    "transcription": "[tu: get ə,(eı) ʹsʌntæn]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 78,
+    "origin": "to get off",
+    "translation": "сходить (с)",
+    "transcription": "[tu: get ɒf]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 79,
+    "origin": "to get on / to board",
+    "translation": "садиться (на что)",
+    "transcription": "[tu: get ɒn] / [tu:] [bɔ:d]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 80,
+    "origin": "to go abroad",
+    "translation": "ехать за границу",
+    "transcription": "[tu: gəʋ əʹbrɔ:d]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 81,
+    "origin": "to land",
+    "translation": "приземляться",
+    "transcription": "[tu: lænd]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 82,
+    "origin": "to miss, to long / yearn (for)",
+    "translation": "скучать (по)",
+    "transcription": "[tu: mıs] / [tu: lɒŋ] / [jɜ:n] ([fɔ:])",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 83,
+    "origin": "to see off",
+    "translation": "провожать",
+    "transcription": "[tu: si: ɒf]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 84,
+    "origin": "to set out / to leave / to depart",
+    "translation": "отправляться",
+    "transcription": "[tu: set aʋt] / [tu:] [li:v] / [tu:] [di:ʹpɑ:t]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 85,
+    "origin": "to speak English",
+    "translation": "говорить по-английски",
+    "transcription": "[tu: spi:k ʹıŋglıʃ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 86,
+    "origin": "to take off / to leave the ground",
+    "translation": "взлетать",
+    "transcription": "[tu: teık ɒf] /[tu: li:v ðə graʋnd]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 87,
+    "origin": "to travel",
+    "translation": "путешествовать",
+    "transcription": "[tu: ʹtræv(ə)l]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 88,
+    "origin": "to understand",
+    "translation": "понимать",
+    "transcription": "[tu: ͵ʌndəʹstænd]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 89,
+    "origin": "tourism, traveling",
+    "translation": "туризм",
+    "transcription": "['tuəriz(ə)m] / ['træv(ə)liŋ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 90,
+    "origin": "tourist industry",
+    "translation": "индустрия туризма",
+    "transcription": "[ʹtʋ(ə)rıst ʹındəstrı]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 91,
+    "origin": "town / city",
+    "translation": "город",
+    "transcription": "[taʋn] / [ʹsıtı]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 92,
+    "origin": "train",
+    "translation": "поезд",
+    "transcription": "[treın]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 93,
+    "origin": "transportation",
+    "translation": "перевозка",
+    "transcription": "[͵trænspɔ:ʹteıʃ(ə)n]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 94,
+    "origin": "travel association",
+    "translation": "туристическая ассоциация",
+    "transcription": "[ʹtræv(ə)l ə͵səʋsıʹeıʃ(ə)n]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 95,
+    "origin": "traveling for leisure",
+    "translation": "путешествия для отдыха",
+    "transcription": "['træv(ə)liŋ fɔ: ʹleʒə]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 96,
+    "origin": "unspoiled nature",
+    "translation": "нетронутая природа",
+    "transcription": "[͵ʌnʹspɔıld ʹneıtʃə]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 97,
+    "origin": "vacation",
+    "translation": "каникулы",
+    "transcription": "[vəʹkeıʃ(ə)n]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 98,
+    "origin": "vacation",
+    "translation": "отпуск (каникулы)",
+    "transcription": "[vəʹkeıʃ(ə)n]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 99,
+    "origin": "vacation, leave",
+    "translation": "отпуск",
+    "transcription": "[vəʹkeıʃ(ə)n], [li:v]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 100,
+    "origin": "visa",
+    "translation": "виза",
+    "transcription": "[ʹvi:zə]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 101,
+    "origin": "Western Europe",
+    "translation": "Западная Европа",
+    "transcription": "[ʹwestən ʹjʋ(ə)rəp]",
+    "image": " ",
+    "example": " "
+  }
+]
+}

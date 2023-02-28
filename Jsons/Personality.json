@@ -1,0 +1,740 @@
+{
+"wordInformation":[
+  {
+    "id": 1,
+    "origin": "absent-minded",
+    "translation": "рассеянный",
+    "transcription": "[ 'æbsənt-'maindid ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 2,
+    "origin": "absent-minded",
+    "translation": "рассеянный",
+    "transcription": "[ 'æbsənt-'maindid ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 3,
+    "origin": "boastful",
+    "translation": "хвастливый",
+    "transcription": "[ 'bəustful ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 4,
+    "origin": "boastful",
+    "translation": "хвастливый",
+    "transcription": "[ 'bəustful ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 5,
+    "origin": "brave",
+    "translation": "храбрый",
+    "transcription": "[ breiv ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 6,
+    "origin": "brave",
+    "translation": "храбрый",
+    "transcription": "[ breiv ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 7,
+    "origin": "caring",
+    "translation": "заботливый",
+    "transcription": "[ kɑ:ɪŋ ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 8,
+    "origin": "caring",
+    "translation": "заботливый",
+    "transcription": "[ kɑ:ɪŋ ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 9,
+    "origin": "cheerful",
+    "translation": "жизнерадостный",
+    "transcription": "[ 'ʧiəf(ə)l ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 10,
+    "origin": "cheerful",
+    "translation": "жизнерадостный",
+    "transcription": "[ 'ʧiəf(ə)l ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 11,
+    "origin": "cold-hearted",
+    "translation": "бессердечный",
+    "transcription": "[ ‚kəʋld'hɑ:rtɪd ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 12,
+    "origin": "cold-hearted",
+    "translation": "бессердечный",
+    "transcription": "[ ‚kəʋld'hɑ:rtɪd ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 13,
+    "origin": "cruel",
+    "translation": "жестокий",
+    "transcription": "[ kruəl ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 14,
+    "origin": "cruel",
+    "translation": "жестокий",
+    "transcription": "[ kruəl ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 15,
+    "origin": "cunning",
+    "translation": "хитрый",
+    "transcription": "[ 'kʌniŋ ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 16,
+    "origin": "cunning",
+    "translation": "хитрый",
+    "transcription": "[ 'kʌniŋ ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 17,
+    "origin": "easy-going",
+    "translation": "легкий в общении",
+    "transcription": "[ 'i:zi-'gəuiŋ ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 18,
+    "origin": "easy-going",
+    "translation": "легкий в общении",
+    "transcription": "[ 'i:zi-'gəuiŋ ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 19,
+    "origin": "envious",
+    "translation": "завистливый",
+    "transcription": "[ 'enviəs ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 20,
+    "origin": "envious",
+    "translation": "завистливый",
+    "transcription": "[ 'enviəs ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 21,
+    "origin": "faithful",
+    "translation": "верный",
+    "transcription": "[ 'feiθful ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 22,
+    "origin": "faithful",
+    "translation": "верный",
+    "transcription": "[ 'feiθful ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 23,
+    "origin": "flippant",
+    "translation": "легкомысленный",
+    "transcription": "[ 'flipənt ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 24,
+    "origin": "flippant",
+    "translation": "легкомысленный",
+    "transcription": "[ 'flipənt ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 25,
+    "origin": "generous",
+    "translation": "щедрый",
+    "transcription": "[ 'ʤenərəs ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 26,
+    "origin": "generous",
+    "translation": "щедрый",
+    "transcription": "[ 'ʤenərəs ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 27,
+    "origin": "greedy",
+    "translation": "жадный",
+    "transcription": "[ 'gri:di ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 28,
+    "origin": "greedy",
+    "translation": "жадный",
+    "transcription": "[ 'gri:di ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 29,
+    "origin": "hard-working",
+    "translation": "трудолюбивый",
+    "transcription": "[ hɑ:rd'wɜ:rkɪŋ ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 30,
+    "origin": "hard-working",
+    "translation": "трудолюбивый",
+    "transcription": "[ hɑ:rd'wɜ:rkɪŋ ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 31,
+    "origin": "helpful",
+    "translation": "внимательный",
+    "transcription": "[ 'helpful ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 32,
+    "origin": "helpful",
+    "translation": "внимательный",
+    "transcription": "[ 'helpful ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 33,
+    "origin": "honest",
+    "translation": "честный",
+    "transcription": "[ 'ɔnist ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 34,
+    "origin": "honest",
+    "translation": "честный",
+    "transcription": "[ 'ɔnist ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 35,
+    "origin": "hot-tempered",
+    "translation": "вспыльчивый",
+    "transcription": "[ ‚hɒt'tempərd ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 36,
+    "origin": "hot-tempered",
+    "translation": "вспыльчивый",
+    "transcription": "[ ‚hɒt'tempərd ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 37,
+    "origin": "ill-bred",
+    "translation": "плохо воспитанный",
+    "transcription": "[ il-bred ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 38,
+    "origin": "ill-bred",
+    "translation": "плохо воспитанный",
+    "transcription": "[ il-bred ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 39,
+    "origin": "impudent",
+    "translation": "нахальный",
+    "transcription": "[ 'ɪmpjədənt ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 40,
+    "origin": "impudent",
+    "translation": "нахальный",
+    "transcription": "[ 'ɪmpjədənt ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 41,
+    "origin": "jealous",
+    "translation": "ревнивый",
+    "transcription": "[ 'ʤeləs ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 42,
+    "origin": "jealous",
+    "translation": "ревнивый",
+    "transcription": "[ 'ʤeləs ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 43,
+    "origin": "kind",
+    "translation": "добрый",
+    "transcription": "[ kaind ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 44,
+    "origin": "kind",
+    "translation": "добрый",
+    "transcription": "[ kaind ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 45,
+    "origin": "lazy",
+    "translation": "ленивый",
+    "transcription": "[ 'leizi ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 46,
+    "origin": "lazy",
+    "translation": "ленивый",
+    "transcription": "[ 'leizi ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 47,
+    "origin": "modest",
+    "translation": "скромный",
+    "transcription": "[ 'mɔdist ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 48,
+    "origin": "modest",
+    "translation": "скромный",
+    "transcription": "[ 'mɔdist ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 49,
+    "origin": "moody",
+    "translation": "переменчивый в настроении",
+    "transcription": "[ 'mu:di ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 50,
+    "origin": "moody",
+    "translation": "переменчивый в настроении",
+    "transcription": "[ 'mu:di ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 51,
+    "origin": "naughty",
+    "translation": "капризный",
+    "transcription": "[ 'nɔ:ti ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 52,
+    "origin": "naughty",
+    "translation": "капризный",
+    "transcription": "[ 'nɔ:ti ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 53,
+    "origin": "optimistic",
+    "translation": "оптимистичный",
+    "transcription": "[ ,ɔptimistik ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 54,
+    "origin": "optimistic",
+    "translation": "оптимистичный",
+    "transcription": "[ ,ɔptimistik ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 55,
+    "origin": "persistent",
+    "translation": "настойчивый",
+    "transcription": "[ pə'sist(ə)nt ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 56,
+    "origin": "persistent",
+    "translation": "настойчивый",
+    "transcription": "[ pə'sist(ə)nt ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 57,
+    "origin": "polite",
+    "translation": "вежливый",
+    "transcription": "[ pə'lait ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 58,
+    "origin": "polite",
+    "translation": "вежливый",
+    "transcription": "[ pə'lait ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 59,
+    "origin": "punctual",
+    "translation": "пунктуальный",
+    "transcription": "[ 'pʌŋktjuəl ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 60,
+    "origin": "punctual",
+    "translation": "пунктуальный",
+    "transcription": "[ 'pʌŋktjuəl ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 61,
+    "origin": "romantic",
+    "translation": "романтичный",
+    "transcription": "[ reu'mæntik ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 62,
+    "origin": "romantic",
+    "translation": "романтичный",
+    "transcription": "[ reu'mæntik ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 63,
+    "origin": "rude",
+    "translation": "грубый",
+    "transcription": "[ ru:d ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 64,
+    "origin": "rude",
+    "translation": "грубый",
+    "transcription": "[ ru:d ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 65,
+    "origin": "self-confident",
+    "translation": "уверенный в себе",
+    "transcription": "[ self-'kɔnfidənt ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 66,
+    "origin": "self-confident",
+    "translation": "уверенный в себе",
+    "transcription": "[ self-'kɔnfidənt ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 67,
+    "origin": "selfish",
+    "translation": "эгоистичный",
+    "transcription": "[ 'selfiʃ ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 68,
+    "origin": "selfish",
+    "translation": "эгоистичный",
+    "transcription": "[ 'selfiʃ ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 69,
+    "origin": "sincere",
+    "translation": "искренний",
+    "transcription": "[ sin'siə ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 70,
+    "origin": "sincere",
+    "translation": "искренний",
+    "transcription": "[ sin'siə ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 71,
+    "origin": "strong-willed",
+    "translation": "волевой",
+    "transcription": "[ strɔŋ-wɪld ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 72,
+    "origin": "strong-willed",
+    "translation": "волевой",
+    "transcription": "[ strɔŋ-wɪld ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 73,
+    "origin": "stubborn",
+    "translation": "упрямый",
+    "transcription": "[ 'stʌbən ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 74,
+    "origin": "stubborn",
+    "translation": "упрямый",
+    "transcription": "[ 'stʌbən ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 75,
+    "origin": "to be a person of (no) character",
+    "translation": "быть человеком сильного(слабого) характера",
+    "transcription": "[ tu: bi: ə pə:sn əv nəʋ 'kæriktə ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 76,
+    "origin": "to be a person of (no) character",
+    "translation": "быть человеком сильного(слабого) характера",
+    "transcription": "[ tu: bi: ə pə:sn əv nəʋ 'kæriktə ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 77,
+    "origin": "to be decent all around",
+    "translation": "быть порядочным во всем",
+    "transcription": "[ tu: bi: 'di:s(ə)nt ɔ:l ə'raund ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 78,
+    "origin": "to be decent all around",
+    "translation": "быть порядочным во всем",
+    "transcription": "[ tu: bi: 'di:s(ə)nt ɔ:l ə'raund ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 79,
+    "origin": "touchy",
+    "translation": "обидчивый",
+    "transcription": "[ 'tʌʧi ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 80,
+    "origin": "touchy",
+    "translation": "обидчивый",
+    "transcription": "[ 'tʌʧi ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 81,
+    "origin": "vain",
+    "translation": "тщеславный",
+    "transcription": "[ veɪn ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 82,
+    "origin": "vain",
+    "translation": "тщеславный",
+    "transcription": "[ veɪn ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 83,
+    "origin": "weak-willed",
+    "translation": "слабохарактерный",
+    "transcription": "[ ‚wi:k'wɪld ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 84,
+    "origin": "weak-willed",
+    "translation": "слабохарактерный",
+    "transcription": "[ ‚wi:k'wɪld ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 85,
+    "origin": "well-bred",
+    "translation": "хорошо воспитанный",
+    "transcription": "[ ‚wel'bred ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 86,
+    "origin": "well-bred",
+    "translation": "хорошо воспитанный",
+    "transcription": "[ ‚wel'bred ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 87,
+    "origin": "well-tempered",
+    "translation": "сдержанный",
+    "transcription": "[ wel-'tempəd ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 88,
+    "origin": "well-tempered",
+    "translation": "сдержанный",
+    "transcription": "[ wel-'tempəd ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 89,
+    "origin": "wise",
+    "translation": "мудрый",
+    "transcription": "[ waiz ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 90,
+    "origin": "wise",
+    "translation": "мудрый",
+    "transcription": "[ waiz ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 91,
+    "origin": "witty",
+    "translation": "остроумный",
+    "transcription": "[ 'witi ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 92,
+    "origin": "witty",
+    "translation": "остроумный",
+    "transcription": "[ 'witi ]",
+    "image": " ",
+    "example": " "
+  }
+]
+}

@@ -1,0 +1,60 @@
+{
+"wordInformation":[
+    {
+      "id": 1,
+      "origin": "Monday",
+      "translation": "Понедельник",
+      "transcription": "ˈmʌndeɪ",
+      "image": "  ",
+      "example": "  "
+    },
+    {
+      "id": 2,
+      "origin": "Tuesday",
+      "translation": "Вторник",
+      "transcription": "ˈtuːzdeɪ",
+      "image": "  ",
+      "example": "  "
+    },
+    {
+      "id": 3,
+      "origin": "Wednesday",
+      "translation": "Среда",
+      "transcription": "ˈwenzdeɪ",
+      "image": "  ",
+      "example": "  "
+    },
+    {
+      "id": 4,
+      "origin": "Thursday",
+      "translation": "Четверг",
+      "transcription": "ˈθɜːrzdeɪ",
+      "image": "  ",
+      "example": "  "
+    },
+    {
+      "id": 5,
+      "origin": "Friday",
+      "translation": "Пятница",
+      "transcription": "ˈfraɪdeɪ",
+      "image": "  ",
+      "example": "  "
+    },
+    {
+      "id": 6,
+      "origin": "Saturday",
+      "translation": "Суббота",
+      "transcription": "ˈsætərdeɪ",
+      "image": "  ",
+      "example": "  "
+    },
+    {
+      "id": 7,
+      "origin": "Sunday",
+      "translation": "Воскресенье",
+      "transcription": "ˈsʌndeɪ",
+      "image": "  ",
+      "example": "  "
+    },
+]
+}

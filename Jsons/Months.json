@@ -1,0 +1,100 @@
+{
+"wordInformation":[
+  {
+    "id": 1,
+    "origin": "april",
+    "translation": "апрель",
+    "transcription": "[ 'eipril ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 2,
+    "origin": "august",
+    "translation": "август",
+    "transcription": "[ 'ɔ:gəst ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 3,
+    "origin": "december",
+    "translation": "декабрь",
+    "transcription": "[ di'sembə ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 4,
+    "origin": "february",
+    "translation": "февраль",
+    "transcription": "[ 'februəri ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 5,
+    "origin": "january",
+    "translation": "январь",
+    "transcription": "[ 'ʤænjuəri ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 6,
+    "origin": "july",
+    "translation": "июль",
+    "transcription": "[ ʤu:lai ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 7,
+    "origin": "june",
+    "translation": "июнь",
+    "transcription": "[ ʤu:n ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 8,
+    "origin": "march",
+    "translation": "март",
+    "transcription": "[ mɑ:ʧ ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 9,
+    "origin": "may",
+    "translation": "май",
+    "transcription": "[ mei ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 10,
+    "origin": "november",
+    "translation": "ноябрь",
+    "transcription": "[ nəu'vembə ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 11,
+    "origin": "october",
+    "translation": "октябрь",
+    "transcription": "[ ɔk'təubə ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 12,
+    "origin": "september",
+    "translation": "сентябрь",
+    "transcription": "[ sep'tembə ]",
+    "image": "  ",
+    "example": "  "
+  }
+]
+}

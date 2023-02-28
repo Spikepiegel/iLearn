@@ -1,0 +1,332 @@
+{
+"wordInformation":[
+  {
+    "id": 1,
+    "origin": "double bed",
+    "translation": "2-спальная кровать",
+    "transcription": "[dʌbl bed]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 2,
+    "origin": "outdoor lamp",
+    "translation": "напольный светильник",
+    "transcription": "[ˈaʊtdɔː læmp]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 3,
+    "origin": "single bed",
+    "translation": "1-спальная кровать",
+    "transcription": "[sɪŋgl bed]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 4,
+    "origin": "baby bed",
+    "translation": "детская кроватка",
+    "transcription": "[ˈbeɪbɪ bed]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 5,
+    "origin": "chandelier",
+    "translation": "люстра",
+    "transcription": "[ʃændəˈlɪə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 6,
+    "origin": "bunk bed",
+    "translation": "двуярусная кровать",
+    "transcription": "[bʌŋk bed]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 7,
+    "origin": "sofa",
+    "translation": "диван",
+    "transcription": "[ˈsəʊfə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 8,
+    "origin": "wardrobe in the hallway",
+    "translation": "шкаф в прихожей",
+    "transcription": "[ˈwɔːdrəʊb ɪn ðiː ˈhɔːlweɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 9,
+    "origin": "folding sofa",
+    "translation": "раскладной диван",
+    "transcription": "[ˈfəʊldɪŋ ˈsəʊfə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 10,
+    "origin": "cabinet under the sink",
+    "translation": "тумба под раковину",
+    "transcription": "[ˈkæbɪnɪt ˈʌndə ðiː sɪŋk]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 11,
+    "origin": "armchair",
+    "translation": "кресло",
+    "transcription": "[ˈɑːmʧeə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 12,
+    "origin": "armchair-bed",
+    "translation": "кресло-кровать",
+    "transcription": "[ˈɑːmʧeə-bed]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 13,
+    "origin": "rocking chair",
+    "translation": "раскладное кресло",
+    "transcription": "[ˈrɒkɪŋ ʧeə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 14,
+    "origin": "computer chair",
+    "translation": "компьютерное кресло",
+    "transcription": "[kəmˈpjuːtə ʧeə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 15,
+    "origin": "chair",
+    "translation": "стул",
+    "transcription": "[ʧeə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 16,
+    "origin": "stool",
+    "translation": "табурет",
+    "transcription": "[stuːl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 17,
+    "origin": "loft bed",
+    "translation": "кровать-чердак",
+    "transcription": "[lɒft bed]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 18,
+    "origin": "kitchen corner",
+    "translation": "кухонный уголок",
+    "transcription": "[ˈkɪʧɪn ˈkɔːnə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 19,
+    "origin": "dining table",
+    "translation": "обеденный стол",
+    "transcription": "[ˈdaɪnɪŋ teɪbl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 20,
+    "origin": "desk",
+    "translation": "письменный стол",
+    "transcription": "[desk]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 21,
+    "origin": "coffee table",
+    "translation": "журнальный столик",
+    "transcription": "[ˈkɒfɪ teɪbl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 22,
+    "origin": "kitchen set",
+    "translation": "кухонный гарнитур",
+    "transcription": "[ˈkɪʧɪn set]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 23,
+    "origin": "wardrobe",
+    "translation": "шкаф",
+    "transcription": "[ˈwɔːdrəʊb]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 24,
+    "origin": "wardrobe",
+    "translation": "шкаф-купе",
+    "transcription": "[ˈwɔːdrəʊb]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 25,
+    "origin": "shelf",
+    "translation": "стеллаж",
+    "transcription": "[ʃelf]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 26,
+    "origin": "dresser",
+    "translation": "комод",
+    "transcription": "[ˈdresə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 27,
+    "origin": "bedside table",
+    "translation": "прикроватная тумбочка",
+    "transcription": "[ˈbedsaɪd teɪbl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 28,
+    "origin": "bookshelf",
+    "translation": "полочка для книг",
+    "transcription": "[ˈbʊkʃelf]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 29,
+    "origin": "buffet",
+    "translation": "буфет",
+    "transcription": "[ˈbʌfɪt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 30,
+    "origin": "bookcase",
+    "translation": "шкаф для книг",
+    "transcription": "[ˈbʊkkeɪs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 31,
+    "origin": "tv cabinet",
+    "translation": "тумбочка под телевизор",
+    "transcription": "[tiːˈviː ˈkæbɪnɪt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 32,
+    "origin": "couch",
+    "translation": "кушетка",
+    "transcription": "[couch]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 33,
+    "origin": "padded stool",
+    "translation": "пуфик",
+    "transcription": "[ˈpædɪd stuːl]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 34,
+    "origin": "dressing table",
+    "translation": "туалетный столик",
+    "transcription": "[ˈdresɪŋ teɪbl]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 35,
+    "origin": "a coat rack",
+    "translation": "настенная вешалка с крючками",
+    "transcription": "[ɑ kəʊt ræk]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 36,
+    "origin": "a coat hanger",
+    "translation": "напольная вешалка",
+    "transcription": "[ɑ kəʊt ˈhæŋə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 37,
+    "origin": "an umbrella stand",
+    "translation": "подставка для зонтиков",
+    "transcription": "[æn ʌmˈbrelə stænd]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 38,
+    "origin": "hammock",
+    "translation": "гамак",
+    "transcription": "[ˈhæmək]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 39,
+    "origin": "inflatable mattress",
+    "translation": "надувной матрас",
+    "transcription": "[ɪnˈfleɪtəbl ˈmætrɪs]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 40,
+    "origin": "cupboard for dishes",
+    "translation": "шкаф для посуды",
+    "transcription": "[ˈkʌpbəd fɔː ˈdɪʃɪz]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 41,
+    "origin": "mirror",
+    "translation": "зеркало",
+    "transcription": "[ˈmɪrə]",
+    "image": " ",
+    "example": "  "
+  }
+]
+}

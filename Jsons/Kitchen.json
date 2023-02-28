@@ -1,0 +1,868 @@
+{
+"wordInformation":[
+  {
+    "id": 2,
+    "origin": "ashtray",
+    "translation": "пепельница",
+    "transcription": "[ˈæʃtreɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 3,
+    "origin": "bake",
+    "translation": "печь",
+    "transcription": "[beɪk]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 4,
+    "origin": "baking tray",
+    "translation": "противень",
+    "transcription": "[ˈbeɪkɪŋ treɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 5,
+    "origin": "barbecue",
+    "translation": "мангал",
+    "transcription": "[ˈbɑːbɪkjuː]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 6,
+    "origin": "beer mug",
+    "translation": "пивная кружка",
+    "transcription": "[bɪə mʌg]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 7,
+    "origin": "blender",
+    "translation": "блендер",
+    "transcription": "[ˈblendə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 8,
+    "origin": "bottle",
+    "translation": "бутылка",
+    "transcription": "[bɒtl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 9,
+    "origin": "bottle opener",
+    "translation": "открывалка для бутылок",
+    "transcription": "[bɒtl ˈəʊpnə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 10,
+    "origin": "bowler hat",
+    "translation": "котелок",
+    "transcription": "[ˈbəʊlə hæt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 11,
+    "origin": "brush for lubrication",
+    "translation": "кисть для смазывания",
+    "transcription": "[brʌʃ fɔː luːbrɪˈkeɪʃn]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 12,
+    "origin": "bucket",
+    "translation": "ковш",
+    "transcription": "[ˈbʌkɪt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 13,
+    "origin": "cake spatula",
+    "translation": "лопатка для торта",
+    "transcription": "[keɪk ˈspætjʊlə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 14,
+    "origin": "can opener",
+    "translation": "консервный нож",
+    "transcription": "[kæn ˈəʊpnə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 15,
+    "origin": "cap",
+    "translation": "крышка",
+    "transcription": "[kæp]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 16,
+    "origin": "cauldron",
+    "translation": "казан",
+    "transcription": "[ˈkɔːldrən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 17,
+    "origin": "chair",
+    "translation": "стул",
+    "transcription": "[ʧeə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 18,
+    "origin": "chopsticks",
+    "translation": "палочки для еды",
+    "transcription": "[ˈʧɒpstɪks]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 19,
+    "origin": "coffee grinder",
+    "translation": "кофемолка",
+    "transcription": "[ˈkɒfɪ ˈgraɪndə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 20,
+    "origin": "coffee machine",
+    "translation": "кофемашина",
+    "transcription": "[ˈkɒfɪ məˈʃiːn]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 21,
+    "origin": "coffee pot",
+    "translation": "кофейник",
+    "transcription": "[ˈkɒfɪ pɒt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 22,
+    "origin": "coffee service",
+    "translation": "кофейный сервис",
+    "transcription": "[ˈkɒfɪ ˈsɜːvɪs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 23,
+    "origin": "colander",
+    "translation": "дуршлаг",
+    "transcription": "[ˈkʌləndə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 24,
+    "origin": "corkscrew",
+    "translation": "штопор",
+    "transcription": "[ˈkɔːkskruː]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 25,
+    "origin": "cup",
+    "translation": "кружка",
+    "transcription": "[kʌp]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 26,
+    "origin": "cutting board",
+    "translation": "разделочная доска",
+    "transcription": "[ˈkʌtɪŋ bɔːd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 27,
+    "origin": "cutting board",
+    "translation": "разделочная доска",
+    "transcription": "[ˈkʌtɪŋ bɔːd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 28,
+    "origin": "decanter",
+    "translation": "графин",
+    "transcription": "[dɪˈkæntə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 29,
+    "origin": "dessert fork",
+    "translation": "десертная вилка",
+    "transcription": "[dɪˈzɜːt fɔːk]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 30,
+    "origin": "dish",
+    "translation": "миска",
+    "transcription": "[dɪʃ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 31,
+    "origin": "dishwasher",
+    "translation": "посудомоечная машина",
+    "transcription": "[ˈdɪʃwɒʃə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 32,
+    "origin": "duck house",
+    "translation": "утятница",
+    "transcription": "[dʌk haʊs]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 33,
+    "origin": "egg stand",
+    "translation": "подставка для яиц",
+    "transcription": "[eg stænd]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 34,
+    "origin": "food processor",
+    "translation": "кухонный комбайн",
+    "transcription": "[fuːd ˈprəʊsesə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 35,
+    "origin": "food processor",
+    "translation": "кухонный комбайн",
+    "transcription": "[fuːd ˈprəʊsesə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 36,
+    "origin": "fork",
+    "translation": "вилка",
+    "transcription": "[fɔːk]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 37,
+    "origin": "freezer",
+    "translation": "морозильник",
+    "transcription": "[ˈfriːzə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 38,
+    "origin": "fridge",
+    "translation": "холодильник",
+    "transcription": "[frɪʤ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 39,
+    "origin": "fruit bowl",
+    "translation": "ваза для фруктов",
+    "transcription": "[fruːt bəʊl]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 40,
+    "origin": "frying pan",
+    "translation": "сковорода",
+    "transcription": "[frying pæn]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 41,
+    "origin": "fume hood",
+    "translation": "вытяжной шкаф",
+    "transcription": "[fjuːm hʊd]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 42,
+    "origin": "glass",
+    "translation": "стакан",
+    "transcription": "[glɑːs]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 43,
+    "origin": "glass",
+    "translation": "бокал",
+    "transcription": "[glɑːs]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 44,
+    "origin": "grater",
+    "translation": "терка",
+    "transcription": "[ˈgreɪtə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 45,
+    "origin": "gravy boat",
+    "translation": "соусник",
+    "transcription": "[ˈgreɪvɪ bəʊt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 46,
+    "origin": "grill",
+    "translation": "гриль",
+    "transcription": "[grɪl]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 47,
+    "origin": "herring herring",
+    "translation": "селедочница",
+    "transcription": "[ˈherɪŋ ˈherɪŋ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 48,
+    "origin": "ice cream bowl",
+    "translation": "чаша для мороженого",
+    "transcription": "[aɪs kriːm bəʊl]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 49,
+    "origin": "jam jar",
+    "translation": "банка для варенья",
+    "transcription": "[ʤæm ʤɑː]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 50,
+    "origin": "juicer",
+    "translation": "соковыжималка",
+    "transcription": "[ˈʤuːsə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 51,
+    "origin": "kitchen spatula",
+    "translation": "кухонная лопатка",
+    "transcription": "[ˈkɪʧɪn ˈspætjʊlə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 52,
+    "origin": "knife",
+    "translation": "нож",
+    "transcription": "[naɪf]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 53,
+    "origin": "knife sharpener",
+    "translation": "точилка для ножей",
+    "transcription": "[naɪf ˈʃɑːp(ə)nə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 54,
+    "origin": "knife stand",
+    "translation": "подставка для ножей",
+    "transcription": "[naɪf stænd]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 55,
+    "origin": "ladle",
+    "translation": "черпак",
+    "transcription": "[leɪdl]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 56,
+    "origin": "ladle",
+    "translation": "половник",
+    "transcription": "[leɪdl]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 57,
+    "origin": "ladle",
+    "translation": "черпак",
+    "transcription": "[leɪdl]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 58,
+    "origin": "meat grinder",
+    "translation": "мясорубка",
+    "transcription": "[miːt ˈgraɪndə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 59,
+    "origin": "meat knife",
+    "translation": "мясной нож",
+    "transcription": "[miːt naɪf]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 60,
+    "origin": "microwave oven",
+    "translation": "микроволновая печь",
+    "transcription": "[ˈmaɪkrəweɪv ʌvn]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 61,
+    "origin": "milk jug",
+    "translation": "кувшин для молока",
+    "transcription": "[mɪlk ʤʌg]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 62,
+    "origin": "mixer",
+    "translation": "миксер",
+    "transcription": "[ˈmɪksə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 63,
+    "origin": "multicooker",
+    "translation": "мультиварка",
+    "transcription": "[multicooker]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 64,
+    "origin": "napkin",
+    "translation": "салфетка",
+    "transcription": "[ˈnæpkɪn]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 65,
+    "origin": "oil decanter",
+    "translation": "графин для масла",
+    "transcription": "[ɔɪl dɪˈkæntə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 66,
+    "origin": "oilcan",
+    "translation": "масленка",
+    "transcription": "[ˈɔɪlkæn]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 67,
+    "origin": "oven",
+    "translation": "духовка",
+    "transcription": "[ʌvn]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 68,
+    "origin": "pepper shaker",
+    "translation": "перечница",
+    "transcription": "[ˈpepə ˈʃeɪkə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 69,
+    "origin": "plate",
+    "translation": "тарелка",
+    "transcription": "[pleɪt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 70,
+    "origin": "pot",
+    "translation": "кастрюля",
+    "transcription": "[pɒt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 71,
+    "origin": "rack",
+    "translation": "подставка",
+    "transcription": "[ræk]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 72,
+    "origin": "salad bowl",
+    "translation": "салатница",
+    "transcription": "[ˈsæləd bəʊl]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 73,
+    "origin": "salad spoon",
+    "translation": "ложка для салата",
+    "transcription": "[ˈsæləd spuːn]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 74,
+    "origin": "salt shaker",
+    "translation": "солонка",
+    "transcription": "[sɔːlt ˈʃeɪkə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 75,
+    "origin": "saucepan",
+    "translation": "сотейник",
+    "transcription": "[ˈsɔːspæn]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 76,
+    "origin": "saucepan",
+    "translation": "сотейник",
+    "transcription": "[ˈsɔːspæn]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 77,
+    "origin": "saucer",
+    "translation": "блюдце",
+    "transcription": "[ˈsɔːsə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 78,
+    "origin": "scales",
+    "translation": "весы",
+    "transcription": "[skeɪlz]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 79,
+    "origin": "shot glass",
+    "translation": "рюмка",
+    "transcription": "[ʃɒt glɑːs]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 80,
+    "origin": "sieve",
+    "translation": "sieve",
+    "transcription": "[sɪv]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 81,
+    "origin": "sink",
+    "translation": "раковина",
+    "transcription": "[sɪŋk]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 82,
+    "origin": "skewer",
+    "translation": "шампур",
+    "transcription": "[ˈskjuːə]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 83,
+    "origin": "soup tureen",
+    "translation": "супница",
+    "transcription": "[suːp tjʊˈriːn]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 84,
+    "origin": "spoon",
+    "translation": "ложка",
+    "transcription": "[spuːn]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 85,
+    "origin": "steamer",
+    "translation": "пароварка",
+    "transcription": "[ˈstiːmə]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 86,
+    "origin": "stove",
+    "translation": "плита",
+    "transcription": "[stəʊv]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 87,
+    "origin": "sugar bowl",
+    "translation": "сахарница",
+    "transcription": "[ˈʃʊgə bəʊl]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 88,
+    "origin": "table",
+    "translation": "стол",
+    "transcription": "[teɪbl]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 89,
+    "origin": "tablecloth",
+    "translation": "скатерть",
+    "transcription": "[ˈteɪblklɒθ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 90,
+    "origin": "tandoor",
+    "translation": "тандыр",
+    "transcription": "[ˈtændɔːr]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 91,
+    "origin": "the bowl",
+    "translation": "чаша",
+    "transcription": "[ðiː bəʊl]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 92,
+    "origin": "the trash can",
+    "translation": "мусорное ведро",
+    "transcription": "[ðiː træʃ kæn]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 93,
+    "origin": "the tray",
+    "translation": "поднос",
+    "transcription": "[ðiː treɪ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 94,
+    "origin": "thermos",
+    "translation": "термос",
+    "transcription": "[ˈθɜːməs]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 95,
+    "origin": "timer",
+    "translation": "таймер",
+    "transcription": "[ˈtaɪmə]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 96,
+    "origin": "toaster",
+    "translation": "тостер",
+    "transcription": "[ˈtəʊstə]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 97,
+    "origin": "toothpick",
+    "translation": "зубочистка",
+    "transcription": "[ˈtuːθpɪk]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 98,
+    "origin": "vase",
+    "translation": "ваза",
+    "transcription": "[vɑːz]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 99,
+    "origin": "wine glass",
+    "translation": "фужер",
+    "transcription": "[waɪn glɑːs]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 100,
+    "origin": "volleyball",
+    "translation": "волейбол",
+    "transcription": "[ˈvɒlɪbɔːl]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 101,
+    "origin": "volunteering",
+    "translation": "волонтерство",
+    "transcription": "[volunteering]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 102,
+    "origin": "watching tv",
+    "translation": "просмотр телевизора",
+    "transcription": "[ˈwɒʧɪŋ tiːˈviː]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 103,
+    "origin": "weightlifting",
+    "translation": "тяжелая атлетика",
+    "transcription": "[ˈweɪtlɪftɪŋ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 104,
+    "origin": "wood carving",
+    "translation": "резьба по дереву",
+    "transcription": "[wʊd ˈkɑːvɪŋ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 105,
+    "origin": "wrestling classes",
+    "translation": "занятия борьбой",
+    "transcription": "[ˈreslɪŋ klɑːsɪz]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 106,
+    "origin": "write stories",
+    "translation": "писать рассказы",
+    "transcription": "[raɪt ˈstɔːrɪz]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 107,
+    "origin": "writing poetry",
+    "translation": "написание стихов",
+    "transcription": "[ˈraɪtɪŋ ˈpəʊɪtrɪ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 108,
+    "origin": "yachting",
+    "translation": "яхтинг",
+    "transcription": "[ˈjɒtɪŋ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 109,
+    "origin": "yoga classes",
+    "translation": "занятия йогой",
+    "transcription": "[ˈjəʊgə klɑːsɪz]",
+    "image": " ",
+    "example": " "
+  }
+]
+}

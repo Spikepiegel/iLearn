@@ -1,0 +1,1524 @@
+{
+"wordInformation":[
+  {
+    "id": 1,
+    "origin": "account",
+    "translation": "счет",
+    "transcription": "[ əˈkaʊnt ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 2,
+    "origin": "accounting and reporting",
+    "translation": "учет и отчетность",
+    "transcription": "[ əˈkaʊntɪŋ ənd rɪˈpɔːtɪŋ ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 3,
+    "origin": "agent, intermediary",
+    "translation": "посредник",
+    "transcription": "[ ˈeɪdʒənt ] ˌɪntəˈmiːdɪəri ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 4,
+    "origin": "arrears",
+    "translation": "задолженность",
+    "transcription": "[ əˈrɪəz ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 5,
+    "origin": "assets",
+    "translation": "активы",
+    "transcription": "[ ˈæsets ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 6,
+    "origin": "ATM, cash machine",
+    "translation": "банкомат",
+    "transcription": "[ ˌeɪtiːˈem ], [ kæʃ məˈʃiːn ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 7,
+    "origin": "audit",
+    "translation": "ревизия, контрольная проверка",
+    "transcription": "[ ˈɔːdɪt ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 8,
+    "origin": "auditing",
+    "translation": "бухгалтерский учет",
+    "transcription": "[ ˈɔːdɪtɪŋ ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 9,
+    "origin": "balance",
+    "translation": "сальдо",
+    "transcription": "[ ˈbæləns ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 10,
+    "origin": "balance of payments",
+    "translation": "платежный баланс",
+    "transcription": "[ ˈbæləns əv ˈpeɪmənts ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 11,
+    "origin": "balance of trade",
+    "translation": "торговый баланс",
+    "transcription": "[ ˈbæləns əv treɪd ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 12,
+    "origin": "balance sheet",
+    "translation": "балансовый отчет",
+    "transcription": "[ ˈbæləns ʃiːt ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 13,
+    "origin": "be listed on stock market",
+    "translation": "котироваться",
+    "transcription": "[ bi ˈlɪstɪd ɒn stɒk ˈmɑːkɪt ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 14,
+    "origin": "bid, tender",
+    "translation": "торги, заявка на торгах, предложение, тендер",
+    "transcription": "[ bɪd ], [ ˈtendə ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 15,
+    "origin": "bill (of exchange)",
+    "translation": "вексель, переводные векселя",
+    "transcription": "[ bɪl əv ɪkˈstʃeɪndʒ ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 16,
+    "origin": "bill of lading",
+    "translation": "коносамент",
+    "transcription": "[ bɪl əv ˈleɪdɪŋ ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 17,
+    "origin": "bond",
+    "translation": "облигация",
+    "transcription": "[ bɒnd ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 18,
+    "origin": "borrower",
+    "translation": "кредитополучатель, заемщик",
+    "transcription": "[ ˈbɒrəʊə ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 19,
+    "origin": "break-even point",
+    "translation": "точка самоокупаемости",
+    "transcription": "[ ˈbreɪˌkivən pɔɪnt ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 20,
+    "origin": "broker",
+    "translation": "биржевой маклер",
+    "transcription": "[ ˈbrəʊkə ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 21,
+    "origin": "budget cuts",
+    "translation": "секвестр",
+    "transcription": "[ ˈbʌdʒət kʌts ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 22,
+    "origin": "business slowdown",
+    "translation": "спад деловой активности",
+    "transcription": "[ ˈbɪznəs ˈsləʊdaʊn ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 23,
+    "origin": "capital flight",
+    "translation": "утечка капитала",
+    "transcription": "[ ˈkæpɪtəl flaɪt ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 24,
+    "origin": "capital intensive",
+    "translation": "капиталоемкий",
+    "transcription": "[ ˈkæpɪtəl ɪnˈtensɪv ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 25,
+    "origin": "capital investment",
+    "translation": "капиталовложения, инвестиции",
+    "transcription": "[ ˈkæpɪtəl ɪnˈvestmənt ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 26,
+    "origin": "cargo",
+    "translation": "груз",
+    "transcription": "[ ˈkɑːɡəʊ ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 27,
+    "origin": "cash",
+    "translation": "наличные",
+    "transcription": "[ kæʃ ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 28,
+    "origin": "Chamber of Commerce",
+    "translation": "торговая палата",
+    "transcription": "[ ˈtʃeɪmbər əv ˈkɒmɜːs ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 29,
+    "origin": "chartering",
+    "translation": "фрахтование",
+    "transcription": "[ ˈtʃɑːtərɪŋ ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 30,
+    "origin": "client/customer",
+    "translation": "заказчик",
+    "transcription": "[ ˈklaɪənt ˈkʌstəmə ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 31,
+    "origin": "collateral",
+    "translation": "залог",
+    "transcription": "[ kəˈlætərəl ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 32,
+    "origin": "commodity turnover, circulation",
+    "translation": "товарооборот",
+    "transcription": "[ kəˈmɒdɪti ˈtɜːnəʊvə ], [ ˌsɜːkjʊˈleɪʃən ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 33,
+    "origin": "Common Market",
+    "translation": "общий рынок",
+    "transcription": "[ ˈkɒmən ˈmɑːkɪt ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 34,
+    "origin": "competition",
+    "translation": "конкуренция",
+    "transcription": "[ ˌkɒmpəˈtɪʃən ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 35,
+    "origin": "competitive",
+    "translation": "конкурентоспособный",
+    "transcription": "[ kəmˈpetətɪv ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 36,
+    "origin": "competitor",
+    "translation": "конкурент",
+    "transcription": "[ kəmˈpetɪtə ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 37,
+    "origin": "consumer",
+    "translation": "потребитель",
+    "transcription": "[ kənˈsjuːmə ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 38,
+    "origin": "consumer goods",
+    "translation": "потребительские товары",
+    "transcription": "[ kənˈsjuːmə ɡʊdz ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 39,
+    "origin": "consumption",
+    "translation": "потребление",
+    "transcription": "[ kənˈsʌmpʃən ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 40,
+    "origin": "consumption / accumulation fund",
+    "translation": "фонд потребления, накопления",
+    "transcription": "[ kənˈsʌmpʃən / əˌkjuːmjəˈleɪʃən fʌnd ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 41,
+    "origin": "convertible, hard",
+    "translation": "конвертируемая, твердая (валюта)",
+    "transcription": "[ kənˈvɜːtəbəl ], [ hɑːd ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 42,
+    "origin": "cost accounting",
+    "translation": "хозрасчет",
+    "transcription": "[ kɒst əˈkaʊntɪŋ ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 43,
+    "origin": "cost recovery",
+    "translation": "самоокупаемость",
+    "transcription": "[ kɒst rɪˈkʌvəri ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 44,
+    "origin": "costs",
+    "translation": "издержки",
+    "transcription": "[ kɒsts ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 45,
+    "origin": "cover expenses",
+    "translation": "брать на себя расходы",
+    "transcription": "[ ˈkʌvər ɪkˈspensɪz ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 46,
+    "origin": "credit terms",
+    "translation": "условия кредита",
+    "transcription": "[ ˈkredɪt tɜːmz ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 47,
+    "origin": "currency",
+    "translation": "валюта",
+    "transcription": "[ ˈkʌrənsi ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 48,
+    "origin": "current plans",
+    "translation": "текущие планы",
+    "transcription": "[ ˈkʌrənt plænz ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 49,
+    "origin": "damage",
+    "translation": "порча, урон",
+    "transcription": "[ ˈdæmɪdʒ ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 50,
+    "origin": "deal / transaction",
+    "translation": "сделка",
+    "transcription": "[ diːl ] [ trænˈzækʃən ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 51,
+    "origin": "deduct, write off from taxes",
+    "translation": "вычитать, списать с налогов",
+    "transcription": "[ dɪˈdʌkt ] ˈraɪt ɒf frəm ˈtæksɪz ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 52,
+    "origin": "delivery",
+    "translation": "поставка",
+    "transcription": "[ dɪˈlɪvəri ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 53,
+    "origin": "demand and supply",
+    "translation": "спрос и предложение",
+    "transcription": "[ dɪˈmɑːnd ənd səˈplaɪ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 54,
+    "origin": "deposit",
+    "translation": "вклад (банковский)",
+    "transcription": "[ dɪˈpɒzɪt ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 55,
+    "origin": "depreciation",
+    "translation": "амортизация",
+    "transcription": "[ dɪˌpriːʃɪˈeɪʃən ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 56,
+    "origin": "discount",
+    "translation": "скидка",
+    "transcription": "[ ˈdɪskaʊnt ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 57,
+    "origin": "discount rate, bank rate",
+    "translation": "учетная ставка",
+    "transcription": "[ ˈdɪskaʊnt reɪt ] [ bæŋk reɪt ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 58,
+    "origin": "dividends",
+    "translation": "дивиденды",
+    "transcription": "[ ˈdɪvɪdendz ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 59,
+    "origin": "domestic market",
+    "translation": "внутренний рынок",
+    "transcription": "[ dəˈmestɪk ˈmɑːkɪt ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 60,
+    "origin": "efficiency",
+    "translation": "КПД (коэффициент полезного действия), эффективность",
+    "transcription": "[ ɪˈfɪʃnsi ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 61,
+    "origin": "employee",
+    "translation": "служащий",
+    "transcription": "[ ˌemploɪˈiː ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 62,
+    "origin": "employer",
+    "translation": "работодатель",
+    "transcription": "[ ɪmˈploɪə ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 63,
+    "origin": "enterprise",
+    "translation": "предприятие",
+    "transcription": "[ ˈentəpraɪz ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 64,
+    "origin": "entrepreneur",
+    "translation": "предприниматель",
+    "transcription": "[ ˌɒntrəprəˈnɜː ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 65,
+    "origin": "equity capital",
+    "translation": "акционерный капитал",
+    "transcription": "[ ˈekwɪti ˈkæpɪtəl ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 66,
+    "origin": "equity investment",
+    "translation": "чистая стоимость капитала",
+    "transcription": "[ ˈekwɪti ɪnˈvestmənt ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 67,
+    "origin": "European Bank for Reconstruction and Development (EBRD)",
+    "translation": "Европейский банк реконструкции и развития (ЕБРР)",
+    "transcription": "[ ˌjʊərəˈpɪən bæŋk fə ˌriːkənˈstrʌkʃən ənd dɪˈveləpmənt ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 68,
+    "origin": "exchange rate",
+    "translation": "курс обмена (валюты)",
+    "transcription": "[ ɪkˈstʃeɪndʒ reɪt ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 69,
+    "origin": "expenditures / expenses",
+    "translation": "затраты / расходы",
+    "transcription": "[ ɪkˈspendɪtʃəz ] [ ɪkˈspensɪz ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 70,
+    "origin": "export earnings",
+    "translation": "экспортные поступления",
+    "transcription": "[ ɪkˈspɔːt ˈɜːnɪŋz ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 71,
+    "origin": "external debt",
+    "translation": "внешняя задолженность",
+    "transcription": "[ ɪkˈstɜːnəl det ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 72,
+    "origin": "factory assets / funds",
+    "translation": "фонды предприятия",
+    "transcription": "[ ˈfæktəri ˈæsets / fʌndz ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 73,
+    "origin": "find / turn out to be defective / substandard",
+    "translation": "забраковать",
+    "transcription": "[ faɪnd / tɜːn aʊt tə bi dɪˈfektɪv / ˌsʌbˈstændəd ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 74,
+    "origin": "fixed capital",
+    "translation": "основной капитал",
+    "transcription": "[ fɪkst ˈkæpɪtəl ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 75,
+    "origin": "freely convertible currency",
+    "translation": "свободно конвертируемая валюта (СКВ)",
+    "transcription": "[ ˈfriːli kənˈvɜːtəbəl ˈkʌrənsi ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 76,
+    "origin": "freight",
+    "translation": "фрахт",
+    "transcription": "[ freɪt ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 77,
+    "origin": "GDP (Gross Domestic Product)",
+    "translation": "ВВП (валовой внутренний продукт)",
+    "transcription": "[ dʒiː diː ˈpiː ] [ ɡrəʊs dəˈmestɪk ˈprɒdʌkt ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 78,
+    "origin": "GNP (Gross National Product)",
+    "translation": "ВНП (валовой национальный продукт)",
+    "transcription": "[ ˌdʒɪˌenˈpiː ] [ ɡrəʊs ˈnæʃnəl ˈprɒdʌkt ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 79,
+    "origin": "government / treasury bond (T-bill)",
+    "translation": "Государственная казначейская облигация (ГКО) паевый фонд",
+    "transcription": "[ ˈɡʌvənmənt / ˈtreʒəri bɒnd (tiː bɪl ) ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 80,
+    "origin": "grant",
+    "translation": "безвозмездная субсидия",
+    "transcription": "[ ɡrɑːnt ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 81,
+    "origin": "growth rate",
+    "translation": "темпы роста",
+    "transcription": "[ ɡrəʊθ reɪt ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 82,
+    "origin": "in charge of economic policy",
+    "translation": "ответственный за экономическую политику",
+    "transcription": "[ ɪn tʃɑːdʒ əv ˌiːkəˈnɒmɪk ˈpɒləsi ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 83,
+    "origin": "incentive",
+    "translation": "стимул",
+    "transcription": "[ ɪnˈsentɪv ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 84,
+    "origin": "income tax",
+    "translation": "подоходный налог",
+    "transcription": "[ ˈɪŋkʌm tæks ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 85,
+    "origin": "insolvency",
+    "translation": "неплатежеспособность, несостоятельность",
+    "transcription": "[ ɪnˈsɒlvənsi ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 86,
+    "origin": "installment payment plan",
+    "translation": "рассрочка платежа",
+    "transcription": "[ ˌɪnˈstɒlmənt ˈpeɪmənt plæn ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 87,
+    "origin": "insurance",
+    "translation": "страхование",
+    "transcription": "[ ɪnˈʃʊərəns ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 88,
+    "origin": "interest rate",
+    "translation": "процентная ставка",
+    "transcription": "[ ˈɪntrəst reɪt ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 89,
+    "origin": "International Monetary Fund (IMF)",
+    "translation": "Международный валютный фонд (МВФ)",
+    "transcription": "[ ˌɪntəˈnæʃənəl ˈmʌnɪtri fʌnd ] [ˌaɪˌeˈmef ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 90,
+    "origin": "investor",
+    "translation": "инвестор, вкладчик",
+    "transcription": "[ ɪnˈvestə ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 91,
+    "origin": "invoice",
+    "translation": "cчет-фактура",
+    "transcription": "[ ˈɪnvɔɪs ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 92,
+    "origin": "issue",
+    "translation": "эмиссия",
+    "transcription": "[ ˈɪʃuː ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 93,
+    "origin": "joint venture / enterprise",
+    "translation": "совместное предприятие",
+    "transcription": "[ dʒɔɪnt ˈventʃər / ˈentəpraɪz ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 94,
+    "origin": "labor intensive",
+    "translation": "трудоемкий",
+    "transcription": "[ ˈleɪbər ɪnˈtensɪv ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 95,
+    "origin": "lender",
+    "translation": "кредитодатель",
+    "transcription": "[ ˈlendə ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 96,
+    "origin": "liabilities",
+    "translation": "пассивы",
+    "transcription": "[ ˌlaɪəˈbɪlɪtɪz ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 97,
+    "origin": "limited liability",
+    "translation": "ограниченная ответственность",
+    "transcription": "[ ˈlɪmɪtɪd ˌlaɪəˈbɪlɪti ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 98,
+    "origin": "listing",
+    "translation": "котировка",
+    "transcription": "[ ˈlɪstɪŋ ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 99,
+    "origin": "loading, unloading",
+    "translation": "погрузка, разгрузка",
+    "transcription": "[ ˈləʊdɪŋ ] [ ʌnˈləʊdɪŋ ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 100,
+    "origin": "letter of credit",
+    "translation": "аккредитив",
+    "transcription": "[ ˈletər əv ˈkredɪt ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 101,
+    "origin": "loan",
+    "translation": "заём, ссуда",
+    "transcription": "[ ləʊn ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 102,
+    "origin": "loan agreement",
+    "translation": "кредитное соглашение",
+    "transcription": "[ ləʊn əˈɡriːmənt ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 103,
+    "origin": "long-term plans",
+    "translation": "долгосрочные планы",
+    "transcription": "[ ˈlɒŋ tɜːm plænz ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 104,
+    "origin": "management, administration",
+    "translation": "руководство, управление",
+    "transcription": "[ ˈmænɪdʒmənt ] [ ədˌmɪnɪˈstreɪʃən ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 105,
+    "origin": "manpower",
+    "translation": "рабочая сила",
+    "transcription": "[ ˈmænpaʊə ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 106,
+    "origin": "maturity",
+    "translation": "срок погашения",
+    "transcription": "[ məˈtjʊərɪti ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 107,
+    "origin": "means of production",
+    "translation": "средства производства",
+    "transcription": "[ miːnz əv prəˈdʌkʃən ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 108,
+    "origin": "medium-term plans",
+    "translation": "среднесрочные планы",
+    "transcription": "[ ˈmiːdɪəm tɜːm plænz ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 109,
+    "origin": "military-industrial complex",
+    "translation": "военно-промышленный комплекс (ВПК)",
+    "transcription": "[ ˈkɒmpleks ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 110,
+    "origin": "money supply",
+    "translation": "денежная масса",
+    "transcription": "[ ˈmʌni səˈplaɪ ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 111,
+    "origin": "mortgage",
+    "translation": "ипотека",
+    "transcription": "[ ˈmɔːɡɪdʒ ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 112,
+    "origin": "natural resources",
+    "translation": "природные ресурсы",
+    "transcription": "[ ˈnætʃrəl rɪˈzɔːsɪz ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 113,
+    "origin": "negotiated instrument",
+    "translation": "оборотный инструмент",
+    "transcription": "[ nɪˈɡəʊʃɪeɪtɪd ˈɪnstrʊmənt ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 114,
+    "origin": "non-collected taxes",
+    "translation": "недоимка",
+    "transcription": "[ nɒn kəˈlektɪd ˈtæksɪz ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 115,
+    "origin": "oil field",
+    "translation": "месторождение нефти",
+    "transcription": "[ ɔɪl fiːld ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 116,
+    "origin": "oil pipeline",
+    "translation": "нефтепровод",
+    "transcription": "[ ɔɪl ˈpaɪplaɪn ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 117,
+    "origin": "oil rig",
+    "translation": "буровая установка",
+    "transcription": "[ ɔɪl rɪɡ ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 118,
+    "origin": "oil wells",
+    "translation": "промысловые скважины",
+    "transcription": "[ ɔɪl welz ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 119,
+    "origin": "output",
+    "translation": "объем производства",
+    "transcription": "[ ˈaʊtpʊt ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 120,
+    "origin": "overheads",
+    "translation": "накладные расходы",
+    "transcription": "[ ˈəʊvəhedz ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 121,
+    "origin": "payments",
+    "translation": "отчисления",
+    "transcription": "[ ˈpeɪmənts ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 122,
+    "origin": "per capita",
+    "translation": "на душу населения",
+    "transcription": "[ pɜː pə ˈkæpɪtə ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 123,
+    "origin": "personnel turnover",
+    "translation": "текучесть кадров",
+    "transcription": "[ ˌpɜːsəˈnel ˈtɜːnəʊvə ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 124,
+    "origin": "pipeline",
+    "translation": "трубопровод",
+    "transcription": "[ ˈpaɪplaɪn ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 125,
+    "origin": "planned / market economy",
+    "translation": "плановая / рыночная экономика",
+    "transcription": "[ plænd / ˈmɑːkɪt ɪˈkɒnəmi ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 126,
+    "origin": "portfolio",
+    "translation": "портфель",
+    "transcription": "[ pɔːtˈfəʊlɪəʊ ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 127,
+    "origin": "price list",
+    "translation": "прейскурант",
+    "transcription": "[ praɪs lɪst ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 128,
+    "origin": "procurement",
+    "translation": "закупка",
+    "transcription": "[ prəˈkjʊəmənt ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 129,
+    "origin": "producer",
+    "translation": "производитель",
+    "transcription": "[ prəˈdjuːsə ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 130,
+    "origin": "production / prime cost, cost price",
+    "translation": "себестоимость",
+    "transcription": "[ prəˈdʌkʃən / praɪm kɒst ] [ kɒst praɪs ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 131,
+    "origin": "profit",
+    "translation": "прибыль",
+    "transcription": "[ ˈprɒfɪt ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 132,
+    "origin": "profitability",
+    "translation": "прибыльность",
+    "transcription": "[ ˈprɒfɪtəbəl ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 133,
+    "origin": "profitable, advantageous",
+    "translation": "прибыльный",
+    "transcription": "[ ˈprɒfɪtəbəl ] [ ˌædvənˈteɪdʒəs ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 134,
+    "origin": "profitable, self-subsidizing",
+    "translation": "самоокупаемый",
+    "transcription": "[ ˈprɒfɪtəbəl ] [ self ˈsʌbsɪdaɪzɪŋ ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 135,
+    "origin": "pumping",
+    "translation": "выкачка",
+    "transcription": "[ ˈpʌmpɪŋ ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 136,
+    "origin": "purchase",
+    "translation": "закупить",
+    "transcription": "[ ˈpɜːtʃəs ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 137,
+    "origin": "raise labor productivity",
+    "translation": "повышать производительность труда",
+    "transcription": "[ reɪz ˈleɪbə ˌprɒdʌkˈtɪvɪti ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 138,
+    "origin": "rate of reimbursement",
+    "translation": "ставка возмещения",
+    "transcription": "[ reɪt əv ˌriːɪmˈbɜːsmənt ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 139,
+    "origin": "ratio",
+    "translation": "коэффициент",
+    "transcription": "[ ˈreɪʃɪəʊ ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 140,
+    "origin": "raw materials",
+    "translation": "сырье",
+    "transcription": "[ rɔː məˈtɪərɪəlz ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 141,
+    "origin": "repayment of credit",
+    "translation": "погашение кредитов",
+    "transcription": "[ rɪˈpeɪmənt əv ˈkredɪt ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 142,
+    "origin": "retail",
+    "translation": "розничный",
+    "transcription": "[ ˈriːteɪl ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 143,
+    "origin": "revenue",
+    "translation": "поступления",
+    "transcription": "[ ˈrevənjuː ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 144,
+    "origin": "risk management",
+    "translation": "управление риском",
+    "transcription": "[ rɪsk ˈmænɪdʒmənt ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 145,
+    "origin": "sales and purchase",
+    "translation": "сбыт (продажа) и закупка",
+    "transcription": "[ seɪlz ənd ˈpɜːtʃəs ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 146,
+    "origin": "savings",
+    "translation": "сбережения",
+    "transcription": "[ ˈseɪvɪŋz ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 147,
+    "origin": "savings (in savings bank account)",
+    "translation": "соглашение по разделу продукции (СРП)",
+    "transcription": "[ ˈseɪvɪŋz ( ɪn ˈseɪvɪŋz bæŋk əkaʊnt ) ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 148,
+    "origin": "scarce, rare",
+    "translation": "дефицитный",
+    "transcription": "[ skeəs ] [ reə ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 149,
+    "origin": "securities",
+    "translation": "ценные бумаги",
+    "transcription": "[ sɪˈkjʊərɪtɪz ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 150,
+    "origin": "self-financing",
+    "translation": "самофинансирование",
+    "transcription": "[ self ˈfaɪnænsɪŋ ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 151,
+    "origin": "share",
+    "translation": "доля",
+    "transcription": "[ ʃeə ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 152,
+    "origin": "shortage, deficit",
+    "translation": "дефицит",
+    "transcription": "[ ˈʃɔːtɪdʒ ], [ ˈdefɪsɪt ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 153,
+    "origin": "small / medium enterprise",
+    "translation": "малое / среднее предприятие",
+    "transcription": "[ smɔːl / ˈmiːdɪəm ˈentəpraɪz ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 154,
+    "origin": "spare parts",
+    "translation": "запчасти",
+    "transcription": "[ speə pɑːts ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 155,
+    "origin": "State Bank",
+    "translation": "Госбанк",
+    "transcription": "[ steɪt bæŋk ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 156,
+    "origin": "stock",
+    "translation": "акция (ценная бумага)",
+    "transcription": "[ stɒk ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 157,
+    "origin": "stock company",
+    "translation": "акционерное общество",
+    "transcription": "[ stɒk ˈkʌmpəni ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 158,
+    "origin": "stock exchange",
+    "translation": "биржа",
+    "transcription": "[ stɒk ɪkˈstʃeɪndʒ ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 159,
+    "origin": "stock market",
+    "translation": "фондовый рынок",
+    "transcription": "[ stɒk ˈmɑːkɪt ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 160,
+    "origin": "stockholder",
+    "translation": "держатель акций",
+    "transcription": "[ ˈstɒkhəʊldə ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 161,
+    "origin": "submit dispute to arbitration",
+    "translation": "передать дело в арбитраж",
+    "transcription": "[ səbˈmɪt dɪˈspjuːt tu ˌɑːbɪˈtreɪʃən ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 162,
+    "origin": "supplier",
+    "translation": "поставщик",
+    "transcription": "[ səˈplaɪə ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 163,
+    "origin": "tariff",
+    "translation": "пошлина",
+    "transcription": "[ ˈtærɪf ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 164,
+    "origin": "tax",
+    "translation": "налог",
+    "transcription": "[ tæks ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 165,
+    "origin": "tax code",
+    "translation": "налоговый кодекс",
+    "transcription": "[ tæks kəʊd ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 166,
+    "origin": "tax collection",
+    "translation": "сбор налогов",
+    "transcription": "[ tæks kəˈlekʃən ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 167,
+    "origin": "tax evasion",
+    "translation": "уклонение от налогов",
+    "transcription": "[ tæks ɪˈveɪʒən ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 168,
+    "origin": "tax privileges, tax relief",
+    "translation": "налоговые льготы",
+    "transcription": "[ tæks ˈprɪvəlɪdʒɪz ], [ tæks rɪˈliːf ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 169,
+    "origin": "tax return",
+    "translation": "налоговая декларация",
+    "transcription": "[ tæks rɪˈtɜːn ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 170,
+    "origin": "taxable",
+    "translation": "подлежащий налогообложению",
+    "transcription": "[ ˈtæksəbəl ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 171,
+    "origin": "taxation",
+    "translation": "налогообложение",
+    "transcription": "[ tækˈseɪʃən ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 172,
+    "origin": "tax-exempt, tax free",
+    "translation": "освобожденный от налогов, не облагаемый налогом",
+    "transcription": "[ ˈtæksɪɡˈzempt ] [ tæks friː ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 173,
+    "origin": "terms of delivery",
+    "translation": "условия поставки",
+    "transcription": "[ tɜːmz əv dɪˈlɪvəri ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 174,
+    "origin": "terms of payment",
+    "translation": "условия платежа",
+    "transcription": "[ tɜːmz əv ˈpeɪmənt ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 175,
+    "origin": "to be in demand",
+    "translation": "пользоваться спросом",
+    "transcription": "[ tə bi ɪn dɪˈmɑːnd ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 176,
+    "origin": "to deliver / to supply",
+    "translation": "поставить, снабжать",
+    "transcription": "[ tə dɪˈlɪvə / tə səˈplaɪ ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 177,
+    "origin": "to file taxes",
+    "translation": "подать декларацию",
+    "transcription": "[ tə faɪl ˈtæksɪz ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 178,
+    "origin": "to fulfill / overfulfill a plan",
+    "translation": "выполнить / перевыполнить план",
+    "transcription": "[ tə fʊlˈfɪl / ˌəʊvəfʊlˈfɪl ə plæn ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 179,
+    "origin": "to manage / to run (a firm, a hotel)",
+    "translation": "эксплуатировать",
+    "transcription": "[ tə ˈmænɪdʒ / tə rʌn ( ə fɜːm / ə ˌhəʊˈtel ) ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 180,
+    "origin": "to patent",
+    "translation": "запатентовать",
+    "transcription": "[ tə ˈpeɪtnt ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 181,
+    "origin": "to save on something, to economize",
+    "translation": "экономить",
+    "transcription": "[ tə seɪv ɒn ˈsʌmθɪŋ ] [tə ɪˈkɒnəmaɪz ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 182,
+    "origin": "trade / commercial counselor",
+    "translation": "торговый советник",
+    "transcription": "[ treɪd / kəˈmɜːʃəl ˈkaʊnsələ ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 183,
+    "origin": "trade mission",
+    "translation": "торгпредство",
+    "transcription": "[ treɪd ˈmɪʃən ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 184,
+    "origin": "trade representative",
+    "translation": "торгпред",
+    "transcription": "[ treɪd ˌreprɪˈzentətɪv ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 185,
+    "origin": "trade surplus",
+    "translation": "активный торговый баланс",
+    "transcription": "[ treɪd ˈsɜːpləs ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 186,
+    "origin": "trial order",
+    "translation": "пробный заказ",
+    "transcription": "[ ˈtraɪəl ˈɔːdə ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 187,
+    "origin": "value added tax (VAT)",
+    "translation": "налог на добавленную стоимость (НДС)",
+    "transcription": "[ ˈvæljuː ˈædɪd tæks væt ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 188,
+    "origin": "warehouse / storehouse",
+    "translation": "склад",
+    "transcription": "[ ˈweəhaʊs ˈstɔːhaʊs ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 189,
+    "origin": "wholesale",
+    "translation": "оптовый",
+    "transcription": "[ ˈhəʊlseɪl ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 190,
+    "origin": "World Trade Organization (WTO)",
+    "translation": "Всемирная Торговая Организация (ВТО)",
+    "transcription": "[ wɜːld treɪd ˌɔːɡənaɪˈzeɪʃən ]",
+    "image": " ",
+    "example": " "
+  }
+]
+}

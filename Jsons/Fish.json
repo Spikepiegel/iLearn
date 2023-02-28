@@ -1,0 +1,332 @@
+{
+"wordInformation":[
+  {
+    "id": 1,
+    "origin": "squid",
+    "translation": "кальмар",
+    "transcription": "[skwɪd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 2,
+    "origin": "shrimp",
+    "translation": "креветки",
+    "transcription": "[ʃrɪmp]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 3,
+    "origin": "king prawns",
+    "translation": "королевские креветки",
+    "transcription": "[kɪŋ prɔːnz]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 4,
+    "origin": "mussels",
+    "translation": "мидии",
+    "transcription": "[mussels]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 5,
+    "origin": "red caviar",
+    "translation": "красная икра",
+    "transcription": "[red ˈkævɪɑː]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 6,
+    "origin": "black caviar",
+    "translation": "черная икра",
+    "transcription": "[blæk ˈkævɪɑː]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 7,
+    "origin": "oysters",
+    "translation": "устрицы",
+    "transcription": "[oysters]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 8,
+    "origin": "crab",
+    "translation": "краб",
+    "transcription": "[kræb]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 9,
+    "origin": "mollusk",
+    "translation": "моллюск",
+    "transcription": "[ˈmɒləsk]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 10,
+    "origin": "lobster",
+    "translation": "лобстер, омар",
+    "transcription": "[ˈlɒbstə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 11,
+    "origin": "langoust",
+    "translation": "лангуст",
+    "transcription": "[langoust]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 12,
+    "origin": "bulls",
+    "translation": "бычки",
+    "transcription": "[bulls]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 13,
+    "origin": "barabula",
+    "translation": "барабуля",
+    "transcription": "[barabula]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 14,
+    "origin": "dorado",
+    "translation": "дорадо",
+    "transcription": "[dəˈrɑːdəʊ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 15,
+    "origin": "flounder",
+    "translation": "камбала",
+    "transcription": "[ˈflaʊndə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 16,
+    "origin": "smelt",
+    "translation": "корюшка",
+    "transcription": "[smelt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 17,
+    "origin": "yellow tabby",
+    "translation": "желтый полосатик",
+    "transcription": "[ˈjeləʊ ˈtæbɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 18,
+    "origin": "capelin",
+    "translation": "мойва",
+    "transcription": "[ˈkæplɪn]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 19,
+    "origin": "halibut",
+    "translation": "палтус",
+    "transcription": "[ˈhælɪbət]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 20,
+    "origin": "herring",
+    "translation": "салака",
+    "transcription": "[ˈherɪŋ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 21,
+    "origin": "sea herring",
+    "translation": "морская сельдь",
+    "transcription": "[siː ˈherɪŋ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 22,
+    "origin": "mackerel",
+    "translation": "скумбрия",
+    "transcription": "[ˈmækrəl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 23,
+    "origin": "horse mackerel",
+    "translation": "ставрида",
+    "transcription": "[hɔːs ˈmækrəl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 24,
+    "origin": "cod",
+    "translation": "треска",
+    "transcription": "[kɒd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 25,
+    "origin": "tuna",
+    "translation": "тунец",
+    "transcription": "[ˈtjuːnə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 26,
+    "origin": "eel",
+    "translation": "угорь",
+    "transcription": "[iːl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 27,
+    "origin": "sprat",
+    "translation": "килька",
+    "transcription": "[spræt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 28,
+    "origin": "scallops",
+    "translation": "морские гребешки",
+    "transcription": "[ˈskɒləps]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 29,
+    "origin": "sea urchin",
+    "translation": "морской еж",
+    "transcription": "[siː ˈɜːʧɪn]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 30,
+    "origin": "sprats",
+    "translation": "шпроты",
+    "transcription": "[spræts]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 31,
+    "origin": "pollock",
+    "translation": "минтай",
+    "transcription": "[ˈpɒlək]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 32,
+    "origin": "sea walleye",
+    "translation": "морской судак",
+    "transcription": "[siː ˈwɔːlaɪ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 33,
+    "origin": "cuttlefish",
+    "translation": "каракатица",
+    "transcription": "[ˈkʌtlfɪʃ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 34,
+    "origin": "seaweed",
+    "translation": "водоросли",
+    "transcription": "[ˈsiːwiːd]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 35,
+    "origin": "langoustines",
+    "translation": "лангустины",
+    "transcription": "[langoustines]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 36,
+    "origin": "sea cabbage",
+    "translation": "морская капуста",
+    "transcription": "[siː ˈkæbɪʤ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 37,
+    "origin": "octopus",
+    "translation": "осьминог",
+    "transcription": "[ˈɒktəpəs]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 38,
+    "origin": "spirulina",
+    "translation": "спирулина",
+    "transcription": "[ˈspaɪərəlɪn]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 39,
+    "origin": "trepang",
+    "translation": "трепанг",
+    "transcription": "[trɪˈpæŋ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 40,
+    "origin": "puffer fish",
+    "translation": "фугу",
+    "transcription": "[ˈpʌfə fɪʃ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 41,
+    "origin": "kelp",
+    "translation": "ламинария",
+    "transcription": "[kelp]",
+    "image": " ",
+    "example": "  "
+  }
+]
+}

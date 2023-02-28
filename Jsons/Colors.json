@@ -1,0 +1,500 @@
+{
+"wordInformation":[
+  {
+    "id": 1,
+    "origin": "amber",
+    "translation": "янтарный",
+    "transcription": "[ ˈæmbə ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 2,
+    "origin": "aqua",
+    "translation": "морская волна",
+    "transcription": "[ ˈækwə ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 3,
+    "origin": "ash",
+    "translation": "пепельно-серый",
+    "transcription": "[ æʃ ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 4,
+    "origin": "aquamarine",
+    "translation": "аквамарин",
+    "transcription": "[ ˌækwəməˈriːn ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 5,
+    "origin": "azure",
+    "translation": "лазурный",
+    "transcription": "[ æ’zjuə ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 6,
+    "origin": "beige",
+    "translation": "бежевый",
+    "transcription": "[ beɪʒ ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 7,
+    "origin": "black",
+    "translation": "черный",
+    "transcription": "[ blæk ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 8,
+    "origin": "blue",
+    "translation": "синий",
+    "transcription": "[ bluː ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 9,
+    "origin": "bronze",
+    "translation": "бронзовый",
+    "transcription": "[ brɒnz ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 10,
+    "origin": "brown",
+    "translation": "коричневый",
+    "transcription": "[ braʊn ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 11,
+    "origin": "copper",
+    "translation": "медный",
+    "transcription": "[ ˈkɒpə ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 12,
+    "origin": "coral",
+    "translation": "коралловый",
+    "transcription": "[ ˈkɒrəl ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 13,
+    "origin": "cream",
+    "translation": "кремовый",
+    "transcription": "[ kriːm ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 14,
+    "origin": "dark",
+    "translation": "темный",
+    "transcription": "[ dɑːk ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 15,
+    "origin": "dull",
+    "translation": "тусклый",
+    "transcription": "[ dʌl ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 16,
+    "origin": "emerald",
+    "translation": "изумрудный",
+    "transcription": "[ ˈemərəld ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 17,
+    "origin": "firebrick",
+    "translation": "кирпичный",
+    "transcription": "[ ˈfaɪəbrɪk ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 18,
+    "origin": "fuchsia",
+    "translation": "фуксия",
+    "transcription": "[ ˈfjuːʃə ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 19,
+    "origin": "gold, golden",
+    "translation": "золотой",
+    "transcription": "[ ɡəʊld ], [ ˈɡəʊldən ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 20,
+    "origin": "goldenrod",
+    "translation": "золотистый",
+    "transcription": "[ ˈɡoldənˌrɑːd ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 21,
+    "origin": "green",
+    "translation": "зеленый",
+    "transcription": "[ ɡriːn ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 22,
+    "origin": "grey, gray",
+    "translation": "серый",
+    "transcription": "[ ɡreɪ ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 23,
+    "origin": "honeydew",
+    "translation": "медовый",
+    "transcription": "[ ˈhʌnɪdjuː ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 24,
+    "origin": "indigo",
+    "translation": "индиго",
+    "transcription": "[ ˈɪndɪɡəʊ ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 25,
+    "origin": "ivory",
+    "translation": "слоновая кость",
+    "transcription": "[ ˈaɪvəri ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 26,
+    "origin": "khaki, forest green",
+    "translation": "хаки",
+    "transcription": "[ ˈkɑːki ], [ ˈfɒrɪst ɡriːn ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 27,
+    "origin": "lemon",
+    "translation": "лимонный",
+    "transcription": "[ ˈlemən ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 28,
+    "origin": "light",
+    "translation": "светлый",
+    "transcription": "[ laɪt ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 29,
+    "origin": "light-green",
+    "translation": "салатовый",
+    "transcription": "[ laɪt ɡriːn ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 30,
+    "origin": "lilac",
+    "translation": "сиреневый",
+    "transcription": "[ ˈlaɪlək ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 31,
+    "origin": "lime green",
+    "translation": "лимонно-зеленый",
+    "transcription": "[ laɪm ɡriːn ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 32,
+    "origin": "magenta",
+    "translation": "фуксин",
+    "transcription": "[ məˈdʒentə ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 33,
+    "origin": "maroon",
+    "translation": "темно-бордовый",
+    "transcription": "[ məˈruːn ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 34,
+    "origin": "navy (blue)",
+    "translation": "тёмно-синий",
+    "transcription": "[ ˈneɪvi bluː ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 35,
+    "origin": "olive",
+    "translation": "оливковый",
+    "transcription": "[ ˈɒlɪv ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 36,
+    "origin": "orange",
+    "translation": "оранжевый",
+    "transcription": "[ ˈɒrɪndʒ ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 37,
+    "origin": "pale",
+    "translation": "бледный",
+    "transcription": "[ peɪl ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 38,
+    "origin": "peach, peachpuff",
+    "translation": "персиковый",
+    "transcription": "[ piːtʃ ], [ˈpiːtʃˈpʌf ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 39,
+    "origin": "pearl",
+    "translation": "жемчужный",
+    "transcription": "[ pɜːl ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 40,
+    "origin": "pink",
+    "translation": "розовый",
+    "transcription": "[ pɪŋk ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 41,
+    "origin": "pistachio",
+    "translation": "фисташковый, зеленоватый цвет",
+    "transcription": "[ pɪˈstɑːtʃɪəʊ ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 42,
+    "origin": "plum",
+    "translation": "сливовый",
+    "transcription": "[ plʌm ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 43,
+    "origin": "purple",
+    "translation": "пурпурный",
+    "transcription": "[ ˈpɜːpəl ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 44,
+    "origin": "purple",
+    "translation": "фиолетовый",
+    "transcription": "[ ˈpɜːpəl ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 45,
+    "origin": "raspberry",
+    "translation": "малиновый",
+    "transcription": "[ ˈrɑːzbəri ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 46,
+    "origin": "red",
+    "translation": "красный",
+    "transcription": "[ red ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 47,
+    "origin": "salmon",
+    "translation": "лососевый",
+    "transcription": "[ ˈsæmən ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 48,
+    "origin": "sand-coloured",
+    "translation": "песочный",
+    "transcription": "[ sænd ˈkʌləd ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 49,
+    "origin": "sea foam",
+    "translation": "цвет морской пены",
+    "transcription": "[ siː fəʊm ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 50,
+    "origin": "seagreen",
+    "translation": "цвет морской волны",
+    "transcription": "[ ˈsiːˈɡriːn ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 51,
+    "origin": "sienna",
+    "translation": "охра",
+    "transcription": "[ sɪˈenə ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 52,
+    "origin": "silver, silvery",
+    "translation": "серебряный",
+    "transcription": "[ ˈsɪlvə ] [ ˈsɪlvəri ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 53,
+    "origin": "sky blue",
+    "translation": "небесно-голубой",
+    "transcription": "[ skaɪ bluː ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 54,
+    "origin": "snowy, snow-white",
+    "translation": "белоснежный",
+    "transcription": "[ ˈsnəʊɪ ], [ ˈsnəʊ waɪt ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 55,
+    "origin": "steel gray",
+    "translation": "стальной серый",
+    "transcription": "[ stiːl ɡreɪ ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 56,
+    "origin": "terracotta",
+    "translation": "терракотовый",
+    "transcription": "[ ˌterəˈkɒtə ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 57,
+    "origin": "turquoise",
+    "translation": "бирюзовый",
+    "transcription": "[ ˈtɜːkwɔɪz ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 58,
+    "origin": "violet",
+    "translation": "фиолетовый, темно-лиловый",
+    "transcription": "[ ˈvaɪələt ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 59,
+    "origin": "white",
+    "translation": "белый",
+    "transcription": "[ waɪt ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 60,
+    "origin": "wine red, bordeaux, claret red",
+    "translation": "бордовый",
+    "transcription": "[ waɪn red ], [ bɔːˈdəʊ ], [ ˈklærət red ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 61,
+    "origin": "yellow",
+    "translation": "желтый",
+    "transcription": "[ ˈjeləʊ ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 62,
+    "origin": "yellow green",
+    "translation": "желто-зеленый",
+    "transcription": "[ ˈjeləʊ ɡriːn ]",
+    "image": " ",
+    "example": "  "
+  }
+]
+}

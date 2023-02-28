@@ -1,0 +1,436 @@
+{
+    "wordInformation":[
+  {
+    "id": 1,
+    "origin": "case",
+    "translation": "дело (случай)",
+    "transcription": "[keɪs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 2,
+    "origin": "company",
+    "translation": "компания",
+    "transcription": "[ˈkʌmpəni]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 3,
+    "origin": "work",
+    "translation": "работа",
+    "transcription": "[wɜːk]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 4,
+    "origin": "money",
+    "translation": "деньги",
+    "transcription": "[ˈmʌni]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 5,
+    "origin": "job",
+    "translation": "работа",
+    "transcription": "[ʤɒb]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 6,
+    "origin": "service",
+    "translation": "услуга (обслуживание)",
+    "transcription": "[ˈsɜːvɪs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 7,
+    "origin": "office",
+    "translation": "офис",
+    "transcription": "[ˈɒfɪs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 8,
+    "origin": "policy",
+    "translation": "политика (в знач. стратегия, линия поведения)",
+    "transcription": "[ˈpɒlɪsi]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 9,
+    "origin": "plan",
+    "translation": "план",
+    "transcription": "[plæn]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 10,
+    "origin": "control",
+    "translation": "контроль",
+    "transcription": "[kənˈtrəʊl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 11,
+    "origin": "report",
+    "translation": "отчет (доклад)",
+    "transcription": "[rɪˈpɔːt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 12,
+    "origin": "site",
+    "translation": "объект (напр. строительный)",
+    "transcription": "[saɪt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 13,
+    "origin": "performance",
+    "translation": "производительность",
+    "transcription": "[pəˈfɔːməns]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 14,
+    "origin": "effort",
+    "translation": "усилие (труд)",
+    "transcription": "[ˈɛfət]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 15,
+    "origin": "action",
+    "translation": "действие",
+    "transcription": "[ˈækʃ(ə)n]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 16,
+    "origin": "activity",
+    "translation": "деятельность",
+    "transcription": "[ækˈtɪvɪti]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 17,
+    "origin": "practice",
+    "translation": "практика",
+    "transcription": "[ˈpræktɪs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 18,
+    "origin": "skill",
+    "translation": "умение, навык",
+    "transcription": "[skɪl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 19,
+    "origin": "order",
+    "translation": "порядок, приказ, заказ",
+    "transcription": "[ˈɔːdə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 20,
+    "origin": "meeting",
+    "translation": "встреча",
+    "transcription": "[ˈmiːtɪŋ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 21,
+    "origin": "operation",
+    "translation": "операция",
+    "transcription": "[ˌɒpəˈreɪʃən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 22,
+    "origin": "interview",
+    "translation": "интервью (собеседование)",
+    "transcription": "[ˈɪntəvjuː]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 23,
+    "origin": "quality",
+    "translation": "качество",
+    "transcription": "[ˈkwɒlɪti]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 24,
+    "origin": "success",
+    "translation": "успех",
+    "transcription": "[səkˈsɛs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 25,
+    "origin": "task",
+    "translation": "задача",
+    "transcription": "[tɑːsk]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 26,
+    "origin": "break",
+    "translation": "перерыв",
+    "transcription": "[breɪk]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 27,
+    "origin": "mission",
+    "translation": "миссия",
+    "transcription": "[ˈmɪʃən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 28,
+    "origin": "labor",
+    "translation": "труд",
+    "transcription": "[ˈleɪbə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 29,
+    "origin": "weekend",
+    "translation": "уикэнд, выходные",
+    "transcription": "[ˈwiːkˈɛnd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 30,
+    "origin": "attempt",
+    "translation": "попытка",
+    "transcription": "[əˈtɛmpt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 31,
+    "origin": "day off",
+    "translation": "выходной день",
+    "transcription": "[deɪ ɒf]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 32,
+    "origin": "lack (of something)",
+    "translation": "нехватка",
+    "transcription": "[læk]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 33,
+    "origin": "target",
+    "translation": "цель",
+    "transcription": "[ˈtɑːgɪt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 34,
+    "origin": "tool",
+    "translation": "инструмент",
+    "transcription": "[tuːl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 35,
+    "origin": "leadership",
+    "translation": "руководство (лидерство)",
+    "transcription": "[ˈliːdəʃɪp]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 36,
+    "origin": "procedure",
+    "translation": "процедура (порядок выполнения действий)",
+    "transcription": "[prəˈsiːʤə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 37,
+    "origin": "document",
+    "translation": "документ",
+    "transcription": "[ˈdɒkjʊmənt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 38,
+    "origin": "contacts",
+    "translation": "контактные данные",
+    "transcription": "[ˈkɒntækts]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 39,
+    "origin": "progress",
+    "translation": "прогресс",
+    "transcription": "[ˈprəʊgrəs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 40,
+    "origin": "application",
+    "translation": "заявка",
+    "transcription": "[ˌæplɪˈkeɪʃ(ə)n]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 41,
+    "origin": "instruction",
+    "translation": "инструкция",
+    "transcription": "[ɪnˈstrʌkʃən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 42,
+    "origin": "instrument",
+    "translation": "инструмент",
+    "transcription": "[ˈɪnstrʊmənt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 43,
+    "origin": "file",
+    "translation": "файл, документ, личное дело",
+    "transcription": "[faɪl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 44,
+    "origin": "outcome",
+    "translation": "итог (результат)",
+    "transcription": "[ˈaʊtkʌm]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 45,
+    "origin": "duty",
+    "translation": "долг (должностная обязанность)",
+    "transcription": "[ˈdjuːti]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 46,
+    "origin": "manner (in that manner)",
+    "translation": "способ выполнения действия",
+    "transcription": "[ˈmænə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 47,
+    "origin": "requirement",
+    "translation": "требование",
+    "transcription": "[rɪˈkwaɪəmənt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 48,
+    "origin": "copy",
+    "translation": "копия, экземпляр книги",
+    "transcription": "[ˈkɒpi]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 49,
+    "origin": "tips (money)",
+    "translation": "чаевые",
+    "transcription": "[tɪps]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 50,
+    "origin": "achievement",
+    "translation": "достижение",
+    "transcription": "[əˈʧiːvmənt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 51,
+    "origin": "characteristic",
+    "translation": "характеристика, черта",
+    "transcription": "[ˌkærɪktəˈrɪstɪk]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 52,
+    "origin": "signal",
+    "translation": "сигнал",
+    "transcription": "[ˈsɪgnl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 53,
+    "origin": "agenda",
+    "translation": "повестка дня",
+    "transcription": "[əˈʤɛndə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 54,
+    "origin": "schedule",
+    "translation": "график",
+    "transcription": "[ˈʃɛdjuːl]",
+    "image": "  ",
+    "example": "  "
+  }
+]
+}

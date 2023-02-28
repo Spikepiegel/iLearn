@@ -1,0 +1,348 @@
+{
+"wordInformation":[
+  {
+    "id": 1,
+    "origin": "angel",
+    "translation": "ангел",
+    "transcription": "[ʹeındʒ(ə)l]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 2,
+    "origin": "berry",
+    "translation": "ягода",
+    "transcription": "[ʹberı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 3,
+    "origin": "boxing day",
+    "translation": "день подарков",
+    "transcription": "[ʹbɒksıŋ deı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 4,
+    "origin": "candle",
+    "translation": "свеча",
+    "transcription": "[ʹkændl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 5,
+    "origin": "chimney",
+    "translation": "труба на крыше",
+    "transcription": "[ʹtʃımnı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 6,
+    "origin": "christ",
+    "translation": "христос",
+    "transcription": "[kraıst]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 7,
+    "origin": "christian",
+    "translation": "христианин",
+    "transcription": "[ʹkrıstʃən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 8,
+    "origin": "christmas",
+    "translation": "рождество",
+    "transcription": "[ʹkrısməs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 9,
+    "origin": "christmas cake",
+    "translation": "рождественский торт",
+    "transcription": "[ʹkrısməs keık]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 10,
+    "origin": "christmas card",
+    "translation": "рождественская открытка",
+    "transcription": "[ʹkrısməs kɑ:d]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 11,
+    "origin": "christmas carol",
+    "translation": "колядки, рождественские песнопения",
+    "transcription": "[ʹkrısməs ʹkærəl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 12,
+    "origin": "christmas eve",
+    "translation": "канун рождества, сочельник",
+    "transcription": "[ʹkrısməs i:v]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 13,
+    "origin": "christmas holidays",
+    "translation": "рождественские каникулы",
+    "transcription": "[ʹkrısməs ˈhɒl.ɪ.deɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 14,
+    "origin": "christmas present",
+    "translation": "рождественский подарок",
+    "transcription": "[ʹkrısməs ʹprez(ə)nt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 15,
+    "origin": "christmas tree",
+    "translation": "елка",
+    "transcription": "[ʹkrısməs tri:]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 16,
+    "origin": "cracker",
+    "translation": "хлопушка",
+    "transcription": "[ʹkrækə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 17,
+    "origin": "decoration",
+    "translation": "украшения",
+    "transcription": "[͵dekəʹreıʃ(ə)n]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 18,
+    "origin": "egg-nog",
+    "translation": "эгног, алкогольный напиток со взбитыми яйцами и молоком",
+    "transcription": "[eg - nɒg]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 19,
+    "origin": "fairy lights",
+    "translation": "гирлянды",
+    "transcription": "[ʹfe(ə)rı laıts]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 20,
+    "origin": "father christmas",
+    "translation": "санта клаус, другое название",
+    "transcription": "[ʹfɑ:ðə ʹkrısməs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 21,
+    "origin": "fireplace",
+    "translation": "камин",
+    "transcription": "[ʹfaıəpleıs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 22,
+    "origin": "frankincense",
+    "translation": "ладан",
+    "transcription": "[ʹfræŋkınsens]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 23,
+    "origin": "gold",
+    "translation": "золото",
+    "transcription": "[gəʋld]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 24,
+    "origin": "magi",
+    "translation": "волхвы",
+    "transcription": "[ʹmeıdʒaı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 25,
+    "origin": "mistletoe",
+    "translation": "омела белая",
+    "transcription": "[ʹmıst(ə)ltəʋ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 26,
+    "origin": "myrrh",
+    "translation": "мирра",
+    "transcription": "[mɜ:]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 27,
+    "origin": "new year’s day",
+    "translation": "новый год",
+    "transcription": "[njuː jɪər deɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 28,
+    "origin": "new year’s eve",
+    "translation": "канун нового года",
+    "transcription": "[njuː jɪər iːv]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 29,
+    "origin": "new year’s resolution",
+    "translation": "новогоднее обещание себе",
+    "transcription": "[njuː jɪər ˌrez.əˈluː.ʃən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 30,
+    "origin": "present",
+    "translation": "подарок",
+    "transcription": "[ʹprez(ə)nt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 31,
+    "origin": "pudding",
+    "translation": "пудинг",
+    "transcription": "[ʹpʋdıŋ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 32,
+    "origin": "reindeer",
+    "translation": "северный олень",
+    "transcription": "[ʹreındıə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 33,
+    "origin": "secret santa",
+    "translation": "тайный санта",
+    "transcription": "[ʹsi:krıt ʹsæntə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 34,
+    "origin": "shepherd",
+    "translation": "пастух",
+    "transcription": "[ʹʃepəd]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 35,
+    "origin": "sleigh",
+    "translation": "санки",
+    "transcription": "[sleı]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 36,
+    "origin": "snow",
+    "translation": "снег",
+    "transcription": "[snəʋ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 37,
+    "origin": "star",
+    "translation": "звезда",
+    "transcription": "[stɑ:]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 38,
+    "origin": "tinsel",
+    "translation": "мишура",
+    "transcription": "[ʹtıns(ə)l]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 39,
+    "origin": "turkey",
+    "translation": "индейка",
+    "transcription": "[ʹtɜ:kı]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 40,
+    "origin": "white christmas",
+    "translation": "белое рождество, когда все в снегу",
+    "transcription": "[waıt ʹkrısməs]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 41,
+    "origin": "wrapping paper",
+    "translation": "подарочная упаковочная бумага",
+    "transcription": "[ʹræpıŋ ʹpeıpə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 42,
+    "origin": "wreath",
+    "translation": "венок",
+    "transcription": "[ri:θ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 43,
+    "origin": "xmas",
+    "translation": "слэнговое название рождества",
+    "transcription": "[ʹkrısməs]",
+    "image": " ",
+    "example": "  "
+  }
+]
+}

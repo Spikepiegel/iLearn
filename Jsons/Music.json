@@ -1,0 +1,612 @@
+{
+"wordInformation":[
+  {
+    "id": 1,
+    "origin": "accompany",
+    "translation": "аккомпанировать",
+    "transcription": "[əˈkʌmpənɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 2,
+    "origin": "accordion",
+    "translation": "аккордеон",
+    "transcription": "[əˈkɔːdɪən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 3,
+    "origin": "acoustics",
+    "translation": "акустика",
+    "transcription": "[əˈkuːstɪks]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 4,
+    "origin": "actor",
+    "translation": "артист",
+    "transcription": "[ˈæktə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 5,
+    "origin": "alt",
+    "translation": "альт",
+    "transcription": "[ælt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 6,
+    "origin": "audience",
+    "translation": "зрители",
+    "transcription": "[ˈɔːdɪəns]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 7,
+    "origin": "bagpipes",
+    "translation": "волынка",
+    "transcription": "[ˈbægpaɪps]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 8,
+    "origin": "balalaika",
+    "translation": "балалайка",
+    "transcription": "[bæləˈlaɪkə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 9,
+    "origin": "banjo",
+    "translation": "банджо",
+    "transcription": "[ˈbænʤəʊ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 10,
+    "origin": "bass guitar",
+    "translation": "бас-гитара",
+    "transcription": "[beɪs gɪˈtɑː]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 11,
+    "origin": "bow",
+    "translation": "смычок",
+    "transcription": "[bəʊ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 12,
+    "origin": "bow",
+    "translation": "смычок",
+    "transcription": "[bəʊ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 13,
+    "origin": "cello",
+    "translation": "виолончель",
+    "transcription": "[ˈʧeləʊ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 14,
+    "origin": "chamber music",
+    "translation": "камерная музыка",
+    "transcription": "[ˈʧeɪmbə ˈmjuːzɪk]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 15,
+    "origin": "clarinet",
+    "translation": "кларнет",
+    "transcription": "[klærɪˈnet]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 16,
+    "origin": "classical music",
+    "translation": "классическая музыка",
+    "transcription": "[ˈklæsɪkəl ˈmjuːzɪk]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 17,
+    "origin": "composer",
+    "translation": "композитор",
+    "transcription": "[kəmˈpəʊzə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 18,
+    "origin": "concert",
+    "translation": "концерт",
+    "transcription": "[ˈkɒnsət]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 19,
+    "origin": "conductor's baton",
+    "translation": "дирижерская палочка",
+    "transcription": "[kənˈdʌktə'es ˈbætɒn]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 20,
+    "origin": "configuring tools",
+    "translation": "настройка инструментов",
+    "transcription": "[kənˈfɪgərɪŋ tuːlz]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 21,
+    "origin": "double bass",
+    "translation": "контрабас",
+    "transcription": "[dʌbl beɪs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 22,
+    "origin": "drum",
+    "translation": "барабан",
+    "transcription": "[drʌm]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 23,
+    "origin": "drumsticks",
+    "translation": "барабанные палочки",
+    "transcription": "[ˈdrʌmstɪks]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 24,
+    "origin": "duet",
+    "translation": "дуэт",
+    "transcription": "[djuˈet]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 25,
+    "origin": "etude",
+    "translation": "этюд",
+    "transcription": "[eɪˈtjuːd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 26,
+    "origin": "executor",
+    "translation": "исполнитель",
+    "transcription": "[ɪgˈzekjʊtə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 27,
+    "origin": "fan",
+    "translation": "поклонник",
+    "transcription": "[fæn]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 28,
+    "origin": "flute",
+    "translation": "флейта",
+    "transcription": "[fluːt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 29,
+    "origin": "grand piano",
+    "translation": "рояль",
+    "transcription": "[grænd pɪˈænəʊ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 30,
+    "origin": "guitar",
+    "translation": "гитара",
+    "transcription": "[gɪˈtɑː]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 31,
+    "origin": "harp",
+    "translation": "арфа",
+    "transcription": "[hɑːp]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 32,
+    "origin": "horn",
+    "translation": "рожок",
+    "transcription": "[hɔːn]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 33,
+    "origin": "loudly",
+    "translation": "громко",
+    "transcription": "[ˈlaʊdlɪ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 34,
+    "origin": "lyrical music",
+    "translation": "лирическая музыка",
+    "transcription": "[ˈlɪrɪkəl ˈmjuːzɪk]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 35,
+    "origin": "major",
+    "translation": "мажор",
+    "transcription": "[ˈmeɪʤə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 36,
+    "origin": "mandolin",
+    "translation": "мандолина",
+    "transcription": "[ˈmændəlɪn]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 37,
+    "origin": "melody",
+    "translation": "мелодия",
+    "transcription": "[ˈmelədɪ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 38,
+    "origin": "minor",
+    "translation": "минор",
+    "transcription": "[ˈmaɪnə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 39,
+    "origin": "music",
+    "translation": "музыка",
+    "transcription": "[ˈmjuːzɪk]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 40,
+    "origin": "music festival",
+    "translation": "музыкальный фестиваль",
+    "transcription": "[ˈmjuːzɪk ˈfestɪv(ə)l]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 41,
+    "origin": "music notebook",
+    "translation": "нотная тетрадь",
+    "transcription": "[ˈmjuːzɪk ˈnəʊtbʊk]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 42,
+    "origin": "musician",
+    "translation": "музыкант",
+    "transcription": "[mjuːˈzɪʃn]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 43,
+    "origin": "notes",
+    "translation": "ноты",
+    "transcription": "[nəʊts]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 44,
+    "origin": "oboe",
+    "translation": "гобой",
+    "transcription": "[ˈəʊbəʊ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 45,
+    "origin": "opera",
+    "translation": "опера",
+    "transcription": "[ˈɒpərə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 46,
+    "origin": "orchestra",
+    "translation": "оркестр",
+    "transcription": "[ˈɔːkɪstrə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 47,
+    "origin": "orchestra pit",
+    "translation": "оркестровая яма",
+    "transcription": "[ˈɔːkɪstrə pɪt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 48,
+    "origin": "organ",
+    "translation": "орган",
+    "transcription": "[ˈɔːgən]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 49,
+    "origin": "percussion instruments",
+    "translation": "ударные инструменты",
+    "transcription": "[pəˈkʌʃn instruments]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 50,
+    "origin": "performance",
+    "translation": "выступление",
+    "transcription": "[pəˈfɔːməns]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 51,
+    "origin": "plates",
+    "translation": "тарелки",
+    "transcription": "[plates]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 52,
+    "origin": "piano",
+    "translation": "фортепиано",
+    "transcription": "[pɪˈænəʊ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 53,
+    "origin": "quietly",
+    "translation": "тихо",
+    "transcription": "[ˈkwaɪətlɪ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 54,
+    "origin": "repetition",
+    "translation": "репетиция",
+    "transcription": "[repɪˈtɪʃn]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 55,
+    "origin": "rhythm",
+    "translation": "ритм",
+    "transcription": "[ˈrɪðəm]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 56,
+    "origin": "saxophone",
+    "translation": "саксофон",
+    "transcription": "[ˈsæksəfəʊn]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 57,
+    "origin": "scene",
+    "translation": "сцена",
+    "transcription": "[siːn]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 58,
+    "origin": "sheet music mill",
+    "translation": "нотный стан",
+    "transcription": "[ʃiːt ˈmjuːzɪk mɪl]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 59,
+    "origin": "solfeggio",
+    "translation": "сольфеджио",
+    "transcription": "[sɒlˈfeʤɪəʊ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 60,
+    "origin": "solo",
+    "translation": "соло",
+    "transcription": "[ˈsəʊləʊ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 61,
+    "origin": "string",
+    "translation": "струна",
+    "transcription": "[strɪŋ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 62,
+    "origin": "string instruments",
+    "translation": "струнные инструменты",
+    "transcription": "[strɪŋ instruments]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 63,
+    "origin": "symphony",
+    "translation": "симфония",
+    "transcription": "[ˈsɪmfənɪ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 64,
+    "origin": "synthesizer",
+    "translation": "синтезатор",
+    "transcription": "[ˈsɪnθəsaɪzə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 65,
+    "origin": "tambourine",
+    "translation": "бубен",
+    "transcription": "[tæmbəˈriːn]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 66,
+    "origin": "the auditorium",
+    "translation": "зрительный зал",
+    "transcription": "[ðiː ɔːdɪˈtɔːrɪəm]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 67,
+    "origin": "the quartet",
+    "translation": "квартет",
+    "transcription": "[ðiː kwɔːˈtet]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 68,
+    "origin": "treble clef",
+    "translation": "скрипичный ключ",
+    "transcription": "[trebl klef]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 69,
+    "origin": "trio",
+    "translation": "трио",
+    "transcription": "[ˈtriːəʊ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 70,
+    "origin": "trombone",
+    "translation": "тромбон",
+    "transcription": "[trɒmˈbəʊn]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 71,
+    "origin": "tuba",
+    "translation": "туба",
+    "transcription": "[ˈtjuːbə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 72,
+    "origin": "tube",
+    "translation": "труба",
+    "transcription": "[tjuːb]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 73,
+    "origin": "violin",
+    "translation": "скрипка",
+    "transcription": "[vaɪəˈlɪn]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 74,
+    "origin": "virtuoso",
+    "translation": "виртуоз",
+    "transcription": "[vɜːʧʊˈəʊzəʊ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 75,
+    "origin": "wind instruments",
+    "translation": "духовые инструменты",
+    "transcription": "[wind instruments]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 76,
+    "origin": "xylophone",
+    "translation": "ксилофон",
+    "transcription": "[ˈzaɪləfəʊn]",
+    "image": " ",
+    "example": "  "
+  }
+]
+}

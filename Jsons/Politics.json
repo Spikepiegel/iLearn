@@ -1,0 +1,1356 @@
+{
+"wordInformation":[
+  {
+    "id": 1,
+    "origin": "accusation",
+    "translation": "обвинение",
+    "transcription": "[ˌækju(ː)ˈzeɪʃ(ə)n]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 2,
+    "origin": "allegation",
+    "translation": "утверждение",
+    "transcription": "[ˌælɪˈgeɪʃ(ə)n]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 3,
+    "origin": "alliance",
+    "translation": "союз",
+    "transcription": "[əˈlaɪəns]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 4,
+    "origin": "anonymity",
+    "translation": "анонимность",
+    "transcription": "[ˌænəˈnɪmɪti]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 5,
+    "origin": "aspiration",
+    "translation": "стремление",
+    "transcription": "[ˌæspəˈreɪʃ(ə)n]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 6,
+    "origin": "assail",
+    "translation": "нападение",
+    "transcription": "[əˈseɪl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 7,
+    "origin": "authoritarian",
+    "translation": "авторитарный",
+    "transcription": "[ɔːˌθɒrɪˈteərɪən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 8,
+    "origin": "ballot",
+    "translation": "голосование",
+    "transcription": "[ˈbælət]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 9,
+    "origin": "ballot box",
+    "translation": "урна для голосования",
+    "transcription": "[ˈbælət] [bɒks]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 10,
+    "origin": "ballot paper",
+    "translation": "бюллетень для голосования",
+    "transcription": "[ˈbælət ˈpeɪpə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 11,
+    "origin": "beleaguer",
+    "translation": "осаждающий",
+    "transcription": "[bɪˈliːgə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 12,
+    "origin": "benefit",
+    "translation": "выгода",
+    "transcription": "[ˈbɛnɪfɪt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 13,
+    "origin": "big government",
+    "translation": "большое правительство",
+    "transcription": "[bɪg ˈgʌvnmənt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 14,
+    "origin": "bill",
+    "translation": "законопроект",
+    "transcription": "[bɪl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 15,
+    "origin": "bipartisan",
+    "translation": "двухпартийный",
+    "transcription": "[baɪˌpɑːtɪˈzæn]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 16,
+    "origin": "blame",
+    "translation": "вина",
+    "transcription": "[bleɪm]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 17,
+    "origin": "bribe",
+    "translation": "взятка",
+    "transcription": "[braɪb]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 18,
+    "origin": "by-election",
+    "translation": "дополнительные выборы",
+    "transcription": "[ˈbaɪɪˌlɛkʃən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 19,
+    "origin": "campaign",
+    "translation": "кампания",
+    "transcription": "[kæmˈpeɪn]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 20,
+    "origin": "candidate",
+    "translation": "кандидат",
+    "transcription": "[ˈkændɪˌdeɪt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 21,
+    "origin": "capitalism",
+    "translation": "капитализм",
+    "transcription": "[ˈkæpɪtəlɪzm]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 22,
+    "origin": "career",
+    "translation": "карьера",
+    "transcription": "[kəˈrɪə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 23,
+    "origin": "caucus",
+    "translation": "совещание",
+    "transcription": "[ˈkɔːkəs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 24,
+    "origin": "challenger",
+    "translation": "соперник",
+    "transcription": "[ˈʧælɪnʤə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 25,
+    "origin": "chicanery",
+    "translation": "хитрость",
+    "transcription": "[ʃɪˈkeɪnəri]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 26,
+    "origin": "claim",
+    "translation": "претензия",
+    "transcription": "[kleɪm]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 27,
+    "origin": "coalition",
+    "translation": "коалиция",
+    "transcription": "[ˌkəʊəˈlɪʃən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 28,
+    "origin": "coercion",
+    "translation": "принуждение",
+    "transcription": "[kəʊˈɜːʃən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 29,
+    "origin": "collaboration",
+    "translation": "сотрудничество",
+    "transcription": "[kəˌlæbəˈreɪʃən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 30,
+    "origin": "communism",
+    "translation": "коммунизм",
+    "transcription": "[ˈkɒmjʊnɪzm]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 31,
+    "origin": "conceal",
+    "translation": "скрывать",
+    "transcription": "[kənˈsiːl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 32,
+    "origin": "confidence",
+    "translation": "уверенность",
+    "transcription": "[ˈkɒnfɪdəns]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 33,
+    "origin": "congress",
+    "translation": "конгресс",
+    "transcription": "[ˈkɒŋgrɛs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 34,
+    "origin": "conservative",
+    "translation": "консервативный",
+    "transcription": "[kənˈsɜːvətɪv]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 35,
+    "origin": "constituency",
+    "translation": "избирательный округ",
+    "transcription": "[kənˈstɪtjʊənsi]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 36,
+    "origin": "constitution",
+    "translation": "конституция",
+    "transcription": "[ˌkɒnstɪˈtjuːʃən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 37,
+    "origin": "control",
+    "translation": "контроль",
+    "transcription": "[kənˈtrəʊl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 38,
+    "origin": "convention",
+    "translation": "соглашение",
+    "transcription": "[kənˈvɛnʃən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 39,
+    "origin": "corruption",
+    "translation": "коррупция",
+    "transcription": "[kəˈrʌpʃən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 40,
+    "origin": "coterie",
+    "translation": "комитет",
+    "transcription": "[ˈkəʊtəri]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 41,
+    "origin": "covert",
+    "translation": "тайный",
+    "transcription": "[ˈkʌvət]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 42,
+    "origin": "debacle",
+    "translation": "провал",
+    "transcription": "[deɪˈbɑːkl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 43,
+    "origin": "debate",
+    "translation": "дискуссия",
+    "transcription": "[dɪˈbeɪt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 44,
+    "origin": "deception",
+    "translation": "обман",
+    "transcription": "[dɪˈsɛpʃən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 45,
+    "origin": "deficit",
+    "translation": "дефицит",
+    "transcription": "[ˈdɛfɪsɪt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 46,
+    "origin": "deflect",
+    "translation": "отклонять",
+    "transcription": "[dɪˈflɛkt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 47,
+    "origin": "delegate",
+    "translation": "делегат",
+    "transcription": "[ˈdɛlɪgɪt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 48,
+    "origin": "demagogue",
+    "translation": "демагог",
+    "transcription": "[ˈdɛməgɒg]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 49,
+    "origin": "democracy",
+    "translation": "демократия",
+    "transcription": "[dɪˈmɒkrəsi]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 50,
+    "origin": "democrats",
+    "translation": "демократы",
+    "transcription": "[ˈdɛməkræts]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 51,
+    "origin": "denigrate",
+    "translation": "очернить",
+    "transcription": "[ˈdɛnɪgreɪt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 52,
+    "origin": "deny",
+    "translation": "отрицать",
+    "transcription": "[dɪˈnaɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 53,
+    "origin": "dictator",
+    "translation": "диктатор",
+    "transcription": "[dɪkˈteɪtə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 54,
+    "origin": "dictatorship",
+    "translation": "диктатура",
+    "transcription": "[dɪkˈteɪtəʃɪp]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 55,
+    "origin": "dissolution",
+    "translation": "роспуск",
+    "transcription": "[ˌdɪsəˈluːʃən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 56,
+    "origin": "elect",
+    "translation": "избирать",
+    "transcription": "[ɪˈlɛkt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 57,
+    "origin": "election",
+    "translation": "выборы",
+    "transcription": "[ɪˈlɛkʃən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 58,
+    "origin": "electoral register",
+    "translation": "реестр избирателей",
+    "transcription": "[ɪˈlɛktərəl ˈrɛʤɪstə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 59,
+    "origin": "electorate",
+    "translation": "электорат",
+    "transcription": "[ɪˈlɛktərɪt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 60,
+    "origin": "embezzlement",
+    "translation": "растрата",
+    "transcription": "[ɪmˈbɛzlmənt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 61,
+    "origin": "empire",
+    "translation": "империя",
+    "transcription": "[ˈɛmpaɪə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 62,
+    "origin": "endorsement",
+    "translation": "поддержка",
+    "transcription": "[ɪnˈdɔːsmənt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 63,
+    "origin": "engagement",
+    "translation": "обязательство",
+    "transcription": "[ɪnˈgeɪʤmənt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 64,
+    "origin": "expose",
+    "translation": "разоблачать",
+    "transcription": "[ɪksˈpəʊz]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 65,
+    "origin": "extortion",
+    "translation": "вымогательство",
+    "transcription": "[ɪksˈtɔːʃən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 66,
+    "origin": "fascism",
+    "translation": "фашизм",
+    "transcription": "[ˈfæʃɪzm]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 67,
+    "origin": "federal",
+    "translation": "федеральный",
+    "transcription": "[ˈfɛdərəl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 68,
+    "origin": "feud",
+    "translation": "вражда",
+    "transcription": "[fjuːd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 69,
+    "origin": "fray",
+    "translation": "столкновение",
+    "transcription": "[freɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 70,
+    "origin": "gain",
+    "translation": "получать",
+    "transcription": "[geɪn]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 71,
+    "origin": "government",
+    "translation": "правительство",
+    "transcription": "[ˈgʌvnmənt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 72,
+    "origin": "greedy",
+    "translation": "жадный",
+    "transcription": "[ˈgriːdi]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 73,
+    "origin": "hypocrisy",
+    "translation": "лицемерие",
+    "transcription": "[hɪˈpɒkrəsi]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 74,
+    "origin": "ignorant",
+    "translation": "невежественный",
+    "transcription": "[ˈɪgnərənt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 75,
+    "origin": "illegal",
+    "translation": "незаконный",
+    "transcription": "[ɪˈliːgəl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 76,
+    "origin": "illicit",
+    "translation": "незаконный",
+    "transcription": "[ɪˈlɪsɪt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 77,
+    "origin": "impunity",
+    "translation": "безнаказанность",
+    "transcription": "[ɪmˈpjuːnɪti]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 78,
+    "origin": "incident",
+    "translation": "инцидент",
+    "transcription": "[ˈɪnsɪdənt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 79,
+    "origin": "incumbent",
+    "translation": "возложенный",
+    "transcription": "[ɪnˈkʌmbənt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 80,
+    "origin": "independent",
+    "translation": "независимый",
+    "transcription": "[ˌɪndɪˈpɛndənt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 81,
+    "origin": "influence",
+    "translation": "влияние",
+    "transcription": "[ˈɪnflʊəns]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 82,
+    "origin": "infringement",
+    "translation": "нарушение",
+    "transcription": "[ɪnˈfrɪnʤmənt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 83,
+    "origin": "integrity",
+    "translation": "целостность",
+    "transcription": "[ɪnˈtɛgrɪti]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 84,
+    "origin": "intimidation",
+    "translation": "устрашение",
+    "transcription": "[ɪnˌtɪmɪˈdeɪʃən]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 85,
+    "origin": "irresponsible",
+    "translation": "безответственный",
+    "transcription": "[ˌɪrɪsˈpɒnsəbl]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 86,
+    "origin": "king",
+    "translation": "король",
+    "transcription": "[kɪŋ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 87,
+    "origin": "labour",
+    "translation": "труд",
+    "transcription": "[ˈleɪbə]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 88,
+    "origin": "laconic",
+    "translation": "лаконичный",
+    "transcription": "[ləˈkɒnɪk]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 89,
+    "origin": "law",
+    "translation": "закон",
+    "transcription": "[lɔː]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 90,
+    "origin": "leaflet",
+    "translation": "листовка",
+    "transcription": "[ˈliːflɪt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 91,
+    "origin": "left-wing",
+    "translation": "левое крыло",
+    "transcription": "[lɛft]-[wɪŋ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 92,
+    "origin": "legislation",
+    "translation": "законодательство",
+    "transcription": "[ˌlɛʤɪsˈleɪʃən]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 93,
+    "origin": "liberal",
+    "translation": "либеральный",
+    "transcription": "[ˈlɪbərəl]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 94,
+    "origin": "lobby",
+    "translation": "лоббирование",
+    "transcription": "[ˈlɒbi]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 95,
+    "origin": "majority",
+    "translation": "большинство",
+    "transcription": "[məˈʤɒrɪti]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 96,
+    "origin": "malfeasance",
+    "translation": "должностное преступление",
+    "transcription": "[mælˈfiːzəns]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 97,
+    "origin": "manifesto",
+    "translation": "манифест",
+    "transcription": "[ˌmænɪˈfɛstəʊ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 98,
+    "origin": "manipulate",
+    "translation": "манипулировать",
+    "transcription": "[məˈnɪpjʊleɪt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 99,
+    "origin": "marxism",
+    "translation": "марксизм",
+    "transcription": "[ˈmɑːksɪzm]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 100,
+    "origin": "massive",
+    "translation": "массивный",
+    "transcription": "[ˈmæsɪv]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 101,
+    "origin": "mendacity",
+    "translation": "лживость",
+    "transcription": "[mɛnˈdæsɪti]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 102,
+    "origin": "minister",
+    "translation": "министр",
+    "transcription": "[ˈmɪnɪstə]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 103,
+    "origin": "monarchy",
+    "translation": "монархия",
+    "transcription": "[ˈmɒnəki]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 104,
+    "origin": "morally offensive",
+    "translation": "морально оскорбительно",
+    "transcription": "[ˈmɒrəli əˈfɛnsɪv]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 105,
+    "origin": "mutual accusations",
+    "translation": "взаимные обвинения",
+    "transcription": "[ˈmjuːtjʊəl ˌækju(ː)ˈzeɪʃ(ə)nz]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 106,
+    "origin": "nominee",
+    "translation": "номинант",
+    "transcription": "[ˌnɒmɪˈniː]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 107,
+    "origin": "non-elected",
+    "translation": "неизбранные",
+    "transcription": "[nɒn]-[ɪˈlɛktɪd]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 108,
+    "origin": "obscure",
+    "translation": "смутный",
+    "transcription": "[əbˈskjʊə]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 109,
+    "origin": "obtain",
+    "translation": "получать",
+    "transcription": "[əbˈteɪn]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 110,
+    "origin": "onerous",
+    "translation": "обременительный",
+    "transcription": "[ˈɒnərəs]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 111,
+    "origin": "opinion poll",
+    "translation": "опрос общественного мнения",
+    "transcription": "[əˈpɪnjən pəʊl]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 112,
+    "origin": "opportunist",
+    "translation": "оппортунист",
+    "transcription": "[ˈɒpətjuːnɪst]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 113,
+    "origin": "opposition",
+    "translation": "оппозиция",
+    "transcription": "[ˌɒpəˈzɪʃən]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 114,
+    "origin": "parliament",
+    "translation": "парламент",
+    "transcription": "[ˈpɑːləmənt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 115,
+    "origin": "partial",
+    "translation": "частичный",
+    "transcription": "[ˈpɑːʃəl]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 116,
+    "origin": "party",
+    "translation": "партия",
+    "transcription": "[ˈpɑːti]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 117,
+    "origin": "patriarchy",
+    "translation": "патриархат",
+    "transcription": "[ˈpeɪtrɪɑːki]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 118,
+    "origin": "patriot",
+    "translation": "патриот",
+    "transcription": "[ˈpeɪtrɪət]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 119,
+    "origin": "patronage",
+    "translation": "покровительство",
+    "transcription": "[ˈpætrənɪʤ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 120,
+    "origin": "persecution",
+    "translation": "преследование",
+    "transcription": "[ˌpɜːsɪˈkjuːʃən]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 121,
+    "origin": "plagiarism",
+    "translation": "плагиат",
+    "transcription": "[ˈpleɪʤərɪz(ə)m]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 122,
+    "origin": "plutocracy",
+    "translation": "плутократия",
+    "transcription": "[pluːˈtɒkrəsi]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 123,
+    "origin": "policy",
+    "translation": "политика",
+    "transcription": "[ˈpɒlɪsi]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 124,
+    "origin": "political",
+    "translation": "политический",
+    "transcription": "[pəˈlɪtɪkəl]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 125,
+    "origin": "political party",
+    "translation": "политическая партия",
+    "transcription": "[pəˈlɪtɪkəl ˈpɑːti]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 126,
+    "origin": "politician",
+    "translation": "политик",
+    "transcription": "[ˌpɒlɪˈtɪʃən]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 127,
+    "origin": "politics",
+    "translation": "политика",
+    "transcription": "[ˈpɒlɪtɪks]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 128,
+    "origin": "poll",
+    "translation": "опрос",
+    "transcription": "[pəʊl]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 129,
+    "origin": "postal vote",
+    "translation": "голосование по почте",
+    "transcription": "[ˈpəʊstəl vəʊt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 130,
+    "origin": "president",
+    "translation": "президент",
+    "transcription": "[ˈprɛzɪdənt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 131,
+    "origin": "primary",
+    "translation": "первичный",
+    "transcription": "[ˈpraɪməri]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 132,
+    "origin": "prime minister",
+    "translation": "премьер-министр",
+    "transcription": "[praɪm ˈmɪnɪstə]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 133,
+    "origin": "privilege",
+    "translation": "привилегия",
+    "transcription": "[ˈprɪvɪlɪʤ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 134,
+    "origin": "propaganda",
+    "translation": "пропаганда",
+    "transcription": "[ˌprɒpəˈgændə]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 135,
+    "origin": "proportional representation",
+    "translation": "пропорциональное представительство",
+    "transcription": "[prəˈpɔːʃənl ˌrɛprɪzɛnˈteɪʃən]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 136,
+    "origin": "proxy",
+    "translation": "полномочие",
+    "transcription": "[ˈprɒksi]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 137,
+    "origin": "pundit",
+    "translation": "эксперт",
+    "transcription": "[ˈpʌndɪt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 138,
+    "origin": "queen",
+    "translation": "королева",
+    "transcription": "[kwiːn]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 139,
+    "origin": "rebut",
+    "translation": "опровергать",
+    "transcription": "[rɪˈbʌt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 140,
+    "origin": "reckless",
+    "translation": "безрассудный",
+    "transcription": "[ˈrɛklɪs]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 141,
+    "origin": "recrimination",
+    "translation": "взаимные обвинения",
+    "transcription": "[rɪˌkrɪmɪˈneɪʃən]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 142,
+    "origin": "referendum",
+    "translation": "референдум",
+    "transcription": "[ˌrɛfəˈrɛndəm]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 143,
+    "origin": "refute",
+    "translation": "опровергать",
+    "transcription": "[rɪˈfjuːt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 144,
+    "origin": "regime",
+    "translation": "режим",
+    "transcription": "[reɪˈʒiːm]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 145,
+    "origin": "republic",
+    "translation": "республика",
+    "transcription": "[rɪˈpʌblɪk]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 146,
+    "origin": "republican",
+    "translation": "республиканский",
+    "transcription": "[rɪˈpʌblɪkən]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 147,
+    "origin": "reputation",
+    "translation": "репутация",
+    "transcription": "[ˌrɛpju(ː)ˈteɪʃən]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 148,
+    "origin": "resignation",
+    "translation": "отставка",
+    "transcription": "[ˌrɛzɪgˈneɪʃən]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 149,
+    "origin": "retaliation",
+    "translation": "воздаяние",
+    "transcription": "[rɪˌtælɪˈeɪʃən]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 150,
+    "origin": "revelation",
+    "translation": "откровение",
+    "transcription": "[ˌrɛvɪˈleɪʃən]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 151,
+    "origin": "right-wing",
+    "translation": "правое крыло",
+    "transcription": "[raɪt]-[wɪŋ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 152,
+    "origin": "scandal",
+    "translation": "скандал",
+    "transcription": "[ˈskændl]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 153,
+    "origin": "scandalous",
+    "translation": "скандально",
+    "transcription": "[ˈskændələs]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 154,
+    "origin": "seat",
+    "translation": "место",
+    "transcription": "[siːt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 155,
+    "origin": "senate",
+    "translation": "сенат",
+    "transcription": "[ˈsɛnɪt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 156,
+    "origin": "socialism",
+    "translation": "социализм",
+    "transcription": "[ˈsəʊʃəlɪzm]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 157,
+    "origin": "socialist",
+    "translation": "социалист",
+    "transcription": "[ˈsəʊʃəlɪst]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 158,
+    "origin": "solicit",
+    "translation": "просить",
+    "transcription": "[səˈlɪsɪt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 159,
+    "origin": "speaker",
+    "translation": "оратор",
+    "transcription": "[ˈspiːkə]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 160,
+    "origin": "state",
+    "translation": "государство",
+    "transcription": "[steɪt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 161,
+    "origin": "subterfuge",
+    "translation": "уловка",
+    "transcription": "[ˈsʌbtəfjuːʤ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 162,
+    "origin": "tainted",
+    "translation": "испорченный",
+    "transcription": "[ˈteɪntɪd]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 163,
+    "origin": "tarnish",
+    "translation": "потускнение",
+    "transcription": "[ˈtɑːnɪʃ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 164,
+    "origin": "temptation",
+    "translation": "искушение",
+    "transcription": "[tɛmpˈteɪʃən]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 165,
+    "origin": "turn-out",
+    "translation": "явка",
+    "transcription": "[ˈtɜːnˈaʊt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 166,
+    "origin": "unethical",
+    "translation": "неэтично",
+    "transcription": "[ˌʌnˈɛθɪkəl]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 167,
+    "origin": "unjust",
+    "translation": "несправедливый",
+    "transcription": "[ʌnˈʤʌst]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 168,
+    "origin": "vice president",
+    "translation": "вице-президент",
+    "transcription": "[vaɪs ˈprɛzɪdənt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 169,
+    "origin": "vote",
+    "translation": "голосовать",
+    "transcription": "[vəʊt]",
+    "image": " ",
+    "example": " "
+  }
+]
+}

@@ -1,0 +1,428 @@
+{
+"wordInformation":[
+  {
+    "id": 1,
+    "origin": "accountant",
+    "translation": "бухгалтер",
+    "transcription": "[əˈkaʊntənt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 2,
+    "origin": "actor",
+    "translation": "актер",
+    "transcription": "[ˈæktə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 3,
+    "origin": "administrator",
+    "translation": "администратор, руководитель",
+    "transcription": "[ədˈmɪnɪstreɪtə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 4,
+    "origin": "architect",
+    "translation": "архитектор",
+    "transcription": "[ˈɑːkɪtɛkt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 5,
+    "origin": "artist",
+    "translation": "художник",
+    "transcription": "[ˈɑːtɪst]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 6,
+    "origin": "athlete",
+    "translation": "спортсмен",
+    "transcription": "[ˈæθliːt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 7,
+    "origin": "barber",
+    "translation": "парикмахер (муж)",
+    "transcription": "[ˈbɑːbə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 8,
+    "origin": "barman",
+    "translation": "бармен",
+    "transcription": "[ˈbɑːmən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 9,
+    "origin": "bodyguard",
+    "translation": "телохранитель",
+    "transcription": "[ˈbɒdɪɡɑːd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 10,
+    "origin": "builder",
+    "translation": "строитель",
+    "transcription": "[ˈbɪldə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 11,
+    "origin": "cashier",
+    "translation": "кассир",
+    "transcription": "[kəˈʃɪə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 12,
+    "origin": "cleaner",
+    "translation": "уборщица",
+    "transcription": "[ˈkliːnə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 13,
+    "origin": "coach",
+    "translation": "тренер",
+    "transcription": "[kəʊtʃ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 14,
+    "origin": "composer",
+    "translation": "композитор",
+    "transcription": "[kəmˈpəʊzə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 15,
+    "origin": "consultant",
+    "translation": "консультант, советник",
+    "transcription": "[kənˈsʌlt(ə)nt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 16,
+    "origin": "cook",
+    "translation": "повар",
+    "transcription": "[kʊk]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 17,
+    "origin": "courier",
+    "translation": "курьер",
+    "transcription": "[ˈkʊrɪə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 18,
+    "origin": "dentist",
+    "translation": "зубной врач",
+    "transcription": "[ˈdɛntɪst]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 19,
+    "origin": "designer",
+    "translation": "конструктор, проектировщик",
+    "transcription": "[dɪˈzaɪnə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 20,
+    "origin": "doctor",
+    "translation": "доктор, врач",
+    "transcription": "[ˈdɒktə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 21,
+    "origin": "driver",
+    "translation": "водитель",
+    "transcription": "[ˈdraɪvə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 22,
+    "origin": "economist",
+    "translation": "экономист",
+    "transcription": "[ɪˈkɒnəmɪst]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 23,
+    "origin": "electrician",
+    "translation": "электрик",
+    "transcription": "[ɪˌlɛkˈtrɪʃ(ə)n]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 24,
+    "origin": "engineer",
+    "translation": "инженер",
+    "transcription": "[ˌɛndʒɪˈnɪə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 25,
+    "origin": "financier",
+    "translation": "финансист",
+    "transcription": "[f(a)ɪˈnænsɪə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 26,
+    "origin": "fireman",
+    "translation": "пожарный",
+    "transcription": "[-ˈfaɪəmən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 27,
+    "origin": "guide",
+    "translation": "экскурсовод",
+    "transcription": "[ɡaɪd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 28,
+    "origin": "hairdresser",
+    "translation": "парикмахер (жен)",
+    "transcription": "[ˈhɛəˌdrɛsə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 29,
+    "origin": "interpreter",
+    "translation": "переводчик",
+    "transcription": "[ɪnˈtɜːprɪtə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 30,
+    "origin": "journalist",
+    "translation": "журналист",
+    "transcription": "[ˈdʒɜːn(ə)lɪst]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 31,
+    "origin": "lawyer",
+    "translation": "юрист, адвокат",
+    "transcription": "[ˈlɔːjə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 32,
+    "origin": "librarian",
+    "translation": "библиотекарь",
+    "transcription": "[lʌɪˈbrɛːrɪən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 33,
+    "origin": "manager",
+    "translation": "управляющий, менеджер",
+    "transcription": "[ˈmænɪdʒə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 34,
+    "origin": "military (man)",
+    "translation": "военнослужащий",
+    "transcription": "[ˈmɪlɪt(ə)rɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 35,
+    "origin": "musician",
+    "translation": "музыкант",
+    "transcription": "[mjuːˈzɪʃ(ə)n]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 36,
+    "origin": "nurse",
+    "translation": "медсестра",
+    "transcription": "[nɜːs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 37,
+    "origin": "photographer",
+    "translation": "фотограф",
+    "transcription": "[fəˈtɒɡrəfə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 38,
+    "origin": "plumber",
+    "translation": "сантехник",
+    "transcription": "[ˈplʌmə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 39,
+    "origin": "policeman",
+    "translation": "полицейский",
+    "transcription": "[-pəˈliːsmən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 40,
+    "origin": "politician",
+    "translation": "политик",
+    "transcription": "[ˌpɒlɪˈtɪʃ(ə)n]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 41,
+    "origin": "postman",
+    "translation": "почтальон",
+    "transcription": "[-ˈpəʊstmən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 42,
+    "origin": "priest",
+    "translation": "священник",
+    "transcription": "[priːst]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 43,
+    "origin": "programmer",
+    "translation": "программист",
+    "transcription": "[ˈprəʊɡræmə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 44,
+    "origin": "scientist",
+    "translation": "ученый",
+    "transcription": "[ˈsaɪəntɪst]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 45,
+    "origin": "secretary",
+    "translation": "секретарь",
+    "transcription": "[ˈsɛkrət(ə)rɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 46,
+    "origin": "shop assistant",
+    "translation": "продавец",
+    "transcription": "[ˈʃɒpəˌsɪstənt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 47,
+    "origin": "singer",
+    "translation": "певец",
+    "transcription": "[ˈsɪŋə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 48,
+    "origin": "stylist",
+    "translation": "стилист",
+    "transcription": "[ˈstaɪlɪst]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 49,
+    "origin": "taxi driver",
+    "translation": "таксист",
+    "transcription": "[ˈtæksɪˌdraɪvə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 50,
+    "origin": "teacher",
+    "translation": "учитель",
+    "transcription": "[ˈtiːtʃə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 51,
+    "origin": "vet",
+    "translation": "ветеринар",
+    "transcription": "[vɛt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 52,
+    "origin": "waiter",
+    "translation": "официант",
+    "transcription": "[ˈweɪtə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 53,
+    "origin": "writer",
+    "translation": "писатель",
+    "transcription": "[ˈraɪtə]",
+    "image": "  ",
+    "example": "  "
+  }
+]
+}

@@ -1,0 +1,372 @@
+{
+"wordInformation":[
+  {
+    "id": 1,
+    "origin": "ATM",
+    "translation": "банкомат",
+    "transcription": "[,eiti:'em]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 2,
+    "origin": "bank",
+    "translation": "банк",
+    "transcription": "[bæŋk]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 3,
+    "origin": "bank account",
+    "translation": "банковский счет",
+    "transcription": "[bæŋk əʹkaʋnt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 4,
+    "origin": "bill",
+    "translation": "купюра",
+    "transcription": "[bıl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 5,
+    "origin": "billing address",
+    "translation": "адрес для выставления счетов",
+    "transcription": "[ʹbılıŋ əʹdres]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 6,
+    "origin": "cash",
+    "translation": "наличные",
+    "transcription": "[kæʃ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 7,
+    "origin": "cashier",
+    "translation": "кассир (в магазине)",
+    "transcription": "[kæʹʃıə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 8,
+    "origin": "change",
+    "translation": "сдача (обмен)",
+    "transcription": "[tʃeındʒ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 9,
+    "origin": "charge",
+    "translation": "плата",
+    "transcription": "[tʃɑ:dʒ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 10,
+    "origin": "cheque (check)",
+    "translation": "чек",
+    "transcription": "[tʃek] ([tʃek])",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 11,
+    "origin": "coin",
+    "translation": "монета",
+    "transcription": "[kɔın]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 12,
+    "origin": "cost",
+    "translation": "стоимость",
+    "transcription": "[kɒst]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 13,
+    "origin": "credit",
+    "translation": "кредит",
+    "transcription": "[ʹkredıt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 14,
+    "origin": "credit card",
+    "translation": "кредитная карта",
+    "transcription": "[ʹkredıt kɑ:d]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 15,
+    "origin": "currency",
+    "translation": "валюта",
+    "transcription": "[ʹkʌrənsı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 16,
+    "origin": "debit card",
+    "translation": "дебетовая карта",
+    "transcription": "[ʹdebıt kɑ:d]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 17,
+    "origin": "debt",
+    "translation": "долг",
+    "transcription": "[det]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 18,
+    "origin": "exchange rate",
+    "translation": "курс обмена валюты",
+    "transcription": "[ıksʹtʃeındʒ reıt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 19,
+    "origin": "fee",
+    "translation": "плата",
+    "transcription": "[fi:]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 20,
+    "origin": "fine",
+    "translation": "штраф",
+    "transcription": "[faın]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 21,
+    "origin": "loan",
+    "translation": "ссуда",
+    "transcription": "[ləʋn]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 22,
+    "origin": "money",
+    "translation": "деньги",
+    "transcription": "[ʹmʌnı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 23,
+    "origin": "mortgage",
+    "translation": "ипотека",
+    "transcription": "[ʹmɔ:gıdʒ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 24,
+    "origin": "paycheck",
+    "translation": "зарплатный чек",
+    "transcription": "[ʹpeıtʃek]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 25,
+    "origin": "payday",
+    "translation": "день зарплаты",
+    "transcription": "[ʹpeıdeı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 26,
+    "origin": "payment",
+    "translation": "оплата",
+    "transcription": "[ʹpeımənt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 27,
+    "origin": "pension",
+    "translation": "пенсия",
+    "transcription": "[ʹpenʃ(ə)n]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 28,
+    "origin": "price",
+    "translation": "цена",
+    "transcription": "[praıs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 29,
+    "origin": "price tag",
+    "translation": "ценник",
+    "transcription": "[praıs tæg]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 30,
+    "origin": "purse",
+    "translation": "кошелек (сумочка)",
+    "transcription": "[pɜ:s]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 31,
+    "origin": "receipt",
+    "translation": "чек (при покупке)",
+    "transcription": "[rıʹsi:t]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 32,
+    "origin": "salary (wages)",
+    "translation": "зарплата",
+    "transcription": "[ʹsælərı] ([weɪdʒ])",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 33,
+    "origin": "small change",
+    "translation": "мелочь",
+    "transcription": "[smɔ:l tʃeındʒ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 34,
+    "origin": "teller",
+    "translation": "кассир (в банке)",
+    "transcription": "[ʹtelə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 35,
+    "origin": "to borrow money",
+    "translation": "брать в долг",
+    "transcription": "[tu: ʹbɒrəʋ ʹmʌnı]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 36,
+    "origin": "to deposite money (to pay in)",
+    "translation": "вносить деньги на счет",
+    "transcription": "[tə deposite ˈmʌni] ([tə peɪ ɪn])",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 37,
+    "origin": "to exchange currency",
+    "translation": "обменивать валюту",
+    "transcription": "[tu: ıksʹtʃeındʒ ʹkʌrənsı]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 38,
+    "origin": "to lend money",
+    "translation": "давать в долг",
+    "transcription": "[tu: lend ʹmʌnı]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 39,
+    "origin": "to make money",
+    "translation": "зарабатывать деньги",
+    "transcription": "[tu: meık ʹmʌnı]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 40,
+    "origin": "to pay",
+    "translation": "платить",
+    "transcription": "[tu: peı]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 41,
+    "origin": "to save money",
+    "translation": "экономить деньги (беречь, копить)",
+    "transcription": "[tu: seıv ʹmʌnı]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 42,
+    "origin": "to spend money",
+    "translation": "тратить деньги",
+    "transcription": "[tu: spend ʹmʌnı]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 43,
+    "origin": "to waste money",
+    "translation": "тратить деньги понапрасну",
+    "transcription": "[tu: weıst ʹmʌnı]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 44,
+    "origin": "to withdraw money",
+    "translation": "снимать деньги со счета",
+    "transcription": "[tu: wıðʹdrɔ: ʹmʌnı]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 45,
+    "origin": "transaction",
+    "translation": "транзакция",
+    "transcription": "[trænʹzækʃ(ə)n]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 46,
+    "origin": "wallet",
+    "translation": "бумажник",
+    "transcription": "[ʹwɒlıt]",
+    "image": " ",
+    "example": "  "
+  }
+]
+}

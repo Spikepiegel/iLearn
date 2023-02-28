@@ -1,0 +1,476 @@
+{
+"wordInformation":[
+  {
+    "id": 1,
+    "origin": "absinthe",
+    "translation": "абсент",
+    "transcription": "[ˈæbsɪnθ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 2,
+    "origin": "alcoholic beverages",
+    "translation": "алкогольные напитки",
+    "transcription": "[ælkəˈhɒlɪk ˈbevərɪʤɪz]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 3,
+    "origin": "alcoholic cocktail",
+    "translation": "алкогольный коктейль",
+    "transcription": "[ælkəˈhɒlɪk ˈkɒkteɪl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 4,
+    "origin": "ale",
+    "translation": "эль",
+    "transcription": "[eɪl]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 5,
+    "origin": "black coffee",
+    "translation": "черный кофе",
+    "transcription": "[blæk ˈkɒfɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 6,
+    "origin": "black tea",
+    "translation": "черный чай",
+    "transcription": "[blæk tiː]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 7,
+    "origin": "brandy",
+    "translation": "бренди",
+    "transcription": "[ˈbrændɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 8,
+    "origin": "brew",
+    "translation": "самогон",
+    "transcription": "[bruː]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 9,
+    "origin": "carbonated water",
+    "translation": "газированная вода",
+    "transcription": "[ˈkɑːbəneɪtɪd ˈwɔːtə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 10,
+    "origin": "champagne",
+    "translation": "игристое вино (шампанское)",
+    "transcription": "[ʃæmˈpeɪn]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 11,
+    "origin": "cider",
+    "translation": "сидр",
+    "transcription": "[ˈsaɪdə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 12,
+    "origin": "cocoa",
+    "translation": "какао",
+    "transcription": "[ˈkəʊkəʊ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 13,
+    "origin": "coffee with milk",
+    "translation": "кофе с молоком",
+    "transcription": "[ˈkɒfɪ wɪð mɪlk]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 14,
+    "origin": "cognac",
+    "translation": "коньяк",
+    "transcription": "[ˈkɒnjæk]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 15,
+    "origin": "cold drinks",
+    "translation": "холодные напитки",
+    "transcription": "[kəʊld drɪŋks]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 16,
+    "origin": "compote",
+    "translation": "компот",
+    "transcription": "[ˈkɒmpəʊt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 17,
+    "origin": "dark beer",
+    "translation": "темное пиво",
+    "transcription": "[dɑːk bɪə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 18,
+    "origin": "drinking yogurt",
+    "translation": "питьевой йогурт",
+    "transcription": "[ˈdrɪŋkɪŋ ˈjɒgət]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 19,
+    "origin": "energy drink",
+    "translation": "энергетический напиток",
+    "transcription": "[ˈenəʤɪ drɪŋk]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 20,
+    "origin": "freshly squeezed juice",
+    "translation": "свежевыжатый сок",
+    "transcription": "[ˈfreʃlɪ skwiːzd ʤuːs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 21,
+    "origin": "fruit tea",
+    "translation": "фруктовый чай",
+    "transcription": "[fruːt tiː]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 22,
+    "origin": "gin",
+    "translation": "джин",
+    "transcription": "[ʤɪn]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 23,
+    "origin": "ginger beer",
+    "translation": "имбирное пиво",
+    "transcription": "[ˈʤɪnʤə bɪə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 24,
+    "origin": "green tea",
+    "translation": "зеленый чай",
+    "transcription": "[griːn tiː]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 25,
+    "origin": "ground coffee",
+    "translation": "молотый кофе",
+    "transcription": "[graʊnd ˈkɒfɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 26,
+    "origin": "herbal tea",
+    "translation": "травяной чай",
+    "transcription": "[ˈhɜːbəl tiː]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 27,
+    "origin": "hot chocolate",
+    "translation": "горячий шоколад",
+    "transcription": "[hɒt ˈʧɒklɪt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 28,
+    "origin": "hot drinks",
+    "translation": "горячие напитки",
+    "transcription": "[hɒt drɪŋks]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 29,
+    "origin": "instant coffee",
+    "translation": "растворимый кофе",
+    "transcription": "[ˈɪnstənt ˈkɒfɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 30,
+    "origin": "jelly",
+    "translation": "кисель",
+    "transcription": "[ˈʤelɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 31,
+    "origin": "juice with pulp",
+    "translation": "сок с мякотью",
+    "transcription": "[ʤuːs wɪð pʌlp]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 32,
+    "origin": "kefir",
+    "translation": "кефир",
+    "transcription": "[ˈkefə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 33,
+    "origin": "lemonade",
+    "translation": "лимонад",
+    "transcription": "[leməˈneɪd]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 34,
+    "origin": "light beer",
+    "translation": "светлое пиво",
+    "transcription": "[laɪt bɪə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 35,
+    "origin": "liquor",
+    "translation": "ликер",
+    "transcription": "[ˈlɪkə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 36,
+    "origin": "milk",
+    "translation": "молоко",
+    "transcription": "[mɪlk]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 37,
+    "origin": "milkshake",
+    "translation": "молочный коктейль",
+    "transcription": "[ˈmɪlkʃeɪk]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 38,
+    "origin": "mineral water",
+    "translation": "минеральная вода",
+    "transcription": "[ˈmɪnərəl ˈwɔːtə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 39,
+    "origin": "mocha",
+    "translation": "мокко",
+    "transcription": "[ˈmɒkə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 40,
+    "origin": "morse",
+    "translation": "морс",
+    "transcription": "[mɔːs]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 41,
+    "origin": "mulled wine",
+    "translation": "глинтвейн",
+    "transcription": "[mʌld waɪn]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 42,
+    "origin": "non-alcoholic cocktail",
+    "translation": "безалкогольный коктейль",
+    "transcription": "[nɔn-ælkəˈhɒlɪk ˈkɒkteɪl]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 43,
+    "origin": "oxygen cocktail",
+    "translation": "кислородный коктейль",
+    "transcription": "[ˈɒksɪʤən ˈkɒkteɪl]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 44,
+    "origin": "packaged juice",
+    "translation": "пакетированный сок",
+    "transcription": "[ˈpækɪʤd ʤuːs]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 45,
+    "origin": "red wine",
+    "translation": "красное вино",
+    "transcription": "[red waɪn]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 46,
+    "origin": "rum",
+    "translation": "ром",
+    "transcription": "[rʌm]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 47,
+    "origin": "sake",
+    "translation": "сакэ",
+    "transcription": "[seɪk]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 48,
+    "origin": "sherry",
+    "translation": "херес",
+    "transcription": "[ˈʃerɪ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 49,
+    "origin": "smoothie",
+    "translation": "смузи",
+    "transcription": "[ˈsmuːðɪ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 50,
+    "origin": "soda",
+    "translation": "газировка",
+    "transcription": "[ˈsəʊdə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 51,
+    "origin": "soft drinks",
+    "translation": "безалкогольные напитки",
+    "transcription": "[sɒft drɪŋks]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 52,
+    "origin": "still water",
+    "translation": "негазированная вода",
+    "transcription": "[stɪl ˈwɔːtə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 53,
+    "origin": "tequila",
+    "translation": "текила",
+    "transcription": "[tɪˈkiːlə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 54,
+    "origin": "tonic",
+    "translation": "тоник",
+    "transcription": "[ˈtɒnɪk]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 55,
+    "origin": "vermouth",
+    "translation": "вермут",
+    "transcription": "[ˈvɜːməθ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 56,
+    "origin": "vodka",
+    "translation": "водка",
+    "transcription": "[ˈvɒdkə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 57,
+    "origin": "water",
+    "translation": "вода",
+    "transcription": "[ˈwɔːtə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 58,
+    "origin": "whiskey",
+    "translation": "виски",
+    "transcription": "[ˈwɪskɪ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 59,
+    "origin": "white wine",
+    "translation": "белое вино",
+    "transcription": "[waɪt waɪn]",
+    "image": " ",
+    "example": "  "
+  }
+]
+}

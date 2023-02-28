@@ -1,0 +1,1292 @@
+{
+"wordInformation":[
+  {
+    "id": 1,
+    "origin": "anorak",
+    "translation": "куртка с капюшоном",
+    "transcription": "[ʹænəræk]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 2,
+    "origin": "backless dress",
+    "translation": "платье с вырезом на спине",
+    "transcription": "['bækləs dres]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 3,
+    "origin": "baggy trousers",
+    "translation": "мешковины брюки",
+    "transcription": "[ʹbægı ʹtraʋzəz]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 4,
+    "origin": "balaclava",
+    "translation": "Балаклава",
+    "transcription": "[,bælə'klɑ:və]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 5,
+    "origin": "ballet flats",
+    "translation": "туфли-лодочки",
+    "transcription": "[ʹbæleı flæt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 6,
+    "origin": "barbells",
+    "translation": "штанга для пирсинга",
+    "transcription": "[ˈbɑː.bel]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 7,
+    "origin": "baseball cap",
+    "translation": "бейсболка",
+    "transcription": "[ʹbıeısbɔ:l kæp]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 8,
+    "origin": "beaded dress",
+    "translation": "платье, украшенное бисером",
+    "transcription": "[ʹbi:dıd dres]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 9,
+    "origin": "belt",
+    "translation": "ремень",
+    "transcription": "[belt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 10,
+    "origin": "belt buckle",
+    "translation": "пряжка",
+    "transcription": "[belt ʹbʌk(ə)l]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 11,
+    "origin": "beret",
+    "translation": "берет",
+    "transcription": "[ʹbereı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 12,
+    "origin": "bikini",
+    "translation": "бикини",
+    "transcription": "[bıʹki:nı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 13,
+    "origin": "blouse",
+    "translation": "блузка",
+    "transcription": "[blaʋz]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 14,
+    "origin": "bobble hat",
+    "translation": "шапка с понпончиком",
+    "transcription": "[ʹbɒb(ə)l hæt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 15,
+    "origin": "boots",
+    "translation": "ботинки",
+    "transcription": "[bu:ts]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 16,
+    "origin": "bowler hat",
+    "translation": "котелок",
+    "transcription": "[ʹbəʋlə hæt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 17,
+    "origin": "bow-tie",
+    "translation": "бабочка",
+    "transcription": "[bəʋ taı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 18,
+    "origin": "boxer shorts",
+    "translation": "боксеры",
+    "transcription": "[ʹbɒksə ʃɔ:ts]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 19,
+    "origin": "bra",
+    "translation": "бюстгальтер",
+    "transcription": "[brɑ:]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 20,
+    "origin": "bracelet",
+    "translation": "браслет",
+    "transcription": "[ʹbreıslıt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 21,
+    "origin": "braces/suspenders",
+    "translation": "подтяжки",
+    "transcription": "[breɪs]/[səˈspen.dər]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 22,
+    "origin": "breast pocket",
+    "translation": "нагрудный карман",
+    "transcription": "[brest ʹpɒkıt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 23,
+    "origin": "briefcase",
+    "translation": "портфель",
+    "transcription": "[ʹbri:fkeıs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 24,
+    "origin": "briefs/pants",
+    "translation": "трусы",
+    "transcription": "[bri:fs]/[pænts]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 25,
+    "origin": "brooch",
+    "translation": "брошь",
+    "transcription": "[brəʋtʃ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 26,
+    "origin": "button",
+    "translation": "пуговица",
+    "transcription": "[ʹbʌtn]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 27,
+    "origin": " cap",
+    "translation": "шапка",
+    "transcription": " [kæp]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 28,
+    "origin": "calf-length skirt",
+    "translation": "юбка ниже колена",
+    "transcription": "[kɑ:f - leŋθ skɜ:t]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 29,
+    "origin": "cardigan",
+    "translation": "кардиган",
+    "transcription": "['kɑ:digen(ʃə)]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 30,
+    "origin": "casual jacket",
+    "translation": "повседневная куртка",
+    "transcription": "[ʹkæʒʋəl ʹdʒækıt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 31,
+    "origin": "chain",
+    "translation": "цепочка",
+    "transcription": "[tʃeın]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 32,
+    "origin": "charm bracelet",
+    "translation": "амулетный браслет",
+    "transcription": "[tʃɑ:m ʹbreıslıt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 33,
+    "origin": "charm/pendant",
+    "translation": "подвеска",
+    "transcription": "[tʃɑ:m]/[ʹpendənt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 34,
+    "origin": "chinos",
+    "translation": "хлопчатобумажные брюки",
+    "transcription": "[ʹtʃi:nəʋz]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 35,
+    "origin": "clip-on earrings",
+    "translation": "клипсы",
+    "transcription": "[klıp - ɒn ˈɪə.rɪŋ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 36,
+    "origin": "clogs",
+    "translation": "туфли-само",
+    "transcription": "[klɒɡ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 37,
+    "origin": "clutch",
+    "translation": "клипсы",
+    "transcription": "[klʌtʃ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 38,
+    "origin": "clutch bag",
+    "translation": "клатч",
+    "transcription": "[klʌtʃ bæg]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 39,
+    "origin": "cocktail dress",
+    "translation": "вечернее платье",
+    "transcription": "[ʹkɒkteıl dres]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 40,
+    "origin": "combat trousers",
+    "translation": "армейские брюки",
+    "transcription": "[ʹkɒmbæt ʹtraʋzəz]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 41,
+    "origin": "court shoe/pump",
+    "translation": "балетки",
+    "transcription": "[kɔ:t ʃu:]/[pʌmp]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 42,
+    "origin": "crash helmet",
+    "translation": "защитный шлем",
+    "transcription": "[kræʃ ʹhelmıt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 43,
+    "origin": "cuff",
+    "translation": "манжета",
+    "transcription": "[kʌf]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 44,
+    "origin": "cuff links",
+    "translation": "запонки",
+    "transcription": "[kʌf lıŋks]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 45,
+    "origin": "dangle/dangling/drop earrings",
+    "translation": "серьги-подвески",
+    "transcription": "[ʹdæŋgl]/[ʹdæŋglıŋ]/[drɒp ˈɪə.rɪŋ] ",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 46,
+    "origin": "dinner jacket / tuxedo",
+    "translation": "смокинг",
+    "transcription": "[ʹdınəʹdʒækıt] / [tʌkʹsi:dəʋ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 47,
+    "origin": "dress",
+    "translation": "платье",
+    "transcription": "[dres]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 48,
+    "origin": "dungarees/overalls",
+    "translation": "рабочая одежда",
+    "transcription": "[ˌdʌŋ.ɡəˈriːz]/[ˈəʊ.vər.ɔːlz]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 49,
+    "origin": "earmuffs",
+    "translation": "наушники",
+    "transcription": "[ʹıəmʌfs]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 50,
+    "origin": "earrings",
+    "translation": "серьги",
+    "transcription": "[ˈɪə.rɪŋ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 51,
+    "origin": "engagement ring",
+    "translation": "помолвочное кольцо",
+    "transcription": "[ınʹgeıdʒmənt rıŋ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 52,
+    "origin": "evening gown",
+    "translation": "вечернее (бальное) платье",
+    "transcription": "[ʹi:vnıŋ gaʋn]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 53,
+    "origin": "fancy dress",
+    "translation": "маскарадный костюм",
+    "transcription": "[ʹfænsı dres]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 54,
+    "origin": "fedora, trilby",
+    "translation": "мягкая фетровая шляпа",
+    "transcription": "[fıʹdɔ:rə], [ʹtrılbı]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 55,
+    "origin": "fez",
+    "translation": "феска",
+    "transcription": "[fez]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 56,
+    "origin": "fitted shirt",
+    "translation": "приталенная рубашка",
+    "transcription": "[ʹfıtıd ʃɜ:t]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 57,
+    "origin": "flak jacket",
+    "translation": "бронежилет",
+    "transcription": "[flæk ʹdʒækıt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 58,
+    "origin": "flat cap",
+    "translation": "кепка",
+    "transcription": "[flæt kæp]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 59,
+    "origin": "flesh tunnel",
+    "translation": "серьги туннели",
+    "transcription": "[fleʃ ʹtʌnl]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 60,
+    "origin": "flowery dress",
+    "translation": "платье с цветным принятом",
+    "transcription": "[ʹflaʋ(ə)rı dres]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 61,
+    "origin": "fur coat",
+    "translation": "шуба",
+    "transcription": "[fɜ: kəʋt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 62,
+    "origin": "gladiator sandals",
+    "translation": "гладиаторы",
+    "transcription": "[ʹglædıeıtə ˈsæn.dəl]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 63,
+    "origin": "glittery dress",
+    "translation": "блестящее платье",
+    "transcription": "[ʹglıt(ə)rı dres]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 64,
+    "origin": "gloves",
+    "translation": "перчатки",
+    "transcription": "[ɡlʌv]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 65,
+    "origin": "handbag/purse",
+    "translation": "кошелек",
+    "transcription": "[ʹhændbæg]/[pɜ:s]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 66,
+    "origin": "hat",
+    "translation": "шляпа",
+    "transcription": "[hæt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 67,
+    "origin": "headscarf",
+    "translation": "косынка",
+    "transcription": "[ʹhedskɑ:f]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 68,
+    "origin": "high heel/stiletto",
+    "translation": "туфли на шпильке",
+    "transcription": "[haı hi:l]/[stıʹletəʋ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 69,
+    "origin": "hooded jacket",
+    "translation": "куртка с капюшоном",
+    "transcription": "[ʹhʋdıdʹdʒækıt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 70,
+    "origin": "hoop earrings",
+    "translation": "серьги-кольца",
+    "transcription": "[hu:p ˈɪə.rɪŋ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 71,
+    "origin": "house coat/robe",
+    "translation": "халат",
+    "transcription": "[haʋs kəʋt]/[rəʋb]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 72,
+    "origin": "jacket",
+    "translation": "куртка, жакет",
+    "transcription": "[ʹdʒækıt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 73,
+    "origin": "jeans/denims",
+    "translation": "джинсы",
+    "transcription": "[dʒi:nz]/[ˈden.ɪm]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 74,
+    "origin": "jelly/gel bracelet",
+    "translation": "гелевый браслет",
+    "transcription": "[ʹdʒelı]/[dʒel ʹbreıslıt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 75,
+    "origin": "knee-length skirt",
+    "translation": "юбка до колена",
+    "transcription": "[ni: - leŋθ skɜ:t]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 76,
+    "origin": "knitted sweater",
+    "translation": "трикотажный свитер",
+    "transcription": "[ʹnıtıd ʹswetə]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 77,
+    "origin": "lace-up shoes",
+    "translation": "полуботинки на шнуровке",
+    "transcription": "[leıs - ʌp ʃuː] ",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 78,
+    "origin": "leather jacket",
+    "translation": "кожаная куртка",
+    "transcription": "[ʹleðəʹdʒækıt]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 79,
+    "origin": "leggings",
+    "translation": "легинсы",
+    "transcription": "[ʹlegıŋz]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 80,
+    "origin": "life jacket",
+    "translation": "спасательный жилет",
+    "transcription": "[laıf ʹdʒækıt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 81,
+    "origin": "loafers",
+    "translation": "легкие кожаные туфли, лоферы",
+    "transcription": "[ˈləʊ.fər]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 82,
+    "origin": "long socks",
+    "translation": "гольфы",
+    "transcription": "[lɒŋ sɒk]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 83,
+    "origin": "loose-fitting shirt",
+    "translation": "рубашка свободного покроя",
+    "transcription": "[lu:s -ʹfıtıŋ ʃɜ:t]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 84,
+    "origin": "low-cut dress",
+    "translation": "платье с глубоким вырезом",
+    "transcription": "[ləʋ - kʌt dres]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 85,
+    "origin": "magnetic earrings",
+    "translation": "серьги на магнитах",
+    "transcription": "[mægʹnetık ˈɪə.rɪŋ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 86,
+    "origin": "miniskirt/mini",
+    "translation": "мини-юбка",
+    "transcription": "['miniskə:t]/[ʹmını]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 87,
+    "origin": "mittens",
+    "translation": "варежки",
+    "transcription": "[ˈmɪt.ən]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 88,
+    "origin": "moccasins",
+    "translation": "мокасины",
+    "transcription": "[ˈmɒk.ə.sɪn]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 89,
+    "origin": "mules",
+    "translation": "туфли без задника",
+    "transcription": "[mjuːl]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 90,
+    "origin": "multi-colored skirt",
+    "translation": "разноцветная юбка",
+    "transcription": "[mʌl.ti - 'kʌləd skɜ:t]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 91,
+    "origin": "necklace",
+    "translation": "ожерелье",
+    "transcription": "[ʹneklıs]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 92,
+    "origin": "nightdress",
+    "translation": "ночная рубашка",
+    "transcription": "[ʹnaıtdres]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 93,
+    "origin": "overcoat",
+    "translation": "пальто",
+    "transcription": "[ʹəʋvəkəʋt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 94,
+    "origin": "peaked cap",
+    "translation": "фуражка",
+    "transcription": "[pi:kt kæp]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 95,
+    "origin": "peep toe shoes",
+    "translation": "туфли с открытым носком",
+    "transcription": "[pi:p təʋ ʃuː]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 96,
+    "origin": "pin",
+    "translation": "шпилька, булавка",
+    "transcription": "[pın]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 97,
+    "origin": "pinafore dress",
+    "translation": "передник",
+    "transcription": "[ʹpınəfɔ: dres]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 98,
+    "origin": "platform shoes",
+    "translation": "туфли на платформе",
+    "transcription": "[ʹplætfɔ:m ʃuː] ",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 99,
+    "origin": "pleated skirt",
+    "translation": "плиссированная юбка",
+    "transcription": "[ʹpli:tıd skɜ:t]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 100,
+    "origin": "pocket",
+    "translation": "карман",
+    "transcription": "[ʹpɒkıt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 101,
+    "origin": "pointed toe shoes",
+    "translation": "туфли с острым носком",
+    "transcription": "[ˈpɔɪntɪd təʊ ʃuː]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 102,
+    "origin": "policeman’s helmet",
+    "translation": "полицейский шлем",
+    "transcription": "[pəˈliːsmən ˈhel.mət]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 103,
+    "origin": "polo shirt",
+    "translation": "рубашка поло",
+    "transcription": "[ʹpəʋləʋ ʃɜ:t]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 104,
+    "origin": "prickly sweater",
+    "translation": "колючий свитер",
+    "transcription": "[ʹprıklı ʹswetə]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 105,
+    "origin": "pyjamas",
+    "translation": "пижама",
+    "transcription": "[pəʹdʒɑ:məz]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 106,
+    "origin": "raincoat",
+    "translation": "плащ",
+    "transcription": "[ʹreınkəʋt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 107,
+    "origin": "ring",
+    "translation": "кольцо",
+    "transcription": "[rıŋ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 108,
+    "origin": "round toe shoes",
+    "translation": "туфли с круглым носком",
+    "transcription": "[raʊnd təʊ ʃuː] ",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 109,
+    "origin": "round-necked dress",
+    "translation": "платье с круглым вырезом",
+    "transcription": "[raʊnd - nek dres]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 110,
+    "origin": "rucksack/backpack",
+    "translation": "рюкзак",
+    "transcription": "[ʹrʌksæk]/[ʹbækpæk]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 111,
+    "origin": "sandals",
+    "translation": "сандали",
+    "transcription": "[ˈsæn.dəl]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 112,
+    "origin": "sari",
+    "translation": "сари",
+    "transcription": "[ʹsɑ:rı]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 113,
+    "origin": "scarf",
+    "translation": "шарф",
+    "transcription": "[skɑ:f]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 114,
+    "origin": "seal ring",
+    "translation": "перстень",
+    "transcription": "[si:l rıŋ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 115,
+    "origin": "shawl",
+    "translation": "шаль",
+    "transcription": "[ʃɔ:l]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 116,
+    "origin": "sheepskin coat",
+    "translation": "дубленка",
+    "transcription": "[ʹʃi:p͵skın kəʋt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 117,
+    "origin": "shirt",
+    "translation": "рубашка",
+    "transcription": "[ʃɜ:t]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 118,
+    "origin": "shoes",
+    "translation": "туфли",
+    "transcription": "[ʃuː]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 119,
+    "origin": "shorts",
+    "translation": "шорты",
+    "transcription": "[ʃɔ:ts]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 120,
+    "origin": "skirt",
+    "translation": "юбка",
+    "transcription": "[skɜ:t]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 121,
+    "origin": "sleeper earrings",
+    "translation": "серьги, состоящие только из кольца",
+    "transcription": "[ʹsli:pə ˈɪə.rɪŋ] ",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 122,
+    "origin": "sleeveless dress",
+    "translation": "платье без рукавов",
+    "transcription": "[ʹsli:vlıs dres]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 123,
+    "origin": "sling bag",
+    "translation": "сумка через плечо",
+    "transcription": "[slıŋ bæg]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 124,
+    "origin": "slingback shoes",
+    "translation": "туфли Шанель",
+    "transcription": "['sliŋbæk ʃuː]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 125,
+    "origin": "slippers",
+    "translation": "шлепанцы",
+    "transcription": "[ˈslɪp.ər]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 126,
+    "origin": "socks",
+    "translation": "носки",
+    "transcription": "[sɒk]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 127,
+    "origin": "sombrero",
+    "translation": "сомбреро",
+    "transcription": "[sɒmʹbre(ə)rəʋ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 128,
+    "origin": "Stetson/cowboy hat",
+    "translation": "ковбойская шляпа",
+    "transcription": "[ʹstets(ə)n]/[ʹkaʋbɔı hæt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 129,
+    "origin": "stockings",
+    "translation": "чулки",
+    "transcription": "[ˈstɒk.ɪŋ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 130,
+    "origin": "straw boater",
+    "translation": "соломенная шляпа",
+    "transcription": "[strɔ: ʹbəʋtə]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 131,
+    "origin": "stud earrings",
+    "translation": "гвоздики",
+    "transcription": "[stʌd ˈɪə.rɪŋ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 132,
+    "origin": "suit",
+    "translation": "костюм",
+    "transcription": "[s(j)u:t]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 133,
+    "origin": "suitcase",
+    "translation": "чемодан",
+    "transcription": "[ʹs(j)u:tkeıs]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 134,
+    "origin": "sweater/pullover/jumper",
+    "translation": "свитер/полувер/джемпер",
+    "transcription": "[ʹswetə]/[ʹpʋl͵əʋvə]/[ʹdʒʌmpə]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 135,
+    "origin": "sweatshirt",
+    "translation": "толстовка",
+    "transcription": "[ʹswetʃɜ:t]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 136,
+    "origin": "T-bar shoes",
+    "translation": "туфли с перепонкой на подъеме",
+    "transcription": "[ti: - bɑ: ʃuː]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 137,
+    "origin": "thong shoes",
+    "translation": "тапочки",
+    "transcription": "[θɒŋ ʃuː]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 138,
+    "origin": "tie/necktie",
+    "translation": "галстук",
+    "transcription": "[taı]/[ʹnektaı]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 139,
+    "origin": "tights",
+    "translation": "колготки",
+    "transcription": "[taıts]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 140,
+    "origin": "top hat",
+    "translation": "цилиндр",
+    "transcription": "[tɒp hæt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 141,
+    "origin": "tote bag",
+    "translation": "сумка-шоппер",
+    "transcription": "[təʋt bæg]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 142,
+    "origin": "tracksuit",
+    "translation": "тренировочный костюм",
+    "transcription": "[ʹtræks(j)u:t]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 143,
+    "origin": "trainers/sneakers",
+    "translation": "кеды, сникерсы",
+    "transcription": "[ˈtreɪ.nər]/[ˈsniː.kər]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 144,
+    "origin": "trousers",
+    "translation": "брюки",
+    "transcription": "[ʹtraʋzəz]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 145,
+    "origin": "trunks",
+    "translation": "спортивные трусы",
+    "transcription": "[trʌŋks]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 146,
+    "origin": "T-shirt",
+    "translation": "футболка",
+    "transcription": "[ti:-ʃɜ:t]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 147,
+    "origin": "tunic",
+    "translation": "туника",
+    "transcription": "[ʹtju:nık]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 148,
+    "origin": "turban",
+    "translation": "тюрбан",
+    "transcription": "[ʹtɜ:bən]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 149,
+    "origin": "turtleneck",
+    "translation": "водолазка",
+    "transcription": "[ʹtɜ:tlnek]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 150,
+    "origin": "uggs",
+    "translation": "угги",
+    "transcription": "  ",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 151,
+    "origin": "underpants",
+    "translation": "кальсоны",
+    "transcription": "[ʹʌndəpænts]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 152,
+    "origin": "vest/undershirt",
+    "translation": "нижняя рубашка",
+    "transcription": "[vest]/[ʹʌndəʃɜ:t]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 153,
+    "origin": "V-necked dress",
+    "translation": "платье c V-образным вырезом",
+    "transcription": "[ˈviː.nek dres]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 154,
+    "origin": "waistcoat/weskit/vest",
+    "translation": "жилет",
+    "transcription": "[ʹweıskəʋt]/[ʹweskət]/[vest]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 155,
+    "origin": "watches",
+    "translation": "часы",
+    "transcription": "[wɒtʃ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 156,
+    "origin": "wedding ring",
+    "translation": "обручальное кольцо",
+    "transcription": "[ʹwedıŋ rıŋ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 157,
+    "origin": "wedge shoes",
+    "translation": "туфли на танкетке",
+    "transcription": "[wedʒ ʃuː] ",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 158,
+    "origin": "Wellington/rubber boots",
+    "translation": "резиновые сапоги",
+    "transcription": "[ʹwelıŋtən]/[ʹrʌbəb bu:ts]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 159,
+    "origin": "woolen sweater",
+    "translation": "шерстяной свитер",
+    "transcription": "[ʹwʋl(ə)n ʹswetə]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 160,
+    "origin": "wrap-around skirt",
+    "translation": "юбка с запахом",
+    "transcription": "[ræp - əʹraʋnd skɜ:t]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 161,
+    "origin": "zip/zipper",
+    "translation": "застежка-молния",
+    "transcription": "[zıp]/[ʹzıpə]",
+    "image": " ",
+    "example": " "
+  }
+]
+}

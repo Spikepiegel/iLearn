@@ -1,0 +1,404 @@
+{
+"wordInformation":[
+  {
+    "id": 1,
+    "origin": "altitude",
+    "translation": "высота",
+    "transcription": "[ 'æltitju:d ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 2,
+    "origin": "altitude",
+    "translation": "высота",
+    "transcription": "[ 'æltitju:d ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 3,
+    "origin": "archipelago",
+    "translation": "архипелаг",
+    "transcription": "[ ,ɑ:ki'peligəu ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 4,
+    "origin": "archipelago",
+    "translation": "архипелаг",
+    "transcription": "[ ,ɑ:ki'peligəu ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 5,
+    "origin": "bay",
+    "translation": "бухта",
+    "transcription": "[ bei ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 6,
+    "origin": "bay",
+    "translation": "бухта",
+    "transcription": "[ bei ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 7,
+    "origin": "cape",
+    "translation": "мыс",
+    "transcription": "[ keip ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 8,
+    "origin": "cape",
+    "translation": "мыс",
+    "transcription": "[ keip ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 9,
+    "origin": "cartographer",
+    "translation": "картограф",
+    "transcription": "[ kɑ:r'tɒgrəfər ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 10,
+    "origin": "cartographer",
+    "translation": "картограф",
+    "transcription": "[ kɑ:r'tɒgrəfər ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 11,
+    "origin": "climate",
+    "translation": "климат",
+    "transcription": "[ 'klaimit ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 12,
+    "origin": "climate",
+    "translation": "климат",
+    "transcription": "[ 'klaimit ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 13,
+    "origin": "delta",
+    "translation": "дельта реки",
+    "transcription": "[ 'deltə ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 14,
+    "origin": "delta",
+    "translation": "дельта реки",
+    "transcription": "[ 'deltə ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 15,
+    "origin": "depth",
+    "translation": "глубина",
+    "transcription": "[ depθ ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 16,
+    "origin": "depth",
+    "translation": "глубина",
+    "transcription": "[ depθ ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 17,
+    "origin": "equator",
+    "translation": "экватор",
+    "transcription": "[ ɪ'kweɪtər ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 18,
+    "origin": "equator",
+    "translation": "экватор",
+    "transcription": "[ ɪ'kweɪtər ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 19,
+    "origin": "estuary",
+    "translation": "устье реки",
+    "transcription": "[ 'estjuəri ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 20,
+    "origin": "estuary",
+    "translation": "устье реки",
+    "transcription": "[ 'estjuəri ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 21,
+    "origin": "globe",
+    "translation": "мир, свет",
+    "transcription": "[ 'gləub ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 22,
+    "origin": "globe",
+    "translation": "мир, свет",
+    "transcription": "[ 'gləub ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 23,
+    "origin": "gulf",
+    "translation": "залив",
+    "transcription": "[ gʌlf ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 24,
+    "origin": "gulf",
+    "translation": "залив",
+    "transcription": "[ gʌlf ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 25,
+    "origin": "iceberg",
+    "translation": "айсберг",
+    "transcription": "[ 'aisbə:g ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 26,
+    "origin": "iceberg",
+    "translation": "айсберг",
+    "transcription": "[ 'aisbə:g ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 27,
+    "origin": "latitude",
+    "translation": "широта",
+    "transcription": "[ 'lætitju:d ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 28,
+    "origin": "latitude",
+    "translation": "широта",
+    "transcription": "[ 'lætitju:d ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 29,
+    "origin": "longitude",
+    "translation": "долгота",
+    "transcription": "[ 'lɔnʤitju:d ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 30,
+    "origin": "longitude",
+    "translation": "долгота",
+    "transcription": "[ 'lɔnʤitju:d ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 31,
+    "origin": "map",
+    "translation": "карта",
+    "transcription": "[ mæp ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 32,
+    "origin": "map",
+    "translation": "карта",
+    "transcription": "[ mæp ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 33,
+    "origin": "mountain range",
+    "translation": "горный хребет",
+    "transcription": "[ 'mauntin reinʤ ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 34,
+    "origin": "mountain range",
+    "translation": "горный хребет",
+    "transcription": "[ 'mauntin reinʤ ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 35,
+    "origin": "northern hemisphere",
+    "translation": "северное полушарие",
+    "transcription": "[ 'nɔ:ðən 'hemisfiə ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 36,
+    "origin": "northern hemisphere",
+    "translation": "северное полушарие",
+    "transcription": "[ 'nɔ:ðən 'hemisfiə ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 37,
+    "origin": "pass",
+    "translation": "перевал",
+    "transcription": "[ pɑ:s ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 38,
+    "origin": "pass",
+    "translation": "перевал",
+    "transcription": "[ pɑ:s ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 39,
+    "origin": "peak",
+    "translation": "пик",
+    "transcription": "[ pi:k ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 40,
+    "origin": "peak",
+    "translation": "пик",
+    "transcription": "[ pi:k ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 41,
+    "origin": "peninsula",
+    "translation": "полуостров",
+    "transcription": "[ pi'ninsjulə ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 42,
+    "origin": "peninsula",
+    "translation": "полуостров",
+    "transcription": "[ pi'ninsjulə ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 43,
+    "origin": "shore",
+    "translation": "берег",
+    "transcription": "[ ʃɔ: ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 44,
+    "origin": "shore",
+    "translation": "берег",
+    "transcription": "[ ʃɔ: ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 45,
+    "origin": "source",
+    "translation": "источник",
+    "transcription": "[ sɔ:s ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 46,
+    "origin": "source",
+    "translation": "источник",
+    "transcription": "[ sɔ:s ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 47,
+    "origin": "southern hemisphere",
+    "translation": "южное полушарие",
+    "transcription": "[ 'sʌðən 'hemisfiə ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 48,
+    "origin": "southern hemisphere",
+    "translation": "южное полушарие",
+    "transcription": "[ 'sʌðən 'hemisfiə ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 49,
+    "origin": "tide",
+    "translation": "прилив",
+    "transcription": "[ taid ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
+    "id": 50,
+    "origin": "tide",
+    "translation": "прилив",
+    "transcription": "[ taid ]",
+    "image": " ",
+    "example": "  "
+  }
+]
+}

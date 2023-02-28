@@ -1,0 +1,196 @@
+{
+"wordInformation":[
+  {
+    "id": 1,
+    "origin": "allergy",
+    "translation": "аллергия",
+    "transcription": "[‘æləʤɪ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 2,
+    "origin": "bloody nose",
+    "translation": "кровь из носа",
+    "transcription": "[‘blʌdɪ nəuz]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 3,
+    "origin": "broken arm",
+    "translation": "сломанная рука",
+    "transcription": "[‘brəuk(ə)n ɑːm]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 4,
+    "origin": "bruise",
+    "translation": "синяк",
+    "transcription": "[bruːz]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 5,
+    "origin": "bump",
+    "translation": "шишка",
+    "transcription": "[bʌmp]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 6,
+    "origin": "cough",
+    "translation": "кашель",
+    "transcription": "[kɔf]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 7,
+    "origin": "cut",
+    "translation": "порез",
+    "transcription": "[ə’kʌt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 8,
+    "origin": "diarrhea",
+    "translation": "диарея",
+    "transcription": "[ˌdaɪə’rɪə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 9,
+    "origin": "fever",
+    "translation": "жар",
+    "transcription": "[‘fiːvə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 10,
+    "origin": "headache",
+    "translation": "головная боль",
+    "transcription": "[‘hedeɪk]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 11,
+    "origin": "health",
+    "translation": "здоровье",
+    "transcription": "[helθ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 12,
+    "origin": "loose tooth",
+    "translation": "шатающийся зуб",
+    "transcription": "[luːs tuːθ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 13,
+    "origin": "medicine",
+    "translation": "лекарство, медикамент",
+    "transcription": "[‘medɪsɪn]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 14,
+    "origin": "plaster",
+    "translation": "пластырь",
+    "transcription": "[‘plɑːstə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 15,
+    "origin": "runny nose",
+    "translation": "насморк",
+    "transcription": "[‘rʌnɪ nəuz]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 16,
+    "origin": "scratch",
+    "translation": "царапина",
+    "transcription": "[skræʧ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 17,
+    "origin": "shot",
+    "translation": "укол",
+    "transcription": "[hɔːs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 18,
+    "origin": "sick",
+    "translation": "больной",
+    "transcription": "[sɪk]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 19,
+    "origin": "sneeze",
+    "translation": "чиханье",
+    "transcription": "[sniːz]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 20,
+    "origin": "stomachache",
+    "translation": "боль в животе",
+    "transcription": "[‘stʌməkeɪk]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 21,
+    "origin": "sunburn",
+    "translation": "солнечный ожог",
+    "transcription": "[‘sʌnˌbɜːn]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 22,
+    "origin": "thermometer",
+    "translation": "градусник",
+    "transcription": "[θə’mɔmɪtə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 23,
+    "origin": "throw up",
+    "translation": "тошнота",
+    "transcription": "[θrəu up]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 24,
+    "origin": "toothache",
+    "translation": "зубная боль",
+    "transcription": "[‘tuːθeɪk]",
+    "image": "  ",
+    "example": "  "
+  }
+]
+}
