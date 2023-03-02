@@ -25,6 +25,9 @@ final class AppTabBar: UITabBarController {
                      image: UIImage(systemName: "magazine.fill")),
             setupVCs(viewController: CategoriesVC(),
                      title: "All Categories",
+                     image: UIImage(systemName: "rectangle.stack.badge.person.crop.fill")),
+            setupVCs(viewController: SomeVC(),
+                     title: "All Categories",
                      image: UIImage(systemName: "rectangle.stack.badge.person.crop.fill"))
         ]
         UITabBar.appearance().barTintColor = .black

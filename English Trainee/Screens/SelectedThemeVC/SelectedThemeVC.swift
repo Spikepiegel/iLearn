@@ -8,7 +8,7 @@
 import UIKit
 import SnapKit
 
-final class SelectedThemeVC: UIViewController {
+    class SelectedThemeVC: UIViewController {
     
     //easy cohesion
     var jsonService: JsonServiceProtocol?
@@ -28,16 +28,20 @@ final class SelectedThemeVC: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+            setupGradientVC()
+            super.viewWillAppear(animated)
+    }
+    
     var wordsList = [WordInformation]()
     
     lazy var wordsTable: UITableView = {
         let tableView = UITableView(frame: .zero, style: .grouped)
         tableView.register(SelectedThemeCell.self, forCellReuseIdentifier: SelectedThemeCell.identifier)
-        tableView.backgroundColor = .appBackgroundColor
-        let headerView = SelectedThemeHeader(frame: CGRect(x: 0, y: 0, width: 0, height: 200))
+        tableView.backgroundColor = .clear
+        let headerView = SelectedThemeHeader(frame: CGRect(x: 0, y: 0, width: 0, height: 310))
         tableView.tableHeaderView = headerView
         headerView.themeLabel.text = selectedTheme
-        tableView.layer.cornerRadius = 20
         tableView.layer.masksToBounds = true
         tableView.delegate = self
         tableView.dataSource = self
@@ -56,7 +60,7 @@ final class SelectedThemeVC: UIViewController {
     }()
 
     @objc func closeButtonPressed(sender: UIButton!) {
-        dismiss(animated: true, completion: nil)
+            dismiss(animated: true, completion: nil)
     }
     
     override func viewDidLoad() {
@@ -78,42 +82,10 @@ final class SelectedThemeVC: UIViewController {
     
 }
 
-extension SelectedThemeVC: UITableViewDelegate {
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return words.count
-    }
-
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 80
-    }
-    
-    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        let headerView = UIView()
-        headerView.backgroundColor = view.backgroundColor
-        return headerView
-    }
-
-
-}
-
-extension SelectedThemeVC: UITableViewDataSource {
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: SelectedThemeCell.identifier, for: indexPath) as? SelectedThemeCell else {
-            return UITableViewCell() }
-  
-        let word = words[indexPath.row]
-        cell.update(word)
-        
-        return cell
-    }
-    
-}
-
 extension SelectedThemeVC {
     
     func setupViews() {
-        view.backgroundColor = .white
+        view.backgroundColor = .clear
         view.addSubview(backButton)
         view.addSubview(wordsTable)
     }
@@ -126,10 +98,93 @@ extension SelectedThemeVC {
 
         wordsTable.snp.makeConstraints { make in
             make.top.equalTo(backButton).inset(40)
-            make.left.right.bottom.equalTo(view).inset(15)
+            make.left.right.bottom.equalTo(view)//.inset(15)
         }
         
         
     }
     
+}
+
+extension SelectedThemeVC: UITableViewDelegate {
+
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let headerView = UIView()
+        headerView.backgroundColor = view.backgroundColor
+        return headerView
+    }
+
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: SelectedThemeCell.identifier, for: indexPath) as? SelectedThemeCell else {
+            return UITableViewCell() }
+  
+        let word = words[indexPath.row]
+        cell.update(word)
+        cell.backgroundColor = .clear
+        
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        let done = UIContextualAction(style: .normal, title: "") { _, _, _ in
+
+            let cell = tableView.cellForRow(at: indexPath) as! SelectedThemeCell
+            cell.learnedWordImage.isHidden = !cell.learnedWordImage.isHidden
+
+            }
+
+            done.image = UIImage(named: "done")
+
+            done.backgroundColor = .clear
+
+            return UISwipeActionsConfiguration(actions: [done])
+
+    }
+    
+    func tableView(_ tableView: UITableView, leadingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        let showTranslation = UIContextualAction(style: .normal, title: "") { _, _, _ in
+
+            let cell = tableView.cellForRow(at: indexPath) as! SelectedThemeCell
+            cell.learnedWordImage.isHidden = !cell.learnedWordImage.isHidden
+            }
+
+            showTranslation.image = UIImage(named: "showTranslation")
+
+            showTranslation.backgroundColor = .clear
+
+            return UISwipeActionsConfiguration(actions: [showTranslation])
+    }
+    
+
+
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 10
+    }
+}
+
+extension SelectedThemeVC: UITableViewDataSource {
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return words.count
+    }
+
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 140
+    }
+
+}
+
+//MARK: Gradient Settings
+extension SelectedThemeVC {
+    func setupGradientVC() {
+        let colorTop =  UIColor.leftAppBackgroundColor.cgColor
+        let colorBottom = UIColor.rightAppBackgroundColor.cgColor
+                    
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.colors = [colorTop, colorBottom]
+        gradientLayer.locations = [0.6, 1.0]
+        gradientLayer.frame = self.view.bounds
+                
+        self.view.layer.insertSublayer(gradientLayer, at:0)
+    }
 }

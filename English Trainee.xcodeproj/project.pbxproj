@@ -19,7 +19,7 @@
 		31C903FB29AD4F2000D9B615 /* Architecture.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C903FA29AD4F1F00D9B615 /* Architecture.json */; };
 		31C903FD29ADEF4000D9B615 /* Art.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C903FC29ADEF4000D9B615 /* Art.json */; };
 		31C903FF29ADFC0F00D9B615 /* Aviation.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C903FE29ADFC0F00D9B615 /* Aviation.json */; };
-		31C9040329AE061800D9B615 /* Basic words.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9040229AE061800D9B615 /* Basic words.json */; };
+		31C9040329AE061800D9B615 /* Basic Words.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9040229AE061800D9B615 /* Basic Words.json */; };
 		31C9040929AE348900D9B615 /* Berries.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9040829AE348900D9B615 /* Berries.json */; };
 		31C9040B29AE499E00D9B615 /* Body.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9040A29AE499D00D9B615 /* Body.json */; };
 		31C9040D29AE585400D9B615 /* Business.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9040C29AE585400D9B615 /* Business.json */; };
@@ -66,6 +66,8 @@
 		31C9045F29AE991600D9B615 /* Work.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9045E29AE991600D9B615 /* Work.json */; };
 		31C9046129AE9CF800D9B615 /* Politics.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9046029AE9CF800D9B615 /* Politics.json */; };
 		31C9046329AE9D6800D9B615 /* Professions.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9046229AE9D6800D9B615 /* Professions.json */; };
+		31C9046529AFCB4900D9B615 /* The most popular verbs.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9046429AFCB4900D9B615 /* The most popular verbs.json */; };
+		31C9046729B0E30E00D9B615 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C9046629B0E30E00D9B615 /* ViewController.swift */; };
 		31F005EB29A0163C0097C22E /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F005EA29A0163C0097C22E /* CategoriesVC.swift */; };
 		31F005ED29A2134E0097C22E /* CategoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F005EC29A2134E0097C22E /* CategoriesCell.swift */; };
 		31F005F029A510820097C22E /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F005EF29A510820097C22E /* UIColorExtension.swift */; };
@@ -95,7 +97,7 @@
 		31C903FA29AD4F1F00D9B615 /* Architecture.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Architecture.json; path = Jsons/Architecture.json; sourceTree = SOURCE_ROOT; };
 		31C903FC29ADEF4000D9B615 /* Art.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Art.json; path = Jsons/Art.json; sourceTree = SOURCE_ROOT; };
 		31C903FE29ADFC0F00D9B615 /* Aviation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Aviation.json; path = Jsons/Aviation.json; sourceTree = SOURCE_ROOT; };
-		31C9040229AE061800D9B615 /* Basic words.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "Basic words.json"; path = "Jsons/Basic words.json"; sourceTree = SOURCE_ROOT; };
+		31C9040229AE061800D9B615 /* Basic Words.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "Basic Words.json"; path = "Jsons/Basic Words.json"; sourceTree = SOURCE_ROOT; };
 		31C9040829AE348900D9B615 /* Berries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Berries.json; path = Jsons/Berries.json; sourceTree = SOURCE_ROOT; };
 		31C9040A29AE499D00D9B615 /* Body.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Body.json; path = Jsons/Body.json; sourceTree = SOURCE_ROOT; };
 		31C9040C29AE585400D9B615 /* Business.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Business.json; path = Jsons/Business.json; sourceTree = SOURCE_ROOT; };
@@ -142,6 +144,8 @@
 		31C9045E29AE991600D9B615 /* Work.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Work.json; path = Jsons/Work.json; sourceTree = SOURCE_ROOT; };
 		31C9046029AE9CF800D9B615 /* Politics.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Politics.json; path = Jsons/Politics.json; sourceTree = SOURCE_ROOT; };
 		31C9046229AE9D6800D9B615 /* Professions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Professions.json; path = Jsons/Professions.json; sourceTree = SOURCE_ROOT; };
+		31C9046429AFCB4900D9B615 /* The most popular verbs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "The most popular verbs.json"; path = "Jsons/The most popular verbs.json"; sourceTree = SOURCE_ROOT; };
+		31C9046629B0E30E00D9B615 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		31F005EA29A0163C0097C22E /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
 		31F005EC29A2134E0097C22E /* CategoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCell.swift; sourceTree = "<group>"; };
 		31F005EF29A510820097C22E /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
@@ -178,6 +182,7 @@
 			children = (
 				31FB9971298F8B9C00FC1DF6 /* GameVC.swift */,
 				3130D8102998DBCA00BF6041 /* WordsCell.swift */,
+				31C9046629B0E30E00D9B615 /* ViewController.swift */,
 			);
 			path = WordScreen;
 			sourceTree = "<group>";
@@ -191,10 +196,18 @@
 			path = ThemesPullScreen;
 			sourceTree = "<group>";
 		};
-		31F005EE29A5105C0097C22E /* Additional Files */ = {
+		31C9046C29B10FBF00D9B615 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				31F005EF29A510820097C22E /* UIColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		31F005EE29A5105C0097C22E /* Additional Files */ = {
+			isa = PBXGroup;
+			children = (
+				31C9046429AFCB4900D9B615 /* The most popular verbs.json */,
 				31C903F229AD314300D9B615 /* Anatomy.json */,
 				31C903EE29AD314300D9B615 /* Animals.json */,
 				31C903F129AD314300D9B615 /* Appearance.json */,
@@ -202,7 +215,7 @@
 				31C903FA29AD4F1F00D9B615 /* Architecture.json */,
 				31C903FC29ADEF4000D9B615 /* Art.json */,
 				31C903FE29ADFC0F00D9B615 /* Aviation.json */,
-				31C9040229AE061800D9B615 /* Basic words.json */,
+				31C9040229AE061800D9B615 /* Basic Words.json */,
 				31C9040829AE348900D9B615 /* Berries.json */,
 				31C9040A29AE499D00D9B615 /* Body.json */,
 				31C9040C29AE585400D9B615 /* Business.json */,
@@ -306,6 +319,7 @@
 		31FB99112985956200FC1DF6 /* English Trainee */ = {
 			isa = PBXGroup;
 			children = (
+				31C9046C29B10FBF00D9B615 /* Extensions */,
 				31FB99292985962F00FC1DF6 /* App */,
 				31FB99262985958700FC1DF6 /* Screens */,
 				31F005FC29A6A3B00097C22E /* Controllers */,
@@ -428,8 +442,9 @@
 				31C9046129AE9CF800D9B615 /* Politics.json in Resources */,
 				31C903FF29ADFC0F00D9B615 /* Aviation.json in Resources */,
 				31C9042729AE74C900D9B615 /* Furniture.json in Resources */,
-				31C9040329AE061800D9B615 /* Basic words.json in Resources */,
+				31C9040329AE061800D9B615 /* Basic Words.json in Resources */,
 				31C903FB29AD4F2000D9B615 /* Architecture.json in Resources */,
+				31C9046529AFCB4900D9B615 /* The most popular verbs.json in Resources */,
 				31C9042B29AE790600D9B615 /* Geometry.json in Resources */,
 				31C9045D29AE95F900D9B615 /* Weekday.json in Resources */,
 				31C9044729AE89A200D9B615 /* Numerals.json in Resources */,
@@ -504,6 +519,7 @@
 				3130D8112998DBCA00BF6041 /* WordsCell.swift in Sources */,
 				31B435F529A9557D00EFEA90 /* SelectedThemeCell.swift in Sources */,
 				31F9BCBB29A7D17A00C913AE /* SelectedThemeVC.swift in Sources */,
+				31C9046729B0E30E00D9B615 /* ViewController.swift in Sources */,
 				3130D816299AC27300BF6041 /* MainTabVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

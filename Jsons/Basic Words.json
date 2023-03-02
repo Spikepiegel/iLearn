@@ -3,7 +3,7 @@
   {
     "id": 1,
     "origin": "be",
-    "translation": " «быть», «существовать», но обычно не переводится",
+    "translation": "«быть», «существовать»",
     "transcription": "[biː]",
     "image": " ",
     "example": " "
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "origin": "a",
-    "translation": "неопределённый артикль: не переводится",
+    "translation": "артикль: не переводится",
     "transcription": "[ə]",
     "image": " ",
     "example": " "
@@ -51,7 +51,7 @@
   {
     "id": 7,
     "origin": "an",
-    "translation": "неопределённый артикль: не переводится",
+    "translation": "неопределённый артикль",
     "transcription": "[æn]",
     "image": " ",
     "example": " "
@@ -227,7 +227,7 @@
   {
     "id": 29,
     "origin": "have",
-    "translation": "(has) [hæz] глагол связка: «иметь»",
+    "translation": "глагол связка: «иметь»",
     "transcription": "[hæv]",
     "image": " ",
     "example": " "
@@ -275,7 +275,7 @@
   {
     "id": 35,
     "origin": "I",
-    "translation": "я (всегда с заглавной буквы в английском языке)",
+    "translation": "я (всегда с заглавной буквы)",
     "transcription": "[aɪ]",
     "image": " ",
     "example": " "
@@ -467,7 +467,7 @@
   {
     "id": 59,
     "origin": "our",
-    "translation": "наш, наша, наше, наши",
+    "translation": "наш / наша / наше / наши",
     "transcription": "[aʊə(r)]",
     "image": " ",
     "example": " "
@@ -531,7 +531,7 @@
   {
     "id": 67,
     "origin": "some",
-    "translation": "какой-то, некоторое количество",
+    "translation": "какой-то",
     "transcription": "[sʌm]",
     "image": " ",
     "example": " "

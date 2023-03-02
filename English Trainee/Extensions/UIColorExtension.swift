@@ -27,9 +27,22 @@ extension UIColor {
     }
     
     static var appBackgroundColor: UIColor {
-        #colorLiteral(red: 0.9999960065, green: 1, blue: 1, alpha: 1)
+        #colorLiteral(red: 0.937254902, green: 0.9411764706, blue: 0.9568627451, alpha: 1)
     }
     static var lightPurpleGradientColor: UIColor {
         #colorLiteral(red: 0.8249066213, green: 0.7117512407, blue: 1, alpha: 1)
+    }
+    
+    
+    
+    static var leftAppBackgroundColor: UIColor {
+        #colorLiteral(red: 0.8549019608, green: 0.8862745098, blue: 0.9725490196, alpha: 1)
+    }
+    static var rightAppBackgroundColor: UIColor {
+        #colorLiteral(red: 0.8399734204, green: 0.6431372549, blue: 0.6431372549, alpha: 1)
+    }
+    
+    static var learnedSwipe: UIColor {
+        #colorLiteral(red: 0.8399734204, green: 0.9225804766, blue: 0.6431372549, alpha: 1)
     }
 }

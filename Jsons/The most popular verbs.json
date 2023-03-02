@@ -1,0 +1,1020 @@
+{
+    "wordInformation":[
+  {
+    "id": 1,
+    "origin": "accept",
+    "translation": "принимать",
+    "transcription": "[əkʹsept]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 2,
+    "origin": "achieve",
+    "translation": "достигать",
+    "transcription": "[əʹtʃi:v]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 3,
+    "origin": "add",
+    "translation": "добавлять",
+    "transcription": "[æd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 4,
+    "origin": "afford",
+    "translation": "позволять",
+    "transcription": "[əʹfɔ:d]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 5,
+    "origin": "agree",
+    "translation": "соглашаться",
+    "transcription": "[əʹgri:]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 6,
+    "origin": "allow",
+    "translation": "позволять",
+    "transcription": "[əʹlaʋ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 7,
+    "origin": "anticipate",
+    "translation": "предвидеть",
+    "transcription": "[ænʹtısıpeıt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 8,
+    "origin": "appear",
+    "translation": "появляться",
+    "transcription": "[əʹpıə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 9,
+    "origin": "apply",
+    "translation": "применять",
+    "transcription": "[əʹplaı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 10,
+    "origin": "appreciate",
+    "translation": "ценить",
+    "transcription": "[əʹpri:ʃıeıt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 11,
+    "origin": "approach",
+    "translation": "подход",
+    "transcription": "[əʹprəʋtʃ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 12,
+    "origin": "assume",
+    "translation": "предполагать",
+    "transcription": "[əʹsju:m]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 13,
+    "origin": "assure",
+    "translation": "заверять",
+    "transcription": "[əʹʃʋə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 14,
+    "origin": "attract",
+    "translation": "привлекать",
+    "transcription": "[əʹtrækt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 15,
+    "origin": "avoid",
+    "translation": "избегать",
+    "transcription": "[əʹvɔıd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 16,
+    "origin": "become",
+    "translation": "становиться",
+    "transcription": "[bıʹkʌm]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 17,
+    "origin": "begin",
+    "translation": "начинать",
+    "transcription": "[bıʹgın]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 18,
+    "origin": "believe",
+    "translation": "верить",
+    "transcription": "[bıʹli:v]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 19,
+    "origin": "borrow",
+    "translation": "занимать",
+    "transcription": "[ʹbɒrəʋ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 20,
+    "origin": "bring",
+    "translation": "приносить",
+    "transcription": "[brıŋ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 21,
+    "origin": "build",
+    "translation": "строить",
+    "transcription": "[bıld]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 22,
+    "origin": "choose",
+    "translation": "выбирать",
+    "transcription": "[tʃu:z]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 23,
+    "origin": "come",
+    "translation": "приходить",
+    "transcription": "[kʌm]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 24,
+    "origin": "communicate",
+    "translation": "общаться",
+    "transcription": "[kəʹmju:nıkeıt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 25,
+    "origin": "compare",
+    "translation": "сравнивать",
+    "transcription": "[kəmʹpeə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 26,
+    "origin": "complain",
+    "translation": "жаловаться",
+    "transcription": "[kəmʹpleın]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 27,
+    "origin": "consider",
+    "translation": "рассматривать",
+    "transcription": "[kənʹsıdə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 28,
+    "origin": "contain",
+    "translation": "содержать",
+    "transcription": "[kənʹteın]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 29,
+    "origin": "continue",
+    "translation": "продолжать",
+    "transcription": "[kənʹtınju:]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 30,
+    "origin": "create",
+    "translation": "создавать",
+    "transcription": "[krıʹeıt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 31,
+    "origin": "decide",
+    "translation": "решать",
+    "transcription": "[dıʹsaıd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 32,
+    "origin": "depend",
+    "translation": "зависеть",
+    "transcription": "[dıʹpend]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 33,
+    "origin": "describe",
+    "translation": "описывать",
+    "transcription": "[dısʹkraıb]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 34,
+    "origin": "determine",
+    "translation": "определять",
+    "transcription": "[dıʹtɜ:mın]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 35,
+    "origin": "develop",
+    "translation": "развивать",
+    "transcription": "[dıʹveləp]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 36,
+    "origin": "differ",
+    "translation": "отличаться",
+    "transcription": "[ʹdıfə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 37,
+    "origin": "discover",
+    "translation": "обнаруживать",
+    "transcription": "[dısʹkʌvə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 38,
+    "origin": "discuss",
+    "translation": "обсуждать",
+    "transcription": "[dısʹkʌs]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 39,
+    "origin": "distribute",
+    "translation": "распространять",
+    "transcription": "[dısʹtrıbju(:)t]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 40,
+    "origin": "does",
+    "translation": "делает",
+    "transcription": "[dʌz]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 41,
+    "origin": "earn",
+    "translation": "зарабатывать",
+    "transcription": "[ɜ:n]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 42,
+    "origin": "emphasize",
+    "translation": "подчеркивать",
+    "transcription": "[ʹemfəsaız]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 43,
+    "origin": "enable",
+    "translation": "включать",
+    "transcription": "[ıʹneıb(ə)l]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 44,
+    "origin": "encourage",
+    "translation": "поощрять",
+    "transcription": "[ınʹkʌrıdʒ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 45,
+    "origin": "engage",
+    "translation": "вовлекать",
+    "transcription": "[ınʹgeıdʒ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 46,
+    "origin": "enhance",
+    "translation": "улучшать",
+    "transcription": "[ınʹhɑ:ns]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 47,
+    "origin": "enjoy",
+    "translation": "наслаждаться",
+    "transcription": "[ınʹdʒɔı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 48,
+    "origin": "ensure",
+    "translation": "обеспечивать",
+    "transcription": "[ınʹʃʋə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 49,
+    "origin": "enter",
+    "translation": "входить",
+    "transcription": "[ʹentə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 50,
+    "origin": "examine",
+    "translation": "исследовать",
+    "transcription": "[ıgʹzæmın]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 51,
+    "origin": "exist",
+    "translation": "существовать",
+    "transcription": "[ıgʹzıst]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 52,
+    "origin": "expand",
+    "translation": "расширять",
+    "transcription": "[ıkʹspænd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 53,
+    "origin": "expect",
+    "translation": "ожидать",
+    "transcription": "[ıkʹspekt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 54,
+    "origin": "explain",
+    "translation": "объяснять",
+    "transcription": "[ıkʹspleın]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 55,
+    "origin": "explore",
+    "translation": "исследовать",
+    "transcription": "[ıkʹsplɔ:]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 56,
+    "origin": "find",
+    "translation": "найти",
+    "transcription": "[faınd]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 57,
+    "origin": "follow",
+    "translation": "следовать",
+    "transcription": "[ʹfɒləʋ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 58,
+    "origin": "forget",
+    "translation": "забывать",
+    "transcription": "[fəʹget]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 59,
+    "origin": "generate",
+    "translation": "генерировать",
+    "transcription": "[ʹdʒenər(e)ıt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 60,
+    "origin": "get",
+    "translation": "получить",
+    "transcription": "[get]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 61,
+    "origin": "grow",
+    "translation": "расти",
+    "transcription": "[grəʋ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 62,
+    "origin": "happen",
+    "translation": "случаться",
+    "transcription": "[ʹhæpən]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 63,
+    "origin": "hear",
+    "translation": "слышать",
+    "transcription": "[hıə]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 64,
+    "origin": "identify",
+    "translation": "идентифицировать",
+    "transcription": "[aıʹdentıfaı]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 65,
+    "origin": "imagine",
+    "translation": "представлять",
+    "transcription": "[ıʹmædʒın]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 66,
+    "origin": "improve",
+    "translation": "улучшать",
+    "transcription": "[ımʹpru:v]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 67,
+    "origin": "include",
+    "translation": "включать",
+    "transcription": "[ınʹklu:d]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 68,
+    "origin": "indicate",
+    "translation": "указывать",
+    "transcription": "[ʹındıkeıt]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 69,
+    "origin": "install",
+    "translation": "устанавливать",
+    "transcription": "[ınʹstɔ:l]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 70,
+    "origin": "intend",
+    "translation": "намереваться",
+    "transcription": "[ınʹtend]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 71,
+    "origin": "introduce",
+    "translation": "внедрять",
+    "transcription": "[͵ıntrəʹdju:s]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 72,
+    "origin": "invest",
+    "translation": "инвестировать",
+    "transcription": "[ınʹvest]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 73,
+    "origin": "involve",
+    "translation": "вовлекать",
+    "transcription": "[ınʹvɒlv]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 74,
+    "origin": "know",
+    "translation": "знать",
+    "transcription": "[nəʋ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 75,
+    "origin": "learn",
+    "translation": "учиться",
+    "transcription": "[lɜ:n]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 76,
+    "origin": "lose",
+    "translation": "терять",
+    "transcription": "[lu:z]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 77,
+    "origin": "maintain",
+    "translation": "поддерживать",
+    "transcription": "[meınʹteın]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 78,
+    "origin": "manage",
+    "translation": "управлять",
+    "transcription": "[ʹmænıdʒ]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 79,
+    "origin": "need",
+    "translation": "нужно",
+    "transcription": "[ni:d]",
+    "image": "  ",
+    "example": "  "
+  },
+  {
+    "id": 80,
+    "origin": "obtain",
+    "translation": "получать",
+    "transcription": "[əbʹteın]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 81,
+    "origin": "occur",
+    "translation": "происходить",
+    "transcription": "[əʹkɜ:]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 82,
+    "origin": "operate",
+    "translation": "действовать",
+    "transcription": "[ʹɒpəreıt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 83,
+    "origin": "overcome",
+    "translation": "преодолевать",
+    "transcription": "[͵əʋvəʹkʌm]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 84,
+    "origin": "owe",
+    "translation": "быть обязанным",
+    "transcription": "[əʋ]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 85,
+    "origin": "participate",
+    "translation": "участвовать",
+    "transcription": "[pɑ:ʹtısıpeıt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 86,
+    "origin": "perform",
+    "translation": "выполнять",
+    "transcription": "[pəʹfɔ:m]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 87,
+    "origin": "prefer",
+    "translation": "предпочитать",
+    "transcription": "[prıʹfɜ:]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 88,
+    "origin": "prepare",
+    "translation": "готовить",
+    "transcription": "[prıʹpeə]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 89,
+    "origin": "prevent",
+    "translation": "предотвращать",
+    "transcription": "[prıʹvent]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 90,
+    "origin": "protect",
+    "translation": "защищать",
+    "transcription": "[prəʹtekt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 91,
+    "origin": "prove",
+    "translation": "доказывать",
+    "transcription": "[pru:v]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 92,
+    "origin": "provide",
+    "translation": "предоставлять",
+    "transcription": "[prəʹvaıd]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 93,
+    "origin": "react",
+    "translation": "реагировать",
+    "transcription": "[rıʹækt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 94,
+    "origin": "realize",
+    "translation": "реализовывать",
+    "transcription": "[ʹrıəlaız]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 95,
+    "origin": "receive",
+    "translation": "получать",
+    "transcription": "[rıʹsi:v]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 96,
+    "origin": "recognize",
+    "translation": "распознавать",
+    "transcription": "[ʹrekəgnaız]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 97,
+    "origin": "recommend",
+    "translation": "рекомендовать",
+    "transcription": "[͵rekəʹmend]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 98,
+    "origin": "reduce",
+    "translation": "сокращать",
+    "transcription": "[rıʹdju:s]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 99,
+    "origin": "refer",
+    "translation": "ссылаться",
+    "transcription": "[rıʹfɜ:]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 100,
+    "origin": "reflect",
+    "translation": "отражать",
+    "transcription": "[rıʹflekt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 101,
+    "origin": "relate",
+    "translation": "соотносить",
+    "transcription": "[rıʹleıt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 102,
+    "origin": "relax",
+    "translation": "расслабиться",
+    "transcription": "[rıʹlæks]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 103,
+    "origin": "rely",
+    "translation": "полагаться",
+    "transcription": "[rıʹlaı]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 104,
+    "origin": "remain",
+    "translation": "оставаться",
+    "transcription": "[rıʹmeın]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 105,
+    "origin": "remember",
+    "translation": "запоминать",
+    "transcription": "[rıʹmembə]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 106,
+    "origin": "replace",
+    "translation": "заменять",
+    "transcription": "[rıʹpleıs]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 107,
+    "origin": "represent",
+    "translation": "представлять",
+    "transcription": "[͵reprıʹzent]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 108,
+    "origin": "require",
+    "translation": "требовать",
+    "transcription": "[rıʹkwaıə]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 109,
+    "origin": "see",
+    "translation": "увидеть",
+    "transcription": "[si:]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 110,
+    "origin": "seem",
+    "translation": "казаться",
+    "transcription": "[si:m]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 111,
+    "origin": "send",
+    "translation": "посылать",
+    "transcription": "[send]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 112,
+    "origin": "settle",
+    "translation": "урегулировать",
+    "transcription": "[ʹsetl]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 113,
+    "origin": "solve",
+    "translation": "решать",
+    "transcription": "[sɒlv]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 114,
+    "origin": "speak",
+    "translation": "говорить",
+    "transcription": "[spi:k]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 115,
+    "origin": "succeed",
+    "translation": "преуспевать",
+    "transcription": "[səkʹsi:d]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 116,
+    "origin": "suffer",
+    "translation": "страдать",
+    "transcription": "[ʹsʌfə]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 117,
+    "origin": "suggest",
+    "translation": "предлагать",
+    "transcription": "[səʹdʒest]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 118,
+    "origin": "supply",
+    "translation": "поставлять",
+    "transcription": "[səʹplaı]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 119,
+    "origin": "survive",
+    "translation": "выживать",
+    "transcription": "[səʹvaıv]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 120,
+    "origin": "take",
+    "translation": "взять",
+    "transcription": "[teık]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 121,
+    "origin": "tend",
+    "translation": "стремиться",
+    "transcription": "[tend]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 122,
+    "origin": "thank",
+    "translation": "благодарить",
+    "transcription": "[θæŋk]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 123,
+    "origin": "understand",
+    "translation": "понимать",
+    "transcription": "[͵ʌndəʹstænd]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 124,
+    "origin": "vary",
+    "translation": "варьировать",
+    "transcription": "[ʹve(ə)rı]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 125,
+    "origin": "want",
+    "translation": "хочу",
+    "transcription": "[wɒnt]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 126,
+    "origin": "would",
+    "translation": "хотел бы",
+    "transcription": "[wʋd]",
+    "image": " ",
+    "example": " "
+  },
+  {
+    "id": 127,
+    "origin": "write",
+    "translation": "писать",
+    "transcription": "[raıt]",
+    "image": " ",
+    "example": " "
+  }
+]
+}

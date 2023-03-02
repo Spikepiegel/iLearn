@@ -8,28 +8,12 @@ final class SelectedThemeHeader: UIView {
         let view = UIView()
         view.layer.cornerRadius = 20
         view.clipsToBounds = true
-        view.layer.borderColor = UIColor.lightGray.cgColor
-        view.layer.borderWidth = 0.8
+        view.layer.borderColor = UIColor.black.cgColor
+        view.layer.borderWidth = 0
         view.backgroundColor = .clear
         view.alpha = 0.3
         
         return view
-    }()
-    
-    lazy var gradientLayer: CAGradientLayer = {
-        let gradientLayer:CAGradientLayer = CAGradientLayer()
-
-        gradientLayer.type = .axial
-        gradientLayer.colors = [
-            UIColor.lightPurpleGradientColor.cgColor,
-            UIColor.cyanGradientColor.cgColor
-            ]
-        gradientLayer.locations = [0.3, 1.0]
-        gradientLayer.startPoint = CGPoint(x: 0, y: 0.5)
-        gradientLayer.endPoint = CGPoint(x: 1, y: 0.5)
-        containerView.layer.insertSublayer(gradientLayer, at: 0)
-
-        return gradientLayer
     }()
     
     override class var layerClass: AnyClass {
@@ -50,20 +34,28 @@ final class SelectedThemeHeader: UIView {
         return label
     }()
     
-    lazy var themeImage: UIImageView = {
-        let image = UIImageView()
-        image.image = UIImage(named: "Fruits")
-        return image
+    lazy var practiceLearnedWordsButton: UIButton = {
+        var button = UIButton()
+        button.setTitleColor(.black, for: .normal)
+        button.backgroundColor = .white
+        button.layer.cornerRadius = 12
+        button.setTitle("Practice the learned words", for: .normal)
+        button.addTarget(self, action: #selector(openFirstGameVC), for: .touchUpInside)
+        
+        return button
     }()
     
-    private lazy var headerSegmentedControl: UISegmentedControl = {
-        let items = ["Words", "Practice"]
-        let segmentedControl = UISegmentedControl(items: items)
-        segmentedControl.selectedSegmentIndex = 0
-        segmentedControl.layer.cornerRadius = CGRectGetHeight(segmentedControl.bounds) / 2
-        segmentedControl.layer.borderWidth = 1
+    @objc func openFirstGameVC(sender: UIButton!) {
         
-        return segmentedControl
+    }
+    
+    lazy var practiceAllWordsButton: UIButton = {
+        let button = UIButton()
+        button.setTitleColor(.black, for: .normal)
+        button.backgroundColor = .white
+        button.layer.cornerRadius = 22
+        button.setTitle("Practice all words", for: .normal)
+        return button
     }()
     
     override init(frame: CGRect) {
@@ -85,16 +77,18 @@ extension SelectedThemeHeader {
     func setupViwes() {
         
         backgroundColor = .clear
-        backgroundColor = UIColor.white.withAlphaComponent(0.5)
         addSubview(containerView)
         addSubview(themeLabel)
         addSubview(progressLabel)
+        addSubview(practiceLearnedWordsButton)
+        addSubview(practiceAllWordsButton)
     }
     
     func setupConstraints() {
         containerView.snp.makeConstraints { make in
-            make.top.left.right.equalToSuperview()
-            make.bottom.equalTo(self).inset(20)
+            make.top.equalToSuperview() /*left.right.*/
+            make.left.right.equalToSuperview().inset(15)
+            make.bottom.equalTo(self).inset(130)
         }
         
         themeLabel.snp.makeConstraints { make in
@@ -105,15 +99,38 @@ extension SelectedThemeHeader {
             make.top.equalTo(themeLabel).inset(100)
             make.left.equalTo(self).inset(30)
         }
+        practiceLearnedWordsButton.snp.makeConstraints { make in
+            make.top.equalTo(containerView.snp_bottomMargin).offset(25)
+            make.left.right.equalTo(self).inset(15)
+            make.bottom.equalTo(containerView.snp_bottomMargin).offset(75)
+        }
+        practiceAllWordsButton.snp.makeConstraints { make in
+            make.top.equalTo(practiceLearnedWordsButton.snp_bottomMargin).offset(15)
+            make.left.right.equalTo(self).inset(15)
+            make.bottom.equalTo(practiceLearnedWordsButton.snp_bottomMargin).offset(65)
+        }
+
     }
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        setupGradient()
-        containerView.backgroundColor?.withAlphaComponent(0.4)
+        setupGradientVC()
+
     }
-    
-    private func setupGradient() {
+}
+
+extension SelectedThemeHeader {
+    func setupGradientVC() {
+        let colorLeft =  UIColor.leftAppBackgroundColor.cgColor
+        let colorRight = UIColor.blue.cgColor
+                    
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.colors = [colorLeft, colorRight]
+        gradientLayer.startPoint = CGPoint(x: 1.0, y: 0.5)
+        gradientLayer.endPoint = CGPoint(x: 0.0, y: 0.5)
+        gradientLayer.locations = [0.1, 1.0]
         gradientLayer.frame = containerView.bounds
+                
+        containerView.layer.insertSublayer(gradientLayer, at:0)
     }
 }

@@ -16,7 +16,7 @@ final class CategoriesCell: UITableViewCell {
         stack.axis = .vertical
         stack.distribution = .fillEqually
         stack.spacing = 10
-        stack.backgroundColor = .appBackgroundColor
+        stack.backgroundColor = .clear
         return stack
     }()
     
@@ -25,8 +25,10 @@ final class CategoriesCell: UITableViewCell {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         setupViews()
         setupConstraints()
+        contentView.backgroundColor = .clear
         
     }
+    
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
@@ -67,9 +69,10 @@ final class CategoriesCell: UITableViewCell {
         button.layer.borderColor = UIColor.lightGray.cgColor
         button.setTitle(buttonText, for: .normal)
         button.snp.makeConstraints { make in
-        button.addTarget(self, action: #selector(themeWasTapped) , for: .touchUpInside)
             make.height.equalTo(35)
         }
+        button.addTarget(self, action: #selector(themeWasTapped) , for: .touchUpInside)
+
         return button
     }
     
@@ -90,6 +93,7 @@ extension CategoriesCell {
         contentView.addSubview(containerStack)
         contentView.backgroundColor = .appBackgroundColor
         contentView.layer.borderWidth = 0
+        selectionStyle = .none
     }
     
     func setupConstraints() {
@@ -101,3 +105,5 @@ extension CategoriesCell {
         
     }
 }
+
+
