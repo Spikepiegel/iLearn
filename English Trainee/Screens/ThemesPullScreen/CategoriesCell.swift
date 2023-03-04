@@ -84,6 +84,7 @@ final class CategoriesCell: UITableViewCell {
         
         vc.modalPresentationStyle = .fullScreen
         self.window?.rootViewController?.present(vc, animated: true)
+        
     }
     
 }

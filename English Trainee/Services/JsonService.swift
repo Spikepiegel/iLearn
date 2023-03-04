@@ -33,7 +33,7 @@ class JsonServiceImpl: JsonServiceProtocol {
     }
 }
 
-//MARK: - Get data about "Basic Words" category
+//MARK: - Get data about selected category
 
 extension JsonServiceImpl {
     

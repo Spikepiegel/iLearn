@@ -42,14 +42,12 @@ import SnapKit
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         setupViews()
         setupConstraints()
-        
     }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
  
     }
-    
     func update(_ word: WordInformation) {
         wordOriginLabel.text = word.origin
         wordTranscriptionLabel.text = word.transcription

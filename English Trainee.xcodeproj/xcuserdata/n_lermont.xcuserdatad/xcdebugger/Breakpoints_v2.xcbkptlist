@@ -30,8 +30,8 @@
             filePath = "English Trainee/Screens/SelectedThemeVC/SelectedThemeVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "71"
-            endingLineNumber = "71"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -62,26 +62,10 @@
             filePath = "English Trainee/Screens/SelectedThemeVC/SelectedThemeVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "82"
-            endingLineNumber = "82"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
             landmarkName = "SelectedThemeVC"
             landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "0D10666B-C8DB-464C-8B1F-A2F5A04D7713"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "English Trainee/Screens/SelectedThemeVC/SelectedThemeCell.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
-            landmarkName = "update(_:)"
-            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -94,24 +78,8 @@
             filePath = "English Trainee/Screens/SelectedThemeVC/SelectedThemeCell.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
-            landmarkName = "update(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "D744B65D-3403-4566-8910-7D31960BA5D7"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "English Trainee/Screens/SelectedThemeVC/SelectedThemeCell.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
             landmarkName = "update(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -161,6 +129,70 @@
             startingLineNumber = "49"
             endingLineNumber = "49"
             landmarkName = "loadJsonWords(filename:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "881C9928-8866-4B33-8935-8B21BD5D65AE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "English Trainee/Screens/FirstGameVC/WordsGameVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "setupConstraints()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "881C9928-8866-4B33-8935-8B21BD5D65AE - 896e2bd971ad430"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "English_Trainee.WordsGameVC.setupConstraints() -&gt; ()"
+                  moduleName = "English Trainee"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/n_lermont/Desktop/English%20Trainee/English%20Trainee/Screens/FirstGameVC/WordsGameVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "881C9928-8866-4B33-8935-8B21BD5D65AE - 8b1ae38bf4b6069f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SnapKit.ConstraintMaker) -&gt; () in English_Trainee.WordsGameVC.setupConstraints() -&gt; ()"
+                  moduleName = "English Trainee"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/n_lermont/Desktop/English%20Trainee/English%20Trainee/Screens/FirstGameVC/WordsGameVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "99BBBD82-32E0-47BF-BAAB-DCFE1E3C449A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "English Trainee/Screens/FirstGameVC/WordsGameVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "setGradientBackground()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

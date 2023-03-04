@@ -2,7 +2,10 @@ import UIKit
 import SnapKit
 
 
-final class SelectedThemeHeader: UIView {
+    class SelectedThemeHeader: UIView {
+    
+     var delegate: MyDelegate?
+
     
     lazy var containerView: UIView = {
         let view = UIView()
@@ -15,10 +18,6 @@ final class SelectedThemeHeader: UIView {
         
         return view
     }()
-    
-    override class var layerClass: AnyClass {
-        return CAGradientLayer.classForCoder()
-    }
     
     lazy var themeLabel: UILabel = {
         let label = UILabel()
@@ -45,10 +44,13 @@ final class SelectedThemeHeader: UIView {
         return button
     }()
     
+
     @objc func openFirstGameVC(sender: UIButton!) {
         
+            self.delegate?.openVC()
+            delegate?.openVC()
     }
-    
+        
     lazy var practiceAllWordsButton: UIButton = {
         let button = UIButton()
         button.setTitleColor(.black, for: .normal)
@@ -75,7 +77,7 @@ final class SelectedThemeHeader: UIView {
 
 extension SelectedThemeHeader {
     func setupViwes() {
-        
+
         backgroundColor = .clear
         addSubview(containerView)
         addSubview(themeLabel)
@@ -115,7 +117,6 @@ extension SelectedThemeHeader {
     override func layoutSubviews() {
         super.layoutSubviews()
         setupGradientVC()
-
     }
 }
 
@@ -133,4 +134,5 @@ extension SelectedThemeHeader {
                 
         containerView.layer.insertSublayer(gradientLayer, at:0)
     }
+    
 }

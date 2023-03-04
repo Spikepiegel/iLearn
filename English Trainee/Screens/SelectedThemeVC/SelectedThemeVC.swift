@@ -8,11 +8,22 @@
 import UIKit
 import SnapKit
 
-    class SelectedThemeVC: UIViewController {
+protocol MyDelegate {
+    func openVC()
+}
+
+class SelectedThemeVC: UIViewController, MyDelegate {
+    
+    func openVC() {
+        let vc = WordsGameVC()
+        vc.modalPresentationStyle = .fullScreen
+        vc.modalTransitionStyle = .flipHorizontal
+        self.present(vc, animated: true)
+    }
     
     //easy cohesion
     var jsonService: JsonServiceProtocol?
-    var headerProtocol = SelectedThemeHeader()
+    var header = SelectedThemeHeader()
     
     var words = [WordInformation]()
     
@@ -40,6 +51,7 @@ import SnapKit
         tableView.register(SelectedThemeCell.self, forCellReuseIdentifier: SelectedThemeCell.identifier)
         tableView.backgroundColor = .clear
         let headerView = SelectedThemeHeader(frame: CGRect(x: 0, y: 0, width: 0, height: 310))
+        headerView.delegate = self
         tableView.tableHeaderView = headerView
         headerView.themeLabel.text = selectedTheme
         tableView.layer.masksToBounds = true
@@ -65,14 +77,14 @@ import SnapKit
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         let vc = SelectedThemeHeader()
         vc.updateTheme(theme: selectedTheme)
         setupViews()
         setupConstraints()
-        
+
         words = loadWords() //Array with words of selected Category
-        headerProtocol.themeLabel.text = selectedTheme
+        header.themeLabel.text = selectedTheme
         }
     
     //MARK: Fetch Data from json with words of selected theme
@@ -100,8 +112,6 @@ extension SelectedThemeVC {
             make.top.equalTo(backButton).inset(40)
             make.left.right.bottom.equalTo(view)//.inset(15)
         }
-        
-        
     }
     
 }
@@ -126,46 +136,43 @@ extension SelectedThemeVC: UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
-        let done = UIContextualAction(style: .normal, title: "") { _, _, _ in
-
+        let done = UIContextualAction(style: .destructive, title: "") { (action, view, complete) in
             let cell = tableView.cellForRow(at: indexPath) as! SelectedThemeCell
-            cell.learnedWordImage.isHidden = !cell.learnedWordImage.isHidden
-
+            cell.learnedWordImage.isHidden.toggle()
+         
+            complete(true)
             }
-
+            done.backgroundColor = UIColor.init(red: 0/255.0, green: 0/255.0, blue: 0/255.0, alpha: 0.0)
             done.image = UIImage(named: "done")
-
-            done.backgroundColor = .clear
-
-            return UISwipeActionsConfiguration(actions: [done])
+            let configuration = UISwipeActionsConfiguration(actions: [done])
+            configuration.performsFirstActionWithFullSwipe = false
+            return configuration
 
     }
     
-    func tableView(_ tableView: UITableView, leadingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
-        let showTranslation = UIContextualAction(style: .normal, title: "") { _, _, _ in
-
-            let cell = tableView.cellForRow(at: indexPath) as! SelectedThemeCell
-            cell.learnedWordImage.isHidden = !cell.learnedWordImage.isHidden
-            }
-
-            showTranslation.image = UIImage(named: "showTranslation")
-
-            showTranslation.backgroundColor = .clear
-
-            return UISwipeActionsConfiguration(actions: [showTranslation])
-    }
+//    func tableView(_ tableView: UITableView, leadingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+//        let showTranslation = UIContextualAction(style: .normal, title: "") { (action, view, complete) in
+//            let cell = tableView.cellForRow(at: indexPath) as! SelectedThemeCell
+//            cell.wordTranslationLabel.isHidden.toggle()
+//            complete(true)
+//            }
+//            showTranslation.image = UIImage(named: "showTranslation")
+//            showTranslation.backgroundColor = .clear
+//            let configuration = UISwipeActionsConfiguration(actions: [showTranslation])
+//            configuration.performsFirstActionWithFullSwipe = false
+//            return configuration
+//
+//    }
     
-
-
-    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 10
-    }
 }
 
 extension SelectedThemeVC: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return words.count
+    }
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
     }
 
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -179,10 +186,11 @@ extension SelectedThemeVC {
     func setupGradientVC() {
         let colorTop =  UIColor.leftAppBackgroundColor.cgColor
         let colorBottom = UIColor.rightAppBackgroundColor.cgColor
+        
                     
         let gradientLayer = CAGradientLayer()
         gradientLayer.colors = [colorTop, colorBottom]
-        gradientLayer.locations = [0.6, 1.0]
+        gradientLayer.locations = [0.2, 1.0]
         gradientLayer.frame = self.view.bounds
                 
         self.view.layer.insertSublayer(gradientLayer, at:0)

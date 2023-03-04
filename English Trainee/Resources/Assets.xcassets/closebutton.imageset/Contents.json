@@ -1,17 +1,15 @@
 {
   "images" : [
     {
-      "filename" : "done.svg",
+      "filename" : "closebutton.svg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "done 1.svg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "done 2.svg",
       "idiom" : "universal",
       "scale" : "3x"
     }

@@ -26,7 +26,7 @@ final class AppTabBar: UITabBarController {
             setupVCs(viewController: CategoriesVC(),
                      title: "All Categories",
                      image: UIImage(systemName: "rectangle.stack.badge.person.crop.fill")),
-            setupVCs(viewController: SomeVC(),
+            setupVCs(viewController: WordsGameVC(),
                      title: "All Categories",
                      image: UIImage(systemName: "rectangle.stack.badge.person.crop.fill"))
         ]

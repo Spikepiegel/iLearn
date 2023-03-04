@@ -10,6 +10,7 @@
 		3130D8112998DBCA00BF6041 /* WordsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3130D8102998DBCA00BF6041 /* WordsCell.swift */; };
 		3130D8142998DDD700BF6041 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3130D8132998DDD700BF6041 /* SnapKit */; };
 		3130D816299AC27300BF6041 /* MainTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3130D815299AC27300BF6041 /* MainTabVC.swift */; };
+		317D260D29B1FBFF008DCE2E /* WordsGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317D260C29B1FBFF008DCE2E /* WordsGameVC.swift */; };
 		31B435F529A9557D00EFEA90 /* SelectedThemeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B435F429A9557D00EFEA90 /* SelectedThemeCell.swift */; };
 		31C903F329AD314300D9B615 /* Animals.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C903EE29AD314300D9B615 /* Animals.json */; };
 		31C903F529AD314300D9B615 /* Themes.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C903F029AD314300D9B615 /* Themes.json */; };
@@ -88,6 +89,7 @@
 /* Begin PBXFileReference section */
 		3130D8102998DBCA00BF6041 /* WordsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsCell.swift; sourceTree = "<group>"; };
 		3130D815299AC27300BF6041 /* MainTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabVC.swift; sourceTree = "<group>"; };
+		317D260C29B1FBFF008DCE2E /* WordsGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsGameVC.swift; sourceTree = "<group>"; };
 		31B435F429A9557D00EFEA90 /* SelectedThemeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedThemeCell.swift; sourceTree = "<group>"; };
 		31C903EE29AD314300D9B615 /* Animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Animals.json; path = Jsons/Animals.json; sourceTree = SOURCE_ROOT; };
 		31C903F029AD314300D9B615 /* Themes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Themes.json; path = Jsons/Themes.json; sourceTree = SOURCE_ROOT; };
@@ -194,6 +196,14 @@
 				31F005EC29A2134E0097C22E /* CategoriesCell.swift */,
 			);
 			path = ThemesPullScreen;
+			sourceTree = "<group>";
+		};
+		317D260B29B1FB7D008DCE2E /* FirstGameVC */ = {
+			isa = PBXGroup;
+			children = (
+				317D260C29B1FBFF008DCE2E /* WordsGameVC.swift */,
+			);
+			path = FirstGameVC;
 			sourceTree = "<group>";
 		};
 		31C9046C29B10FBF00D9B615 /* Extensions */ = {
@@ -338,6 +348,7 @@
 				3130D817299AC31200BF6041 /* WordScreen */,
 				3130D854299FB4FF00BF6041 /* ThemesPullScreen */,
 				31F9BCB929A7D0DF00C913AE /* SelectedThemeVC */,
+				317D260B29B1FB7D008DCE2E /* FirstGameVC */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -519,6 +530,7 @@
 				3130D8112998DBCA00BF6041 /* WordsCell.swift in Sources */,
 				31B435F529A9557D00EFEA90 /* SelectedThemeCell.swift in Sources */,
 				31F9BCBB29A7D17A00C913AE /* SelectedThemeVC.swift in Sources */,
+				317D260D29B1FBFF008DCE2E /* WordsGameVC.swift in Sources */,
 				31C9046729B0E30E00D9B615 /* ViewController.swift in Sources */,
 				3130D816299AC27300BF6041 /* MainTabVC.swift in Sources */,
 			);
