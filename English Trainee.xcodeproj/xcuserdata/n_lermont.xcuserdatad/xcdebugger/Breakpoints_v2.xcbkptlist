@@ -30,8 +30,8 @@
             filePath = "English Trainee/Screens/SelectedThemeVC/SelectedThemeVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "83"
-            endingLineNumber = "83"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -62,8 +62,8 @@
             filePath = "English Trainee/Screens/SelectedThemeVC/SelectedThemeVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "94"
-            endingLineNumber = "94"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
             landmarkName = "SelectedThemeVC"
             landmarkType = "3">
          </BreakpointContent>
@@ -78,8 +78,8 @@
             filePath = "English Trainee/Screens/SelectedThemeVC/SelectedThemeCell.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
             landmarkName = "update(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -135,54 +135,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "881C9928-8866-4B33-8935-8B21BD5D65AE"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "English Trainee/Screens/FirstGameVC/WordsGameVC.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "100"
-            endingLineNumber = "100"
-            landmarkName = "setupConstraints()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "881C9928-8866-4B33-8935-8B21BD5D65AE - 896e2bd971ad430"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "English_Trainee.WordsGameVC.setupConstraints() -&gt; ()"
-                  moduleName = "English Trainee"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/n_lermont/Desktop/English%20Trainee/English%20Trainee/Screens/FirstGameVC/WordsGameVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "80"
-                  endingLineNumber = "80"
-                  offsetFromSymbolStart = "152">
-               </Location>
-               <Location
-                  uuid = "881C9928-8866-4B33-8935-8B21BD5D65AE - 8b1ae38bf4b6069f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (SnapKit.ConstraintMaker) -&gt; () in English_Trainee.WordsGameVC.setupConstraints() -&gt; ()"
-                  moduleName = "English Trainee"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/n_lermont/Desktop/English%20Trainee/English%20Trainee/Screens/FirstGameVC/WordsGameVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "81"
-                  endingLineNumber = "81"
-                  offsetFromSymbolStart = "44">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "99BBBD82-32E0-47BF-BAAB-DCFE1E3C449A"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -190,9 +142,197 @@
             filePath = "English Trainee/Screens/FirstGameVC/WordsGameVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "116"
-            endingLineNumber = "116"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
             landmarkName = "setGradientBackground()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DBC6B486-B80C-4C80-8CE2-7578865CA3D6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "English Trainee/Screens/QuizeGameVC/QuestionUpdater.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "createAnswersArray(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "671967D8-F725-4990-A923-D2A407E245C3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "English Trainee/Screens/QuizeGameVC/QuestionUpdater.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "createAnswersArray(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F6F4D0C3-D587-4E15-993A-A81E75BE4748"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "English Trainee/Screens/QuizeGameVC/CorrectAnswerCheck.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "answerChecker()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "997E8346-7E3C-4FB0-8C8E-65FBB0DD0914"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "English Trainee/Screens/QuizeGameVC/QuizeGameVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "QuizeGameVC"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "997E8346-7E3C-4FB0-8C8E-65FBB0DD0914 - 4e2652ba26462806"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "English_Trainee.QuizeGameVC.englishWordsList.getter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "English Trainee"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/n_lermont/Desktop/English%20Trainee/English%20Trainee/Screens/QuizeGameVC/QuizeGameVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "172">
+               </Location>
+               <Location
+                  uuid = "997E8346-7E3C-4FB0-8C8E-65FBB0DD0914 - 5075556870ea41a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "English_Trainee.QuizeGameVC.englishWordsList.setter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "English Trainee"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/n_lermont/Desktop/English%20Trainee/English%20Trainee/Screens/QuizeGameVC/QuizeGameVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "997E8346-7E3C-4FB0-8C8E-65FBB0DD0914 - 80a67868b1a90505"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "English_Trainee.QuizeGameVC.englishWordsList.modify : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "English Trainee"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/n_lermont/Desktop/English%20Trainee/English%20Trainee/Screens/QuizeGameVC/QuizeGameVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "997E8346-7E3C-4FB0-8C8E-65FBB0DD0914 - 47ea0a3d9e629cb5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "English_Trainee.QuizeGameVC.englishWordsList.modify : Swift.Array&lt;Swift.String&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "English Trainee"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/n_lermont/Desktop/English%20Trainee/English%20Trainee/Screens/QuizeGameVC/QuizeGameVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "997E8346-7E3C-4FB0-8C8E-65FBB0DD0914 - ac23cbd0c54c00c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "English_Trainee.QuizeGameVC.init(gameType: Swift.String, selectedTheme: Swift.String) -&gt; English_Trainee.QuizeGameVC"
+                  moduleName = "English Trainee"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/n_lermont/Desktop/English%20Trainee/English%20Trainee/Screens/QuizeGameVC/QuizeGameVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "997E8346-7E3C-4FB0-8C8E-65FBB0DD0914 - 4abc10ed3b816d0d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "English_Trainee.QuizeGameVC.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;English_Trainee.QuizeGameVC&gt;"
+                  moduleName = "English Trainee"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/n_lermont/Desktop/English%20Trainee/English%20Trainee/Screens/QuizeGameVC/QuizeGameVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "172">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8EB4E588-BA76-4AAB-BA87-1ABB9F952CC4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "English Trainee/Screens/QuizeGameVC/QuizeGameVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
+            landmarkName = "answerIsChoosen(sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "98E9EB44-3B07-4FF2-B2BE-EDBE2CD33911"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "English Trainee/Screens/QuizeGameVC/CorrectAnswerCheck.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "answerChecker()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

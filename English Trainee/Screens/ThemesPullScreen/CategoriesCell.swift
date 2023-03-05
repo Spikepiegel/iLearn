@@ -34,6 +34,8 @@ final class CategoriesCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
+    //MARK: Parses JSON with and words categories and creates stackviews with buttons inside of one cell
+    #warning("Передаем данные в вью-компонент через апдейт (стандартизация), запрос выносим в контроллер")
     func createThemesOnView() {
         guard let service = JsonServiceImpl().loadJsonCategories(filename: "Themes") else { return }
         
@@ -49,7 +51,8 @@ final class CategoriesCell: UITableViewCell {
         
         
     }
-
+    
+    //MARK: Method to create one StackView for buttons. It is used in createThemesOnView method
     func createHorizontalStack() -> UIStackView {
         let stack = UIStackView()
         stack.axis = .horizontal
@@ -58,6 +61,7 @@ final class CategoriesCell: UITableViewCell {
         return stack
     }
     
+    //MARK: Creates button for one stackView. It is also used in createThemesOnView method
     func createStackButton(_ buttonText: String) -> UIButton {
         let button = UIButton()
         button.setTitleColor(.black, for: .normal)

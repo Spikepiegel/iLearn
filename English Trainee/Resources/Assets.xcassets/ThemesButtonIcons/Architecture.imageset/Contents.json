@@ -6,10 +6,12 @@
       "scale" : "1x"
     },
     {
+      "filename" : "Architecture 1.svg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "Architecture 2.svg",
       "idiom" : "universal",
       "scale" : "3x"
     }

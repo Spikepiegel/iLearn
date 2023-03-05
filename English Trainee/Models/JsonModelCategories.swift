@@ -10,7 +10,7 @@ import Foundation
 
 import Foundation
 
-// MARK: - All Categories
+///All Categories Model
 struct Themes: Codable {
     let item: [Item]
 }
@@ -24,13 +24,26 @@ class Theme: Codable {
     let name: String
 }
 
-// MARK: - Basic Words Category
+/// Selected Category Words Model
 
 struct CategoryWordsList: Codable {
-    let wordInformation: [WordInformation]
+    let wordInformation: [Word]
 }
 
-struct WordInformation: Codable {
-    let id: Int
+struct Word: Codable {
+    let id: UInt
     let origin, translation, transcription, image, example: String
+    var isLearned: Bool?
+    var translationIsHidden: Bool?
+}
+
+/// Random Words Model
+
+struct RandomWords: Codable {
+    let randomWords: [RandomWordElement]
+}
+
+// MARK: - RandomWordElement
+struct RandomWordElement: Codable {
+    let word: String
 }

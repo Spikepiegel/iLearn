@@ -9,13 +9,13 @@ import Foundation
 
 protocol JsonServiceProtocol {
     func loadJsonCategories(filename fileName: String) -> [Item]?
-    func loadJsonWords(filename fileName: String) -> [WordInformation]?
+    func loadJsonWords(filename fileName: String) -> [Word]?
 
 }
 
 
 
-//MARK: - Get data with all categories
+///Get data with all categories JSON
 class JsonServiceImpl: JsonServiceProtocol {
     
     func loadJsonCategories(filename fileName: String) -> [Item]? {
@@ -33,11 +33,11 @@ class JsonServiceImpl: JsonServiceProtocol {
     }
 }
 
-//MARK: - Get data about selected category
+///Get data about selected category JSON
 
 extension JsonServiceImpl {
     
-    func loadJsonWords(filename fileName: String) -> [WordInformation]? {
+    func loadJsonWords(filename fileName: String) -> [Word]? {
         if let url = Bundle.main.url(forResource: fileName, withExtension: "json") {
             do {
                 let data = try Data(contentsOf: url)
@@ -45,6 +45,26 @@ extension JsonServiceImpl {
                 let jsonResponse = try decoder.decode(CategoryWordsList.self, from: data)
                 print(jsonResponse.wordInformation.count)
                 return jsonResponse.wordInformation
+            } catch {
+                print("error:\(error)")
+            }
+        }
+        return nil
+    }
+}
+
+///Get data about random words JSON
+
+
+class RandomWordsJsonService {
+    func loadRandomJsonWords(filename fileName: String) -> [RandomWordElement]? {
+        if let url = Bundle.main.url(forResource: fileName, withExtension: "json") {
+            do {
+                let data = try Data(contentsOf: url)
+                let decoder = JSONDecoder()
+                let jsonResponse = try decoder.decode(RandomWords.self, from: data)
+                print(jsonResponse.randomWords)
+                return jsonResponse.randomWords
             } catch {
                 print("error:\(error)")
             }

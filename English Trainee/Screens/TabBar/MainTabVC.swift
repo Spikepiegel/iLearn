@@ -10,7 +10,6 @@ import SnapKit
 
 final class AppTabBar: UITabBarController {
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupTabBar()
@@ -18,17 +17,18 @@ final class AppTabBar: UITabBarController {
         
     }
     
-    private func setupTabBar() {
+    //MARK: TabBar Setup Settings
+    private func setupTabBar() { //categories
         viewControllers = [
             setupVCs(viewController: GameVC(),
-                     title: "Words",
-                     image: UIImage(systemName: "magazine.fill")),
+                     title: "Statistics",
+                     image: UIImage(named: "statistics")),
             setupVCs(viewController: CategoriesVC(),
                      title: "All Categories",
-                     image: UIImage(systemName: "rectangle.stack.badge.person.crop.fill")),
-            setupVCs(viewController: WordsGameVC(),
-                     title: "All Categories",
-                     image: UIImage(systemName: "rectangle.stack.badge.person.crop.fill"))
+                     image: UIImage(named: "categories")),
+            setupVCs(viewController: UIViewController(),
+                     title: "Settings",
+                     image: UIImage(named: "gear"))
         ]
         UITabBar.appearance().barTintColor = .black
     }
@@ -39,8 +39,8 @@ final class AppTabBar: UITabBarController {
         return viewController
     }
     
+    //MARK: TabBar UI Settings
     private func setupTabBarSettings() {
-        
         
         let positionOnY: CGFloat = 14
         let height = tabBar.bounds.height + positionOnY * 2
@@ -69,6 +69,7 @@ final class AppTabBar: UITabBarController {
         animationWhenItemSelected(item)
     }
     
+    //MARK: TabBar Animation Settings
     func animationWhenItemSelected(_ item: UITabBarItem) {
         guard let barItemView = item.value(forKey: "view") as? UIView else { return }
         

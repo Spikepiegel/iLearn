@@ -6,10 +6,12 @@
       "scale" : "1x"
     },
     {
+      "filename" : "Computer 1.svg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "Computer 2.svg",
       "idiom" : "universal",
       "scale" : "3x"
     }
