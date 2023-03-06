@@ -13,25 +13,7 @@ protocol SelectedThemeVCProtocol {
 }
 
 /// VC with selected category
-class SelectedThemeVC: UIViewController, SelectedThemeVCProtocol {
-    
-    /// Method opens the game which user has selected
-    func openQuizeGameVC(_ gameType: String) {
-        
-        ///Gets list of the whole words
-        let archWord = WordsArchiver(key: selectedTheme).retrieve()
-        ///Checks how many words are maked as learned
-        let checkLearnedWords = CheckLearnedWordsCount(wordsList: archWord).calculateLearnedWords()
-        if checkLearnedWords > 0 {
-            
-            let vc = QuizeGameVC(gameType: gameType, selectedTheme: selectedTheme)
-            vc.modalPresentationStyle = .fullScreen
-            vc.modalTransitionStyle = .flipHorizontal
-            self.present(vc, animated: true)
-            
-        } else { return } //здесь добавить popup
-        
-    }
+class SelectedThemeVC: UIViewController {
     
     //easy cohesion
     var jsonService: JsonServiceProtocol?
@@ -39,7 +21,6 @@ class SelectedThemeVC: UIViewController, SelectedThemeVCProtocol {
     lazy var wordsArchiver = WordsArchiver(key: selectedTheme)
     
     var header = SelectedThemeHeader()
-    
     ///List with words of selected category. Data is gotten from JSON by loadWords method
     var words = [Word]()
     
@@ -54,6 +35,7 @@ class SelectedThemeVC: UIViewController, SelectedThemeVCProtocol {
         headerView.delegate = self  //delegate to open game screen
         tableView.tableHeaderView = headerView
         headerView.themeLabel.text = selectedTheme
+        headerView.progressLabel.text = "Progress     \(getLearnedWordsCount()) / \(loadWords().count)"
         tableView.layer.masksToBounds = true
         tableView.delegate = self
         tableView.dataSource = self
@@ -84,11 +66,9 @@ class SelectedThemeVC: UIViewController, SelectedThemeVCProtocol {
     
     override func viewWillAppear(_ animated: Bool) {
         setupGradientVC()
+        //view.backgroundColor = .selectedThemeVCBackground
         super.viewWillAppear(animated)
     }
-    
-    
-    //
     
     @objc func closeButtonPressed(sender: UIButton!) {
         dismiss(animated: true, completion: nil)
@@ -117,8 +97,9 @@ class SelectedThemeVC: UIViewController, SelectedThemeVCProtocol {
         return words
     }
     
-    func updateWords() {
-        
+    func getLearnedWordsCount() -> UInt {
+         let learnedWords = CheckLearnedWordsCount(wordsList: loadWords())
+        return learnedWords.calculateLearnedWords()
     }
     
 }
@@ -160,7 +141,7 @@ extension SelectedThemeVC: UITableViewDelegate {
         let word = words[indexPath.row]
         cell.update(word)
         cell.backgroundColor = .clear
-        
+
         return cell
     }
     
@@ -169,6 +150,7 @@ extension SelectedThemeVC: UITableViewDelegate {
         let done = UIContextualAction(style: .destructive, title: "") { (action, view, complete) in
             let cell = tableView.cellForRow(at: indexPath) as! SelectedThemeCell
             
+
             if self.words[indexPath.row].isLearned == nil {
                 self.words[indexPath.row].isLearned = true
                 cell.learnedWordImage.isHidden = false
@@ -189,30 +171,18 @@ extension SelectedThemeVC: UITableViewDelegate {
         
     }
     
-    func tableView(_ tableView: UITableView, leadingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
-        let showTranslation = UIContextualAction(style: .destructive, title: "") { (action, view, complete) in
-            let cell = tableView.cellForRow(at: indexPath) as! SelectedThemeCell
-            
-            if self.words[indexPath.row].translationIsHidden == nil {
-                self.words[indexPath.row].translationIsHidden = true
-                cell.wordTranslationLabel.isHidden = false
-            } else {
-                self.words[indexPath.row].translationIsHidden?.toggle()
-                cell.wordTranslationLabel.isHidden.toggle()
-            }
-            self.wordsArchiver.save(self.words)
-            
-            complete(true)
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let cell = tableView.cellForRow(at: indexPath) as! SelectedThemeCell
+        
+        if self.words[indexPath.row].translationIsHidden == nil {
+            self.words[indexPath.row].translationIsHidden = true
+            cell.wordTranslationLabel.isHidden = false
+        } else {
+            self.words[indexPath.row].translationIsHidden?.toggle()
+            cell.wordTranslationLabel.isHidden.toggle()
         }
-        
-        showTranslation.backgroundColor = UIColor.init(red: 0/255.0, green: 0/255.0, blue: 0/255.0, alpha: 0.0)
-        showTranslation.image = UIImage(named: "showTranslation")
-        let configuration = UISwipeActionsConfiguration(actions: [showTranslation])
-        configuration.performsFirstActionWithFullSwipe = false
-        return configuration
-        
+        self.wordsArchiver.save(self.words)
     }
-    
 }
 
 extension SelectedThemeVC: UITableViewDataSource {
@@ -230,6 +200,40 @@ extension SelectedThemeVC: UITableViewDataSource {
     
 }
 
+extension SelectedThemeVC: SelectedThemeVCProtocol {
+    /// Method opens the game which user has selected
+    func openQuizeGameVC(_ gameType: String) {
+        
+        ///Gets list of the whole words
+        let archWord = WordsArchiver(key: selectedTheme).retrieve()
+        ///Checks how many words are maked as learned
+        let checkLearnedWords = CheckLearnedWordsCount(wordsList: archWord).calculateLearnedWords()
+        
+        if gameType == "Practice the learned words" && checkLearnedWords > 0 {
+            
+            let vc = QuizeGameVC(gameType: gameType, selectedTheme: selectedTheme)
+            vc.modalPresentationStyle = .fullScreen
+            vc.modalTransitionStyle = .flipHorizontal
+            self.present(vc, animated: true)
+            
+        } else if gameType == "Practice the learned words" && checkLearnedWords == 0 {
+            let vc = NoLearnedWordsPopUp()
+            vc.modalPresentationStyle = .overCurrentContext
+            vc.modalTransitionStyle = .crossDissolve
+            self.present(vc, animated: true)
+        }
+        
+        if gameType == "Practice all words" {
+            
+            let vc = QuizeGameVC(gameType: gameType, selectedTheme: selectedTheme)
+            vc.modalPresentationStyle = .fullScreen
+            vc.modalTransitionStyle = .flipHorizontal
+            self.present(vc, animated: true)
+            
+        } 
+    }
+}
+
 ///Gradient Settings
 extension SelectedThemeVC {
     func setupGradientVC() {
@@ -239,7 +243,7 @@ extension SelectedThemeVC {
         
         let gradientLayer = CAGradientLayer()
         gradientLayer.colors = [colorTop, colorBottom]
-        gradientLayer.locations = [0.2, 1.0]
+        gradientLayer.locations = [0.0, 1.0]
         gradientLayer.frame = self.view.bounds
         
         self.view.layer.insertSublayer(gradientLayer, at:0)

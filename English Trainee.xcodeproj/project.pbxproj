@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3112093629B669F800E20DAC /* ResultPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3112093529B669F800E20DAC /* ResultPopUp.swift */; };
+		3112093829B671DB00E20DAC /* NoLearnedWordsPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3112093729B671DB00E20DAC /* NoLearnedWordsPopUp.swift */; };
 		3130D8112998DBCA00BF6041 /* WordsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3130D8102998DBCA00BF6041 /* WordsCell.swift */; };
 		3130D8142998DDD700BF6041 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3130D8132998DDD700BF6041 /* SnapKit */; };
 		3130D816299AC27300BF6041 /* MainTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3130D815299AC27300BF6041 /* MainTabVC.swift */; };
@@ -92,6 +94,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3112093529B669F800E20DAC /* ResultPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultPopUp.swift; sourceTree = "<group>"; };
+		3112093729B671DB00E20DAC /* NoLearnedWordsPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoLearnedWordsPopUp.swift; sourceTree = "<group>"; };
 		3130D8102998DBCA00BF6041 /* WordsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsCell.swift; sourceTree = "<group>"; };
 		3130D815299AC27300BF6041 /* MainTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabVC.swift; sourceTree = "<group>"; };
 		317D260C29B1FBFF008DCE2E /* QuizeGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizeGameVC.swift; sourceTree = "<group>"; };
@@ -212,6 +216,7 @@
 			isa = PBXGroup;
 			children = (
 				317D260C29B1FBFF008DCE2E /* QuizeGameVC.swift */,
+				3112093529B669F800E20DAC /* ResultPopUp.swift */,
 				317D261429B4EB74008DCE2E /* QuestionUpdater.swift */,
 				317D261A29B50090008DCE2E /* CorrectAnswerCheck.swift */,
 			);
@@ -314,6 +319,7 @@
 				31B435F429A9557D00EFEA90 /* SelectedThemeCell.swift */,
 				31F9BCBC29A7FF9100C913AE /* SelectedThemeHeader.swift */,
 				317D261229B4E118008DCE2E /* CheckLearnedWordsCount.swift */,
+				3112093729B671DB00E20DAC /* NoLearnedWordsPopUp.swift */,
 			);
 			path = SelectedThemeVC;
 			sourceTree = "<group>";
@@ -529,10 +535,12 @@
 				31F005F629A54C8D0097C22E /* JsonModelCategories.swift in Sources */,
 				31FB9972298F8B9C00FC1DF6 /* GameVC.swift in Sources */,
 				31FDF3932997BBB9000E2ABA /* PopUp.swift in Sources */,
+				3112093829B671DB00E20DAC /* NoLearnedWordsPopUp.swift in Sources */,
 				31FB997429942A1700FC1DF6 /* Words.swift in Sources */,
 				31FB99132985956200FC1DF6 /* AppDelegate.swift in Sources */,
 				31F005F029A510820097C22E /* UIColorExtension.swift in Sources */,
 				31F005F229A54C520097C22E /* JsonService.swift in Sources */,
+				3112093629B669F800E20DAC /* ResultPopUp.swift in Sources */,
 				31F005EB29A0163C0097C22E /* CategoriesVC.swift in Sources */,
 				31F9BCBD29A7FF9100C913AE /* SelectedThemeHeader.swift in Sources */,
 				31FB99152985956200FC1DF6 /* SceneDelegate.swift in Sources */,

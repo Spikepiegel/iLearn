@@ -139,9 +139,9 @@ final class GameVC: UIViewController {
         }
         
         if calculateQuestion.questionNumber != questions.count {
-            updateQuestion()
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.2, execute: {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.3, execute: {
                 sender.backgroundColor = UIColor.white
+                self.updateQuestion()
             })
             
             progressBar.progress += 0.2

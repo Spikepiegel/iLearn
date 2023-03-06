@@ -8,8 +8,12 @@
 import UIKit
 import SnapKit
 
+protocol QuizeGameVCProtocol {
+    func closePupUp()
+}
+
 ///Screen with quize game. Game is depended on button user has selected.
-class QuizeGameVC: UIViewController  {
+class QuizeGameVC: UIViewController, QuizeGameVCProtocol  {
     
     lazy var wordsList = getQuestionArray()
     lazy var englishWordsList = QuestionUpdater(fullWordsInformationList: wordsList).createEnglishWordsArray()
@@ -110,9 +114,7 @@ class QuizeGameVC: UIViewController  {
             
             guard let gradientLayer = answerButtons[buttonIndex].layer.sublayers else { return }
             if gradientLayer.count > 1 {
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.3, execute: {
-                    gradientLayer[0].removeFromSuperlayer()
-                })
+                gradientLayer[0].removeFromSuperlayer()
             }
         }
     }
@@ -134,14 +136,23 @@ class QuizeGameVC: UIViewController  {
             setGreenGradientOnAnswerButton(sender)
             numberOfQuestion += 1
             
-            if incorrectAnswerCount > 0 {
+            if incorrectAnswerCount == 0 {
                 score += 1
             }
             
             if numberOfQuestion < wordsList.count{
                 incorrectAnswerCount = 0
-                createNextQuetion()
-            } else { removeGradientOnButtons() }
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: {
+                    self.createNextQuetion()
+                })
+            } else {
+                //removeGradientOnButtons()
+                let vc = ResultPopUp()
+                vc.delegate = self
+                vc.popText.text = "\(score)/\(wordsList.count) correct answers"
+                vc.modalPresentationStyle = .overCurrentContext
+                self.present(vc, animated: false)
+            }
         } else {
             setRedGradientOnAnswerButton(sender)
             incorrectAnswerCount += 1
@@ -173,6 +184,10 @@ class QuizeGameVC: UIViewController  {
         }
         
         return gameWords
+    }
+    
+    func closePupUp() {
+        dismiss(animated: true, completion: nil)
     }
     
     override func viewDidLoad() {

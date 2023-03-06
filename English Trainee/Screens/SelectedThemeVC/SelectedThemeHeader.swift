@@ -1,11 +1,13 @@
 import UIKit
 import SnapKit
 
+protocol SelectedThemeHeaderProtocol {
+    func updateProgress()
+}
 
 class SelectedThemeHeader: UIView {
     
     var delegate: SelectedThemeVCProtocol?
-    
     
     lazy var containerView: UIView = {
         let view = UIView()
@@ -30,7 +32,6 @@ class SelectedThemeHeader: UIView {
     ///This label is need to monitor how many words user has learned
     lazy var progressLabel: UILabel = {
         let label = UILabel()
-        label.text = "Progress"
         label.font = UIFont(name: "Arial Rounded MT Bold", size: 24)
         return label
     }()
@@ -89,6 +90,10 @@ class SelectedThemeHeader: UIView {
         themeLabel.text = theme
     }
     
+    func updateProgress() {
+        progressLabel.text = "123"
+    }
+    
 }
 
 extension SelectedThemeHeader {
@@ -104,7 +109,7 @@ extension SelectedThemeHeader {
     
     func setupConstraints() {
         containerView.snp.makeConstraints { make in
-            make.top.equalToSuperview() /*left.right.*/
+            make.top.equalToSuperview() 
             make.left.right.equalToSuperview().inset(15)
             make.bottom.equalTo(self).inset(130)
         }

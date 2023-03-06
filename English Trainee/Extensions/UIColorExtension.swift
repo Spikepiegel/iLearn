@@ -27,7 +27,8 @@ extension UIColor {
         #colorLiteral(red: 0.8549019608, green: 0.8862745098, blue: 0.9725490196, alpha: 1)
     }
     static var rightAppBackgroundColor: UIColor {
-        #colorLiteral(red: 0.8399734204, green: 0.6431372549, blue: 0.6431372549, alpha: 1)
+        #colorLiteral(red: 0.4274509804, green: 0.8352941176, blue: 0.9803921569, alpha: 1)
+        // #colorLiteral(red: 0.8399734204, green: 0.6431372549, blue: 0.6431372549, alpha: 1)
     }
     
     ///Colors for Stack Views on the Game VC
@@ -57,6 +58,11 @@ extension UIColor {
     }
     static var incorrectAnswerRightColor: UIColor {
         #colorLiteral(red: 0.5764705882, green: 0.1607843137, blue: 0.1176470588, alpha: 1)
+    }
+    
+    ///Selected Theme Backround Color
+    static var selectedThemeVCBackground: UIColor {
+        #colorLiteral(red: 0.937254902, green: 0.9411764706, blue: 0.9568627451, alpha: 1)
     }
     
 }
