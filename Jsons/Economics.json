@@ -107,7 +107,7 @@
   {
     "id": 14,
     "origin": "bid, tender",
-    "translation": "торги, заявка на торгах, предложение, тендер",
+    "translation": "торги, предложение, тендер",
     "transcription": "[ bɪd ], [ ˈtendə ]",
     "image": "  ",
     "example": "  "
@@ -473,9 +473,17 @@
     "example": "  "
   },
   {
+    "id": 82,
+    "origin": "economic policy",
+    "translation": "экономическая политика",
+    "transcription": "[ ɪn tʃɑːdʒ əv ˌiːkəˈnɒmɪk ˈpɒləsi ]",
+    "image": " ",
+    "example": " "
+  },
+  {
     "id": 60,
     "origin": "efficiency",
-    "translation": "КПД (коэффициент полезного действия), эффективность",
+    "translation": "эффективность (КПД)",
     "transcription": "[ ɪˈfɪʃnsi ]",
     "image": " ",
     "example": "  "
@@ -529,14 +537,6 @@
     "example": "  "
   },
   {
-    "id": 67,
-    "origin": "European Bank for Reconstruction and Development (EBRD)",
-    "translation": "Европейский банк реконструкции и развития (ЕБРР)",
-    "transcription": "[ ˌjʊərəˈpɪən bæŋk fə ˌriːkənˈstrʌkʃən ənd dɪˈveləpmənt ]",
-    "image": " ",
-    "example": "  "
-  },
-  {
     "id": 68,
     "origin": "exchange rate",
     "translation": "курс обмена (валюты)",
@@ -578,9 +578,9 @@
   },
   {
     "id": 73,
-    "origin": "find / turn out to be defective / substandard",
+    "origin": "find / substandard",
     "translation": "забраковать",
-    "transcription": "[ faɪnd / tɜːn aʊt tə bi dɪˈfektɪv / ˌsʌbˈstændəd ]",
+    "transcription": "[ faɪnd / ˌsʌbˈstændəd ]",
     "image": " ",
     "example": "  "
   },
@@ -595,7 +595,7 @@
   {
     "id": 75,
     "origin": "freely convertible currency",
-    "translation": "свободно конвертируемая валюта (СКВ)",
+    "translation": "свободно конвертируемая валюта",
     "transcription": "[ ˈfriːli kənˈvɜːtəbəl ˈkʌrənsi ]",
     "image": " ",
     "example": "  "
@@ -625,14 +625,6 @@
     "example": "  "
   },
   {
-    "id": 79,
-    "origin": "government / treasury bond (T-bill)",
-    "translation": "Государственная казначейская облигация (ГКО) паевый фонд",
-    "transcription": "[ ˈɡʌvənmənt / ˈtreʒəri bɒnd (tiː bɪl ) ]",
-    "image": " ",
-    "example": "  "
-  },
-  {
     "id": 80,
     "origin": "grant",
     "translation": "безвозмездная субсидия",
@@ -645,14 +637,6 @@
     "origin": "growth rate",
     "translation": "темпы роста",
     "transcription": "[ ɡrəʊθ reɪt ]",
-    "image": " ",
-    "example": " "
-  },
-  {
-    "id": 82,
-    "origin": "in charge of economic policy",
-    "translation": "ответственный за экономическую политику",
-    "transcription": "[ ɪn tʃɑːdʒ əv ˌiːkəˈnɒmɪk ˈpɒləsi ]",
     "image": " ",
     "example": " "
   },
@@ -675,7 +659,7 @@
   {
     "id": 85,
     "origin": "insolvency",
-    "translation": "неплатежеспособность, несостоятельность",
+    "translation": "неплатежеспособность",
     "transcription": "[ ɪnˈsɒlvənsi ]",
     "image": " ",
     "example": " "
@@ -706,8 +690,8 @@
   },
   {
     "id": 89,
-    "origin": "International Monetary Fund (IMF)",
-    "translation": "Международный валютный фонд (МВФ)",
+    "origin": "International Monetary Fund",
+    "translation": "Международный валютный фонд",
     "transcription": "[ ˌɪntəˈnæʃənəl ˈmʌnɪtri fʌnd ] [ˌaɪˌeˈmef ]",
     "image": " ",
     "example": " "
@@ -867,7 +851,7 @@
   {
     "id": 109,
     "origin": "military-industrial complex",
-    "translation": "военно-промышленный комплекс (ВПК)",
+    "translation": "военно-промышленный комплекс",
     "transcription": "[ ˈkɒmpleks ]",
     "image": " ",
     "example": " "
@@ -1169,14 +1153,6 @@
     "example": " "
   },
   {
-    "id": 147,
-    "origin": "savings (in savings bank account)",
-    "translation": "соглашение по разделу продукции (СРП)",
-    "transcription": "[ ˈseɪvɪŋz ( ɪn ˈseɪvɪŋz bæŋk əkaʊnt ) ]",
-    "image": " ",
-    "example": " "
-  },
-  {
     "id": 148,
     "origin": "scarce, rare",
     "translation": "дефицитный",
@@ -1371,7 +1347,7 @@
   {
     "id": 172,
     "origin": "tax-exempt, tax free",
-    "translation": "освобожденный от налогов, не облагаемый налогом",
+    "translation": "освобожденный от налогов",
     "transcription": "[ ˈtæksɪɡˈzempt ] [ tæks friː ]",
     "image": " ",
     "example": " "
@@ -1442,9 +1418,9 @@
   },
   {
     "id": 181,
-    "origin": "to save on something, to economize",
+    "origin": "to economize",
     "translation": "экономить",
-    "transcription": "[ tə seɪv ɒn ˈsʌmθɪŋ ] [tə ɪˈkɒnəmaɪz ]",
+    "transcription": "[tə ɪˈkɒnəmaɪz ]",
     "image": " ",
     "example": " "
   },
@@ -1514,8 +1490,8 @@
   },
   {
     "id": 190,
-    "origin": "World Trade Organization (WTO)",
-    "translation": "Всемирная Торговая Организация (ВТО)",
+    "origin": "World Trade Organization",
+    "translation": "Всемирная Торговая Организация",
     "transcription": "[ wɜːld treɪd ˌɔːɡənaɪˈzeɪʃən ]",
     "image": " ",
     "example": " "

@@ -9,9 +9,8 @@
 /* Begin PBXBuildFile section */
 		3112093629B669F800E20DAC /* ResultPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3112093529B669F800E20DAC /* ResultPopUp.swift */; };
 		3112093829B671DB00E20DAC /* NoLearnedWordsPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3112093729B671DB00E20DAC /* NoLearnedWordsPopUp.swift */; };
-		3130D8112998DBCA00BF6041 /* WordsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3130D8102998DBCA00BF6041 /* WordsCell.swift */; };
 		3130D8142998DDD700BF6041 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3130D8132998DDD700BF6041 /* SnapKit */; };
-		3130D816299AC27300BF6041 /* MainTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3130D815299AC27300BF6041 /* MainTabVC.swift */; };
+		3130D816299AC27300BF6041 /* AppTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3130D815299AC27300BF6041 /* AppTabBar.swift */; };
 		317D260D29B1FBFF008DCE2E /* QuizeGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317D260C29B1FBFF008DCE2E /* QuizeGameVC.swift */; };
 		317D261129B489F4008DCE2E /* ArchiveService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317D261029B489F4008DCE2E /* ArchiveService.swift */; };
 		317D261329B4E118008DCE2E /* CheckLearnedWordsCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317D261229B4E118008DCE2E /* CheckLearnedWordsCount.swift */; };
@@ -25,7 +24,6 @@
 		31C903F729AD314300D9B615 /* Anatomy.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C903F229AD314300D9B615 /* Anatomy.json */; };
 		31C903F929AD4DBF00D9B615 /* Archeology.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C903F829AD4DBF00D9B615 /* Archeology.json */; };
 		31C903FB29AD4F2000D9B615 /* Architecture.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C903FA29AD4F1F00D9B615 /* Architecture.json */; };
-		31C903FD29ADEF4000D9B615 /* Art.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C903FC29ADEF4000D9B615 /* Art.json */; };
 		31C903FF29ADFC0F00D9B615 /* Aviation.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C903FE29ADFC0F00D9B615 /* Aviation.json */; };
 		31C9040329AE061800D9B615 /* Basic Words.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9040229AE061800D9B615 /* Basic Words.json */; };
 		31C9040929AE348900D9B615 /* Berries.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9040829AE348900D9B615 /* Berries.json */; };
@@ -75,20 +73,19 @@
 		31C9046129AE9CF800D9B615 /* Politics.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9046029AE9CF800D9B615 /* Politics.json */; };
 		31C9046329AE9D6800D9B615 /* Professions.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9046229AE9D6800D9B615 /* Professions.json */; };
 		31C9046529AFCB4900D9B615 /* The most popular verbs.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9046429AFCB4900D9B615 /* The most popular verbs.json */; };
-		31C9046729B0E30E00D9B615 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C9046629B0E30E00D9B615 /* ViewController.swift */; };
 		31F005EB29A0163C0097C22E /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F005EA29A0163C0097C22E /* CategoriesVC.swift */; };
 		31F005ED29A2134E0097C22E /* CategoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F005EC29A2134E0097C22E /* CategoriesCell.swift */; };
-		31F005F029A510820097C22E /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F005EF29A510820097C22E /* UIColorExtension.swift */; };
+		31F005F029A510820097C22E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F005EF29A510820097C22E /* Extensions.swift */; };
 		31F005F229A54C520097C22E /* JsonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F005F129A54C520097C22E /* JsonService.swift */; };
 		31F005F629A54C8D0097C22E /* JsonModelCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F005F529A54C8D0097C22E /* JsonModelCategories.swift */; };
+		31F7E81F29B7A41A0070BDF0 /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F7E81E29B7A41A0070BDF0 /* Statistics.swift */; };
+		31F7E82129B7C1210070BDF0 /* Art.json in Resources */ = {isa = PBXBuildFile; fileRef = 31F7E82029B7C1210070BDF0 /* Art.json */; };
 		31F9BCB829A7732700C913AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31F9BCB729A7732700C913AE /* Assets.xcassets */; };
 		31F9BCBB29A7D17A00C913AE /* SelectedThemeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F9BCBA29A7D17A00C913AE /* SelectedThemeVC.swift */; };
 		31F9BCBD29A7FF9100C913AE /* SelectedThemeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F9BCBC29A7FF9100C913AE /* SelectedThemeHeader.swift */; };
 		31FB99132985956200FC1DF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB99122985956200FC1DF6 /* AppDelegate.swift */; };
 		31FB99152985956200FC1DF6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB99142985956200FC1DF6 /* SceneDelegate.swift */; };
-		31FB991A2985956200FC1DF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31FB99182985956200FC1DF6 /* Main.storyboard */; };
 		31FB991F2985956400FC1DF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31FB991D2985956400FC1DF6 /* LaunchScreen.storyboard */; };
-		31FB9972298F8B9C00FC1DF6 /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB9971298F8B9C00FC1DF6 /* GameVC.swift */; };
 		31FB997429942A1700FC1DF6 /* Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB997329942A1700FC1DF6 /* Words.swift */; };
 		31FDF3932997BBB9000E2ABA /* PopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FDF3922997BBB9000E2ABA /* PopUp.swift */; };
 /* End PBXBuildFile section */
@@ -96,8 +93,7 @@
 /* Begin PBXFileReference section */
 		3112093529B669F800E20DAC /* ResultPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultPopUp.swift; sourceTree = "<group>"; };
 		3112093729B671DB00E20DAC /* NoLearnedWordsPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoLearnedWordsPopUp.swift; sourceTree = "<group>"; };
-		3130D8102998DBCA00BF6041 /* WordsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsCell.swift; sourceTree = "<group>"; };
-		3130D815299AC27300BF6041 /* MainTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabVC.swift; sourceTree = "<group>"; };
+		3130D815299AC27300BF6041 /* AppTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBar.swift; sourceTree = "<group>"; };
 		317D260C29B1FBFF008DCE2E /* QuizeGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizeGameVC.swift; sourceTree = "<group>"; };
 		317D261029B489F4008DCE2E /* ArchiveService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveService.swift; sourceTree = "<group>"; };
 		317D261229B4E118008DCE2E /* CheckLearnedWordsCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLearnedWordsCount.swift; sourceTree = "<group>"; };
@@ -111,7 +107,6 @@
 		31C903F229AD314300D9B615 /* Anatomy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Anatomy.json; path = Jsons/Anatomy.json; sourceTree = SOURCE_ROOT; };
 		31C903F829AD4DBF00D9B615 /* Archeology.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Archeology.json; path = Jsons/Archeology.json; sourceTree = SOURCE_ROOT; };
 		31C903FA29AD4F1F00D9B615 /* Architecture.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Architecture.json; path = Jsons/Architecture.json; sourceTree = SOURCE_ROOT; };
-		31C903FC29ADEF4000D9B615 /* Art.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Art.json; path = Jsons/Art.json; sourceTree = SOURCE_ROOT; };
 		31C903FE29ADFC0F00D9B615 /* Aviation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Aviation.json; path = Jsons/Aviation.json; sourceTree = SOURCE_ROOT; };
 		31C9040229AE061800D9B615 /* Basic Words.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "Basic Words.json"; path = "Jsons/Basic Words.json"; sourceTree = SOURCE_ROOT; };
 		31C9040829AE348900D9B615 /* Berries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Berries.json; path = Jsons/Berries.json; sourceTree = SOURCE_ROOT; };
@@ -161,22 +156,21 @@
 		31C9046029AE9CF800D9B615 /* Politics.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Politics.json; path = Jsons/Politics.json; sourceTree = SOURCE_ROOT; };
 		31C9046229AE9D6800D9B615 /* Professions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Professions.json; path = Jsons/Professions.json; sourceTree = SOURCE_ROOT; };
 		31C9046429AFCB4900D9B615 /* The most popular verbs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "The most popular verbs.json"; path = "Jsons/The most popular verbs.json"; sourceTree = SOURCE_ROOT; };
-		31C9046629B0E30E00D9B615 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		31F005EA29A0163C0097C22E /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
 		31F005EC29A2134E0097C22E /* CategoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCell.swift; sourceTree = "<group>"; };
-		31F005EF29A510820097C22E /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		31F005EF29A510820097C22E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		31F005F129A54C520097C22E /* JsonService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonService.swift; sourceTree = "<group>"; };
 		31F005F529A54C8D0097C22E /* JsonModelCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonModelCategories.swift; sourceTree = "<group>"; };
+		31F7E81E29B7A41A0070BDF0 /* Statistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistics.swift; sourceTree = "<group>"; };
+		31F7E82029B7C1210070BDF0 /* Art.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Art.json; path = Jsons/Art.json; sourceTree = SOURCE_ROOT; };
 		31F9BCB729A7732700C913AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31F9BCBA29A7D17A00C913AE /* SelectedThemeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedThemeVC.swift; sourceTree = "<group>"; };
 		31F9BCBC29A7FF9100C913AE /* SelectedThemeHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedThemeHeader.swift; sourceTree = "<group>"; };
 		31FB990F2985956200FC1DF6 /* English Trainee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "English Trainee.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31FB99122985956200FC1DF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31FB99142985956200FC1DF6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		31FB99192985956200FC1DF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		31FB991E2985956400FC1DF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31FB99202985956400FC1DF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		31FB9971298F8B9C00FC1DF6 /* GameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
 		31FB997329942A1700FC1DF6 /* Words.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Words.swift; sourceTree = "<group>"; };
 		31FDF3922997BBB9000E2ABA /* PopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,14 +187,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3130D817299AC31200BF6041 /* WordScreen */ = {
+		3130D817299AC31200BF6041 /* Statistics */ = {
 			isa = PBXGroup;
 			children = (
-				31FB9971298F8B9C00FC1DF6 /* GameVC.swift */,
-				3130D8102998DBCA00BF6041 /* WordsCell.swift */,
-				31C9046629B0E30E00D9B615 /* ViewController.swift */,
+				31F7E81E29B7A41A0070BDF0 /* Statistics.swift */,
 			);
-			path = WordScreen;
+			path = Statistics;
 			sourceTree = "<group>";
 		};
 		3130D854299FB4FF00BF6041 /* ThemesPullScreen */ = {
@@ -226,7 +218,7 @@
 		31C9046C29B10FBF00D9B615 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				31F005EF29A510820097C22E /* UIColorExtension.swift */,
+				31F005EF29A510820097C22E /* Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -241,7 +233,7 @@
 				31C903F129AD314300D9B615 /* Appearance.json */,
 				31C903F829AD4DBF00D9B615 /* Archeology.json */,
 				31C903FA29AD4F1F00D9B615 /* Architecture.json */,
-				31C903FC29ADEF4000D9B615 /* Art.json */,
+				31F7E82029B7C1210070BDF0 /* Art.json */,
 				31C903FE29ADFC0F00D9B615 /* Aviation.json */,
 				31C9040229AE061800D9B615 /* Basic Words.json */,
 				31C9040829AE348900D9B615 /* Berries.json */,
@@ -307,7 +299,7 @@
 		31F005FB29A6A3A70097C22E /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
-				3130D815299AC27300BF6041 /* MainTabVC.swift */,
+				3130D815299AC27300BF6041 /* AppTabBar.swift */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -358,7 +350,7 @@
 			isa = PBXGroup;
 			children = (
 				31F005FB29A6A3A70097C22E /* TabBar */,
-				3130D817299AC31200BF6041 /* WordScreen */,
+				3130D817299AC31200BF6041 /* Statistics */,
 				3130D854299FB4FF00BF6041 /* ThemesPullScreen */,
 				31F9BCB929A7D0DF00C913AE /* SelectedThemeVC */,
 				317D260B29B1FB7D008DCE2E /* QuizeGameVC */,
@@ -381,7 +373,6 @@
 			children = (
 				31FB99202985956400FC1DF6 /* Info.plist */,
 				31FB991D2985956400FC1DF6 /* LaunchScreen.storyboard */,
-				31FB99182985956200FC1DF6 /* Main.storyboard */,
 				31F9BCB729A7732700C913AE /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -475,6 +466,7 @@
 				31C9043B29AE7FEA00D9B615 /* Mathematics.json in Resources */,
 				31C9044929AE8A2100D9B615 /* Personality.json in Resources */,
 				31C9040B29AE499E00D9B615 /* Body.json in Resources */,
+				31F7E82129B7C1210070BDF0 /* Art.json in Resources */,
 				31FB991F2985956400FC1DF6 /* LaunchScreen.storyboard in Resources */,
 				31C9041B29AE6F8000D9B615 /* Drinks.json in Resources */,
 				31C9042F29AE7C4900D9B615 /* Health.json in Resources */,
@@ -490,7 +482,6 @@
 				31C9040929AE348900D9B615 /* Berries.json in Resources */,
 				31C9043D29AE813E00D9B615 /* Money.json in Resources */,
 				31C903F929AD4DBF00D9B615 /* Archeology.json in Resources */,
-				31C903FD29ADEF4000D9B615 /* Art.json in Resources */,
 				31C9044B29AE8AF900D9B615 /* School Subjects.json in Resources */,
 				31C9040D29AE585400D9B615 /* Business.json in Resources */,
 				31C9043529AE7E6A00D9B615 /* Kitchen.json in Resources */,
@@ -513,7 +504,6 @@
 				31C9041329AE659200D9B615 /* Clothes.json in Resources */,
 				31C9043F29AE823100D9B615 /* Months.json in Resources */,
 				31C9044F29AE8C9800D9B615 /* Sport.json in Resources */,
-				31FB991A2985956200FC1DF6 /* Main.storyboard in Resources */,
 				31C9045729AE935F00D9B615 /* Travelling.json in Resources */,
 				31C9041D29AE71AD00D9B615 /* Economics.json in Resources */,
 				31C9044D29AE8C1000D9B615 /* Space.json in Resources */,
@@ -533,12 +523,12 @@
 				317D261329B4E118008DCE2E /* CheckLearnedWordsCount.swift in Sources */,
 				317D261B29B50090008DCE2E /* CorrectAnswerCheck.swift in Sources */,
 				31F005F629A54C8D0097C22E /* JsonModelCategories.swift in Sources */,
-				31FB9972298F8B9C00FC1DF6 /* GameVC.swift in Sources */,
 				31FDF3932997BBB9000E2ABA /* PopUp.swift in Sources */,
 				3112093829B671DB00E20DAC /* NoLearnedWordsPopUp.swift in Sources */,
 				31FB997429942A1700FC1DF6 /* Words.swift in Sources */,
 				31FB99132985956200FC1DF6 /* AppDelegate.swift in Sources */,
-				31F005F029A510820097C22E /* UIColorExtension.swift in Sources */,
+				31F7E81F29B7A41A0070BDF0 /* Statistics.swift in Sources */,
+				31F005F029A510820097C22E /* Extensions.swift in Sources */,
 				31F005F229A54C520097C22E /* JsonService.swift in Sources */,
 				3112093629B669F800E20DAC /* ResultPopUp.swift in Sources */,
 				31F005EB29A0163C0097C22E /* CategoriesVC.swift in Sources */,
@@ -546,27 +536,17 @@
 				31FB99152985956200FC1DF6 /* SceneDelegate.swift in Sources */,
 				317D261129B489F4008DCE2E /* ArchiveService.swift in Sources */,
 				31F005ED29A2134E0097C22E /* CategoriesCell.swift in Sources */,
-				3130D8112998DBCA00BF6041 /* WordsCell.swift in Sources */,
 				31B435F529A9557D00EFEA90 /* SelectedThemeCell.swift in Sources */,
 				31F9BCBB29A7D17A00C913AE /* SelectedThemeVC.swift in Sources */,
 				317D260D29B1FBFF008DCE2E /* QuizeGameVC.swift in Sources */,
-				31C9046729B0E30E00D9B615 /* ViewController.swift in Sources */,
 				317D261529B4EB74008DCE2E /* QuestionUpdater.swift in Sources */,
-				3130D816299AC27300BF6041 /* MainTabVC.swift in Sources */,
+				3130D816299AC27300BF6041 /* AppTabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		31FB99182985956200FC1DF6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				31FB99192985956200FC1DF6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		31FB991D2985956400FC1DF6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -628,7 +608,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = NO;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -682,7 +664,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = NO;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -704,7 +688,6 @@
 				INFOPLIST_FILE = "English Trainee/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -733,7 +716,6 @@
 				INFOPLIST_FILE = "English Trainee/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;

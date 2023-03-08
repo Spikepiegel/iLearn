@@ -18,9 +18,7 @@ class CorrectAnswerCheck {
     }
     
     func answerChecker() -> Bool {
-        
-        //var checkTrueAnswer: Bool = false
-        
+                
         for i in englishWordsArray {
             if i == answer {
                 return true

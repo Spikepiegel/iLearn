@@ -290,8 +290,8 @@
   },
   {
     "id": 37,
-    "origin": "medieval oversized chimney",
-    "translation": "крупногабаритный средневековый дымоход",
+    "origin": "medieval chimney",
+    "translation": "средневековый дымоход",
     "transcription": "[ ˌmedɪˈiːvəl ˈəʊvəsaɪzd ˈtʃɪmni ]",
     "image": " ",
     "example": " "
@@ -411,7 +411,7 @@
   {
     "id": 52,
     "origin": "Renaissance architect",
-    "translation": "архитектор эпохи Возрождения (Ренессанса)",
+    "translation": "архитектор эпохи Возрождения",
     "transcription": "[ rɪˈneɪsns ˈɑːkɪtekt ]",
     "image": " ",
     "example": " "
@@ -443,7 +443,7 @@
   {
     "id": 56,
     "origin": "single-aisled",
-    "translation": "с одним проходом между рядами (о церкви)",
+    "translation": "с одним проходом между рядами",
     "transcription": "[ ˈsɪŋɡəl aɪld ]",
     "image": " ",
     "example": " "

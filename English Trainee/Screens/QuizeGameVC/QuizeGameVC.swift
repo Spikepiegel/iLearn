@@ -16,7 +16,7 @@ protocol QuizeGameVCProtocol {
 class QuizeGameVC: UIViewController, QuizeGameVCProtocol  {
     
     lazy var wordsList = getQuestionArray()
-    lazy var englishWordsList = QuestionUpdater(fullWordsInformationList: wordsList).createEnglishWordsArray()
+    lazy var correctAnswerVariants = QuestionUpdater(fullWordsInformationList: wordsList).createEnglishWordsArray()
     
     
     var numberOfQuestion = 0
@@ -48,6 +48,7 @@ class QuizeGameVC: UIViewController, QuizeGameVCProtocol  {
         stackView.axis = .vertical
         stackView.layer.cornerRadius = 15
         stackView.backgroundColor = .white
+        stackView.distribution = .fill
         return stackView
     }()
     
@@ -62,10 +63,35 @@ class QuizeGameVC: UIViewController, QuizeGameVCProtocol  {
         return stackView
     }()
     
+    lazy var progressLabel: UILabel = {
+        let label = UILabel()
+        label.font = UIFont.boldSystemFont(ofSize: 20)
+        label.text = "\(numberOfQuestion) / \(wordsList.count)"
+        label.layer.masksToBounds = true
+        label.textAlignment = .center
+        label.center = questionStack.center
+        return label
+    }()
+    
+    lazy var progressView: UIProgressView = {
+        let progressView = UIProgressView(progressViewStyle: .bar)
+        progressView.trackTintColor = .lightGray
+        progressView.progressTintColor = .blue
+        progressView.center = view.center
+        progressView.layer.cornerRadius = 8
+        progressView.layer.masksToBounds = true
+        progressView.transform = progressView.transform.scaledBy(x: 0.95, y: 3.5)
+        progressView.setProgress(Float(numberOfQuestion)/Float(wordsList.count), animated: true)
+        
+        return progressView
+    }()
+    
     lazy var questionLabel: UILabel = {
         let label = UILabel()
         label.font = UIFont(name: "Arial", size: 25)
         label.textAlignment = .center
+        label.center = questionStack.center
+        label.numberOfLines = 0
         return label
     }()
     
@@ -130,9 +156,8 @@ class QuizeGameVC: UIViewController, QuizeGameVCProtocol  {
     }
     
     @objc func answerIsChoosen(sender: UIButton!) {
-        
         guard let choice = sender.titleLabel?.text else { return }
-        if CorrectAnswerCheck(answer: choice, englishWordsArray: englishWordsList).answerChecker() {
+        if CorrectAnswerCheck(answer: choice, englishWordsArray: correctAnswerVariants).answerChecker() {
             setGreenGradientOnAnswerButton(sender)
             numberOfQuestion += 1
             
@@ -144,14 +169,20 @@ class QuizeGameVC: UIViewController, QuizeGameVCProtocol  {
                 incorrectAnswerCount = 0
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: {
                     self.createNextQuetion()
+                    self.progressLabel.fadeTransition(0.3)
+                    self.progressLabel.text = "\(self.numberOfQuestion) / \(self.wordsList.count)"
+                    self.progressView.setProgress(Float(self.numberOfQuestion)/Float(self.wordsList.count), animated: true)
                 })
             } else {
-                //removeGradientOnButtons()
-                let vc = ResultPopUp()
-                vc.delegate = self
-                vc.popText.text = "\(score)/\(wordsList.count) correct answers"
-                vc.modalPresentationStyle = .overCurrentContext
-                self.present(vc, animated: false)
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: {
+                    
+                    self.progressView.setProgress(Float(self.numberOfQuestion)/Float(self.wordsList.count), animated: true)
+                    
+                    let vc = ResultPopUp()
+                    vc.delegate = self
+                    vc.popText.text = "\(self.score)/\(self.wordsList.count) correct answers"
+                    vc.modalPresentationStyle = .overCurrentContext
+                    self.present(vc, animated: false) })
             }
         } else {
             setRedGradientOnAnswerButton(sender)
@@ -196,6 +227,7 @@ class QuizeGameVC: UIViewController, QuizeGameVCProtocol  {
         setupConstraints()
         setGradientBackground()
         
+        let wordsList = getQuestionArray()
         createFirstQuestion(wordsList)
         
     }
@@ -207,9 +239,13 @@ extension QuizeGameVC {
         
         view.addSubview(backButton)
         view.addSubview(containerStack)
+        
         containerStack.addArrangedSubview(questionStack)
         containerStack.addArrangedSubview(answersStack)
         
+        questionStack.addArrangedSubview(progressLabel)
+        questionStack.addArrangedSubview(progressView)
+        questionStack.addArrangedSubview(questionLabel)
     }
     
     func setupConstraints() {
@@ -223,7 +259,12 @@ extension QuizeGameVC {
             make.left.right.equalTo(view).inset(20)
             make.bottom.equalTo(view).inset(40)
         }
-        
+        progressLabel.snp.makeConstraints { make in
+            make.left.equalTo(questionStack)
+        }
+        progressView.snp.makeConstraints { make in
+            make.top.equalTo(questionStack).inset(50)
+        }
     }
 }
 

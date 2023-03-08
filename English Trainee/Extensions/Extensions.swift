@@ -13,7 +13,7 @@ extension UIColor {
     static var unselectedItem: UIColor {
         #colorLiteral(red: 0.7733298966, green: 0.7733329849, blue: 0.7733329849, alpha: 1)
     }
-
+    
     static var appBackgroundColor: UIColor {
         #colorLiteral(red: 0.937254902, green: 0.9411764706, blue: 0.9568627451, alpha: 1)
     }
@@ -61,8 +61,37 @@ extension UIColor {
     }
     
     ///Selected Theme Backround Color
-    static var selectedThemeVCBackground: UIColor {
-        #colorLiteral(red: 0.937254902, green: 0.9411764706, blue: 0.9568627451, alpha: 1)
+    static var learnedWordsMarkLeftColor: UIColor {
+        #colorLiteral(red: 0.6588235294, green: 1, blue: 0.4705882353, alpha: 1)
+    }
+    
+    ///Selected Theme Backround Color
+    static var learnedWordsMarkRightColor: UIColor {
+        #colorLiteral(red: 0.4705882353, green: 1, blue: 0.8392156863, alpha: 1)
     }
     
 }
+
+extension UIView {
+    func fadeTransition(_ duration:CFTimeInterval) {
+        let animation = CATransition()
+        animation.timingFunction = CAMediaTimingFunction(name:
+                                                            CAMediaTimingFunctionName.easeInEaseOut)
+        animation.type = CATransitionType.fade
+        animation.duration = duration
+        layer.add(animation, forKey: CATransitionType.fade.rawValue)
+    }
+}
+
+extension UIImageView{
+    func setImageAnimation(_ image: UIImage?, animated: Bool = true) {
+        let duration = animated ? 0.3 : 0.0
+        UIView.transition(with: self, duration: duration, options: .transitionCrossDissolve, animations: {
+            self.image = image
+        }, completion: nil)
+    }
+}
+
+//let defaults = UserDefaults.standard
+//defaults.removeObject(forKey: "New Year")
+//defaults.synchronize()

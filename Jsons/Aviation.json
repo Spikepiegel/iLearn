@@ -163,7 +163,7 @@
   {
     "id": 21,
     "origin": "connecting flight",
-    "translation": "трансферный перелет, полет с пересадками",
+    "translation": "полет с пересадками",
     "transcription": "[kəˈnektɪŋ flaɪt]",
     "image": " ",
     "example": " "
@@ -243,7 +243,7 @@
   {
     "id": 31,
     "origin": "estimated time of arrival",
-    "translation": "ориентировочное время прибытия",
+    "translation": "время прибытия",
     "transcription": "[ˈestɪmeɪtɪd taɪm ɒv əˈraɪvəl]",
     "image": " ",
     "example": " "
@@ -251,7 +251,7 @@
   {
     "id": 32,
     "origin": "estimated time of departure",
-    "translation": "ориентировочное время отправления",
+    "translation": "время отправления",
     "transcription": "[əˈprɒksɪmɪt dɪˈpɑːʧə taɪm]",
     "image": " ",
     "example": " "
@@ -389,22 +389,6 @@
     "origin": "please fasten your seat belts",
     "translation": "пожалуйста, пристегните ремни",
     "transcription": "[pliːz fɑːsn jɔː siːt belts]",
-    "image": " ",
-    "example": " "
-  },
-  {
-    "id": 50,
-    "origin": "please fill out these forms for Immigration and Customs",
-    "translation": "пожалуйста, заполните формы для иммиграционной и таможенной полиции.",
-    "transcription": "[pliːz fɪl aʊt ðiːz fɔːmz fɔː ɪmɪˈgreɪʃn ænd ˈkʌstəmz]",
-    "image": " ",
-    "example": " "
-  },
-  {
-    "id": 51,
-    "origin": "please return your seats to the upright position",
-    "translation": "пожалуйста, установите сидения в вертикальное положение",
-    "transcription": "[pliːz rɪˈtɜːn jɔː siːts tuː ðiː ˈʌpraɪt pəˈzɪʃn]",
     "image": " ",
     "example": " "
   },

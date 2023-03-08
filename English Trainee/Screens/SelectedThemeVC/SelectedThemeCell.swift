@@ -7,37 +7,52 @@
 
 import UIKit
 import SnapKit
+import AVFoundation
+
 
 final class SelectedThemeCell: UITableViewCell {
     
     static let identifier = "SelectedThemeCell"
-    
+    var soundDelegate: SelectedThemeVCProtocol?
     ///Word in English
     lazy var wordOriginLabel: UILabel = {
         let label = UILabel()
         label.font = UIFont(name: "Hoefler Text", size: 20)
+        label.font = UIFont.boldSystemFont(ofSize: 20)
         return label
     }()
     
     ///Transcription of the word
     lazy var wordTranscriptionLabel: UILabel = {
         let label = UILabel()
-        label.font = UIFont(name: "Arial", size: 15)
+        label.font = UIFont(name: "Arial", size: 18)
         return label
     }()
     ///Word in Russian
     lazy var wordTranslationLabel: UILabel = {
         let label = UILabel()
         label.font = UIFont(name: "Hoefler Text", size: 20)
-        label.isHidden = true
         return label
     }()
+    
+    ///Sound word button
+    lazy var soundEnglishWordButton: UIButton = {
+        let button = UIButton()
+        button.setImage(UIImage(named: "sound"), for: .normal)
+        button.addTarget(self, action: #selector(soundEnglishWord), for: .touchUpInside)
+        return button
+    }()
+    var synthesizer = AVSpeechSynthesizer()
+
+    @objc func soundEnglishWord(sender: UIButton!) {
+        soundDelegate?.soundWord(wordOriginLabel.text!)
+    }
     
     ///Icon which mark the cell with word, which user has learned
     lazy var learnedWordImage: UIImageView = {
         let image = UIImageView()
-        image.image = UIImage(named: "done")
-        image.isHidden = true
+        image.image = UIImage(named: "unDone")
+        //image.isHidden = true
         return image
     }()
     
@@ -56,12 +71,9 @@ final class SelectedThemeCell: UITableViewCell {
     func update(_ word: Word) {
         wordOriginLabel.text = word.origin
         wordTranscriptionLabel.text = word.transcription
-        wordTranslationLabel.text = word.translation
-
-        learnedWordImage.isHidden = !(word.isLearned ?? false)
-        wordTranslationLabel.isHidden = !(word.translationIsHidden ?? false)
-        
+        wordTranslationLabel.text = nil
     }
+    
 }
 
 extension SelectedThemeCell {
@@ -73,28 +85,37 @@ extension SelectedThemeCell {
         contentView.addSubview(wordTranscriptionLabel)
         contentView.addSubview(wordTranslationLabel)
         contentView.addSubview(learnedWordImage)
+        contentView.addSubview(soundEnglishWordButton)
     }
     
     func setupConstraints() {
         
         
         wordOriginLabel.snp.makeConstraints { make in
-            make.top.equalTo(contentView).inset(20)
+            make.top.equalTo(contentView).inset(15)
             make.left.equalTo(contentView).inset(20)
+            make.right.equalTo(contentView).inset(80)
         }
         wordTranscriptionLabel.snp.makeConstraints { make in
-            make.top.equalTo(wordOriginLabel.snp_bottomMargin).offset(30)
+            make.top.equalTo(wordOriginLabel.snp_bottomMargin).offset(25)
             make.left.equalTo(contentView).inset(20)
+            make.right.equalTo(contentView).inset(80)
         }
         wordTranslationLabel.snp.makeConstraints { make in
-            make.top.equalTo(wordTranscriptionLabel.snp_bottomMargin).offset(30)
+            make.top.equalTo(wordTranscriptionLabel.snp_bottomMargin).offset(20)
             make.left.equalTo(contentView).inset(20)
         }
         learnedWordImage.snp.makeConstraints { make in
-            make.top.equalTo(contentView.snp_topMargin).inset(5)
-            make.left.equalTo(contentView.snp_rightMargin).inset(30)
+            make.top.equalTo(contentView).inset(15)
             make.right.equalTo(contentView.snp_rightMargin).inset(5)
-            make.bottom.equalTo(contentView.snp_topMargin).inset(30)
+        }
+        soundEnglishWordButton.snp.makeConstraints { make in
+            make.top.equalTo(wordTranscriptionLabel.snp_topMargin)
+            //make.left.equalTo(contentView.snp_rightMargin).inset(40)
+            make.right.equalTo(contentView.snp_rightMargin).inset(5)
+            make.bottom.equalTo(wordTranscriptionLabel.snp_bottomMargin)
         }
     }
 }
+
+

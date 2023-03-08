@@ -435,7 +435,7 @@
   {
     "id": 55,
     "origin": "print",
-    "translation": "печать (печатная продукция), отпечаток",
+    "translation": "печать (печатная продукция)",
     "transcription": "[prɪnt]",
     "image": " ",
     "example": "  "
@@ -443,7 +443,7 @@
   {
     "id": 56,
     "origin": "procedure",
-    "translation": "процедура (порядок выполнения действий)",
+    "translation": "процедура",
     "transcription": "[prəˈsiːʤə]",
     "image": " ",
     "example": "  "
@@ -523,7 +523,7 @@
   {
     "id": 66,
     "origin": "routine",
-    "translation": "заведенный порядок (определенная последовательность действий)",
+    "translation": "заведенный порядок",
     "transcription": "[ruːˈtiːn]",
     "image": " ",
     "example": "  "

@@ -18,8 +18,8 @@
   },
   {
     "id": 3,
-    "origin": "acute respiratory viral disease",
-    "translation": "острое респираторное вирусное заболевание",
+    "origin": "acute viral disease",
+    "translation": "острое вирусное заболевание",
     "transcription": "[əˈkjuːt rɪˈspɪrət(ə)ri ˈvaɪərəl dɪˈziːz]",
     "image": "  ",
     "example": "  "
@@ -35,7 +35,7 @@
   {
     "id": 5,
     "origin": "ailment",
-    "translation": "недомогание, не очень серьезная болезнь",
+    "translation": "недомогание",
     "transcription": "[ˈeɪlmənt]",
     "image": "  ",
     "example": "  "
@@ -347,7 +347,7 @@
   {
     "id": 44,
     "origin": "disease",
-    "translation": "болезнь, которая имеет название и симптоматику",
+    "translation": "болезнь",
     "transcription": "[dɪˈziːz]",
     "image": " ",
     "example": "  "

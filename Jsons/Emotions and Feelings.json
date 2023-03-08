@@ -3,7 +3,7 @@
   {
     "id": 1,
     "origin": "aggressive",
-    "translation": "агрессивный, нападающий, захватнический",
+    "translation": "агрессивный, нападающий",
     "transcription": "[ə'gresıv]",
     "image": "  ",
     "example": "  "
@@ -35,7 +35,7 @@
   {
     "id": 5,
     "origin": "amazing",
-    "translation": "изумительный, удивительный, поразительный",
+    "translation": "удивительный, поразительный",
     "transcription": "[ə'meızıŋ]",
     "image": "  ",
     "example": "  "
@@ -51,7 +51,7 @@
   {
     "id": 7,
     "origin": "annoyed",
-    "translation": "недовольный, раздосадованный, раздражённый",
+    "translation": "недовольный, раздражённый",
     "transcription": "[ə'nɔıd]",
     "image": "  ",
     "example": "  "
@@ -251,7 +251,7 @@
   {
     "id": 32,
     "origin": "lonely",
-    "translation": "одинокий, страдающий от одиночества",
+    "translation": "одинокий",
     "transcription": "['ləunlı]",
     "image": " ",
     "example": "  "
@@ -275,7 +275,7 @@
   {
     "id": 35,
     "origin": "mournful",
-    "translation": "унылый, угрюмый, печальный, скорбный",
+    "translation": "унылый, угрюмый, печальный",
     "transcription": "['mɔ:nful]",
     "image": " ",
     "example": "  "
@@ -299,7 +299,7 @@
   {
     "id": 38,
     "origin": "outrageous",
-    "translation": "возмутительный, оскорбительный, скандальный",
+    "translation": "оскорбительный, скандальный",
     "transcription": "[aut'reıʤəs]",
     "image": " ",
     "example": "  "
@@ -371,7 +371,7 @@
   {
     "id": 47,
     "origin": "thoughtful",
-    "translation": "задумчивый, созерцательный, погружённый в размышления ",
+    "translation": "задумчивый, созерцательный",
     "transcription": "[θɔ:tful]",
     "image": " ",
     "example": "  "

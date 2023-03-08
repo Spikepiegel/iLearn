@@ -307,7 +307,7 @@
   {
     "id": 39,
     "origin": "limited liability company",
-    "translation": "общество с ограниченной ответственностью",
+    "translation": "общество с ограниченной ответ-стью",
     "transcription": "[ˈlɪmɪtɪd laɪəˈbɪlɪtɪ ˈkʌmpənɪ]",
     "image": " ",
     "example": "  "
@@ -381,14 +381,6 @@
     "origin": "mutual benefit",
     "translation": "взаимная выгода",
     "transcription": "[ˈmjuːʧʊəl ˈbenɪfɪt]",
-    "image": " ",
-    "example": "  "
-  },
-  {
-    "id": 49,
-    "origin": "negotiations between the customer and the supplier",
-    "translation": "переговоры между заказчиком и поставщиком",
-    "transcription": "[nɪgəʊʃɪˈeɪʃnz bɪˈtwiːn ðiː ˈkʌstəmə ænd ðiː səˈplaɪə]",
     "image": " ",
     "example": "  "
   },

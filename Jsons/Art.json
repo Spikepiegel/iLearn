@@ -1,716 +1,565 @@
 {
-"wordInformation":[
+    "wordInformation":[
   {
     "id": 1,
-    "origin": "academy of Arts",
-    "translation": "[əˈkædəmɪ ɒv ɑːts]",
-    "transcription": "академия художеств",
+    "origin": "architecture",
+    "translation": "архитектура",
+    "transcription": "[ˈɑːkɪtekʧə]",
     "image": " ",
     "example": " "
   },
   {
     "id": 2,
-    "origin": "acting",
-    "translation": "[ˈæktɪŋ]",
-    "transcription": "актерская игра",
+    "origin": "a masterpiece",
+    "translation": "шедевр",
+    "transcription": "[ɑ ˈmɑːstəpiːs]",
     "image": " ",
     "example": " "
   },
   {
     "id": 3,
-    "origin": "ancient art",
-    "translation": "[ˈeɪnʃnt ɑːt]",
-    "transcription": "античное искусство",
+    "origin": "a work of art",
+    "translation": "произведение искусства",
+    "transcription": "[ɑ wɜːk ɒv ɑːt]",
     "image": " ",
     "example": " "
   },
   {
     "id": 4,
-    "origin": "applied art",
-    "translation": "[əˈplaɪd ɑːt]",
-    "transcription": "прикладное искусство",
+    "origin": "academy of arts",
+    "translation": "академия художеств",
+    "transcription": "[əˈkædəmɪ ɒv ɑːts]",
     "image": " ",
     "example": " "
   },
   {
     "id": 5,
-    "origin": "art exhibition",
-    "translation": "[ɑːt eksɪˈbɪʃn]",
-    "transcription": "художественная выставка",
+    "origin": "acting",
+    "translation": "актерская игра",
+    "transcription": "[ˈæktɪŋ]",
     "image": " ",
     "example": " "
   },
   {
     "id": 6,
-    "origin": "art Gallery",
-    "translation": "[ɑːt ˈgælərɪ]",
-    "transcription": "картинная галерея",
+    "origin": "ancient art",
+    "translation": "античное искусство",
+    "transcription": "[ˈeɪnʃnt ɑːt]",
     "image": " ",
     "example": " "
   },
   {
     "id": 7,
-    "origin": "artistic casting",
-    "translation": "[ɑːˈtɪstɪk ˈkɑːstɪŋ]",
-    "transcription": "художественное литье",
+    "origin": "applied art",
+    "translation": "прикладное искусство",
+    "transcription": "[əˈplaɪd ɑːt]",
     "image": " ",
     "example": " "
   },
   {
     "id": 8,
-    "origin": "author",
-    "translation": "[ˈɔːθə]",
-    "transcription": "автор",
+    "origin": "art exhibition",
+    "translation": "художественная выставка",
+    "transcription": "[ɑːt eksɪˈbɪʃn]",
     "image": " ",
     "example": " "
   },
   {
     "id": 9,
-    "origin": "ballet",
-    "translation": "[ˈbæleɪ]",
-    "transcription": "балет",
+    "origin": "art gallery",
+    "translation": "картинная галерея",
+    "transcription": "[ɑːt ˈgælərɪ]",
     "image": " ",
     "example": " "
   },
   {
     "id": 10,
-    "origin": "Ballet School",
-    "translation": "[ˈbæleɪ skuːl]",
-    "transcription": "балетная школа",
+    "origin": "artistic casting",
+    "translation": "художественное литье",
+    "transcription": "[ɑːˈtɪstɪk ˈkɑːstɪŋ]",
     "image": " ",
     "example": " "
   },
   {
     "id": 11,
-    "origin": "blaring",
-    "translation": "[ bleər ]",
-    "transcription": "кричащий",
+    "origin": "author",
+    "translation": "автор",
+    "transcription": "[ˈɔːθə]",
     "image": " ",
     "example": " "
   },
   {
     "id": 12,
-    "origin": "brush",
-    "translation": "[brʌʃ]",
-    "transcription": "кисть",
+    "origin": "ballet",
+    "translation": "балет",
+    "transcription": "[ˈbæleɪ]",
     "image": " ",
     "example": " "
   },
   {
     "id": 13,
-    "origin": "canvas",
-    "translation": "[ˈkænvəs]",
-    "transcription": "холст",
+    "origin": "ballet school",
+    "translation": "балетная школа",
+    "transcription": "[ˈbæleɪ skuːl]",
     "image": " ",
     "example": " "
   },
   {
     "id": 14,
-    "origin": "cartoon",
-    "translation": "[kɑːˈtuːn]",
-    "transcription": "шарж",
+    "origin": "brush",
+    "translation": "кисть",
+    "transcription": "[brʌʃ]",
     "image": " ",
     "example": " "
   },
   {
     "id": 15,
-    "origin": "carving",
-    "translation": "[ˈkɑːvɪŋ]",
-    "transcription": "резьба",
+    "origin": "canvas",
+    "translation": "холст",
+    "transcription": "[ˈkænvəs]",
     "image": " ",
     "example": " "
   },
   {
     "id": 16,
-    "origin": "charcoal pencil",
-    "translation": "[ˈʧɑːkəʊl pensl]",
-    "transcription": "угольный карандаш",
+    "origin": "cartoon",
+    "translation": "шарж",
+    "transcription": "[kɑːˈtuːn]",
     "image": " ",
     "example": " "
   },
   {
     "id": 17,
-    "origin": "choreography",
-    "translation": "[kɒrɪˈɒgrəfɪ]",
-    "transcription": "хореография",
+    "origin": "carving",
+    "translation": "резьба",
+    "transcription": "[ˈkɑːvɪŋ]",
     "image": " ",
     "example": " "
   },
   {
     "id": 18,
-    "origin": "classical art",
-    "translation": "[ˈklæsɪkəl ɑːt]",
-    "transcription": "классическое искусство",
+    "origin": "charcoal pencil",
+    "translation": "угольный карандаш",
+    "transcription": "[ˈʧɑːkəʊl pensl]",
     "image": " ",
     "example": " "
   },
   {
     "id": 19,
-    "origin": "contemporary art",
-    "translation": "[kənˈtempərərɪ ɑːt]",
-    "transcription": "современное искусство",
+    "origin": "choreography",
+    "translation": "хореография",
+    "transcription": "[kɒrɪˈɒgrəfɪ]",
     "image": " ",
     "example": " "
   },
   {
     "id": 20,
-    "origin": "contemporary artists",
-    "translation": "[kənˈtempərərɪ ˈɑːtɪsts]",
-    "transcription": "современные художники",
+    "origin": "classical art",
+    "translation": "классическое искусство",
+    "transcription": "[ˈklæsɪkəl ɑːt]",
     "image": " ",
     "example": " "
   },
   {
     "id": 21,
-    "origin": "contrasting tone",
-    "translation": "[ kənˈtrɑːstɪŋ təʊn ]",
-    "transcription": "контрастные оттенки",
+    "origin": "contemporary art",
+    "translation": "современное искусство",
+    "transcription": "[kənˈtempərərɪ ɑːt]",
     "image": " ",
     "example": " "
   },
   {
     "id": 22,
-    "origin": "cool",
-    "translation": "[ kuːl ]",
-    "transcription": "прохладно, свежо",
+    "origin": "contemporary artists",
+    "translation": "современные художники",
+    "transcription": "[kənˈtempərərɪ ˈɑːtɪsts]",
     "image": " ",
     "example": " "
   },
   {
     "id": 23,
     "origin": "creative evening",
-    "translation": "[krɪˈeɪtɪv ˈiːvnɪŋ]",
-    "transcription": "творческий вечер",
+    "translation": "творческий вечер",
+    "transcription": "[krɪˈeɪtɪv ˈiːvnɪŋ]",
     "image": " ",
     "example": " "
   },
   {
     "id": 24,
     "origin": "direction",
-    "translation": "[dɪˈrekʃn]",
-    "transcription": "направление",
+    "translation": "направление",
+    "transcription": "[dɪˈrekʃn]",
     "image": " ",
     "example": " "
   },
   {
     "id": 25,
     "origin": "easel",
-    "translation": "[iːzl]",
-    "transcription": "мольберт",
+    "translation": "мольберт",
+    "transcription": "[iːzl]",
     "image": " ",
     "example": " "
   },
   {
     "id": 26,
     "origin": "easel painting",
-    "translation": "[iːzl ˈpeɪntɪŋ]",
-    "transcription": "станковая живопись",
+    "translation": "станковая живопись",
+    "transcription": "[iːzl ˈpeɪntɪŋ]",
     "image": " ",
     "example": " "
   },
   {
     "id": 27,
     "origin": "embroidery",
-    "translation": "[ɪmˈbrɔɪdərɪ]",
-    "transcription": "вышивка, рукоделие",
+    "translation": "вышивка, рукоделие",
+    "transcription": "[ɪmˈbrɔɪdərɪ]",
     "image": " ",
     "example": " "
   },
   {
     "id": 28,
     "origin": "exhibition hall",
-    "translation": "[eksɪˈbɪʃn hɔːl]",
-    "transcription": "выставочный зал",
+    "translation": "выставочный зал",
+    "transcription": "[eksɪˈbɪʃn hɔːl]",
     "image": " ",
     "example": " "
   },
   {
     "id": 29,
     "origin": "folk art",
-    "translation": "[fəʊk ɑːt]",
-    "transcription": "народное искусство",
+    "translation": "народное искусство",
+    "transcription": "[fəʊk ɑːt]",
     "image": " ",
     "example": " "
   },
   {
     "id": 30,
     "origin": "fresco",
-    "translation": "[ˈfreskəʊ]",
-    "transcription": "фреска",
+    "translation": "фреска",
+    "transcription": "[ˈfreskəʊ]",
     "image": " ",
     "example": " "
   },
   {
     "id": 31,
     "origin": "gouache",
-    "translation": "[gʊˈɑːʃ]",
-    "transcription": "гуашь",
+    "translation": "гуашь",
+    "transcription": "[gʊˈɑːʃ]",
     "image": " ",
     "example": " "
   },
   {
     "id": 32,
-    "origin": "hue",
-    "translation": "[ hjuː]",
-    "transcription": "оттенок",
+    "origin": "iconography",
+    "translation": "иконопись",
+    "transcription": "[aɪkəˈnɒgrəfɪ]",
     "image": " ",
     "example": " "
   },
   {
     "id": 33,
-    "origin": "iconography",
-    "translation": "[aɪkəˈnɒgrəfɪ]",
-    "transcription": "иконопись",
+    "origin": "landscape",
+    "translation": "пейзаж",
+    "transcription": "[ˈlændskeɪp]",
     "image": " ",
     "example": " "
   },
   {
     "id": 34,
-    "origin": "landscape",
-    "translation": "[ˈlændskeɪp]",
-    "transcription": "пейзаж",
+    "origin": "landscape painter",
+    "translation": "пейзажист",
+    "transcription": "[ˈlændskeɪp ˈpeɪntə]",
     "image": " ",
     "example": " "
   },
   {
     "id": 35,
-    "origin": "landscape painter",
-    "translation": "[ˈlændskeɪp ˈpeɪntə]",
-    "transcription": "пейзажист",
+    "origin": "master",
+    "translation": "мастер",
+    "transcription": "[ˈmɑːstə]",
     "image": " ",
     "example": " "
   },
   {
     "id": 36,
-    "origin": "light palette",
-    "translation": "[ laɪt ˈpæl.ət ]",
-    "transcription": "легкая палитра",
+    "origin": "medieval art",
+    "translation": "средневековое искусство",
+    "transcription": "[medɪˈiːvəl ɑːt]",
     "image": " ",
     "example": " "
   },
   {
     "id": 37,
-    "origin": "master",
-    "translation": "[ˈmɑːstə]",
-    "transcription": "мастер",
+    "origin": "mosaic",
+    "translation": "мозаика",
+    "transcription": "[məʊˈzeɪɪk]",
     "image": " ",
     "example": " "
   },
   {
     "id": 38,
-    "origin": "masterpiece",
-    "translation": "[ ˈmɑːstəpiːs]",
-    "transcription": "шедевр",
+    "origin": "music",
+    "translation": "музыка",
+    "transcription": "[ˈmjuːzɪk]",
     "image": " ",
     "example": " "
   },
   {
     "id": 39,
-    "origin": "medieval art",
-    "translation": "[medɪˈiːvəl ɑːt]",
-    "transcription": "средневековое искусство",
+    "origin": "music school",
+    "translation": "музыкальная школа",
+    "transcription": "[ˈmjuːzɪk skuːl]",
     "image": " ",
     "example": " "
   },
   {
     "id": 40,
-    "origin": "mosaic",
-    "translation": "[məʊˈzeɪɪk]",
-    "transcription": "мозаика",
+    "origin": "oil paints",
+    "translation": "масляные краски",
+    "transcription": "[ɔɪl paints]",
     "image": " ",
     "example": " "
   },
   {
     "id": 41,
-    "origin": "music",
-    "translation": "[ˈmjuːzɪk]",
-    "transcription": "музыка",
+    "origin": "opera",
+    "translation": "опера",
+    "transcription": "[ˈɒpərə]",
     "image": " ",
     "example": " "
   },
   {
     "id": 42,
-    "origin": "music School",
-    "translation": "[ˈmjuːzɪk skuːl]",
-    "transcription": "музыкальная школа",
+    "origin": "painting",
+    "translation": "живопись",
+    "transcription": "[ˈpeɪntɪŋ]",
     "image": " ",
     "example": " "
   },
   {
     "id": 43,
-    "origin": "oil paints",
-    "translation": "[ɔɪl paints]",
-    "transcription": "масляные краски",
+    "origin": "pastel",
+    "translation": "пастель",
+    "transcription": "[ˈpæstl]",
     "image": " ",
     "example": " "
   },
   {
     "id": 44,
-    "origin": "opera",
-    "translation": "[ˈɒpərə]",
-    "transcription": "опера",
+    "origin": "performance",
+    "translation": "спектакль",
+    "transcription": "[pəˈfɔːməns]",
     "image": " ",
     "example": " "
   },
   {
     "id": 45,
-    "origin": "painting",
-    "translation": "[ˈpeɪntɪŋ]",
-    "transcription": "живопись",
+    "origin": "performance",
+    "translation": "выступление",
+    "transcription": "[pəˈfɔːməns]",
     "image": " ",
     "example": " "
   },
   {
     "id": 46,
-    "origin": "pastel",
-    "translation": "[ˈpæstl]",
-    "transcription": "пастель",
+    "origin": "philharmonic hall",
+    "translation": "филармония",
+    "transcription": "[fɪlɑːˈmɔnɪk hɔːl]",
     "image": " ",
     "example": " "
   },
   {
     "id": 47,
-    "origin": "performance",
-    "translation": "[pəˈfɔːməns]",
-    "transcription": "спектакль",
+    "origin": "photo",
+    "translation": "фотография",
+    "transcription": "[ˈfəʊtəʊ]",
     "image": " ",
     "example": " "
   },
   {
     "id": 48,
-    "origin": "performance",
-    "translation": "[pəˈfɔːməns]",
-    "transcription": "выступление",
+    "origin": "picture",
+    "translation": "картина",
+    "transcription": "[ˈpɪkʧə]",
     "image": " ",
     "example": " "
   },
   {
     "id": 49,
-    "origin": "philharmonic Hall",
-    "translation": "[fɪlɑːˈmɔnɪk hɔːl]",
-    "transcription": "филармония",
+    "origin": "poetry",
+    "translation": "поэзия",
+    "transcription": "[ˈpəʊɪtrɪ]",
     "image": " ",
     "example": " "
   },
   {
     "id": 50,
-    "origin": "photo",
-    "translation": "[ˈfəʊtəʊ]",
-    "transcription": "фотография",
+    "origin": "pop art",
+    "translation": "поп-арт",
+    "transcription": "[pɒp ɑːt]",
     "image": " ",
     "example": " "
   },
   {
     "id": 51,
-    "origin": "picture",
-    "translation": "[ˈpɪkʧə]",
-    "transcription": "картина",
+    "origin": "portrait",
+    "translation": "портрет",
+    "transcription": "[ˈpɔːtrɪt]",
     "image": " ",
     "example": " "
   },
   {
     "id": 52,
-    "origin": "poetry",
-    "translation": "[ˈpəʊɪtrɪ]",
-    "transcription": "поэзия",
+    "origin": "portrait painter",
+    "translation": "портретист",
+    "transcription": "[ˈpɔːtrɪt ˈpeɪntə]",
     "image": " ",
     "example": " "
   },
   {
     "id": 53,
-    "origin": "pop art",
-    "translation": "[pɒp ɑːt]",
-    "transcription": "поп-арт",
+    "origin": "renaissance era",
+    "translation": "эпоха возрождения",
+    "transcription": "[rɪˈneɪs(ə)ns ˈɪərə]",
     "image": " ",
     "example": " "
   },
   {
     "id": 54,
-    "origin": "portrait",
-    "translation": "[ˈpɔːtrɪt]",
-    "transcription": "портрет",
+    "origin": "scene",
+    "translation": "сцена",
+    "transcription": "[siːn]",
     "image": " ",
     "example": " "
   },
   {
     "id": 55,
-    "origin": "portrait painter",
-    "translation": "[ˈpɔːtrɪt ˈpeɪntə]",
-    "transcription": "портретист",
+    "origin": "sculpture",
+    "translation": "скульптура",
+    "transcription": "[ˈskʌlpʧə]",
     "image": " ",
     "example": " "
   },
   {
     "id": 56,
-    "origin": "predominant colours",
-    "translation": "[ prɪˈdɒm.ɪ.nənt ˈkʌl.ər ]",
-    "transcription": "превалирующие цвета",
+    "origin": "self - portrait",
+    "translation": "автопортрет",
+    "transcription": "[self - ˈpɔːtrɪt]",
     "image": " ",
     "example": " "
   },
   {
     "id": 57,
-    "origin": "primary colour",
-    "translation": "[ ˈpraɪməri ˈkʌlə(r) ]",
-    "transcription": "основной цвет",
+    "origin": "stained glass",
+    "translation": "витраж",
+    "transcription": "[steɪnd glɑːs]",
     "image": " ",
     "example": " "
   },
   {
     "id": 58,
-    "origin": "renaissance Era",
-    "translation": "[rɪˈneɪs(ə)ns ˈɪərə]",
-    "transcription": "эпоха возрождения",
+    "origin": "statue",
+    "translation": "статуя",
+    "transcription": "[ˈstæʧuː]",
     "image": " ",
     "example": " "
   },
   {
     "id": 59,
-    "origin": "rich",
-    "translation": "[ rɪtʃ ]",
-    "transcription": "яркий",
+    "origin": "statue",
+    "translation": "статуя",
+    "transcription": "[ˈstæʧuː]",
     "image": " ",
     "example": " "
   },
   {
     "id": 60,
-    "origin": "saturated",
-    "translation": "[ˈsæt.jʊ.reɪ.tɪd ]",
-    "transcription": "насыщенный, глубокий",
+    "origin": "still-life",
+    "translation": "натюрморт",
+    "transcription": "[stɪl-laɪf]",
     "image": " ",
     "example": " "
   },
   {
     "id": 61,
-    "origin": "scene",
-    "translation": "[siːn]",
-    "transcription": "сцена",
+    "origin": "stucco",
+    "translation": "лепнина",
+    "transcription": "[ˈstʌkəʊ]",
     "image": " ",
     "example": " "
   },
   {
     "id": 62,
-    "origin": "sculpture",
-    "translation": "[ˈskʌlpʧə]",
-    "transcription": "скульптура",
+    "origin": "style",
+    "translation": "стиль",
+    "transcription": "[staɪl]",
     "image": " ",
     "example": " "
   },
   {
     "id": 63,
-    "origin": "secondary colour",
-    "translation": "[ ˈsekəndri kʌlə(r) ]",
-    "transcription": "второстепенный цвет",
+    "origin": "the art of graphics",
+    "translation": "искусство графики",
+    "transcription": "[ðiː ɑːt ɒv ˈgræfɪks]",
     "image": " ",
     "example": " "
   },
   {
     "id": 64,
-    "origin": "self - portrait",
-    "translation": "[self - ˈpɔːtrɪt]",
-    "transcription": "автопортрет",
+    "origin": "the baroque era",
+    "translation": "эпоха барокко",
+    "transcription": "[ðiː bəˈrɒk ˈɪərə]",
     "image": " ",
     "example": " "
   },
   {
     "id": 65,
-    "origin": "shade",
-    "translation": "[ ʃeɪd ]",
-    "transcription": "тень",
+    "origin": "the play",
+    "translation": "пьеса",
+    "transcription": "[ðiː pleɪ]",
     "image": " ",
     "example": " "
   },
   {
     "id": 66,
-    "origin": "sombre",
-    "translation": "[ˈsɒm.bər ]",
-    "transcription": "темный, мрачный",
+    "origin": "theatre",
+    "translation": "театр",
+    "transcription": "[ˈθɪətə]",
     "image": " ",
     "example": " "
   },
   {
     "id": 67,
-    "origin": "stained glass",
-    "translation": "[steɪnd glɑːs]",
-    "transcription": "витраж",
+    "origin": "thumbnail",
+    "translation": "миниатюра",
+    "transcription": "[ˈθʌmniːl]",
     "image": " ",
     "example": " "
   },
   {
     "id": 68,
-    "origin": "statue",
-    "translation": "[ˈstæʧuː]",
-    "transcription": "статуя",
+    "origin": "visual art",
+    "translation": "изобразительное искусство",
+    "transcription": "[ˈvɪʒʊəl ɑːt]",
     "image": " ",
     "example": " "
   },
   {
     "id": 69,
-    "origin": "statue",
-    "translation": "[ˈstæʧuː]",
-    "transcription": "статуя",
+    "origin": "wall painting",
+    "translation": "настенная живопись",
+    "transcription": "[wɔːl ˈpeɪntɪŋ]",
     "image": " ",
     "example": " "
   },
   {
     "id": 70,
-    "origin": "still-life",
-    "translation": "[stɪl-laɪf]",
-    "transcription": "натюрморт",
-    "image": " ",
-    "example": " "
-  },
-  {
-    "id": 71,
-    "origin": "stucco",
-    "translation": "[ˈstʌkəʊ]",
-    "transcription": "лепнина",
-    "image": " ",
-    "example": " "
-  },
-  {
-    "id": 72,
-    "origin": "style",
-    "translation": "[staɪl]",
-    "transcription": "стиль",
-    "image": " ",
-    "example": " "
-  },
-  {
-    "id": 73,
-    "origin": "subdued",
-    "translation": "[ səbˈdjuːd ]",
-    "transcription": "неяркий, приглушенный",
-    "image": " ",
-    "example": " "
-  },
-  {
-    "id": 74,
-    "origin": "the art of graphics",
-    "translation": "[ðiː ɑːt ɒv ˈgræfɪks]",
-    "transcription": "искусство графики",
-    "image": " ",
-    "example": " "
-  },
-  {
-    "id": 75,
-    "origin": "the Baroque Era",
-    "translation": "[ðiː bəˈrɒk ˈɪərə]",
-    "transcription": "эпоха барокко",
-    "image": " ",
-    "example": " "
-  },
-  {
-    "id": 76,
-    "origin": "the play",
-    "translation": "[ðiː pleɪ]",
-    "transcription": "пьеса",
-    "image": " ",
-    "example": " "
-  },
-  {
-    "id": 77,
-    "origin": "the play of light and shade",
-    "translation": "[ ðə pleɪ əv laɪt ənd ʃeɪd ]",
-    "transcription": "игра света и тени",
-    "image": " ",
-    "example": " "
-  },
-  {
-    "id": 78,
-    "origin": "theatre",
-    "translation": "[ˈθɪətə]",
-    "transcription": "театр",
-    "image": " ",
-    "example": " "
-  },
-  {
-    "id": 79,
-    "origin": "thumbnail",
-    "translation": "[ˈθʌmniːl]",
-    "transcription": "миниатюра",
-    "image": " ",
-    "example": " "
-  },
-  {
-    "id": 80,
-    "origin": "tinge",
-    "translation": "[ tɪndʒ ]",
-    "transcription": "легкий окрас",
-    "image": " ",
-    "example": " "
-  },
-  {
-    "id": 81,
-    "origin": "tint",
-    "translation": "[ tɪnt ]",
-    "transcription": "тон",
-    "image": " ",
-    "example": " "
-  },
-  {
-    "id": 82,
-    "origin": "to be flooded with sun",
-    "translation": "[ tə bi ˈflʌd.ɪd wɪð sʌn ]",
-    "transcription": "освещенный солнцем",
-    "image": " ",
-    "example": " "
-  },
-  {
-    "id": 83,
-    "origin": "tone",
-    "translation": "[ təʊn ]",
-    "transcription": "оттенок",
-    "image": " ",
-    "example": " "
-  },
-  {
-    "id": 84,
-    "origin": "visual art",
-    "translation": "[ˈvɪʒʊəl ɑːt]",
-    "transcription": "изобразительное искусство",
-    "image": " ",
-    "example": " "
-  },
-  {
-    "id": 85,
-    "origin": "vital",
-    "translation": "[ˈvaɪtl ]",
-    "transcription": "яркий, живой",
-    "image": " ",
-    "example": " "
-  },
-  {
-    "id": 86,
-    "origin": "wall painting",
-    "translation": "[wɔːl ˈpeɪntɪŋ]",
-    "transcription": "настенная живопись",
-    "image": " ",
-    "example": " "
-  },
-  {
-    "id": 87,
-    "origin": "warm",
-    "translation": "[ wɔːm ]",
-    "transcription": "теплый",
-    "image": " ",
-    "example": " "
-  },
-  {
-    "id": 88,
     "origin": "watercolour",
-    "translation": "[ˈwɔːtəkʌlə]",
-    "transcription": "акварель",
-    "image": " ",
-    "example": " "
-  },
-  {
-    "id": 89,
-    "origin": "work of art",
-    "translation": "[ wɜːk ɒv ɑːt]",
-    "transcription": "произведение искусства",
+    "translation": "акварель",
+    "transcription": "[ˈwɔːtəkʌlə]",
     "image": " ",
     "example": " "
   }
 ]
 }
+

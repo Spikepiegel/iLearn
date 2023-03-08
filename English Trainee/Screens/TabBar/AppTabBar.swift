@@ -20,7 +20,7 @@ final class AppTabBar: UITabBarController {
     //MARK: TabBar Setup Settings
     private func setupTabBar() { //categories
         viewControllers = [
-            setupVCs(viewController: GameVC(),
+            setupVCs(viewController: Statistics(),
                      title: "Statistics",
                      image: UIImage(named: "statistics")),
             setupVCs(viewController: CategoriesVC(),

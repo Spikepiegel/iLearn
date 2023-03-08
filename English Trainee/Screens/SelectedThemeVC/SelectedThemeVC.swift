@@ -7,9 +7,11 @@
 
 import UIKit
 import SnapKit
+import AVFoundation
 
 protocol SelectedThemeVCProtocol {
     func openQuizeGameVC(_ gameType: String)
+    func soundWord(_ soundedWord: String)
 }
 
 /// VC with selected category
@@ -26,6 +28,8 @@ class SelectedThemeVC: UIViewController {
     
     ///Accepts the name of theme which user has selected
     var selectedTheme: String
+        
+    var synthesizer = AVSpeechSynthesizer()
     
     lazy var wordsTable: UITableView = {
         let tableView = UITableView(frame: .zero, style: .grouped)
@@ -35,10 +39,12 @@ class SelectedThemeVC: UIViewController {
         headerView.delegate = self  //delegate to open game screen
         tableView.tableHeaderView = headerView
         headerView.themeLabel.text = selectedTheme
+        header.updateTheme(theme: selectedTheme)
         headerView.progressLabel.text = "Progress     \(getLearnedWordsCount()) / \(loadWords().count)"
         tableView.layer.masksToBounds = true
         tableView.delegate = self
         tableView.dataSource = self
+        
         
         return tableView
     }()
@@ -76,14 +82,12 @@ class SelectedThemeVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let vc = SelectedThemeHeader()
-        vc.updateTheme(theme: selectedTheme)
         setupViews()
         setupConstraints()
         
         words = loadWords() //Array with words of selected Category
         header.themeLabel.text = selectedTheme
+        
     }
     
     //MARK: Fetch Data from json with words of selected theme
@@ -92,13 +96,14 @@ class SelectedThemeVC: UIViewController {
         let words = wordsArchiver.retrieve()
         
         if words.isEmpty {
+            wordsArchiver.save(jsonService?.loadJsonWords(filename: selectedTheme) ?? [])
             return jsonService?.loadJsonWords(filename: selectedTheme) ?? []
         }
         return words
     }
     
     func getLearnedWordsCount() -> UInt {
-         let learnedWords = CheckLearnedWordsCount(wordsList: loadWords())
+        let learnedWords = CheckLearnedWordsCount(wordsList: loadWords())
         return learnedWords.calculateLearnedWords()
     }
     
@@ -135,28 +140,34 @@ extension SelectedThemeVC: UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: SelectedThemeCell.identifier, for: indexPath) as? SelectedThemeCell else {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: SelectedThemeCell.identifier, for: indexPath) as? SelectedThemeCell  else {
             return UITableViewCell() }
         
+        cell.soundDelegate = self
         let word = words[indexPath.row]
         cell.update(word)
         cell.backgroundColor = .clear
-
+                
+        if words[indexPath.row].isLearned ?? false {
+            cell.learnedWordImage.image = UIImage(named: "done")
+        } else if words[indexPath.row].isLearned == false || words[indexPath.row].isLearned == nil {
+            cell.learnedWordImage.image = UIImage(named: "unDone")
+        }
+        
         return cell
     }
     
     func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
-        
+        let cell = tableView.cellForRow(at: indexPath) as! SelectedThemeCell
         let done = UIContextualAction(style: .destructive, title: "") { (action, view, complete) in
-            let cell = tableView.cellForRow(at: indexPath) as! SelectedThemeCell
             
-
-            if self.words[indexPath.row].isLearned == nil {
+            if self.words[indexPath.row].isLearned == nil || self.words[indexPath.row].isLearned == false {
                 self.words[indexPath.row].isLearned = true
-                cell.learnedWordImage.isHidden = false
-            } else {
+                cell.learnedWordImage.setImageAnimation(UIImage(named: "done"))
+            } else if self.words[indexPath.row].isLearned == true {
                 self.words[indexPath.row].isLearned?.toggle()
-                cell.learnedWordImage.isHidden.toggle()
+                cell.learnedWordImage.setImageAnimation(UIImage(named: "unDone"))
+
             }
             self.wordsArchiver.save(self.words)
             
@@ -164,23 +175,30 @@ extension SelectedThemeVC: UITableViewDelegate {
         }
         
         done.backgroundColor = UIColor.init(red: 0/255.0, green: 0/255.0, blue: 0/255.0, alpha: 0.0)
-        done.image = UIImage(named: "done")
+        
+        if cell.learnedWordImage.image == UIImage(named: "done") {
+            done.image = UIImage(named: "cross")
+        } else {
+            done.image = UIImage(named: "done")
+        }
+        
         let configuration = UISwipeActionsConfiguration(actions: [done])
         configuration.performsFirstActionWithFullSwipe = false
         return configuration
-        
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let cell = tableView.cellForRow(at: indexPath) as! SelectedThemeCell
         
-        if self.words[indexPath.row].translationIsHidden == nil {
-            self.words[indexPath.row].translationIsHidden = true
-            cell.wordTranslationLabel.isHidden = false
-        } else {
-            self.words[indexPath.row].translationIsHidden?.toggle()
-            cell.wordTranslationLabel.isHidden.toggle()
+        if cell.wordTranslationLabel.text == nil {
+            cell.wordTranslationLabel.fadeTransition(0.4)
+            cell.wordTranslationLabel.text = words[indexPath.row].translation
+        } else if cell.wordTranslationLabel.text != nil {
+            cell.fadeTransition(0.4)
+            cell.wordTranslationLabel.text = nil
         }
+        
+        
         self.wordsArchiver.save(self.words)
     }
 }
@@ -195,12 +213,13 @@ extension SelectedThemeVC: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 140
+        return 160
     }
     
 }
 
 extension SelectedThemeVC: SelectedThemeVCProtocol {
+    
     /// Method opens the game which user has selected
     func openQuizeGameVC(_ gameType: String) {
         
@@ -231,6 +250,12 @@ extension SelectedThemeVC: SelectedThemeVCProtocol {
             self.present(vc, animated: true)
             
         } 
+    }
+    
+    func soundWord(_ soundedWord: String) {
+        
+        let utterance = AVSpeechUtterance(string: soundedWord)
+        synthesizer.speak(utterance)
     }
 }
 

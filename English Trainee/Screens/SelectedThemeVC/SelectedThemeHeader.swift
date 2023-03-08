@@ -63,7 +63,7 @@ class SelectedThemeHeader: UIView {
         let button = UIButton()
         button.setTitleColor(.black, for: .normal)
         button.backgroundColor = .white
-        button.layer.cornerRadius = 22
+        button.layer.cornerRadius = 12
         button.setTitle("Practice all words", for: .normal)
         button.addTarget(self, action: #selector(openSecondGameVC), for: .touchUpInside)
         return button

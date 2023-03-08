@@ -433,6 +433,14 @@
     "example": "  "
   },
   {
+    "id": 75,
+    "origin": "person of (no) character",
+    "translation": "человек сильного(слабого) характера",
+    "transcription": "[ tu: bi: ə pə:sn əv nəʋ 'kæriktə ]",
+    "image": " ",
+    "example": "  "
+  },
+  {
     "id": 55,
     "origin": "persistent",
     "translation": "настойчивый",
@@ -589,22 +597,6 @@
     "origin": "stubborn",
     "translation": "упрямый",
     "transcription": "[ 'stʌbən ]",
-    "image": " ",
-    "example": "  "
-  },
-  {
-    "id": 75,
-    "origin": "to be a person of (no) character",
-    "translation": "быть человеком сильного(слабого) характера",
-    "transcription": "[ tu: bi: ə pə:sn əv nəʋ 'kæriktə ]",
-    "image": " ",
-    "example": "  "
-  },
-  {
-    "id": 76,
-    "origin": "to be a person of (no) character",
-    "translation": "быть человеком сильного(слабого) характера",
-    "transcription": "[ tu: bi: ə pə:sn əv nəʋ 'kæriktə ]",
     "image": " ",
     "example": "  "
   },

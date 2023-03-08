@@ -68,12 +68,12 @@ final class CategoriesCell: UITableViewCell {
         button.titleLabel?.font = UIFont.systemFont(ofSize: 15)
         button.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         button.layer.cornerRadius = 12
-        button.layer.borderWidth = 0.6
+        //button.layer.borderWidth = 0.6
         button.setImage(UIImage(named: buttonText), for: .normal)
         button.layer.borderColor = UIColor.lightGray.cgColor
         button.setTitle(buttonText, for: .normal)
         button.snp.makeConstraints { make in
-            make.height.equalTo(35)
+            make.height.equalTo(40)
         }
         button.addTarget(self, action: #selector(themeWasTapped) , for: .touchUpInside)
 
