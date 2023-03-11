@@ -176,6 +176,8 @@ class QuizeGameVC: UIViewController, QuizeGameVCProtocol  {
             } else {
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: {
                     
+                    self.progressLabel.fadeTransition(0.3)
+                    self.progressLabel.text = "\(self.numberOfQuestion) / \(self.wordsList.count)"
                     self.progressView.setProgress(Float(self.numberOfQuestion)/Float(self.wordsList.count), animated: true)
                     
                     let vc = ResultPopUp()

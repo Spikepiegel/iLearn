@@ -73,12 +73,14 @@
 		31C9046129AE9CF800D9B615 /* Politics.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9046029AE9CF800D9B615 /* Politics.json */; };
 		31C9046329AE9D6800D9B615 /* Professions.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9046229AE9D6800D9B615 /* Professions.json */; };
 		31C9046529AFCB4900D9B615 /* The most popular verbs.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9046429AFCB4900D9B615 /* The most popular verbs.json */; };
+		31EA189E29B92FCA001AF369 /* MultiProgressView in Frameworks */ = {isa = PBXBuildFile; productRef = 31EA189D29B92FCA001AF369 /* MultiProgressView */; };
+		31EA18A229BA571F001AF369 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 31EA18A129BA571F001AF369 /* Charts */; };
+		31EA18A929BA5A8D001AF369 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 31EA18A829BA5A8D001AF369 /* Algorithms */; };
 		31F005EB29A0163C0097C22E /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F005EA29A0163C0097C22E /* CategoriesVC.swift */; };
 		31F005ED29A2134E0097C22E /* CategoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F005EC29A2134E0097C22E /* CategoriesCell.swift */; };
 		31F005F029A510820097C22E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F005EF29A510820097C22E /* Extensions.swift */; };
 		31F005F229A54C520097C22E /* JsonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F005F129A54C520097C22E /* JsonService.swift */; };
 		31F005F629A54C8D0097C22E /* JsonModelCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F005F529A54C8D0097C22E /* JsonModelCategories.swift */; };
-		31F7E81F29B7A41A0070BDF0 /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F7E81E29B7A41A0070BDF0 /* Statistics.swift */; };
 		31F7E82129B7C1210070BDF0 /* Art.json in Resources */ = {isa = PBXBuildFile; fileRef = 31F7E82029B7C1210070BDF0 /* Art.json */; };
 		31F9BCB829A7732700C913AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31F9BCB729A7732700C913AE /* Assets.xcassets */; };
 		31F9BCBB29A7D17A00C913AE /* SelectedThemeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F9BCBA29A7D17A00C913AE /* SelectedThemeVC.swift */; };
@@ -88,7 +90,24 @@
 		31FB991F2985956400FC1DF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31FB991D2985956400FC1DF6 /* LaunchScreen.storyboard */; };
 		31FB997429942A1700FC1DF6 /* Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB997329942A1700FC1DF6 /* Words.swift */; };
 		31FDF3932997BBB9000E2ABA /* PopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FDF3922997BBB9000E2ABA /* PopUp.swift */; };
+		31FF234C29BBBD0200470220 /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF234B29BBBD0200470220 /* Coding.swift */; };
+		31FF234E29BBBD1700470220 /* exten.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF234D29BBBD1700470220 /* exten.swift */; };
+		31FF235129BBC19C00470220 /* StatisticsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF235029BBC19C00470220 /* StatisticsVC.swift */; };
+		31FF235329BBC69F00470220 /* ThemeProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF235229BBC69F00470220 /* ThemeProgressView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		31EA18A629BA572D001AF369 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3112093529B669F800E20DAC /* ResultPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultPopUp.swift; sourceTree = "<group>"; };
@@ -161,7 +180,6 @@
 		31F005EF29A510820097C22E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		31F005F129A54C520097C22E /* JsonService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonService.swift; sourceTree = "<group>"; };
 		31F005F529A54C8D0097C22E /* JsonModelCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonModelCategories.swift; sourceTree = "<group>"; };
-		31F7E81E29B7A41A0070BDF0 /* Statistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistics.swift; sourceTree = "<group>"; };
 		31F7E82029B7C1210070BDF0 /* Art.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Art.json; path = Jsons/Art.json; sourceTree = SOURCE_ROOT; };
 		31F9BCB729A7732700C913AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31F9BCBA29A7D17A00C913AE /* SelectedThemeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedThemeVC.swift; sourceTree = "<group>"; };
@@ -173,6 +191,10 @@
 		31FB99202985956400FC1DF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31FB997329942A1700FC1DF6 /* Words.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Words.swift; sourceTree = "<group>"; };
 		31FDF3922997BBB9000E2ABA /* PopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUp.swift; sourceTree = "<group>"; };
+		31FF234B29BBBD0200470220 /* Coding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coding.swift; sourceTree = "<group>"; };
+		31FF234D29BBBD1700470220 /* exten.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exten.swift; sourceTree = "<group>"; };
+		31FF235029BBC19C00470220 /* StatisticsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsVC.swift; sourceTree = "<group>"; };
+		31FF235229BBC69F00470220 /* ThemeProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,7 +202,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31EA189E29B92FCA001AF369 /* MultiProgressView in Frameworks */,
+				31EA18A229BA571F001AF369 /* Charts in Frameworks */,
 				3130D8142998DDD700BF6041 /* SnapKit in Frameworks */,
+				31EA18A929BA5A8D001AF369 /* Algorithms in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,7 +215,10 @@
 		3130D817299AC31200BF6041 /* Statistics */ = {
 			isa = PBXGroup;
 			children = (
-				31F7E81E29B7A41A0070BDF0 /* Statistics.swift */,
+				31FF235029BBC19C00470220 /* StatisticsVC.swift */,
+				31FF235229BBC69F00470220 /* ThemeProgressView.swift */,
+				31FF234B29BBBD0200470220 /* Coding.swift */,
+				31FF234D29BBBD1700470220 /* exten.swift */,
 			);
 			path = Statistics;
 			sourceTree = "<group>";
@@ -221,6 +249,13 @@
 				31F005EF29A510820097C22E /* Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		31EA189929B8FB36001AF369 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		31F005EE29A5105C0097C22E /* Additional Files */ = {
@@ -321,6 +356,7 @@
 			children = (
 				31FB99112985956200FC1DF6 /* English Trainee */,
 				31FB99102985956200FC1DF6 /* Products */,
+				31EA189929B8FB36001AF369 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -397,6 +433,7 @@
 				31FB990B2985956200FC1DF6 /* Sources */,
 				31FB990C2985956200FC1DF6 /* Frameworks */,
 				31FB990D2985956200FC1DF6 /* Resources */,
+				31EA18A629BA572D001AF369 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -405,6 +442,9 @@
 			name = "English Trainee";
 			packageProductDependencies = (
 				3130D8132998DDD700BF6041 /* SnapKit */,
+				31EA189D29B92FCA001AF369 /* MultiProgressView */,
+				31EA18A129BA571F001AF369 /* Charts */,
+				31EA18A829BA5A8D001AF369 /* Algorithms */,
 			);
 			productName = "English Trainee";
 			productReference = 31FB990F2985956200FC1DF6 /* English Trainee.app */;
@@ -436,6 +476,9 @@
 			mainGroup = 31FB99062985956200FC1DF6;
 			packageReferences = (
 				3130D8122998DDD700BF6041 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				31EA189429B8F9F3001AF369 /* XCRemoteSwiftPackageReference "Charts" */,
+				31EA189C29B92FCA001AF369 /* XCRemoteSwiftPackageReference "MultiProgressView" */,
+				31EA18A729BA5A8D001AF369 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
 			);
 			productRefGroup = 31FB99102985956200FC1DF6 /* Products */;
 			projectDirPath = "";
@@ -523,12 +566,14 @@
 				317D261329B4E118008DCE2E /* CheckLearnedWordsCount.swift in Sources */,
 				317D261B29B50090008DCE2E /* CorrectAnswerCheck.swift in Sources */,
 				31F005F629A54C8D0097C22E /* JsonModelCategories.swift in Sources */,
+				31FF234C29BBBD0200470220 /* Coding.swift in Sources */,
 				31FDF3932997BBB9000E2ABA /* PopUp.swift in Sources */,
 				3112093829B671DB00E20DAC /* NoLearnedWordsPopUp.swift in Sources */,
+				31FF234E29BBBD1700470220 /* exten.swift in Sources */,
 				31FB997429942A1700FC1DF6 /* Words.swift in Sources */,
 				31FB99132985956200FC1DF6 /* AppDelegate.swift in Sources */,
-				31F7E81F29B7A41A0070BDF0 /* Statistics.swift in Sources */,
 				31F005F029A510820097C22E /* Extensions.swift in Sources */,
+				31FF235329BBC69F00470220 /* ThemeProgressView.swift in Sources */,
 				31F005F229A54C520097C22E /* JsonService.swift in Sources */,
 				3112093629B669F800E20DAC /* ResultPopUp.swift in Sources */,
 				31F005EB29A0163C0097C22E /* CategoriesVC.swift in Sources */,
@@ -537,6 +582,7 @@
 				317D261129B489F4008DCE2E /* ArchiveService.swift in Sources */,
 				31F005ED29A2134E0097C22E /* CategoriesCell.swift in Sources */,
 				31B435F529A9557D00EFEA90 /* SelectedThemeCell.swift in Sources */,
+				31FF235129BBC19C00470220 /* StatisticsVC.swift in Sources */,
 				31F9BCBB29A7D17A00C913AE /* SelectedThemeVC.swift in Sources */,
 				317D260D29B1FBFF008DCE2E /* QuizeGameVC.swift in Sources */,
 				317D261529B4EB74008DCE2E /* QuestionUpdater.swift in Sources */,
@@ -764,6 +810,30 @@
 				minimumVersion = 5.6.0;
 			};
 		};
+		31EA189429B8F9F3001AF369 /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		31EA189C29B92FCA001AF369 /* XCRemoteSwiftPackageReference "MultiProgressView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mac-gallagher/MultiProgressView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		31EA18A729BA5A8D001AF369 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -771,6 +841,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 3130D8122998DDD700BF6041 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		31EA189D29B92FCA001AF369 /* MultiProgressView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 31EA189C29B92FCA001AF369 /* XCRemoteSwiftPackageReference "MultiProgressView" */;
+			productName = MultiProgressView;
+		};
+		31EA18A129BA571F001AF369 /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 31EA189429B8F9F3001AF369 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = Charts;
+		};
+		31EA18A829BA5A8D001AF369 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 31EA18A729BA5A8D001AF369 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

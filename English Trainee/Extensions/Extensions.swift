@@ -70,6 +70,11 @@ extension UIColor {
         #colorLiteral(red: 0.4705882353, green: 1, blue: 0.8392156863, alpha: 1)
     }
     
+    ///Selected Theme Backround Color
+    static var barColor: UIColor {
+        #colorLiteral(red: 0, green: 0.998737514, blue: 0.1739435792, alpha: 1)
+    }
+    
 }
 
 extension UIView {
@@ -92,6 +97,65 @@ extension UIImageView{
     }
 }
 
-//let defaults = UserDefaults.standard
-//defaults.removeObject(forKey: "New Year")
-//defaults.synchronize()
+extension UIView {
+    @discardableResult
+    func anchor(top: NSLayoutYAxisAnchor? = nil,
+                left: NSLayoutXAxisAnchor? = nil,
+                bottom: NSLayoutYAxisAnchor? = nil,
+                right: NSLayoutXAxisAnchor? = nil,
+                paddingTop: CGFloat = 0,
+                paddingLeft: CGFloat = 0,
+                paddingBottom: CGFloat = 0,
+                paddingRight: CGFloat = 0,
+                width: CGFloat = 0,
+                height: CGFloat = 0) -> [NSLayoutConstraint] {
+        translatesAutoresizingMaskIntoConstraints = false
+        
+        var anchors = [NSLayoutConstraint]()
+        
+        if let top = top {
+            anchors.append(topAnchor.constraint(equalTo: top, constant: paddingTop))
+        }
+        if let left = left {
+            anchors.append(leftAnchor.constraint(equalTo: left, constant: paddingLeft))
+        }
+        if let bottom = bottom {
+            anchors.append(bottomAnchor.constraint(equalTo: bottom, constant: -paddingBottom))
+        }
+        if let right = right {
+            anchors.append(rightAnchor.constraint(equalTo: right, constant: -paddingRight))
+        }
+        if width > 0 {
+            anchors.append(widthAnchor.constraint(equalToConstant: width))
+        }
+        if height > 0 {
+            anchors.append(heightAnchor.constraint(equalToConstant: height))
+        }
+        
+        anchors.forEach({$0.isActive = true})
+        
+        return anchors
+    }
+}
+
+    extension UIImage {
+    static func gradientImage(with bounds: CGRect,
+                            colors: [CGColor],
+                            locations: [NSNumber]?) -> UIImage? {
+
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.frame = bounds
+        gradientLayer.colors = colors
+        // This makes it horizontal
+        gradientLayer.startPoint = CGPoint(x: 0.0,
+                                        y: 0.5)
+        gradientLayer.endPoint = CGPoint(x: 1.0,
+                                        y: 0.5)
+
+        UIGraphicsBeginImageContext(gradientLayer.bounds.size)
+        gradientLayer.render(in: UIGraphicsGetCurrentContext()!)
+        guard let image = UIGraphicsGetImageFromCurrentImageContext() else { return nil }
+        UIGraphicsEndImageContext()
+        return image
+    }
+}

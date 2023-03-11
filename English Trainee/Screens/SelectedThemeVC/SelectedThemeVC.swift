@@ -72,7 +72,6 @@ class SelectedThemeVC: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         setupGradientVC()
-        //view.backgroundColor = .selectedThemeVCBackground
         super.viewWillAppear(animated)
     }
     
