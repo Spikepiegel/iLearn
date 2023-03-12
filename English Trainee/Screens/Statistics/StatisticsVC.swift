@@ -29,7 +29,7 @@ class StatisticsVC: UIViewController {
     }()
     
     private var contentSize: CGSize {
-        CGSize(width: view.frame.width, height: view.frame.height + 2000)
+        CGSize(width: view.frame.width, height: view.frame.height + 1400)
     }
     
     lazy var containerView: UIStackView = {
@@ -148,20 +148,23 @@ extension StatisticsVC {
                 progressBar.borderColor = .black
                 progressBar.backgroundColor = .white
                 progressBar.dataSource = self
-                progressBar.setupViews(themeName.name, "\(calculatePercentageProgress(themeName.name)) %")
+                
+                let calculatePercentageProgress = calculatePercentageProgress(themeName.name)
+    
+                progressBar.setupViews(themeName.name, calculatePercentageProgress)
                 containerView.addArrangedSubview(progressBar)
                 progressBar.snp.makeConstraints { make in
                     make.left.right.equalTo(containerView)
                     make.height.equalTo(30)
                 }
-                let additionalPercentage: Double = Double(calculatePercentageProgress(themeName.name) / 10)
-                animateSetProgress(progressBar, firstProgress: 0, secondProgress: 0 + 0.02)
+                //let additionalPercentage = calculatePercentageProgress(themeName.name)
+                animateSetProgress(progressBar, firstProgress: 0, secondProgress: calculatePercentageProgress / 100)
             }
         }
     }
     
     ///Calculates count of learned words
-    func calculatePercentageProgress(_ themeName: String) -> Int {
+    func calculatePercentageProgress(_ themeName: String) -> Float {
         
         let wordsArchiver = WordsArchiver(key: themeName)
         //UserDefaults.standard.removeObject(forKey: themeName)
@@ -171,7 +174,7 @@ extension StatisticsVC {
             //wordsArchiver.save(jsonService?.loadJsonWords(filename: themeName) ?? [])
             words = JsonServiceImpl().loadJsonWords(filename: themeName) ?? []
         }
-        var learnedWordsCounter = 0
+        var learnedWordsCounter: Float = 0.0
         
         for wordsThemeList in words {
             if wordsThemeList.isLearned ?? false {
@@ -180,7 +183,7 @@ extension StatisticsVC {
         }
         
         
-        return learnedWordsCounter * 100 / words.count
+        return learnedWordsCounter * Float(words.count) / 100
     }
     ///Method to animate bar every time when user opens this VC
     func updateProgressWhenScreenWasOpenedAgain() {
@@ -192,10 +195,10 @@ extension StatisticsVC {
         for themesStack in 0...service.count - 1 {
             
             for themeName in service[themesStack].themes {
-                let additionalPercentage: Double = Double(calculatePercentageProgress(themeName.name) / 1)
                 bars[numberOfBar].setProgress(section: 1, to: 0)
-                animateSetProgress(bars[numberOfBar] , firstProgress: 0, secondProgress: 0.3)
-                bars[numberOfBar].setupViews(themeName.name, "\(calculatePercentageProgress(themeName.name)) %")
+                let additionalPercentage: Float = Float(calculatePercentageProgress(themeName.name) / 100 )
+                animateSetProgress(bars[numberOfBar] , firstProgress: 0, secondProgress: additionalPercentage)
+                bars[numberOfBar].setupViews(themeName.name, calculatePercentageProgress(themeName.name))
                 numberOfBar += 1
             }
         }
@@ -203,10 +206,10 @@ extension StatisticsVC {
     }
     
     ///Method to get full progress
-    func getTotalProgress() -> Int {
-        var totalLearnedWords = 0
-        var totalWords = 0
-        guard let service = JsonServiceImpl().loadJsonCategories(filename: "Themes") else { return totalLearnedWords }
+    func getTotalProgress() -> String {
+        var totalLearnedWords = 0.0
+        var totalWords = 0.0
+        guard let service = JsonServiceImpl().loadJsonCategories(filename: "Themes") else { return String(totalLearnedWords) }
 
         for themesStack in 0...service.count - 1 {
             
@@ -227,8 +230,9 @@ extension StatisticsVC {
                 }
             }
         }
-        print(totalLearnedWords * 100 / totalWords)
-        return totalLearnedWords * 100 / totalWords
+        print(totalWords)
+        return String(format: "%.1f", totalLearnedWords * 100 / totalWords)
+        //return totalLearnedWords * 100 / totalWords
     }
     
     

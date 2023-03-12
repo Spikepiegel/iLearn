@@ -22,7 +22,7 @@ class SelectedThemeVC: UIViewController {
     
     lazy var wordsArchiver = WordsArchiver(key: selectedTheme)
     
-    var header = SelectedThemeHeader()
+    var header = SelectedThemeHeader(frame: CGRect(x: 0, y: 0, width: 0, height: 310))
     ///List with words of selected category. Data is gotten from JSON by loadWords method
     var words = [Word]()
     
@@ -35,7 +35,7 @@ class SelectedThemeVC: UIViewController {
         let tableView = UITableView(frame: .zero, style: .grouped)
         tableView.register(SelectedThemeCell.self, forCellReuseIdentifier: SelectedThemeCell.identifier)
         tableView.backgroundColor = .clear
-        let headerView = SelectedThemeHeader(frame: CGRect(x: 0, y: 0, width: 0, height: 310)) //header of the table
+        let headerView = header
         headerView.delegate = self  //delegate to open game screen
         tableView.tableHeaderView = headerView
         headerView.themeLabel.text = selectedTheme
@@ -106,6 +106,12 @@ class SelectedThemeVC: UIViewController {
         return learnedWords.calculateLearnedWords()
     }
     
+    func update() {
+        //let header = SelectedThemeHeader()
+        print(getLearnedWordsCount(), loadWords().count)
+        header.progressLabel.text = "Progress     \(getLearnedWordsCount()) / \(loadWords().count)"
+    }
+    
 }
 
 extension SelectedThemeVC {
@@ -169,7 +175,7 @@ extension SelectedThemeVC: UITableViewDelegate {
 
             }
             self.wordsArchiver.save(self.words)
-            
+            self.update()
             complete(true)
         }
         

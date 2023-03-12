@@ -49,9 +49,9 @@ class ThemeProgressView: MultiProgressView {
         }
     }
     
-    func setupViews(_ themeName: String, _ themeProgress: String) {
+    func setupViews(_ themeName: String, _ themeProgress: Float) {
         themeLabel.text = themeName
-        percentageLabel.text = themeProgress
+        percentageLabel.text = "\(Int(themeProgress)) %"
         lineCap = .round
         cornerRadius = 6
     }
