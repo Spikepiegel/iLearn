@@ -31,7 +31,8 @@ class NoLearnedWordsPopUp: UIViewController {
     
     lazy var popText: UILabel = { //popTextLabel, labelPopText
         let label = UILabel()
-        label.text = "You don't have a list of the learned words "
+        label.text = "You don't have a list of the learned words yet"
+        label.numberOfLines = 0
         label.adjustsFontSizeToFitWidth = true
         label.font = label.font.withSize(15)
         return label
@@ -49,11 +50,7 @@ class NoLearnedWordsPopUp: UIViewController {
     @objc func closeButtonPressed(sender: UIButton!) {
         dismiss(animated: false, completion: nil)
     }
-    
-    let defaultHeight: CGFloat = 300
-    
-    var containerViewHeightConstraint: NSLayoutConstraint?
-    var containerViewBottomConstraint: NSLayoutConstraint?
+        
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -76,7 +73,8 @@ class NoLearnedWordsPopUp: UIViewController {
             make.edges.equalTo(view)
         }
         containerView.snp.makeConstraints { make in
-            make.left.right.equalTo(view).inset(40)
+            make.left.right.equalTo(view).inset(30)
+            make.top.bottom.equalTo(view).inset(400)
             make.center.equalTo(view)
         }
         popText.snp.makeConstraints { make in

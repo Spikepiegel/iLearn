@@ -15,9 +15,10 @@ protocol QuizeGameVCProtocol {
 ///Screen with quize game. Game is depended on button user has selected.
 class QuizeGameVC: UIViewController, QuizeGameVCProtocol  {
     
+    lazy var themeArchiever = ThemeAppArchiever(key: "selectedTheme")
+    
     lazy var wordsList = getQuestionArray()
     lazy var correctAnswerVariants = QuestionUpdater(fullWordsInformationList: wordsList).createEnglishWordsArray()
-    
     
     var numberOfQuestion = 0
     var score = 0
@@ -147,9 +148,23 @@ class QuizeGameVC: UIViewController, QuizeGameVCProtocol  {
     
     func createAnswersButtons() -> UIButton {
         let button = UIButton()
-        button.setTitle("123", for: .normal)
-        button.setTitleColor(.black, for: .normal)
-        button.backgroundColor = .white
+        
+        switch themeArchiever.retrieve() {
+        case "Blue Skies":
+            button.setTitleColor(.black, for: .normal)
+            button.backgroundColor = .white
+            button.layer.borderWidth = 0
+        case "Classic Black":
+            button.setTitleColor(.black, for: .normal)
+            button.backgroundColor = .lightGray
+            button.layer.borderWidth = 0
+        case "Classic White":
+            button.setTitleColor(.black, for: .normal)
+            button.backgroundColor = .white
+        default:
+            break
+        }
+        
         button.layer.cornerRadius = 15
         button.addTarget(self, action: #selector(answerIsChoosen), for: .touchUpInside)
         return button
@@ -184,7 +199,9 @@ class QuizeGameVC: UIViewController, QuizeGameVCProtocol  {
                     vc.delegate = self
                     vc.popText.text = "\(self.score)/\(self.wordsList.count) correct answers"
                     vc.modalPresentationStyle = .overCurrentContext
-                    self.present(vc, animated: false) })
+                    self.present(vc, animated: false)
+                    
+                })
             }
         } else {
             setRedGradientOnAnswerButton(sender)
@@ -227,11 +244,17 @@ class QuizeGameVC: UIViewController, QuizeGameVCProtocol  {
         super.viewDidLoad()
         setupViews()
         setupConstraints()
-        setGradientBackground()
+        //setGradientBackground()
+        setupGradientVC()
+
         
         let wordsList = getQuestionArray()
         createFirstQuestion(wordsList)
         
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+
     }
 }
 
@@ -270,10 +293,6 @@ extension QuizeGameVC {
     }
 }
 
-extension QuizeGameVC {
-    
-}
-
 ///Gradient Settings
 extension QuizeGameVC {
     func setGradientBackground() {
@@ -287,6 +306,8 @@ extension QuizeGameVC {
         
         self.view.layer.insertSublayer(gradientLayer, at:0)
     }
+    
+    
     
     func setGreenGradientOnAnswerButton(_ sender: UIButton!) {
         let colorTop =  UIColor.correctAnswerLeftColor.cgColor
@@ -331,4 +352,66 @@ extension QuizeGameVC {
     
 }
 
-
+extension QuizeGameVC {
+    func setupGradientVC() {
+        let gradientLayer = CAGradientLayer()
+        
+        switch themeArchiever.retrieve() {
+        case "Blue Skies":
+            
+            
+            let colorTop =  UIColor.leftAppBackgroundColor.cgColor
+            let colorBottom = UIColor.rightAppBackgroundColor.cgColor
+            
+            gradientLayer.colors = [colorTop, colorBottom]
+            gradientLayer.locations = [0.0, 1.0]
+            gradientLayer.frame = self.view.bounds
+            
+            self.view.layer.insertSublayer(gradientLayer, at:0)
+            
+            backButton.tintColor = .black
+            questionStack.backgroundColor = .white
+            progressView.trackTintColor = .lightGray
+            progressView.progressTintColor = .blue
+            questionStack.layer.borderWidth = 0
+            
+        case "Classic Black":
+            let colorTop =  UIColor.black.cgColor
+            let colorBottom = UIColor.black.cgColor
+            
+            gradientLayer.colors = [colorTop, colorBottom]
+            gradientLayer.locations = [0.0, 1.0]
+            gradientLayer.frame = self.view.bounds
+            
+            self.view.layer.insertSublayer(gradientLayer, at:0)
+            
+            backButton.tintColor = .lightGray
+            questionStack.backgroundColor = .lightGray
+            progressView.trackTintColor = .gray
+            progressView.progressTintColor = .blue
+            questionStack.layer.borderWidth = 0
+            
+        case "Classic White":
+            let colorTop =  UIColor.whiteTheme.cgColor
+            let colorBottom = UIColor.whiteTheme.cgColor
+            
+            gradientLayer.colors = [colorTop, colorBottom]
+            gradientLayer.locations = [0.0, 1.0]
+            gradientLayer.frame = self.view.bounds
+            
+            self.view.layer.insertSublayer(gradientLayer, at:0)
+            
+            backButton.tintColor = .black
+            questionStack.backgroundColor = .white
+            questionStack.layer.borderWidth = 0
+            
+            progressView.trackTintColor = .lightGray
+            progressView.progressTintColor = .blue
+            
+            
+        default:
+            break
+        }
+    }
+    
+}

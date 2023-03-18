@@ -10,7 +10,8 @@ import UIKit
 import SnapKit
 
 class ThemeProgressView: MultiProgressView {
-    
+    lazy var themeArchiever = ThemeAppArchiever(key: "selectedTheme")
+
     private var themeLabel: UILabel = {
         let label = UILabel()
         label.font = UIFont.systemFont(ofSize: 12, weight: .semibold)
@@ -56,3 +57,30 @@ class ThemeProgressView: MultiProgressView {
         cornerRadius = 6
     }
 }
+
+extension ThemeProgressView {
+    func setupGradientVC() {
+        
+        switch themeArchiever.retrieve() {
+        case "Blue Skies":
+            themeLabel.textColor = .black
+            percentageLabel.textColor = .black
+        case "Classic Black":
+            themeLabel.textColor = .whiteTheme
+            percentageLabel.textColor = .whiteTheme
+
+            
+        case "Classic White":
+            themeLabel.textColor = .black
+            percentageLabel.textColor = .black
+
+                        
+        default:
+            break
+        }
+    }
+}
+
+
+
+

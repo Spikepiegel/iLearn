@@ -75,6 +75,29 @@ extension UIColor {
         #colorLiteral(red: 0, green: 0.998737514, blue: 0.1739435792, alpha: 1)
     }
     
+    ///Phrase button on the first screen  gradient
+    
+    static var leftPhraseButtom: UIColor {
+        #colorLiteral(red: 0.1137254902, green: 0.168627451, blue: 0.3921568627, alpha: 1)
+    }
+    static var rightPhraseButtom: UIColor {
+        #colorLiteral(red: 0.9725490196, green: 0.8039215686, blue: 0.8549019608, alpha: 1)
+    }
+    ///Multi Progress Bar Background
+    static var multiProgressBarBackground: UIColor {
+        #colorLiteral(red: 0.937254902, green: 0.9411764706, blue: 0.9568627451, alpha: 1)
+    }
+    
+    static var classicWhiteMultiBar: UIColor {
+        #colorLiteral(red: 0.8293738961, green: 0.8411287665, blue: 0.8571171761, alpha: 1)
+    }
+    static var whiteTheme: UIColor {
+        #colorLiteral(red: 0.937254902, green: 0.9411764706, blue: 0.9568627451, alpha: 1)
+    }
+    static var darkCellTheme: UIColor {
+        #colorLiteral(red: 0.1098036841, green: 0.1098041013, blue: 0.1183908954, alpha: 1)
+    }
+    
 }
 
 extension UIView {
@@ -138,24 +161,24 @@ extension UIView {
     }
 }
 
-    extension UIImage {
-    static func gradientImage(with bounds: CGRect,
-                            colors: [CGColor],
-                            locations: [NSNumber]?) -> UIImage? {
-
-        let gradientLayer = CAGradientLayer()
-        gradientLayer.frame = bounds
-        gradientLayer.colors = colors
-        // This makes it horizontal
-        gradientLayer.startPoint = CGPoint(x: 0.0,
-                                        y: 0.5)
-        gradientLayer.endPoint = CGPoint(x: 1.0,
-                                        y: 0.5)
-
-        UIGraphicsBeginImageContext(gradientLayer.bounds.size)
-        gradientLayer.render(in: UIGraphicsGetCurrentContext()!)
-        guard let image = UIGraphicsGetImageFromCurrentImageContext() else { return nil }
-        UIGraphicsEndImageContext()
-        return image
-    }
-}
+//    extension UIImage {
+//    static func gradientImage(with bounds: CGRect,
+//                            colors: [CGColor],
+//                            locations: [NSNumber]?) -> UIImage? {
+//
+//        let gradientLayer = CAGradientLayer()
+//        gradientLayer.frame = bounds
+//        gradientLayer.colors = colors
+//        // This makes it horizontal
+//        gradientLayer.startPoint = CGPoint(x: 0.0,
+//                                        y: 0.5)
+//        gradientLayer.endPoint = CGPoint(x: 1.0,
+//                                        y: 0.5)
+//
+//        UIGraphicsBeginImageContext(gradientLayer.bounds.size)
+//        gradientLayer.render(in: UIGraphicsGetCurrentContext()!)
+//        guard let image = UIGraphicsGetImageFromCurrentImageContext() else { return nil }
+//        UIGraphicsEndImageContext()
+//        return image
+//    }
+//}

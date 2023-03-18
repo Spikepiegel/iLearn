@@ -43,7 +43,6 @@ extension JsonServiceImpl {
                 let data = try Data(contentsOf: url)
                 let decoder = JSONDecoder()
                 let jsonResponse = try decoder.decode(CategoryWordsList.self, from: data)
-                print(jsonResponse.wordInformation.count)
                 return jsonResponse.wordInformation
             } catch {
                 print("error:\(error)")
@@ -65,6 +64,23 @@ class RandomWordsJsonService {
                 let jsonResponse = try decoder.decode(RandomWords.self, from: data)
                 print(jsonResponse.randomWords)
                 return jsonResponse.randomWords
+            } catch {
+                print("error:\(error)")
+            }
+        }
+        return nil
+    }
+}
+
+class VoiceJsonService {
+    func loadRandomJsonWords(filename fileName: String) -> [Voice]? {
+        if let url = Bundle.main.url(forResource: fileName, withExtension: "json") {
+            do {
+                let data = try Data(contentsOf: url)
+                let decoder = JSONDecoder()
+                let jsonResponse = try decoder.decode(AppVoices.self, from: data)
+                print(jsonResponse.voiceInformation.count)
+                return jsonResponse.voiceInformation
             } catch {
                 print("error:\(error)")
             }

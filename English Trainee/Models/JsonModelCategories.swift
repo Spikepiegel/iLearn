@@ -32,9 +32,11 @@ struct CategoryWordsList: Codable {
 
 struct Word: Codable {
     let id: UInt
-    let origin, translation, transcription, image, example: String
+    let origin, translation: String
+    let transcription: String?
+    let image, example: String
     var isLearned: Bool?
-    var translationIsHidden: Bool?
+    var translationIsHShown: Bool?
 }
 
 /// Random Words Model
@@ -43,7 +45,21 @@ struct RandomWords: Codable {
     let randomWords: [RandomWordElement]
 }
 
-// MARK: - RandomWordElement
+
+///Model of Random Words for the Quize Game
 struct RandomWordElement: Codable {
     let word: String
+}
+
+
+///App Pronounciation Voices
+struct AppVoices: Codable {
+    let voiceInformation: [Voice]
+}
+
+struct Voice: Codable {
+    let id: UInt
+    let voiceLanguage: String
+    let voiceName: String
+    let voiceIdentifier: String
 }

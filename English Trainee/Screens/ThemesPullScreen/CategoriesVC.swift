@@ -11,7 +11,9 @@ import SnapKit
 //MARK: VC with all categories
 final class CategoriesVC: UIViewController {
     
-    
+    lazy var themeArchiever = ThemeAppArchiever(key: "selectedTheme")
+    var themesWasCreated = false
+
     lazy var categoriesTableView: UITableView = {
         let tableView = UITableView(frame: .zero, style: .grouped)
         tableView.register(CategoriesCell.self, forCellReuseIdentifier: "CategoriesCell")
@@ -31,6 +33,7 @@ final class CategoriesVC: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         setupGradientVC()
         super.viewWillAppear(animated)
+        categoriesTableView.reloadData()
     }
 }
 
@@ -58,18 +61,26 @@ extension CategoriesVC: UITableViewDelegate {
                                          y: header.bounds.origin.y,
                                          width: 0,
                                          height: header.bounds.height)
-        header.textLabel?.textColor = .black
+        //header.textLabel?.textColor = .black
+        switch themeArchiever.retrieve() {
+        case "Blue Skies":
+            header.textLabel?.textColor = .black
+        case "Classic Black":
+            header.textLabel?.textColor = .white
+        case "Classic White":
+            header.textLabel?.textColor = .black
+
+        default:
+            break
+        }
         header.textLabel?.text = "All Categories"
         header.textLabel?.font = UIFont(name: "Arial Rounded MT Bold", size: 40)
 
     }
     
-//    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-//        return headerView
-//    }
-    
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return "All Categories"
+        let categoriesHeader = "All Categories"
+        return categoriesHeader
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -77,10 +88,16 @@ extension CategoriesVC: UITableViewDelegate {
             return UITableViewCell()
         }
         
-        cell.createThemesOnView()
+        if !themesWasCreated {
+            themesWasCreated = true
+            cell.createThemesOnView()
+        }
         cell.backgroundColor = .clear
+        cell.setupGradientVC()
         return cell
     }
+    
+    
     
 }
 
@@ -102,14 +119,53 @@ extension CategoriesVC: UITableViewDataSource {
 extension CategoriesVC {
     
     func setupGradientVC() {
-        let colorTop =  UIColor.leftAppBackgroundColor.cgColor
-        let colorBottom = UIColor.rightAppBackgroundColor.cgColor
-        
         let gradientLayer = CAGradientLayer()
-        gradientLayer.colors = [colorTop, colorBottom]
-        gradientLayer.locations = [0.0, 1.0]
-        gradientLayer.frame = self.view.bounds
         
-        self.view.layer.insertSublayer(gradientLayer, at:0)
+        guard let gradientSubLayer = view.layer.sublayers else { return }
+        if gradientSubLayer.count > 1 {
+            gradientSubLayer[0].removeFromSuperlayer()
+        }
+        
+        switch themeArchiever.retrieve() {
+        case "Blue Skies":
+            
+
+            let colorTop =  UIColor.leftAppBackgroundColor.cgColor
+            let colorBottom = UIColor.rightAppBackgroundColor.cgColor
+            
+            gradientLayer.colors = [colorTop, colorBottom]
+            gradientLayer.locations = [0.0, 1.0]
+            gradientLayer.frame = self.view.bounds
+            
+            self.view.layer.insertSublayer(gradientLayer, at:0)
+            
+            
+        case "Classic Black":
+            let colorTop =  UIColor.black.cgColor
+            let colorBottom = UIColor.black.cgColor
+            
+            gradientLayer.colors = [colorTop, colorBottom]
+            gradientLayer.locations = [0.0, 1.0]
+            gradientLayer.frame = self.view.bounds
+            
+            self.view.layer.insertSublayer(gradientLayer, at:0)
+            
+ 
+            
+        case "Classic White":
+            let colorTop =  UIColor.whiteTheme.cgColor
+            let colorBottom = UIColor.whiteTheme.cgColor
+            
+            gradientLayer.colors = [colorTop, colorBottom]
+            gradientLayer.locations = [0.0, 1.0]
+            gradientLayer.frame = self.view.bounds
+            
+            self.view.layer.insertSublayer(gradientLayer, at:0)
+            
+
+                        
+        default:
+            break
+        }
     }
 }

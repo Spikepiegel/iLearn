@@ -39,7 +39,7 @@ final class WordsArchiver {
     
     func retrieve() -> [Word] {
         
-        //Data -> Array<Student>
+        //Data -> Array<Word>
         guard let data = UserDefaults.standard.data(forKey: key) else { return [] }
         do {
             let array = try decoder.decode(Array<Word>.self, from: data)

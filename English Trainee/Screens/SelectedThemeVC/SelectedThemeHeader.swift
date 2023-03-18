@@ -9,6 +9,8 @@ class SelectedThemeHeader: UIView {
     
     var delegate: SelectedThemeVCProtocol?
     
+    lazy var themeArchiever = ThemeAppArchiever(key: "selectedTheme")
+    
     lazy var containerView: UIView = {
         let view = UIView()
         view.layer.cornerRadius = 20
@@ -89,11 +91,6 @@ class SelectedThemeHeader: UIView {
     func updateTheme(theme: String) {
         themeLabel.text = theme
     }
-    
-    func updateProgress() {
-        progressLabel.text = "123"
-    }
-    
 }
 
 extension SelectedThemeHeader {
@@ -143,17 +140,80 @@ extension SelectedThemeHeader {
 
 ///Gradient Settings
 extension SelectedThemeHeader {
-    func setupGradientVC() {
-        let colorLeft =  UIColor.leftAppBackgroundColor.cgColor
-        let colorRight = UIColor.blue.cgColor
+    func setupGradientV1C() {
         
-        let gradientLayer = CAGradientLayer()
-        gradientLayer.colors = [colorLeft, colorRight]
-        gradientLayer.startPoint = CGPoint(x: 1.0, y: 0.5)
-        gradientLayer.endPoint = CGPoint(x: 0.0, y: 0.5)
-        gradientLayer.locations = [0.1, 1.0]
-        gradientLayer.frame = containerView.bounds
-        containerView.layer.insertSublayer(gradientLayer, at:0)
+        
+        
     }
     
+}
+
+extension SelectedThemeHeader {
+    func setupGradientVC() {
+        let gradientLayer = CAGradientLayer()
+        
+        let gradientSubLayer = containerView.layer.sublayers
+
+        if gradientSubLayer?.count != nil {
+            gradientSubLayer?[0].removeFromSuperlayer()
+        }
+        
+        switch themeArchiever.retrieve()
+        {
+        case "Blue Skies":
+            
+            themeLabel.textColor = .black
+            progressLabel.textColor = .black
+            
+            let colorLeft =  UIColor.leftAppBackgroundColor.cgColor
+            let colorRight = UIColor.leftPhraseButtom.cgColor
+            gradientLayer.colors = [colorLeft, colorRight]
+            gradientLayer.startPoint = CGPoint(x: 1.0, y: 0.5)
+            gradientLayer.endPoint = CGPoint(x: 0.0, y: 0.5)
+            gradientLayer.locations = [0.1, 1.0]
+            gradientLayer.frame = containerView.bounds
+            containerView.layer.insertSublayer(gradientLayer, at:0)
+            
+            practiceAllWordsButton.backgroundColor = .white
+            practiceAllWordsButton.setTitleColor(.black, for: .normal)
+            practiceLearnedWordsButton.backgroundColor = .white
+            practiceLearnedWordsButton.setTitleColor(.black, for: .normal)
+        case "Classic Black":
+            themeLabel.textColor = .white
+            progressLabel.textColor = .whiteTheme
+            
+            let colorLeft =  UIColor.leftAppBackgroundColor.cgColor
+            let colorRight = UIColor.lightGray.cgColor
+            gradientLayer.colors = [colorLeft, colorRight]
+            gradientLayer.startPoint = CGPoint(x: 1.0, y: 0.5)
+            gradientLayer.endPoint = CGPoint(x: 0.0, y: 0.5)
+            gradientLayer.locations = [0.4, 1.0]
+            gradientLayer.frame = containerView.bounds
+            containerView.layer.insertSublayer(gradientLayer, at:0)
+            
+            practiceAllWordsButton.backgroundColor = .darkCellTheme
+            practiceAllWordsButton.setTitleColor(.white, for: .normal)
+            practiceLearnedWordsButton.backgroundColor = .darkCellTheme
+            practiceLearnedWordsButton.setTitleColor(.white, for: .normal)
+        case "Classic White":
+            themeLabel.textColor = .black
+            progressLabel.textColor = .black
+            
+            let colorLeft =  UIColor.leftAppBackgroundColor.cgColor
+            let colorRight = UIColor.lightGray.cgColor
+            gradientLayer.colors = [colorLeft, colorRight]
+            gradientLayer.startPoint = CGPoint(x: 1.0, y: 0.5)
+            gradientLayer.endPoint = CGPoint(x: 0.0, y: 0.5)
+            gradientLayer.locations = [0.4, 1.0]
+            gradientLayer.frame = containerView.bounds
+            containerView.layer.insertSublayer(gradientLayer, at:0)
+            
+            practiceAllWordsButton.backgroundColor = .white
+            practiceAllWordsButton.setTitleColor(.black, for: .normal)
+            practiceLearnedWordsButton.backgroundColor = .white
+            practiceLearnedWordsButton.setTitleColor(.black, for: .normal)
+        default:
+            break
+        }
+    }
 }

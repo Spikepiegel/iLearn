@@ -1,0 +1,60 @@
+{
+"wordInformation":[
+    {
+      "id": 1,
+      "origin": "Monddfay",
+      "translation": "Понеdsfдельник",
+      "transcription": "ˈmʌndeɪ",
+      "image": "  ",
+      "example": "  "
+    },
+    {
+      "id": 2,
+      "origin": "Tuesdsdfay",
+      "translation": "Вторsdfник",
+      "transcription": "ˈtuːzdeɪ",
+      "image": "  ",
+      "example": "  "
+    },
+    {
+      "id": 3,
+      "origin": "Wednessdfday",
+      "translation": "Среsdfда",
+      "transcription": "ˈwenzdeɪ",
+      "image": "  ",
+      "example": "  "
+    },
+    {
+      "id": 4,
+      "origin": "Thursdfsday",
+      "translation": "Чеsdfтверг",
+      "transcription": "ˈθɜːrzdeɪ",
+      "image": "  ",
+      "example": "  "
+    },
+    {
+      "id": 5,
+      "origin": "Frsdfiday",
+      "translation": "Пятsdfница",
+      "transcription": "ˈfraɪdeɪ",
+      "image": "  ",
+      "example": "  "
+    },
+    {
+      "id": 6,
+      "origin": "Saturdsdfay",
+      "translation": "Субsdfбота",
+      "transcription": "ˈsætərdeɪ",
+      "image": "  ",
+      "example": "  "
+    },
+    {
+      "id": 7,
+      "origin": "Susdfnday",
+      "translation": "Восfdsкресенье",
+      "transcription": "ˈsʌndeɪ",
+      "image": "  ",
+      "example": "  "
+    },
+]
+}

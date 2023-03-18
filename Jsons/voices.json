@@ -1,0 +1,328 @@
+{
+"voiceInformation":[
+{
+"id": 1,
+"voiceLanguage": "en-US",
+"voiceName": "Aaron",
+"voiceIdentifier": "com.apple.ttsbundle.siri_male_en-US_compact"
+},
+{
+"id": 2,
+"voiceLanguage": "en-US",
+"voiceName": "Alex",
+"voiceIdentifier": "com.apple.speech.voice.Alex"
+},
+{
+"id": 3,
+"voiceLanguage": "it-IT",
+"voiceName": "Alice",
+"voiceIdentifier": "com.apple.ttsbundle.Alice-compact"
+},
+{
+"id": 4,
+"voiceLanguage": "sv-SE",
+"voiceName": "Alva",
+"voiceIdentifier": "com.apple.ttsbundle.Alva-compact"
+},
+{
+"id": 5,
+"voiceLanguage": "fr-CA",
+"voiceName": "Am\u00E9lie",
+"voiceIdentifier": "com.apple.ttsbundle.Amelie-compact"
+},
+{
+"id": 6,
+"voiceLanguage": "de-DE",
+"voiceName": "Anna",
+"voiceIdentifier": "com.apple.ttsbundle.Anna-compact"
+},
+{
+"id": 7,
+"voiceLanguage": "en-GB",
+"voiceName": "Arthur",
+"voiceIdentifier": "com.apple.ttsbundle.siri_male_en-GB_compact"
+},
+{
+"id": 8,
+"voiceLanguage": "he-IL",
+"voiceName": "Carmit",
+"voiceIdentifier": "com.apple.ttsbundle.Carmit-compact"
+},
+{
+"id": 9,
+"voiceLanguage": "en-AU",
+"voiceName": "Catherine",
+"voiceIdentifier": "com.apple.ttsbundle.siri_female_en-AU_compact"
+},
+{
+"id": 10,
+"voiceLanguage": "id-ID",
+"voiceName": "Damayanti",
+"voiceIdentifier": "com.apple.ttsbundle.Damayanti-compact"
+},
+{
+"id": 11,
+"voiceLanguage": "en-GB",
+"voiceName": "Daniel",
+"voiceIdentifier": "com.apple.ttsbundle.Daniel-compact"
+},
+{
+"id": 12,
+"voiceLanguage": "fr-FR",
+"voiceName": "Daniel",
+"voiceIdentifier": "com.apple.ttsbundle.siri_male_fr-FR_compact"
+},
+{
+"id": 13,
+"voiceLanguage": "nl-BE",
+"voiceName": "Ellen",
+"voiceIdentifier": "com.apple.ttsbundle.Ellen-compact"
+},
+{
+"id": 14,
+"voiceLanguage": "en-US",
+"voiceName": "Fred",
+"voiceIdentifier": "com.apple.speech.synthesis.voice.Fred"
+},
+{
+"id": 15,
+"voiceLanguage": "en-AU",
+"voiceName": "Gordon",
+"voiceIdentifier": "com.apple.ttsbundle.siri_male_en-AU_compact"
+},
+{
+"id": 16,
+"voiceLanguage": "ja-JP",
+"voiceName": "Hattori",
+"voiceIdentifier": "com.apple.ttsbundle.siri_male_ja-JP_compact"
+},
+{
+"id": 17,
+"voiceLanguage": "de-DE",
+"voiceName": "Helena",
+"voiceIdentifier": "com.apple.ttsbundle.siri_female_de-DE_compact"
+},
+{
+"id": 18,
+"voiceLanguage": "ro-RO",
+"voiceName": "Ioana",
+"voiceIdentifier": "com.apple.ttsbundle.Ioana-compact"
+},
+{
+"id": 19,
+"voiceLanguage": "pt-PT",
+"voiceName": "Joana",
+"voiceIdentifier": "com.apple.ttsbundle.Joana-compact"
+},
+{
+"id": 20,
+"voiceLanguage": "th-TH",
+"voiceName": "Kanya",
+"voiceIdentifier": "com.apple.ttsbundle.Kanya-compact"
+},
+{
+"id": 21,
+"voiceLanguage": "en-AU",
+"voiceName": "Karen",
+"voiceIdentifier": "com.apple.ttsbundle.Karen-compact"
+},
+{
+"id": 22,
+"voiceLanguage": "ja-JP",
+"voiceName": "Kyoko",
+"voiceIdentifier": "com.apple.ttsbundle.Kyoko-compact"
+},
+{
+"id": 23,
+"voiceLanguage": "sk-SK",
+"voiceName": "Laura",
+"voiceIdentifier": "com.apple.ttsbundle.Laura-compact"
+},
+{
+"id": 24,
+"voiceLanguage": "hi-IN",
+"voiceName": "Lekha",
+"voiceIdentifier": "com.apple.ttsbundle.Lekha-compact"
+},
+{
+"id": 25,
+"voiceLanguage": "zh-CN",
+"voiceName": "Li-mu",
+"voiceIdentifier": "com.apple.ttsbundle.siri_male_zh-CN_compact"
+},
+{
+"id": 26,
+"voiceLanguage": "pt-BR",
+"voiceName": "Luciana",
+"voiceIdentifier": "com.apple.ttsbundle.Luciana-compact"
+},
+{
+"id": 27,
+"voiceLanguage": "ar-SA",
+"voiceName": "Maged",
+"voiceIdentifier": "com.apple.ttsbundle.Maged-compact"
+},
+{
+"id": 28,
+"voiceLanguage": "fr-FR",
+"voiceName": "Marie",
+"voiceIdentifier": "com.apple.ttsbundle.siri_female_fr-FR_compact"
+},
+{
+"id": 29,
+"voiceLanguage": "hu-HU",
+"voiceName": "Mariska",
+"voiceIdentifier": "com.apple.ttsbundle.Mariska-compact"
+},
+{
+"id": 30,
+"voiceLanguage": "en-GB",
+"voiceName": "Martha",
+"voiceIdentifier": "com.apple.ttsbundle.siri_female_en-GB_compact"
+},
+{
+"id": 31,
+"voiceLanguage": "de-DE",
+"voiceName": "Martin",
+"voiceIdentifier": "com.apple.ttsbundle.siri_male_de-DE_compact"
+},
+{
+"id": 32,
+"voiceLanguage": "zh-TW",
+"voiceName": "Mei-Jia",
+"voiceIdentifier": "com.apple.ttsbundle.Mei-Jia-compact"
+},
+{
+"id": 33,
+"voiceLanguage": "el-GR",
+"voiceName": "Melina",
+"voiceIdentifier": "com.apple.ttsbundle.Melina-compact"
+},
+{
+"id": 34,
+"voiceLanguage": "ru-RU",
+"voiceName": "Milena",
+"voiceIdentifier": "com.apple.ttsbundle.Milena-compact"
+},
+{
+"id": 35,
+"voiceLanguage": "en-IE",
+"voiceName": "Moira",
+"voiceIdentifier": "com.apple.ttsbundle.Moira-compact"
+},
+{
+"id": 36,
+"voiceLanguage": "es-ES",
+"voiceName": "M\u00F3nica",
+"voiceIdentifier": "com.apple.ttsbundle.Monica-compact"
+},
+{
+"id": 37,
+"voiceLanguage": "en-US",
+"voiceName": "Nicky",
+"voiceIdentifier": "com.apple.ttsbundle.siri_female_en-US_compact"
+},
+{
+"id": 38,
+"voiceLanguage": "no-NO",
+"voiceName": "Nora",
+"voiceIdentifier": "com.apple.ttsbundle.Nora-compact"
+},
+{
+"id": 39,
+"voiceLanguage": "ja-JP",
+"voiceName": "O-ren",
+"voiceIdentifier": "com.apple.ttsbundle.siri_female_ja-JP_compact"
+},
+{
+"id": 40,
+"voiceLanguage": "es-MX",
+"voiceName": "Paulina",
+"voiceIdentifier": "com.apple.ttsbundle.Paulina-compact"
+},
+{
+"id": 41,
+"voiceLanguage": "en-IN",
+"voiceName": "Rishi",
+"voiceIdentifier": "com.apple.ttsbundle.Rishi-compact"
+},
+{
+"id": 42,
+"voiceLanguage": "en-US",
+"voiceName": "Samantha",
+"voiceIdentifier": "com.apple.ttsbundle.Samantha-compact"
+},
+{
+"id": 43,
+"voiceLanguage": "da-DK",
+"voiceName": "Sara",
+"voiceIdentifier": "com.apple.ttsbundle.Sara-compact"
+},
+{
+"id": 44,
+"voiceLanguage": "fi-FI",
+"voiceName": "Satu",
+"voiceIdentifier": "com.apple.ttsbundle.Satu-compact"
+},
+{
+"id": 45,
+"voiceLanguage": "zh-HK",
+"voiceName": "Sin-Ji",
+"voiceIdentifier": "com.apple.ttsbundle.Sin-Ji-compact"
+},
+{
+"id": 46,
+"voiceLanguage": "en-ZA",
+"voiceName": "Tessa",
+"voiceIdentifier": "com.apple.ttsbundle.Tessa-compact"
+},
+{
+"id": 47,
+"voiceLanguage": "fr-FR",
+"voiceName": "Thomas",
+"voiceIdentifier": "com.apple.ttsbundle.Thomas-compact"
+},
+{
+"id": 48,
+"voiceLanguage": "zh-CN",
+"voiceName": "Tian-Tian",
+"voiceIdentifier": "com.apple.ttsbundle.Ting-Ting-compact"
+},
+{
+"id": 49,
+"voiceLanguage": "nl-NL",
+"voiceName": "Xander",
+"voiceIdentifier": "com.apple.ttsbundle.Xander-compact"
+},
+{
+"id": 50,
+"voiceLanguage": "tr-TR",
+"voiceName": "Yelda",
+"voiceIdentifier": "com.apple.ttsbundle.Yelda-compact"
+},
+{
+"id": 51,
+"voiceLanguage": "ko-KR",
+"voiceName": "Yuna",
+"voiceIdentifier": "com.apple.ttsbundle.Yuna-compact"
+},
+{
+"id": 52,
+"voiceLanguage": "zh-CN",
+"voiceName": "Yu-shu",
+"voiceIdentifier": "com.apple.ttsbundle.siri_female_zh-CN_compact"
+},
+{
+"id": 53,
+"voiceLanguage": "pl-PL",
+"voiceName": "Zosia",
+"voiceIdentifier": "com.apple.ttsbundle.Zosia-compact"
+},
+{
+"id": 54,
+"voiceLanguage": "cs-CZ",
+"voiceName": "Zuzana",
+"voiceIdentifier": "com.apple.ttsbundle.Zuzana-compact"
+}
+]
+}

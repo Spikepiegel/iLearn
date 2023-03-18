@@ -11,7 +11,10 @@ import MultiProgressView
 
 class StatisticsVC: UIViewController {
     
+    lazy var themeArchiever = ThemeAppArchiever(key: "selectedTheme")
+
     var jsonService: JsonServiceProtocol?
+    let phrasesModel = Phrases()
     
     lazy var scrollView: UIScrollView = {
         let scroll = UIScrollView()
@@ -29,7 +32,7 @@ class StatisticsVC: UIViewController {
     }()
     
     private var contentSize: CGSize {
-        CGSize(width: view.frame.width, height: view.frame.height + 1400)
+        CGSize(width: view.frame.width, height: view.frame.height + 1800)
     }
     
     lazy var containerView: UIStackView = {
@@ -53,23 +56,80 @@ class StatisticsVC: UIViewController {
         label.font = UIFont(name: "Arial", size: 15)
         label.textAlignment = .right
         label.textColor = .gray
-       // label.text = "Total progress \(getTotalProgress()) %"
+        return label
+    }()
+    
+    lazy var phraseButton: UIButton = {
+        let button = UIButton()
+        button.backgroundColor = .clear
+        button.layer.cornerRadius = 15
+        button.addTarget(self, action: #selector(changeLabelPhrase), for: .touchUpInside)
+        return button
+    }()
+    
+    @objc func changeLabelPhrase() {
+        buttonTextLabel.fadeTransition(0.8)
+        buttonTextLabel.text = phrasesModel.phrases.randomElement()
+        buttonAuthorLabel.fadeTransition(0.8)
+        buttonAuthorLabel.text = phrasesModel.authors[getPhraseIndexArray()]
+    }
+
+    lazy var buttonTextLabel: UILabel = {
+        let label = UILabel()
+        label.font = UIFont(name: "Savoye LET", size: 35)
+        label.adjustsFontSizeToFitWidth = true
+        label.text = phrasesModel.phrases.randomElement()
+        label.numberOfLines = 0
+        return label
+    }()
+    
+    lazy var buttonAuthorLabel: UILabel = {
+        let label = UILabel()
+        label.font = UIFont(name: "Palatino", size: 25)
+        label.text = phrasesModel.authors[getPhraseIndexArray()]
+        label.textColor = .gray
+        label.textAlignment = .left
+        label.numberOfLines = 0
         return label
     }()
     
     override func viewDidLoad() {
+        
         super.viewDidLoad()
+        loadThemeColor()
         setupViews()
         setupConstraints()
-        setupGradientVC()
         createThemesProgressBars()
+
+    }
+    
+    func getPhraseIndexArray() -> Int {
+        var index = 0
+        for phrase in phrasesModel.phrases {
+            if buttonTextLabel.text == phrase {
+                return index
+            } else {
+                index += 1
+            }
+        }
+        return index
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        //setupGradientPhraseLabel()
     }
     override func viewWillAppear(_ animated: Bool) {
         updateProgressWhenScreenWasOpenedAgain()
         totalProgressLabel.text = "Total progress \(getTotalProgress()) %"
+        setupGradientVC()
+
     }
     
-    
+    func loadThemeColor() {
+      //UserDefaults.standard.removeObject(forKey: "selectedTheme")
+        
+        
+    }
     
 }
 
@@ -86,7 +146,7 @@ extension StatisticsVC: MultiProgressViewDataSource {
         case 0:
             sectionView.backgroundColor = .blue
         case 1:
-            sectionView.backgroundColor = UIColor.barColor
+            sectionView.backgroundColor = UIColor.learnedWordsMarkLeftColor
         default:
             break
         }
@@ -102,13 +162,16 @@ extension StatisticsVC: MultiProgressViewDataSource {
             }, completion: nil)
         }
     }
-    
+ 
 }
 
 extension StatisticsVC {
     func setupViews() {
         view.addSubview(scrollView)
         scrollView.addSubview(contentView)
+        contentView.addSubview(phraseButton)
+        phraseButton.addSubview(buttonTextLabel)
+        phraseButton.addSubview(buttonAuthorLabel)
         contentView.addSubview(categoriesLabel)
         contentView.addSubview(totalProgressLabel)
         contentView.addSubview(containerView)
@@ -117,8 +180,26 @@ extension StatisticsVC {
     
     func setupConstraints() {
         
+        phraseButton.snp.makeConstraints { make in
+            make.top.equalTo(contentView).inset(10)
+            make.left.right.equalTo(contentView).inset(20)
+            make.bottom.equalTo(contentView.snp_topMargin).inset(140)
+        }
+        
+        buttonTextLabel.snp.makeConstraints { make in
+            make.top.equalTo(phraseButton).inset(10)
+            make.left.equalTo(phraseButton).inset(15)
+            make.right.equalTo(phraseButton).inset(5)
+
+        }
+        
+        buttonAuthorLabel.snp.makeConstraints { make in
+            make.left.right.equalTo(phraseButton).inset(10)
+            make.top.equalTo(buttonTextLabel.snp_bottomMargin).offset(20)
+        }
+        
         categoriesLabel.snp.makeConstraints { make in
-            make.top.equalTo(contentView).inset(140)
+            make.top.equalTo(contentView).inset(200)
             make.left.equalTo(contentView).inset(20)
         }
         
@@ -146,18 +227,18 @@ extension StatisticsVC {
                 let progressBar = ThemeProgressView()
                 progressBar.borderWidth = 1
                 progressBar.borderColor = .black
-                progressBar.backgroundColor = .white
+                progressBar.backgroundColor = UIColor.multiProgressBarBackground
                 progressBar.dataSource = self
                 
                 let calculatePercentageProgress = calculatePercentageProgress(themeName.name)
-    
+                
                 progressBar.setupViews(themeName.name, calculatePercentageProgress)
+                progressBar.setupGradientVC()
                 containerView.addArrangedSubview(progressBar)
                 progressBar.snp.makeConstraints { make in
                     make.left.right.equalTo(containerView)
-                    make.height.equalTo(30)
+                    make.height.equalTo(35)
                 }
-                //let additionalPercentage = calculatePercentageProgress(themeName.name)
                 animateSetProgress(progressBar, firstProgress: 0, secondProgress: calculatePercentageProgress / 100)
             }
         }
@@ -168,7 +249,6 @@ extension StatisticsVC {
         
         let wordsArchiver = WordsArchiver(key: themeName)
         //UserDefaults.standard.removeObject(forKey: themeName)
-        
         var words = wordsArchiver.retrieve()
         if words.isEmpty {
             //wordsArchiver.save(jsonService?.loadJsonWords(filename: themeName) ?? [])
@@ -199,6 +279,7 @@ extension StatisticsVC {
                 let additionalPercentage: Float = Float(calculatePercentageProgress(themeName.name) / 100 )
                 animateSetProgress(bars[numberOfBar] , firstProgress: 0, secondProgress: additionalPercentage)
                 bars[numberOfBar].setupViews(themeName.name, calculatePercentageProgress(themeName.name))
+                bars[numberOfBar].setupGradientVC()
                 numberOfBar += 1
             }
         }
@@ -210,7 +291,7 @@ extension StatisticsVC {
         var totalLearnedWords = 0.0
         var totalWords = 0.0
         guard let service = JsonServiceImpl().loadJsonCategories(filename: "Themes") else { return String(totalLearnedWords) }
-
+        
         for themesStack in 0...service.count - 1 {
             
             for themeName in service[themesStack].themes {
@@ -230,9 +311,7 @@ extension StatisticsVC {
                 }
             }
         }
-        print(totalWords)
         return String(format: "%.1f", totalLearnedWords * 100 / totalWords)
-        //return totalLearnedWords * 100 / totalWords
     }
     
     
@@ -241,14 +320,69 @@ extension StatisticsVC {
 extension StatisticsVC {
     
     func setupGradientVC() {
-        let colorTop =  UIColor.leftAppBackgroundColor.cgColor
-        let colorBottom = UIColor.rightAppBackgroundColor.cgColor
+
+        print(themeArchiever.retrieve())
         
         let gradientLayer = CAGradientLayer()
-        gradientLayer.colors = [colorTop, colorBottom]
-        gradientLayer.locations = [0.0, 1.0]
-        gradientLayer.frame = self.view.bounds
         
-        self.view.layer.insertSublayer(gradientLayer, at:0)
+        guard let gradientSubLayer = view.layer.sublayers else { return }
+        if gradientSubLayer.count > 1 {
+            gradientSubLayer[0].removeFromSuperlayer()
+        }
+        
+        switch themeArchiever.retrieve() {
+        case "Blue Skies":
+            
+
+            let colorTop =  UIColor.leftAppBackgroundColor.cgColor
+            let colorBottom = UIColor.rightAppBackgroundColor.cgColor
+            
+            gradientLayer.colors = [colorTop, colorBottom]
+            gradientLayer.locations = [0.0, 1.0]
+            gradientLayer.frame = self.view.bounds
+            
+            self.view.layer.insertSublayer(gradientLayer, at:0)
+            
+            buttonTextLabel.textColor = .black
+            
+            for subview in containerView.subviews {
+                subview.backgroundColor = .white
+            }
+            
+        case "Classic Black":
+            let colorTop =  UIColor.black.cgColor
+            let colorBottom = UIColor.black.cgColor
+            
+            gradientLayer.colors = [colorTop, colorBottom]
+            gradientLayer.locations = [0.0, 1.0]
+            gradientLayer.frame = self.view.bounds
+            
+            self.view.layer.insertSublayer(gradientLayer, at:0)
+            
+            buttonTextLabel.textColor = .white
+            
+            for subview in containerView.subviews {
+                subview.backgroundColor = .darkCellTheme
+            }
+            
+        case "Classic White":
+            let colorTop =  UIColor.whiteTheme.cgColor
+            let colorBottom = UIColor.whiteTheme.cgColor
+            
+            gradientLayer.colors = [colorTop, colorBottom]
+            gradientLayer.locations = [0.0, 1.0]
+            gradientLayer.frame = self.view.bounds
+            
+            self.view.layer.insertSublayer(gradientLayer, at:0)
+            
+            buttonTextLabel.textColor = .black
+            
+            for subview in containerView.subviews {
+                subview.backgroundColor = .white
+            }
+                        
+        default:
+            break
+        }
     }
 }

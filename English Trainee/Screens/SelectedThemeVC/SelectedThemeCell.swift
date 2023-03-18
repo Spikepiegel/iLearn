@@ -12,6 +12,8 @@ import AVFoundation
 
 final class SelectedThemeCell: UITableViewCell {
     
+    lazy var themeArchiever = ThemeAppArchiever(key: "selectedTheme")
+    
     static let identifier = "SelectedThemeCell"
     var soundDelegate: SelectedThemeVCProtocol?
     ///Word in English
@@ -42,7 +44,6 @@ final class SelectedThemeCell: UITableViewCell {
         button.addTarget(self, action: #selector(soundEnglishWord), for: .touchUpInside)
         return button
     }()
-    var synthesizer = AVSpeechSynthesizer()
 
     @objc func soundEnglishWord(sender: UIButton!) {
         soundDelegate?.soundWord(wordOriginLabel.text!)
@@ -51,8 +52,7 @@ final class SelectedThemeCell: UITableViewCell {
     ///Icon which mark the cell with word, which user has learned
     lazy var learnedWordImage: UIImageView = {
         let image = UIImageView()
-        image.image = UIImage(named: "unDone")
-        //image.isHidden = true
+        image.image = UIImage(named: "unDone")!.withRenderingMode(.alwaysTemplate)
         return image
     }()
     
@@ -71,7 +71,12 @@ final class SelectedThemeCell: UITableViewCell {
     func update(_ word: Word) {
         wordOriginLabel.text = word.origin
         wordTranscriptionLabel.text = word.transcription
-        wordTranslationLabel.text = nil
+        
+        if word.translationIsHShown == true {
+            wordTranslationLabel.text = word.translation
+        } else {
+            wordTranslationLabel.text = nil
+        }
     }
     
 }
@@ -118,4 +123,34 @@ extension SelectedThemeCell {
     }
 }
 
-
+extension SelectedThemeCell {
+    func setupGradientVC() {
+                
+        switch themeArchiever.retrieve()
+        {
+        case "Blue Skies":
+            wordOriginLabel.textColor = .black
+            wordTranslationLabel.textColor = .black
+            wordTranscriptionLabel.textColor = .black
+            learnedWordImage.tintColor = .black
+            soundEnglishWordButton.tintColor = .black
+            contentView.backgroundColor = .white
+        case "Classic Black":
+            wordOriginLabel.textColor = .white
+            wordTranslationLabel.textColor = .white
+            wordTranscriptionLabel.textColor = .white
+            learnedWordImage.tintColor = .white
+            soundEnglishWordButton.tintColor = .white
+            contentView.backgroundColor = .darkCellTheme
+        case "Classic White":
+            wordOriginLabel.textColor = .black
+            wordTranslationLabel.textColor = .black
+            wordTranscriptionLabel.textColor = .black
+            learnedWordImage.tintColor = .black
+            soundEnglishWordButton.tintColor = .black
+            contentView.backgroundColor = .white
+        default:
+            break
+        }
+    }
+}

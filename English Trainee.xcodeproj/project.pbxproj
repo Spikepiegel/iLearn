@@ -9,10 +9,19 @@
 /* Begin PBXBuildFile section */
 		3112093629B669F800E20DAC /* ResultPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3112093529B669F800E20DAC /* ResultPopUp.swift */; };
 		3112093829B671DB00E20DAC /* NoLearnedWordsPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3112093729B671DB00E20DAC /* NoLearnedWordsPopUp.swift */; };
+		3127A02829C262F9004C90F9 /* AppThemeSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3127A02729C262F9004C90F9 /* AppThemeSelectionVC.swift */; };
+		3127A02A29C27893004C90F9 /* SectionRowsNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3127A02929C27893004C90F9 /* SectionRowsNames.swift */; };
+		3127A02C29C278B2004C90F9 /* AppThemesNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3127A02B29C278B2004C90F9 /* AppThemesNames.swift */; };
+		3127A02E29C279CD004C90F9 /* AppThemeSelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3127A02D29C279CD004C90F9 /* AppThemeSelectionCell.swift */; };
+		3127A03029C32CAF004C90F9 /* ThemeAppArchiverService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3127A02F29C32CAF004C90F9 /* ThemeAppArchiverService.swift */; };
 		3130D8142998DDD700BF6041 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3130D8132998DDD700BF6041 /* SnapKit */; };
 		3130D816299AC27300BF6041 /* AppTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3130D815299AC27300BF6041 /* AppTabBar.swift */; };
+		314C8A7129C5C9D2008A19BB /* AppVoiceSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314C8A7029C5C9D2008A19BB /* AppVoiceSelectionVC.swift */; };
+		314C8A7429C5CA0A008A19BB /* AppVoiceSelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314C8A7329C5CA0A008A19BB /* AppVoiceSelectionCell.swift */; };
+		314C8A7629C5DCCE008A19BB /* voices.json in Resources */ = {isa = PBXBuildFile; fileRef = 314C8A7529C5DCCE008A19BB /* voices.json */; };
+		314C8A7829C5E64F008A19BB /* VoiceAppArchieverService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314C8A7729C5E64F008A19BB /* VoiceAppArchieverService.swift */; };
 		317D260D29B1FBFF008DCE2E /* QuizeGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317D260C29B1FBFF008DCE2E /* QuizeGameVC.swift */; };
-		317D261129B489F4008DCE2E /* ArchiveService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317D261029B489F4008DCE2E /* ArchiveService.swift */; };
+		317D261129B489F4008DCE2E /* WordsArchiverService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317D261029B489F4008DCE2E /* WordsArchiverService.swift */; };
 		317D261329B4E118008DCE2E /* CheckLearnedWordsCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317D261229B4E118008DCE2E /* CheckLearnedWordsCount.swift */; };
 		317D261529B4EB74008DCE2E /* QuestionUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317D261429B4EB74008DCE2E /* QuestionUpdater.swift */; };
 		317D261929B4FB00008DCE2E /* Random Words.json in Resources */ = {isa = PBXBuildFile; fileRef = 317D261829B4FB00008DCE2E /* Random Words.json */; };
@@ -88,12 +97,13 @@
 		31FB99132985956200FC1DF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB99122985956200FC1DF6 /* AppDelegate.swift */; };
 		31FB99152985956200FC1DF6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB99142985956200FC1DF6 /* SceneDelegate.swift */; };
 		31FB991F2985956400FC1DF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31FB991D2985956400FC1DF6 /* LaunchScreen.storyboard */; };
-		31FB997429942A1700FC1DF6 /* Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB997329942A1700FC1DF6 /* Words.swift */; };
-		31FDF3932997BBB9000E2ABA /* PopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FDF3922997BBB9000E2ABA /* PopUp.swift */; };
-		31FF234C29BBBD0200470220 /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF234B29BBBD0200470220 /* Coding.swift */; };
-		31FF234E29BBBD1700470220 /* exten.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF234D29BBBD1700470220 /* exten.swift */; };
 		31FF235129BBC19C00470220 /* StatisticsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF235029BBC19C00470220 /* StatisticsVC.swift */; };
 		31FF235329BBC69F00470220 /* ThemeProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF235229BBC69F00470220 /* ThemeProgressView.swift */; };
+		31FF235729BE249A00470220 /* Phrases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF235629BE249A00470220 /* Phrases.swift */; };
+		31FF235929BE4D5300470220 /* Some.json in Resources */ = {isa = PBXBuildFile; fileRef = 31FF235829BE4D5300470220 /* Some.json */; };
+		31FF235B29BE6D0600470220 /* AddNewUserWordPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF235A29BE6D0600470220 /* AddNewUserWordPopUp.swift */; };
+		31FF235E29C2477500470220 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF235D29C2477500470220 /* MenuVC.swift */; };
+		31FF236029C251AB00470220 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF235F29C251AB00470220 /* MenuCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -112,9 +122,18 @@
 /* Begin PBXFileReference section */
 		3112093529B669F800E20DAC /* ResultPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultPopUp.swift; sourceTree = "<group>"; };
 		3112093729B671DB00E20DAC /* NoLearnedWordsPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoLearnedWordsPopUp.swift; sourceTree = "<group>"; };
+		3127A02729C262F9004C90F9 /* AppThemeSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppThemeSelectionVC.swift; sourceTree = "<group>"; };
+		3127A02929C27893004C90F9 /* SectionRowsNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionRowsNames.swift; sourceTree = "<group>"; };
+		3127A02B29C278B2004C90F9 /* AppThemesNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppThemesNames.swift; sourceTree = "<group>"; };
+		3127A02D29C279CD004C90F9 /* AppThemeSelectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppThemeSelectionCell.swift; sourceTree = "<group>"; };
+		3127A02F29C32CAF004C90F9 /* ThemeAppArchiverService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeAppArchiverService.swift; sourceTree = "<group>"; };
 		3130D815299AC27300BF6041 /* AppTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBar.swift; sourceTree = "<group>"; };
+		314C8A7029C5C9D2008A19BB /* AppVoiceSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVoiceSelectionVC.swift; sourceTree = "<group>"; };
+		314C8A7329C5CA0A008A19BB /* AppVoiceSelectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVoiceSelectionCell.swift; sourceTree = "<group>"; };
+		314C8A7529C5DCCE008A19BB /* voices.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = voices.json; path = Jsons/voices.json; sourceTree = SOURCE_ROOT; };
+		314C8A7729C5E64F008A19BB /* VoiceAppArchieverService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VoiceAppArchieverService.swift; path = ../../../../Downloads/VoiceAppArchieverService.swift; sourceTree = "<group>"; };
 		317D260C29B1FBFF008DCE2E /* QuizeGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizeGameVC.swift; sourceTree = "<group>"; };
-		317D261029B489F4008DCE2E /* ArchiveService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveService.swift; sourceTree = "<group>"; };
+		317D261029B489F4008DCE2E /* WordsArchiverService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsArchiverService.swift; sourceTree = "<group>"; };
 		317D261229B4E118008DCE2E /* CheckLearnedWordsCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLearnedWordsCount.swift; sourceTree = "<group>"; };
 		317D261429B4EB74008DCE2E /* QuestionUpdater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionUpdater.swift; sourceTree = "<group>"; };
 		317D261829B4FB00008DCE2E /* Random Words.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "Random Words.json"; path = "Jsons/Random Words.json"; sourceTree = SOURCE_ROOT; };
@@ -189,12 +208,13 @@
 		31FB99142985956200FC1DF6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		31FB991E2985956400FC1DF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31FB99202985956400FC1DF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		31FB997329942A1700FC1DF6 /* Words.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Words.swift; sourceTree = "<group>"; };
-		31FDF3922997BBB9000E2ABA /* PopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUp.swift; sourceTree = "<group>"; };
-		31FF234B29BBBD0200470220 /* Coding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coding.swift; sourceTree = "<group>"; };
-		31FF234D29BBBD1700470220 /* exten.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exten.swift; sourceTree = "<group>"; };
 		31FF235029BBC19C00470220 /* StatisticsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsVC.swift; sourceTree = "<group>"; };
 		31FF235229BBC69F00470220 /* ThemeProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeProgressView.swift; sourceTree = "<group>"; };
+		31FF235629BE249A00470220 /* Phrases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phrases.swift; sourceTree = "<group>"; };
+		31FF235829BE4D5300470220 /* Some.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Some.json; path = Jsons/Some.json; sourceTree = SOURCE_ROOT; };
+		31FF235A29BE6D0600470220 /* AddNewUserWordPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewUserWordPopUp.swift; sourceTree = "<group>"; };
+		31FF235D29C2477500470220 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		31FF235F29C251AB00470220 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,8 +237,6 @@
 			children = (
 				31FF235029BBC19C00470220 /* StatisticsVC.swift */,
 				31FF235229BBC69F00470220 /* ThemeProgressView.swift */,
-				31FF234B29BBBD0200470220 /* Coding.swift */,
-				31FF234D29BBBD1700470220 /* exten.swift */,
 			);
 			path = Statistics;
 			sourceTree = "<group>";
@@ -230,6 +248,15 @@
 				31F005EC29A2134E0097C22E /* CategoriesCell.swift */,
 			);
 			path = ThemesPullScreen;
+			sourceTree = "<group>";
+		};
+		314C8A7229C5C9D7008A19BB /* AppVoiceSelection */ = {
+			isa = PBXGroup;
+			children = (
+				314C8A7029C5C9D2008A19BB /* AppVoiceSelectionVC.swift */,
+				314C8A7329C5CA0A008A19BB /* AppVoiceSelectionCell.swift */,
+			);
+			path = AppVoiceSelection;
 			sourceTree = "<group>";
 		};
 		317D260B29B1FB7D008DCE2E /* QuizeGameVC */ = {
@@ -261,6 +288,7 @@
 		31F005EE29A5105C0097C22E /* Additional Files */ = {
 			isa = PBXGroup;
 			children = (
+				314C8A7529C5DCCE008A19BB /* voices.json */,
 				317D261829B4FB00008DCE2E /* Random Words.json */,
 				31C9046429AFCB4900D9B615 /* The most popular verbs.json */,
 				31C903F229AD314300D9B615 /* Anatomy.json */,
@@ -317,6 +345,7 @@
 				31C9045A29AE95A700D9B615 /* Weather.json */,
 				31C9045C29AE95F900D9B615 /* Weekday.json */,
 				31C9045E29AE991600D9B615 /* Work.json */,
+				31FF235829BE4D5300470220 /* Some.json */,
 				31C903F029AD314300D9B615 /* Themes.json */,
 			);
 			path = "Additional Files";
@@ -326,7 +355,9 @@
 			isa = PBXGroup;
 			children = (
 				31F005F129A54C520097C22E /* JsonService.swift */,
-				317D261029B489F4008DCE2E /* ArchiveService.swift */,
+				317D261029B489F4008DCE2E /* WordsArchiverService.swift */,
+				3127A02F29C32CAF004C90F9 /* ThemeAppArchiverService.swift */,
+				314C8A7729C5E64F008A19BB /* VoiceAppArchieverService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -347,6 +378,7 @@
 				31F9BCBC29A7FF9100C913AE /* SelectedThemeHeader.swift */,
 				317D261229B4E118008DCE2E /* CheckLearnedWordsCount.swift */,
 				3112093729B671DB00E20DAC /* NoLearnedWordsPopUp.swift */,
+				31FF235A29BE6D0600470220 /* AddNewUserWordPopUp.swift */,
 			);
 			path = SelectedThemeVC;
 			sourceTree = "<group>";
@@ -390,6 +422,7 @@
 				3130D854299FB4FF00BF6041 /* ThemesPullScreen */,
 				31F9BCB929A7D0DF00C913AE /* SelectedThemeVC */,
 				317D260B29B1FB7D008DCE2E /* QuizeGameVC */,
+				31FF235C29C2475600470220 /* SettingsVC */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -398,8 +431,9 @@
 			isa = PBXGroup;
 			children = (
 				31F005F529A54C8D0097C22E /* JsonModelCategories.swift */,
-				31FB997329942A1700FC1DF6 /* Words.swift */,
-				31FDF3922997BBB9000E2ABA /* PopUp.swift */,
+				31FF235629BE249A00470220 /* Phrases.swift */,
+				3127A02929C27893004C90F9 /* SectionRowsNames.swift */,
+				3127A02B29C278B2004C90F9 /* AppThemesNames.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -421,6 +455,26 @@
 				31FB99142985956200FC1DF6 /* SceneDelegate.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		31FF235C29C2475600470220 /* SettingsVC */ = {
+			isa = PBXGroup;
+			children = (
+				31FF235D29C2477500470220 /* MenuVC.swift */,
+				31FF235F29C251AB00470220 /* MenuCell.swift */,
+				31FF236129C2621200470220 /* AppThemeSelection */,
+				314C8A7229C5C9D7008A19BB /* AppVoiceSelection */,
+			);
+			path = SettingsVC;
+			sourceTree = "<group>";
+		};
+		31FF236129C2621200470220 /* AppThemeSelection */ = {
+			isa = PBXGroup;
+			children = (
+				3127A02729C262F9004C90F9 /* AppThemeSelectionVC.swift */,
+				3127A02D29C279CD004C90F9 /* AppThemeSelectionCell.swift */,
+			);
+			path = AppThemeSelection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -523,6 +577,7 @@
 				31C9045B29AE95A700D9B615 /* Weather.json in Resources */,
 				31C9044529AE879000D9B615 /* New Year.json in Resources */,
 				31C9040929AE348900D9B615 /* Berries.json in Resources */,
+				314C8A7629C5DCCE008A19BB /* voices.json in Resources */,
 				31C9043D29AE813E00D9B615 /* Money.json in Resources */,
 				31C903F929AD4DBF00D9B615 /* Archeology.json in Resources */,
 				31C9044B29AE8AF900D9B615 /* School Subjects.json in Resources */,
@@ -549,6 +604,7 @@
 				31C9044F29AE8C9800D9B615 /* Sport.json in Resources */,
 				31C9045729AE935F00D9B615 /* Travelling.json in Resources */,
 				31C9041D29AE71AD00D9B615 /* Economics.json in Resources */,
+				31FF235929BE4D5300470220 /* Some.json in Resources */,
 				31C9044D29AE8C1000D9B615 /* Space.json in Resources */,
 				317D261929B4FB00008DCE2E /* Random Words.json in Resources */,
 				31C9042129AE731300D9B615 /* Family.json in Resources */,
@@ -566,24 +622,32 @@
 				317D261329B4E118008DCE2E /* CheckLearnedWordsCount.swift in Sources */,
 				317D261B29B50090008DCE2E /* CorrectAnswerCheck.swift in Sources */,
 				31F005F629A54C8D0097C22E /* JsonModelCategories.swift in Sources */,
-				31FF234C29BBBD0200470220 /* Coding.swift in Sources */,
-				31FDF3932997BBB9000E2ABA /* PopUp.swift in Sources */,
+				31FF235B29BE6D0600470220 /* AddNewUserWordPopUp.swift in Sources */,
+				3127A02E29C279CD004C90F9 /* AppThemeSelectionCell.swift in Sources */,
+				31FF235E29C2477500470220 /* MenuVC.swift in Sources */,
+				314C8A7429C5CA0A008A19BB /* AppVoiceSelectionCell.swift in Sources */,
 				3112093829B671DB00E20DAC /* NoLearnedWordsPopUp.swift in Sources */,
-				31FF234E29BBBD1700470220 /* exten.swift in Sources */,
-				31FB997429942A1700FC1DF6 /* Words.swift in Sources */,
 				31FB99132985956200FC1DF6 /* AppDelegate.swift in Sources */,
 				31F005F029A510820097C22E /* Extensions.swift in Sources */,
 				31FF235329BBC69F00470220 /* ThemeProgressView.swift in Sources */,
 				31F005F229A54C520097C22E /* JsonService.swift in Sources */,
+				31FF235729BE249A00470220 /* Phrases.swift in Sources */,
+				314C8A7129C5C9D2008A19BB /* AppVoiceSelectionVC.swift in Sources */,
+				3127A03029C32CAF004C90F9 /* ThemeAppArchiverService.swift in Sources */,
 				3112093629B669F800E20DAC /* ResultPopUp.swift in Sources */,
 				31F005EB29A0163C0097C22E /* CategoriesVC.swift in Sources */,
 				31F9BCBD29A7FF9100C913AE /* SelectedThemeHeader.swift in Sources */,
+				3127A02829C262F9004C90F9 /* AppThemeSelectionVC.swift in Sources */,
 				31FB99152985956200FC1DF6 /* SceneDelegate.swift in Sources */,
-				317D261129B489F4008DCE2E /* ArchiveService.swift in Sources */,
+				317D261129B489F4008DCE2E /* WordsArchiverService.swift in Sources */,
+				3127A02C29C278B2004C90F9 /* AppThemesNames.swift in Sources */,
 				31F005ED29A2134E0097C22E /* CategoriesCell.swift in Sources */,
 				31B435F529A9557D00EFEA90 /* SelectedThemeCell.swift in Sources */,
+				3127A02A29C27893004C90F9 /* SectionRowsNames.swift in Sources */,
 				31FF235129BBC19C00470220 /* StatisticsVC.swift in Sources */,
+				314C8A7829C5E64F008A19BB /* VoiceAppArchieverService.swift in Sources */,
 				31F9BCBB29A7D17A00C913AE /* SelectedThemeVC.swift in Sources */,
+				31FF236029C251AB00470220 /* MenuCell.swift in Sources */,
 				317D260D29B1FBFF008DCE2E /* QuizeGameVC.swift in Sources */,
 				317D261529B4EB74008DCE2E /* QuestionUpdater.swift in Sources */,
 				3130D816299AC27300BF6041 /* AppTabBar.swift in Sources */,
@@ -730,11 +794,14 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = YGKQ6UQ529;
+				DEVELOPMENT_TEAM = X6KM3C5872;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "English Trainee/Resources/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = iLearn;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -743,7 +810,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Nikolay-Lermontov.English-Trainee";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nikolay-Lermontov.iLearn";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -760,11 +827,14 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = YGKQ6UQ529;
+				DEVELOPMENT_TEAM = X6KM3C5872;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "English Trainee/Resources/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = iLearn;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -773,7 +843,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Nikolay-Lermontov.English-Trainee";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nikolay-Lermontov.iLearn";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;

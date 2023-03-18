@@ -9,9 +9,11 @@ import UIKit
 
 final class CategoriesCell: UITableViewCell {
     
+    lazy var themeArchiever = ThemeAppArchiever(key: "selectedTheme")
+
     static let identifier = "CategoriesCell"
 
-    private var containerStack: UIStackView = {
+    var containerStack: UIStackView = {
         let stack = UIStackView()
         stack.axis = .vertical
         stack.distribution = .fillEqually
@@ -35,10 +37,8 @@ final class CategoriesCell: UITableViewCell {
     }
     
     //MARK: Parses JSON with and words categories and creates stackviews with buttons inside of one cell
-    #warning("Передаем данные в вью-компонент через апдейт (стандартизация), запрос выносим в контроллер")
     func createThemesOnView() {
         guard let service = JsonServiceImpl().loadJsonCategories(filename: "Themes") else { return }
-        
         for themesStack in 0...service.count - 1 {
             let stack = createHorizontalStack()
             containerStack.addArrangedSubview(stack)
@@ -66,17 +66,17 @@ final class CategoriesCell: UITableViewCell {
         let button = UIButton()
         button.setTitleColor(.black, for: .normal)
         button.titleLabel?.font = UIFont.systemFont(ofSize: 15)
-        button.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         button.layer.cornerRadius = 12
-        //button.layer.borderWidth = 0.6
         button.setImage(UIImage(named: buttonText), for: .normal)
-        button.layer.borderColor = UIColor.lightGray.cgColor
+        button.imageView?.snp.makeConstraints({ make in
+            make.right.equalTo(button.titleLabel!.snp_leftMargin).inset(30)
+        })
         button.setTitle(buttonText, for: .normal)
         button.snp.makeConstraints { make in
             make.height.equalTo(40)
         }
         button.addTarget(self, action: #selector(themeWasTapped) , for: .touchUpInside)
-
+        
         return button
     }
     
@@ -111,4 +111,40 @@ extension CategoriesCell {
     }
 }
 
+extension CategoriesCell {
+
+    func setupGradientVC() {
+                
+        switch themeArchiever.retrieve()
+        {
+        case "Blue Skies":
+            for verticalStack in containerStack.arrangedSubviews {
+                for button in verticalStack.subviews {
+                    let newButton = button as? UIButton
+                    newButton?.backgroundColor = .white
+                    newButton?.setTitleColor(.black, for: .normal)
+                }
+            }
+        case "Classic Black":
+            for verticalStack in containerStack.arrangedSubviews {
+                for button in verticalStack.subviews {
+                    let newButton = button as? UIButton
+                    newButton?.backgroundColor = .darkCellTheme
+                    newButton?.setTitleColor(.white, for: .normal)
+                }
+            }
+        case "Classic White":
+            for verticalStack in containerStack.arrangedSubviews {
+                for button in verticalStack.subviews {
+                    let newButton = button as? UIButton
+                    newButton?.backgroundColor = .white
+                    newButton?.setTitleColor(.black, for: .normal)
+                }
+            }
+        default:
+            break
+        }
+    }
+
+}
 
