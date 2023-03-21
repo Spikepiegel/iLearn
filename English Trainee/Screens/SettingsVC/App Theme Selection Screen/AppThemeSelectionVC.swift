@@ -80,6 +80,11 @@ extension AppThemeSelectionVC: UITableViewDataSource {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: AppThemeSelectionCell.identifier, for: indexPath) as? AppThemeSelectionCell else { return UITableViewCell() }
         cell.updateThemeName(themes[indexPath.row])
         cell.setupGradientVC()
+        if cell.themeNameLabel.text == themeArchiever.retrieve() {
+            cell.selectedAppThemeImage.isHidden = false
+        } else if cell.themeNameLabel.text != themeArchiever.retrieve() {
+            cell.selectedAppThemeImage.isHidden = true
+        }
         return cell
     }
     

@@ -15,6 +15,8 @@ class AppVoiceSelectionVC: UIViewController {
     lazy var themeArchiever = ThemeAppArchiever(key: "selectedTheme")
     var voices = [Voice]()
     
+    let voiceArchiever = VoiceAppArchiever(key: "appVoice")
+
     let synthesizer = AVSpeechSynthesizer()
 
     lazy var backButton: UIButton = {
@@ -31,7 +33,7 @@ class AppVoiceSelectionVC: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     
-    lazy var themeSelectionTable: UITableView = {
+    lazy var voiceSelectionTable: UITableView = {
         let tableView = UITableView(frame: .zero, style: .insetGrouped)
         tableView.register(AppVoiceSelectionCell.self, forCellReuseIdentifier: AppVoiceSelectionCell.identifier)
         tableView.dataSource = self
@@ -62,7 +64,7 @@ extension AppVoiceSelectionVC {
     func setupViews() {
         view.backgroundColor = .clear
         view.addSubview(backButton)
-        view.addSubview(themeSelectionTable)
+        view.addSubview(voiceSelectionTable)
     }
     
     func setupConstraints() {
@@ -70,7 +72,7 @@ extension AppVoiceSelectionVC {
             make.top.equalTo(view).inset(50)
             make.left.equalTo(view).inset(20)
         }
-        themeSelectionTable.snp.makeConstraints { make in
+        voiceSelectionTable.snp.makeConstraints { make in
             make.top.equalTo(backButton.snp_bottomMargin).offset(10)
             make.left.right.equalTo(view)
             make.bottom.equalTo(view)
@@ -90,6 +92,12 @@ extension AppVoiceSelectionVC: UITableViewDataSource {
         
         cell.updateVoiceName(voices[indexPath.row].voiceName)
         
+        if voices[indexPath.row].voiceIdentifier == voiceArchiever.retrieve() {
+            cell.selectedAppVoiceImage.isHidden = false
+        } else if cell.voiceNameLabel.text != themeArchiever.retrieve() {
+            cell.selectedAppVoiceImage.isHidden = true
+        }
+        
         return cell
     }
     
@@ -99,8 +107,8 @@ extension AppVoiceSelectionVC: UITableViewDataSource {
         
         synthesizer.speak(utterance)
         
-        let voiceArchiever = VoiceAppArchiever(key: "appVoice")
         voiceArchiever.save(voices[indexPath.row].voiceIdentifier)
+        voiceSelectionTable.reloadData()
     }
     
     

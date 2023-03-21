@@ -65,14 +65,9 @@ class SelectedThemeVC: UIViewController {
         let button = UIButton()
         button.setTitleColor(.black, for: .normal)
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 18)
+        button.setImage(UIImage(named: "show"), for: .normal)
         
-        switch allTranslationsStatus {
-        case false:
-            button.setImage(UIImage(named: "show"), for: .normal)
-            
-        case true:
-            button.setImage(UIImage(named: "hide"), for: .normal)
-        }
+
         
         button.addTarget(self, action: #selector(showHideAllWordsTranslation), for: .touchUpInside)
         return button
@@ -80,9 +75,34 @@ class SelectedThemeVC: UIViewController {
     
     @objc func showHideAllWordsTranslation(sender: UIButton!) {
         
-        let updateTranslation = wordsArchiver.retrieve()
-
-       
+        switch allTranslationsStatus {
+        case false:
+            showHideTranslationButton.setImage(UIImage(named: "hide"), for: .normal)
+            for index in 0..<words.count {
+                words[index].translationIsHShown = true
+            }
+            allTranslationsStatus = true
+            wordsTable.reloadData()
+            
+        case true:
+            
+            showHideTranslationButton.setImage(UIImage(named: "show"), for: .normal)
+            for index in 0..<words.count {
+                words[index].translationIsHShown = false
+            }
+            allTranslationsStatus = false
+            wordsTable.reloadData()
+        }
+        
+        
+//        sender.isSelected.toggle()
+//
+//        for index in 0..<words.count {
+//            words[index].translationIsHShown = sender.isSelected
+//        }
+//
+//        wordsTable.reloadData()
+//
     }
     
     lazy var addWordButton: UIButton = {
@@ -122,6 +142,12 @@ class SelectedThemeVC: UIViewController {
     }
     
     @objc func closeButtonPressed(sender: UIButton!) {
+        for index in 0..<words.count {
+            words[index].translationIsHShown = false
+        }
+        
+        wordsArchiver.save(words)
+        
         dismiss(animated: true, completion: nil)
     }
     
@@ -227,6 +253,8 @@ extension SelectedThemeVC: UITableViewDelegate {
             if self.words[indexPath.row].isLearned == nil || self.words[indexPath.row].isLearned == false {
                 self.words[indexPath.row].isLearned = true
                 cell.learnedWordImage.setImageAnimation(UIImage(named: "done"))
+                
+                
             } else if self.words[indexPath.row].isLearned == true {
                 self.words[indexPath.row].isLearned?.toggle()
                 cell.learnedWordImage.setImageAnimation(UIImage(named: "unDone"))
@@ -242,6 +270,7 @@ extension SelectedThemeVC: UITableViewDelegate {
         if cell.learnedWordImage.image == UIImage(named: "done") {
             let crossImage = UIImage(named: "cross")
             crossImage?.withTintColor(.systemPink, renderingMode: .alwaysTemplate)
+            
             done.image = crossImage
         } else {
             done.image = UIImage(named: "done")

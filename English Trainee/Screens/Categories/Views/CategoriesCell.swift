@@ -9,6 +9,8 @@ import UIKit
 
 final class CategoriesCell: UITableViewCell {
     
+    var onCategorySelected: ((String)->())?
+    
     lazy var themeArchiever = ThemeAppArchiever(key: "selectedTheme")
 
     static let identifier = "CategoriesCell"
@@ -36,7 +38,7 @@ final class CategoriesCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
-    //MARK: Parses JSON with and words categories and creates stackviews with buttons inside of one cell
+    ///Parses JSON with and words categories and creates stackviews with buttons inside of one cell
     func createThemesOnView() {
         guard let service = JsonServiceImpl().loadJsonCategories(filename: "Themes") else { return }
         for themesStack in 0...service.count - 1 {
@@ -48,11 +50,9 @@ final class CategoriesCell: UITableViewCell {
                 stack.addArrangedSubview(button)
             }
         }
-        
-        
     }
     
-    //MARK: Method to create one StackView for buttons. It is used in createThemesOnView method
+    ///Method to create one StackView for buttons. It is used in createThemesOnView method
     func createHorizontalStack() -> UIStackView {
         let stack = UIStackView()
         stack.axis = .horizontal
@@ -61,7 +61,7 @@ final class CategoriesCell: UITableViewCell {
         return stack
     }
     
-    //MARK: Creates button for one stackView. It is also used in createThemesOnView method
+    ///Creates button for one stackView. It is also used in createThemesOnView method
     func createStackButton(_ buttonText: String) -> UIButton {
         let button = UIButton()
         button.setTitleColor(.black, for: .normal)
@@ -81,13 +81,8 @@ final class CategoriesCell: UITableViewCell {
     }
     
     @objc func themeWasTapped(sender: UIButton!) {
-        
-        let service = JsonServiceImpl()
-        let vc = SelectedThemeVC(selectedTheme: sender.titleLabel?.text ?? "")
-        vc.jsonService = service //Dependency Injection
-        
-        vc.modalPresentationStyle = .fullScreen
-        self.window?.rootViewController?.present(vc, animated: true)
+
+        onCategorySelected?(sender.titleLabel?.text ?? "")
         
     }
     

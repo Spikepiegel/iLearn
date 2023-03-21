@@ -14,8 +14,8 @@
             filePath = "English Trainee/Screens/SettingsVC/AppThemeSelection/AppThemeSelectionVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "88"
-            endingLineNumber = "88"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
             landmarkName = "tableView(_:didSelectRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -113,6 +113,262 @@
             startingLineNumber = "29"
             endingLineNumber = "29"
             landmarkName = "save(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "50752D68-0CB9-4124-B313-CB9BD17643AA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "English Trainee/Screens/SettingsVC/Log In/RegisterPopUp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "registerButton()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "17C4E0FB-1DBF-41DE-8611-D22F7700F1B2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "English Trainee/Screens/SettingsVC/Log In/RegisterPopUp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
+            landmarkName = "registerButton()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "17C4E0FB-1DBF-41DE-8611-D22F7700F1B2 - 1cfbb25707fe0be9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "English_Trainee.RegisterInPopUp.registerButton() -&gt; ()"
+                  moduleName = "English Trainee"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/n_lermont/Desktop/English%20Trainee/English%20Trainee/Screens/SettingsVC/Log%20In/RegisterPopUp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "137"
+                  endingLineNumber = "137"
+                  offsetFromSymbolStart = "1256">
+               </Location>
+               <Location
+                  uuid = "17C4E0FB-1DBF-41DE-8611-D22F7700F1B2 - f3ba761933587fe5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in English_Trainee.RegisterInPopUp.registerButton() -&gt; ()"
+                  moduleName = "English Trainee"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/n_lermont/Desktop/English%20Trainee/English%20Trainee/Screens/SettingsVC/Log%20In/RegisterPopUp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "137"
+                  endingLineNumber = "137"
+                  offsetFromSymbolStart = "328">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D191EE3D-21CD-4A06-9071-1846E229E33F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "English Trainee/Screens/SettingsVC/Log In/RegisterPopUp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
+            landmarkName = "registerButton()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F18D67FA-3060-4DD0-AECD-B517DF2BC7E7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "English Trainee/Screens/SettingsVC/Log In/RegisterPopUp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "registerButton()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7BF1092B-B7D5-42AB-872A-215E830B376C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "English Trainee/Screens/SettingsVC/Log In/RegisterPopUp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "141"
+            endingLineNumber = "141"
+            landmarkName = "registerButton()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7BF1092B-B7D5-42AB-872A-215E830B376C - f3ba761933587e61"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in English_Trainee.RegisterInPopUp.registerButton() -&gt; ()"
+                  moduleName = "English Trainee"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/n_lermont/Desktop/English%20Trainee/English%20Trainee/Screens/SettingsVC/Log%20In/RegisterPopUp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "141"
+                  endingLineNumber = "141"
+                  offsetFromSymbolStart = "520">
+               </Location>
+               <Location
+                  uuid = "7BF1092B-B7D5-42AB-872A-215E830B376C - f3ba761933587e61"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in English_Trainee.RegisterInPopUp.registerButton() -&gt; ()"
+                  moduleName = "English Trainee"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/n_lermont/Desktop/English%20Trainee/English%20Trainee/Screens/SettingsVC/Log%20In/RegisterPopUp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "141"
+                  endingLineNumber = "141"
+                  offsetFromSymbolStart = "676">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "084F58B3-B935-4B5B-BDB2-E5600D2FD39E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "English Trainee/Screens/SettingsVC/Log In/RegisterPopUp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
+            landmarkName = "registerButton()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1203B57B-946A-4FB5-9005-56915536A850"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "English Trainee/Screens/SettingsVC/Log In/RegisterPopUp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
+            landmarkName = "registerButton()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6824DF9B-8641-4507-AFB2-C828C9D8FD89"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "English Trainee/Screens/SettingsVC/Log In/RegisterPopUp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "163"
+            endingLineNumber = "163"
+            landmarkName = "updateHeaderAfterRegistration()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "90780892-50A0-4665-AEF0-5A3868E7F34B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "English Trainee/Screens/SettingsVC/Log In/RegisterPopUp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
+            landmarkName = "updateHeaderAfterRegistration()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "90780892-50A0-4665-AEF0-5A3868E7F34B - 55f2465ed1b2f28b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "English_Trainee.RegisterInPopUp.updateHeaderAfterRegistration() -&gt; ()"
+                  moduleName = "English Trainee"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/n_lermont/Desktop/English%20Trainee/English%20Trainee/Screens/SettingsVC/Log%20In/RegisterPopUp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "162"
+                  endingLineNumber = "162"
+                  offsetFromSymbolStart = "232">
+               </Location>
+               <Location
+                  uuid = "90780892-50A0-4665-AEF0-5A3868E7F34B - 75a861ab0f7f2cc9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in English_Trainee.RegisterInPopUp.updateHeaderAfterRegistration() -&gt; ()"
+                  moduleName = "English Trainee"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/n_lermont/Desktop/English%20Trainee/English%20Trainee/Screens/SettingsVC/Log%20In/RegisterPopUp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "162"
+                  endingLineNumber = "162"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9EC93B46-D104-40A8-A8F3-812AA5DFFE0E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "English Trainee/Screens/SettingsVC/Log In/RegisterPopUp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "161"
+            endingLineNumber = "161"
+            landmarkName = "updateHeaderAfterRegistration()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

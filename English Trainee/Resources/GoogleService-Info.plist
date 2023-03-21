@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>532606659826-vocshq5gajib03cg4lcslal97elos35n.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.532606659826-vocshq5gajib03cg4lcslal97elos35n</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB1J_XFwxQPTDKsyjQFCkw2Eju9zXLKmIs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>532606659826</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Nikolay-Lermontov.iLearn</string>
+	<key>PROJECT_ID</key>
+	<string>ilearn-77ac2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ilearn-77ac2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:532606659826:ios:efb7dd60741a69b45b746b</string>
+</dict>
+</plist>

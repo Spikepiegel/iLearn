@@ -140,7 +140,7 @@ class AddNewUserWordPopUp: UIViewController {
         }
         containerView.snp.makeConstraints { make in
             make.left.right.equalTo(view).inset(30)
-            make.top.bottom.equalTo(view).inset(330)
+            make.top.bottom.equalTo(view).inset(310)
             make.center.equalTo(view)
         }
         popUpTitleLabel.snp.makeConstraints { make in

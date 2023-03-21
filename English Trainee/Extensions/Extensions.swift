@@ -114,8 +114,8 @@ extension UIView {
 extension UIImageView{
     func setImageAnimation(_ image: UIImage?, animated: Bool = true) {
         let duration = animated ? 0.3 : 0.0
-        UIView.transition(with: self, duration: duration, options: .transitionCrossDissolve, animations: {
-            self.image = image
+        UIView.transition(with: self, duration: duration, options: .transitionCrossDissolve, animations: { [weak self] in
+            self?.image = image
         }, completion: nil)
     }
 }

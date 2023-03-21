@@ -115,9 +115,6 @@ class StatisticsVC: UIViewController {
         return index
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        //setupGradientPhraseLabel()
-    }
     override func viewWillAppear(_ animated: Bool) {
         updateProgressWhenScreenWasOpenedAgain()
         totalProgressLabel.text = "Total progress \(getTotalProgress()) %"

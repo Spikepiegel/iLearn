@@ -14,11 +14,18 @@ class AppVoiceSelectionCell: UITableViewCell {
     
     lazy var themeArchiever = ThemeAppArchiever(key: "selectedTheme")
 
-    lazy var voiceName: UILabel = {
+    lazy var voiceNameLabel: UILabel = {
         let label = UILabel()
         return label
     }()
     
+    lazy var selectedAppVoiceImage: UIImageView = {
+        let image = UIImageView()
+        image.image = UIImage(systemName: "checkmark")
+        image.isHidden = true
+        return image
+        
+    }()
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
@@ -32,21 +39,27 @@ class AppVoiceSelectionCell: UITableViewCell {
     }
     
     func updateVoiceName(_ name: String) {
-        voiceName.text = name
+        voiceNameLabel.text = name
     }
     
 }
 
 extension AppVoiceSelectionCell {
     func setupViews() {
-        contentView.addSubview(voiceName)
+        contentView.addSubview(voiceNameLabel)
+        contentView.addSubview(selectedAppVoiceImage)
         selectionStyle = .none
     }
     
     func setupConstraints() {
-        voiceName.snp.makeConstraints { make in
+        voiceNameLabel.snp.makeConstraints { make in
             make.centerY.equalTo(contentView)
             make.left.equalTo(contentView).inset(10)
+        }
+        
+        selectedAppVoiceImage.snp.makeConstraints { make in
+            make.centerY.equalTo(contentView)
+            make.right.equalTo(contentView).inset(15)
         }
     }
 }
@@ -57,13 +70,16 @@ extension AppVoiceSelectionCell {
         switch themeArchiever.retrieve() {
         case "Blue Skies":
             contentView.backgroundColor = .white
-            voiceName.textColor = .black
+            voiceNameLabel.textColor = .black
+            selectedAppVoiceImage.tintColor = .black
         case "Classic Black":
             contentView.backgroundColor = .darkCellTheme
-            voiceName.textColor = .white
+            voiceNameLabel.textColor = .white
+            selectedAppVoiceImage.tintColor = .white
         case "Classic White":
             contentView.backgroundColor = .white
-            voiceName.textColor = .black
+            voiceNameLabel.textColor = .black
+            selectedAppVoiceImage.tintColor = .black
         default:
             break
         }

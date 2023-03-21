@@ -7,17 +7,20 @@
 
 import UIKit
 import UIKit
+import Firebase
 
-class MenuVC: UIViewController {
+class MenuVC: UIViewController, UINavigationControllerDelegate {
     
     lazy var themeArchiever = ThemeAppArchiever(key: "selectedTheme")
     
+    var header = MenuHeader(frame: CGRect(x: 0, y: 0, width: 0, height: 40))
+    
     let names = SectionsRowsNames()
-        
     override func viewDidLoad() {
         super.viewDidLoad()
         setupViews()
         setupConstraints()
+        updateTableViewHeader()
         
     }
     
@@ -29,12 +32,36 @@ class MenuVC: UIViewController {
     lazy var settingsTable: UITableView = {
         let table = UITableView(frame: .zero, style: .insetGrouped)
         table.register(MenuCell.self, forCellReuseIdentifier: MenuCell.identifier)
+        table.tableHeaderView = header
         table.dataSource = self
         table.delegate = self
         table.backgroundColor = .clear
         table.separatorInset = .zero
         return table
     }()
+    
+    func updateTableViewHeader() {
+        Auth.auth().addStateDidChangeListener { [weak self] (auth, user) in
+            
+            if user != nil {
+                let ref = Database.database().reference()
+                
+                let uid = (Auth.auth().currentUser?.uid)!
+                
+                ref.child("users/\(uid)/username").getData(completion:  { error, snapshot in
+                    guard error == nil else {
+                        print(error!.localizedDescription)
+                        return
+                    }
+                    let userName = snapshot?.value as? String ?? "Unknown";
+                    self?.header.usernameLabel.text = "Hello, \(userName)"
+                });
+            } else {
+                self?.header.usernameLabel.text = "Log In"
+            }
+        }
+        
+    }
     
     
 }
@@ -97,7 +124,7 @@ extension MenuVC: UITableViewDataSource {
         case 1:
             return 2
         default:
-            return 3 
+            return 3
         }
         
     }
@@ -126,13 +153,50 @@ extension MenuVC: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-
+        
         switch indexPath.section {
             
         case 0:
             switch indexPath.row {
-            case 0: break
-
+            case 0:
+                let vc = RegisterInPopUp()
+                vc.modalPresentationStyle = .overCurrentContext
+                vc.modalTransitionStyle = .crossDissolve
+                self.present(vc, animated: true)
+            case 1:
+                
+                Auth.auth().addStateDidChangeListener { (auth, user) in
+                    print(auth, user?.displayName)
+                    
+                    if user != nil {
+                        let vc = SignOutPopUp()
+                        vc.modalPresentationStyle = .overCurrentContext
+                        vc.modalTransitionStyle = .crossDissolve
+                        self.present(vc, animated: true)
+                    } else {
+                        let vc = LogInPopUp()
+                        vc.modalPresentationStyle = .overCurrentContext
+                        vc.modalTransitionStyle = .crossDissolve
+                        self.present(vc, animated: true)
+                    }
+                    
+                    // Принт username
+                    //                    let ref = Database.database().reference()
+                    //
+                    //                    let uid = (Auth.auth().currentUser?.uid)!
+                    //
+                    //                    ref.child("users/\(uid)/username").getData(completion:  { error, snapshot in
+                    //                      guard error == nil else {
+                    //                        print(error!.localizedDescription)
+                    //                        return
+                    //                      }
+                    //                        let userName = snapshot?.value as? String ?? "Unknown";
+                    //                        print(userName)
+                    //                    });
+                    
+                    
+                }
+                
                 
             default:
                 break
@@ -154,7 +218,15 @@ extension MenuVC: UITableViewDataSource {
                 break
             }
             
-        case 2: break
+        case 2:
+            switch indexPath.row {
+            case 0: break
+            case 1:
+                break
+            case 2: break
+            default:
+                break
+            }
         default:
             break
         }
@@ -174,7 +246,7 @@ extension MenuVC {
     func setupGradientVC() {
         
         let gradientLayer = CAGradientLayer()
-
+        
         guard let gradientSubLayer = view.layer.sublayers else { return }
         if gradientSubLayer.count > 1 {
             gradientSubLayer[0].removeFromSuperlayer()
@@ -212,11 +284,12 @@ extension MenuVC {
             gradientLayer.locations = [0.0, 1.0]
             gradientLayer.frame = self.view.bounds
             
-            self.view.layer.insertSublayer(gradientLayer, at:0)            
+            self.view.layer.insertSublayer(gradientLayer, at:0)
             
         default:
             break
         }
     }
-
+    
 }
+

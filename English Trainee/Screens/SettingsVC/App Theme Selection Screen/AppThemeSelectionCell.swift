@@ -18,6 +18,14 @@ class AppThemeSelectionCell: UITableViewCell {
         return label
     }()
     
+    lazy var selectedAppThemeImage: UIImageView = {
+        let image = UIImageView()
+        image.image = UIImage(systemName: "checkmark")
+        image.isHidden = true
+        return image
+        
+    }()
+    
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
@@ -40,6 +48,7 @@ extension AppThemeSelectionCell {
     func setupViews() {
         selectionStyle = .none
         contentView.addSubview(themeNameLabel)
+        contentView.addSubview(selectedAppThemeImage)
     }
     
     func setupConstraints() {
@@ -47,6 +56,12 @@ extension AppThemeSelectionCell {
             make.centerY.equalTo(contentView)
             make.left.equalTo(contentView).inset(10)
         }
+        
+        selectedAppThemeImage.snp.makeConstraints { make in
+            make.centerY.equalTo(contentView)
+            make.right.equalTo(contentView).inset(15)
+        }
+
     }
     
 }
@@ -59,12 +74,15 @@ extension AppThemeSelectionCell {
         case "Blue Skies":
             contentView.backgroundColor = .white
             themeNameLabel.textColor = .black
+            selectedAppThemeImage.tintColor = .black
         case "Classic Black":
             contentView.backgroundColor = .darkCellTheme
             themeNameLabel.textColor = .white
+            selectedAppThemeImage.tintColor = .white
         case "Classic White":
             contentView.backgroundColor = .white
             themeNameLabel.textColor = .black
+            selectedAppThemeImage.tintColor = .black
         default:
             break
         }
