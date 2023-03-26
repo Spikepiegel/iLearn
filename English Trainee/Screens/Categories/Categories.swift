@@ -25,7 +25,12 @@ final class CategoriesVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        setupTable()
+        
+        
+    }
+    
+    func setupTable() {
         categoriesView.tableView.onEvent = { categoryName in
             
             
@@ -38,7 +43,6 @@ final class CategoriesVC: UIViewController {
             
             
         }
-        
     }
     
     override func viewWillAppear(_ animated: Bool) {

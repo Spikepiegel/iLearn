@@ -6,9 +6,7 @@
 //
 
 import Foundation
-
-
-
+import SnapKit
 import UIKit
 
 
@@ -76,38 +74,26 @@ class ResultPopUp: UIViewController {
     
     
     func setupConstraints() {
- 
-        dimmedView.translatesAutoresizingMaskIntoConstraints = false
-        containerView.translatesAutoresizingMaskIntoConstraints = false
-        popText.translatesAutoresizingMaskIntoConstraints = false
-        closePopUpButton.translatesAutoresizingMaskIntoConstraints = false
+  
+        dimmedView.snp.makeConstraints { make in
+            make.edges.equalTo(view)
+        }
+        containerView.snp.makeConstraints { make in
+            make.left.right.equalTo(view).inset(40)
+            make.centerY.equalTo(view)
+        }
         
-        NSLayoutConstraint.activate([
-            dimmedView.topAnchor.constraint(equalTo: view.topAnchor),
-            dimmedView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-            dimmedView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-            dimmedView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
-            
-            
-            containerView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 40),
-            containerView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -40),
-            containerView.centerYAnchor.constraint(equalTo: view.centerYAnchor,
-                                                   constant: -containerView.bounds.height/2)
-        ])
-            
-            
-        NSLayoutConstraint.activate([
-            popText.centerXAnchor.constraint(equalTo: containerView.centerXAnchor),
-            popText.topAnchor.constraint(equalTo: containerView.topAnchor, constant: 20),
-            
-            closePopUpButton.leadingAnchor.constraint(equalTo: containerView.leadingAnchor, constant: 40),
-            closePopUpButton.trailingAnchor.constraint(equalTo: containerView.trailingAnchor, constant: -40),
-            closePopUpButton.topAnchor.constraint(equalTo: popText.bottomAnchor, constant: 20),
-            closePopUpButton.centerXAnchor.constraint(equalTo: containerView.centerXAnchor),
-            closePopUpButton.bottomAnchor.constraint(equalTo: containerView.bottomAnchor, constant: -20)
-
-            
-        ])
+        popText.snp.makeConstraints { make in
+            make.centerX.equalTo(containerView)
+            make.top.equalTo(containerView).inset(20)
+        }
+        
+        closePopUpButton.snp.makeConstraints { make in
+            make.top.equalTo(popText.snp_bottomMargin).offset(20)
+            make.left.right.equalTo(containerView).inset(40)
+            make.bottom.equalTo(containerView).inset(20)
+            make.centerX.equalTo(containerView)
+        }
         
     }
     

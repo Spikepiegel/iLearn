@@ -81,6 +81,7 @@ class LogInPopUp: UIViewController {
         text.returnKeyType = UIReturnKeyType.done
         text.clearButtonMode = UITextField.ViewMode.whileEditing
         text.contentVerticalAlignment = UIControl.ContentVerticalAlignment.center
+        text.isSecureTextEntry = true
         return text
     }()
     
@@ -247,3 +248,5 @@ extension LogInPopUp {
     }
     
 }
+
+ 

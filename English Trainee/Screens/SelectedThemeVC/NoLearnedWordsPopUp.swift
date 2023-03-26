@@ -74,7 +74,7 @@ class NoLearnedWordsPopUp: UIViewController {
         }
         containerView.snp.makeConstraints { make in
             make.left.right.equalTo(view).inset(30)
-            make.top.bottom.equalTo(view).inset(400)
+            make.top.bottom.equalTo(view).inset(350)
             make.center.equalTo(view)
         }
         popText.snp.makeConstraints { make in

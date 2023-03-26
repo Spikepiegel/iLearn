@@ -182,24 +182,24 @@ class QuizeGameVC: UIViewController, QuizeGameVCProtocol  {
             
             if numberOfQuestion < wordsList.count{
                 incorrectAnswerCount = 0
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: { [weak self] in
-                    self?.createNextQuetion()
-                    self?.progressLabel.fadeTransition(0.3)
-                    self?.progressLabel.text = "\(Int(self?.numberOfQuestion ?? 1)) / \(Int(self?.wordsList.count ?? 1))"
-                    self?.progressView.setProgress(Float(self?.numberOfQuestion ?? 1)/Float(self?.wordsList.count ?? 1), animated: true)
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: { [unowned self] in
+                    self.createNextQuetion()
+                    self.progressLabel.fadeTransition(0.3)
+                    self.progressLabel.text = "\(Int(self.numberOfQuestion)) / \(Int(self.wordsList.count))"
+                    self.progressView.setProgress(Float(self.numberOfQuestion)/Float(self.wordsList.count), animated: true)
                 })
             } else {
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: { [weak self] in
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: { [unowned self] in
                     
-                    self?.progressLabel.fadeTransition(0.3)
-                    self?.progressLabel.text = "\(Int(self?.numberOfQuestion ?? 1)) / \(Int(self?.wordsList.count ?? 1))"
-                    self?.progressView.setProgress(Float(self?.numberOfQuestion ?? 1)/Float(self?.wordsList.count ?? 1), animated: true)
+                    self.progressLabel.fadeTransition(0.3)
+                    self.progressLabel.text = "\(Int(self.numberOfQuestion)) / \(Int(self.wordsList.count))"
+                    self.progressView.setProgress(Float(self.numberOfQuestion)/Float(self.wordsList.count), animated: true)
                     
                     let vc = ResultPopUp()
                     vc.delegate = self
-                    vc.popText.text = "\(Int(self?.score ?? 1))/\(Int(self?.wordsList.count ?? 1)) correct answers"
+                    vc.popText.text = "\(Int(self.score))/\(Int(self.wordsList.count)) correct answers"
                     vc.modalPresentationStyle = .overCurrentContext
-                    self?.present(vc, animated: false)
+                    self.present(vc, animated: false)
                     
                 })
             }

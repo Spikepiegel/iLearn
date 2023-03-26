@@ -72,9 +72,6 @@ extension MenuHeader {
 
 extension MenuHeader {
     func setupGradientVC() {
-        let gradientLayer = CAGradientLayer()
-        
-
         
         switch themeArchiever.retrieve()
         {

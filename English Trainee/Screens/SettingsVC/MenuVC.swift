@@ -179,22 +179,7 @@ extension MenuVC: UITableViewDataSource {
                         vc.modalTransitionStyle = .crossDissolve
                         self.present(vc, animated: true)
                     }
-                    
-                    // Принт username
-                    //                    let ref = Database.database().reference()
-                    //
-                    //                    let uid = (Auth.auth().currentUser?.uid)!
-                    //
-                    //                    ref.child("users/\(uid)/username").getData(completion:  { error, snapshot in
-                    //                      guard error == nil else {
-                    //                        print(error!.localizedDescription)
-                    //                        return
-                    //                      }
-                    //                        let userName = snapshot?.value as? String ?? "Unknown";
-                    //                        print(userName)
-                    //                    });
-                    
-                    
+
                 }
                 
                 
