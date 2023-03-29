@@ -94,15 +94,6 @@ class SelectedThemeVC: UIViewController {
             wordsTable.reloadData()
         }
         
-        
-//        sender.isSelected.toggle()
-//
-//        for index in 0..<words.count {
-//            words[index].translationIsHShown = sender.isSelected
-//        }
-//
-//        wordsTable.reloadData()
-//
     }
     
     lazy var addWordButton: UIButton = {

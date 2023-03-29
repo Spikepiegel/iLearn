@@ -18,7 +18,6 @@ final class CategoriesView: UIView {
         super.init(frame: frame)
         setupViews()
         setupConstraints()
-        self.backgroundColor = .clear
         setupGradientVC()
     }
     
@@ -26,7 +25,7 @@ final class CategoriesView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func update() {
+    func setupGradient() {
         setupGradientVC()
         tableView.reloadData()
     }
@@ -37,7 +36,7 @@ extension CategoriesView {
     
     func setupViews() {
         self.addSubview(tableView)
-        self.backgroundColor = .appBackgroundColor
+        self.backgroundColor = .clear
     }
     
     func setupConstraints() {

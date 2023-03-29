@@ -39,9 +39,6 @@ class MenuHeader: UIView {
         fatalError()
     }
     
-    func updateUserNameLabel() {
-        usernameLabel.text
-    }
 }
 
 extension MenuHeader {

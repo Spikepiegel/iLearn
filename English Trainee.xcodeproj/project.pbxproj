@@ -119,7 +119,7 @@
 		31EA189E29B92FCA001AF369 /* MultiProgressView in Frameworks */ = {isa = PBXBuildFile; productRef = 31EA189D29B92FCA001AF369 /* MultiProgressView */; };
 		31EA18A229BA571F001AF369 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 31EA18A129BA571F001AF369 /* Charts */; };
 		31EA18A929BA5A8D001AF369 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 31EA18A829BA5A8D001AF369 /* Algorithms */; };
-		31F005EB29A0163C0097C22E /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F005EA29A0163C0097C22E /* Categories.swift */; };
+		31F005EB29A0163C0097C22E /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F005EA29A0163C0097C22E /* CategoriesVC.swift */; };
 		31F005ED29A2134E0097C22E /* CategoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F005EC29A2134E0097C22E /* CategoriesCell.swift */; };
 		31F005F029A510820097C22E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F005EF29A510820097C22E /* Extensions.swift */; };
 		31F005F229A54C520097C22E /* JsonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F005F129A54C520097C22E /* JsonService.swift */; };
@@ -235,7 +235,7 @@
 		31C9046029AE9CF800D9B615 /* Politics.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Politics.json; path = Jsons/Politics.json; sourceTree = SOURCE_ROOT; };
 		31C9046229AE9D6800D9B615 /* Professions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Professions.json; path = Jsons/Professions.json; sourceTree = SOURCE_ROOT; };
 		31C9046429AFCB4900D9B615 /* The most popular verbs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "The most popular verbs.json"; path = "Jsons/The most popular verbs.json"; sourceTree = SOURCE_ROOT; };
-		31F005EA29A0163C0097C22E /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		31F005EA29A0163C0097C22E /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
 		31F005EC29A2134E0097C22E /* CategoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCell.swift; sourceTree = "<group>"; };
 		31F005EF29A510820097C22E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		31F005F129A54C520097C22E /* JsonService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonService.swift; sourceTree = "<group>"; };
@@ -312,7 +312,7 @@
 		3130D854299FB4FF00BF6041 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				31F005EA29A0163C0097C22E /* Categories.swift */,
+				31F005EA29A0163C0097C22E /* CategoriesVC.swift */,
 				314C8A7F29C704D9008A19BB /* Views */,
 			);
 			path = Categories;
@@ -758,7 +758,7 @@
 				314C8A7129C5C9D2008A19BB /* AppVoiceSelectionVC.swift in Sources */,
 				3127A03029C32CAF004C90F9 /* ThemeAppArchiverService.swift in Sources */,
 				3112093629B669F800E20DAC /* ResultPopUp.swift in Sources */,
-				31F005EB29A0163C0097C22E /* Categories.swift in Sources */,
+				31F005EB29A0163C0097C22E /* CategoriesVC.swift in Sources */,
 				31F9BCBD29A7FF9100C913AE /* SelectedThemeHeader.swift in Sources */,
 				3127A02829C262F9004C90F9 /* AppThemeSelectionVC.swift in Sources */,
 				31FB99152985956200FC1DF6 /* SceneDelegate.swift in Sources */,

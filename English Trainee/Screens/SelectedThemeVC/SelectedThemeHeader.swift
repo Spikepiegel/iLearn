@@ -138,16 +138,6 @@ extension SelectedThemeHeader {
     }
 }
 
-///Gradient Settings
-extension SelectedThemeHeader {
-    func setupGradientV1C() {
-        
-        
-        
-    }
-    
-}
-
 extension SelectedThemeHeader {
     func setupGradientVC() {
         let gradientLayer = CAGradientLayer()

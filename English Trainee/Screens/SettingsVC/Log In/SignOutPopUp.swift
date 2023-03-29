@@ -132,10 +132,6 @@ class SignOutPopUp: UIViewController {
 extension SignOutPopUp {
     func setupGradientVC() {
         
-        let gradientLayer = CAGradientLayer()
-        
-
-        
         switch themeArchiever.retrieve() {
         case "Blue Skies":
             

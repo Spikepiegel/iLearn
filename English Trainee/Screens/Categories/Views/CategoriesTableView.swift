@@ -13,16 +13,18 @@ class CategoriesTableView: UITableView {
     
     
     lazy var themeArchiever = ThemeAppArchiever(key: "selectedTheme")
-    var themesWasCreated = false
+    private var themesWasCreated = false
 
     override init(frame: CGRect, style: UITableView.Style) {
         super.init(frame: frame, style: .grouped)
-        
+        setupTable()
+    }
+    
+    func setupTable() {
         self.register(CategoriesCell.self, forCellReuseIdentifier: "CategoriesCell")
         self.backgroundColor = .clear
         self.delegate = self
         self.dataSource = self
-        
     }
     
     required init?(coder: NSCoder) {

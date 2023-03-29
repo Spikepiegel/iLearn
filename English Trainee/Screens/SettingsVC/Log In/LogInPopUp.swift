@@ -215,11 +215,7 @@ class LogInPopUp: UIViewController {
 
 extension LogInPopUp {
     func setupGradientVC() {
-        
-        let gradientLayer = CAGradientLayer()
-        
-
-        
+    
         switch themeArchiever.retrieve() {
         case "Blue Skies":
             

@@ -10,11 +10,7 @@ import SnapKit
 
 //MARK: VC with all categories
 final class CategoriesVC: UIViewController {
-    
-    lazy var themeArchiever = ThemeAppArchiever(key: "selectedTheme")
-    
-    var themesWasCreated = false
-
+        
     var categoriesView: CategoriesView { return self.view as! CategoriesView }
     
     override func loadView() {
@@ -26,13 +22,10 @@ final class CategoriesVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupTable()
-        
-        
     }
     
     func setupTable() {
-        categoriesView.tableView.onEvent = { categoryName in
-            
+        categoriesView.tableView.onEvent = { [unowned self] categoryName in
             
             let service = JsonServiceImpl()
             let vc = SelectedThemeVC(selectedTheme: categoryName)
@@ -41,14 +34,13 @@ final class CategoriesVC: UIViewController {
             vc.modalPresentationStyle = .fullScreen
             self.present(vc, animated: true)
             
-            
         }
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        categoriesView.update()
+        categoriesView.setupGradient()
     }
 }
 

@@ -166,7 +166,6 @@ extension MenuVC: UITableViewDataSource {
             case 1:
                 
                 Auth.auth().addStateDidChangeListener { (auth, user) in
-                    print(auth, user?.displayName)
                     
                     if user != nil {
                         let vc = SignOutPopUp()

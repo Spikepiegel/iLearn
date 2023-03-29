@@ -248,10 +248,6 @@ class RegisterInPopUp: UIViewController {
 extension RegisterInPopUp {
     func setupGradientVC() {
         
-        let gradientLayer = CAGradientLayer()
-        
-        
-        
         switch themeArchiever.retrieve() {
         case "Blue Skies":
             
