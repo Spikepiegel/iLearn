@@ -2,7 +2,7 @@
 //  CategoriesView.swift
 //  English Trainee
 //
-//  Created by Николай Лермонтов on 19.03.2023.
+//  Created by Николай Лермонтов on 02.04.2023.
 //
 
 import Foundation
@@ -18,7 +18,7 @@ final class CategoriesView: UIView {
         super.init(frame: frame)
         setupViews()
         setupConstraints()
-        setupGradientVC()
+        //setupGradientVC()
     }
     
     required init?(coder: NSCoder) {

@@ -42,7 +42,6 @@ extension CategoriesTableView: UITableViewDelegate {
                                          y: header.bounds.origin.y,
                                          width: 0,
                                          height: header.bounds.height)
-        //header.textLabel?.textColor = .black
         switch themeArchiever.retrieve() {
         case "Blue Skies":
             header.textLabel?.textColor = .black

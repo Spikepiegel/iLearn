@@ -16,7 +16,7 @@ protocol QuizeGameVCProtocol {
 class QuizeGameVC: UIViewController, QuizeGameVCProtocol  {
     
     lazy var themeArchiever = ThemeAppArchiever(key: "selectedTheme")
-    
+
     lazy var wordsList = getQuestionArray()
     lazy var correctAnswerVariants = QuestionUpdater(fullWordsInformationList: wordsList).createEnglishWordsArray()
     
@@ -182,14 +182,14 @@ class QuizeGameVC: UIViewController, QuizeGameVCProtocol  {
             
             if numberOfQuestion < wordsList.count{
                 incorrectAnswerCount = 0
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: { [unowned self] in
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: {
                     self.createNextQuetion()
                     self.progressLabel.fadeTransition(0.3)
                     self.progressLabel.text = "\(Int(self.numberOfQuestion)) / \(Int(self.wordsList.count))"
                     self.progressView.setProgress(Float(self.numberOfQuestion)/Float(self.wordsList.count), animated: true)
                 })
             } else {
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: { [unowned self] in
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: {
                     
                     self.progressLabel.fadeTransition(0.3)
                     self.progressLabel.text = "\(Int(self.numberOfQuestion)) / \(Int(self.wordsList.count))"

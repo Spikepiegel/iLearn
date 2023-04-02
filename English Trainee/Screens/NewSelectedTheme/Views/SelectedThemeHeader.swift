@@ -9,6 +9,8 @@ class SelectedThemeHeader: UIView {
     
     var delegate: SelectedThemeVCProtocol?
     
+    var onGameSelectedEvent: ((String) -> ())?
+    
     lazy var themeArchiever = ThemeAppArchiever(key: "selectedTheme")
     
     lazy var containerView: UIView = {
@@ -54,10 +56,7 @@ class SelectedThemeHeader: UIView {
     @objc func openFirstGameVC(sender: UIButton!) {
             
         guard let gameType = sender.titleLabel?.text else { return }
-
-        
-            self.delegate?.openQuizeGameVC(gameType)
-            delegate?.openQuizeGameVC(gameType)
+            onGameSelectedEvent?(gameType)
     }
     
     ///Button which opens new screen with quize game of the whole words from the current category
@@ -74,9 +73,7 @@ class SelectedThemeHeader: UIView {
     @objc func openSecondGameVC(sender: UIButton!) {
         
         guard let gameType = sender.titleLabel?.text else { return }
-        
-        self.delegate?.openQuizeGameVC(gameType)
-        delegate?.openQuizeGameVC(gameType)
+        onGameSelectedEvent?(gameType)
     }
     
     override init(frame: CGRect) {

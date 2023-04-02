@@ -16,6 +16,12 @@ class AppVoiceSelectionCell: UITableViewCell {
 
     lazy var voiceNameLabel: UILabel = {
         let label = UILabel()
+        label.font = UIFont.boldSystemFont(ofSize: 15)
+        return label
+    }()
+    
+    lazy var voiceLanguageLabel: UILabel = {
+        let label = UILabel()
         return label
     }()
     
@@ -38,8 +44,9 @@ class AppVoiceSelectionCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func updateVoiceName(_ name: String) {
+    func updateVoiceName(_ name: String, _ language: String) {
         voiceNameLabel.text = name
+        voiceLanguageLabel.text = "(\(language))"
     }
     
 }
@@ -47,6 +54,7 @@ class AppVoiceSelectionCell: UITableViewCell {
 extension AppVoiceSelectionCell {
     func setupViews() {
         contentView.addSubview(voiceNameLabel)
+        contentView.addSubview(voiceLanguageLabel)
         contentView.addSubview(selectedAppVoiceImage)
         selectionStyle = .none
     }
@@ -55,6 +63,11 @@ extension AppVoiceSelectionCell {
         voiceNameLabel.snp.makeConstraints { make in
             make.centerY.equalTo(contentView)
             make.left.equalTo(contentView).inset(10)
+        }
+        
+        voiceLanguageLabel.snp.makeConstraints { make in
+            make.centerY.equalTo(contentView)
+            make.left.equalTo(voiceNameLabel.snp_rightMargin).offset(15)
         }
         
         selectedAppVoiceImage.snp.makeConstraints { make in
@@ -71,14 +84,17 @@ extension AppVoiceSelectionCell {
         case "Blue Skies":
             contentView.backgroundColor = .white
             voiceNameLabel.textColor = .black
+            voiceLanguageLabel.textColor = .black
             selectedAppVoiceImage.tintColor = .black
         case "Classic Black":
             contentView.backgroundColor = .darkCellTheme
             voiceNameLabel.textColor = .white
+            voiceLanguageLabel.textColor = .white
             selectedAppVoiceImage.tintColor = .white
         case "Classic White":
             contentView.backgroundColor = .white
             voiceNameLabel.textColor = .black
+            voiceLanguageLabel.textColor = .black
             selectedAppVoiceImage.tintColor = .black
         default:
             break

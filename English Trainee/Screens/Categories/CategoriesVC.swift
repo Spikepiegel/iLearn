@@ -17,22 +17,20 @@ final class CategoriesVC: UIViewController {
         self.view = CategoriesView(frame: UIScreen.main.bounds)
     }
     
-
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupTable()
     }
     
     func setupTable() {
-        categoriesView.tableView.onEvent = { [unowned self] categoryName in
+        categoriesView.tableView.onEvent = { [weak self] categoryName in
             
             let service = JsonServiceImpl()
-            let vc = SelectedThemeVC(selectedTheme: categoryName)
+            let vc = NewSelectedThemeVC(selectedCategoryName: categoryName)
             vc.jsonService = service //Dependency Injection
     
             vc.modalPresentationStyle = .fullScreen
-            self.present(vc, animated: true)
+            self?.present(vc, animated: true)
             
         }
     }

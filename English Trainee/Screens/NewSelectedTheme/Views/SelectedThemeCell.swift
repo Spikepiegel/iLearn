@@ -14,6 +14,8 @@ final class SelectedThemeCell: UITableViewCell {
     
     lazy var themeArchiever = ThemeAppArchiever(key: "selectedTheme")
     
+    var onSoundWordEvent: ((String) -> Void)?
+    
     static let identifier = "SelectedThemeCell"
     var soundDelegate: SelectedThemeVCProtocol?
     ///Word in English
@@ -46,7 +48,10 @@ final class SelectedThemeCell: UITableViewCell {
     }()
 
     @objc func soundEnglishWord(sender: UIButton!) {
-        soundDelegate?.soundWord(wordOriginLabel.text!)
+        
+        guard let wordForSound = wordOriginLabel.text else { return }
+        onSoundWordEvent?(wordForSound)
+        //soundDelegate?.soundWord(wordOriginLabel.text!)
     }
     
     ///Icon which mark the cell with word, which user has learned

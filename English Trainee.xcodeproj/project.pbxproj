@@ -20,7 +20,6 @@
 		314C8A7429C5CA0A008A19BB /* AppVoiceSelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314C8A7329C5CA0A008A19BB /* AppVoiceSelectionCell.swift */; };
 		314C8A7629C5DCCE008A19BB /* voices.json in Resources */ = {isa = PBXBuildFile; fileRef = 314C8A7529C5DCCE008A19BB /* voices.json */; };
 		314C8A7829C5E64F008A19BB /* VoiceAppArchieverService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314C8A7729C5E64F008A19BB /* VoiceAppArchieverService.swift */; };
-		314C8A7E29C6FFBF008A19BB /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314C8A7D29C6FFBF008A19BB /* CategoriesView.swift */; };
 		314C8A8129C7050B008A19BB /* CategoriesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314C8A8029C7050B008A19BB /* CategoriesTableView.swift */; };
 		314C8A8329C73F74008A19BB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 314C8A8229C73F74008A19BB /* GoogleService-Info.plist */; };
 		314C8A8629C74053008A19BB /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 314C8A8529C74053008A19BB /* FirebaseAnalytics */; };
@@ -116,6 +115,10 @@
 		31C9046129AE9CF800D9B615 /* Politics.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9046029AE9CF800D9B615 /* Politics.json */; };
 		31C9046329AE9D6800D9B615 /* Professions.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9046229AE9D6800D9B615 /* Professions.json */; };
 		31C9046529AFCB4900D9B615 /* The most popular verbs.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9046429AFCB4900D9B615 /* The most popular verbs.json */; };
+		31C9416C29D984CB0093ECAB /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C9416B29D984CB0093ECAB /* CategoriesView.swift */; };
+		31C9416F29D985510093ECAB /* NewSelectedThemeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C9416E29D985510093ECAB /* NewSelectedThemeVC.swift */; };
+		31C9417229D9858D0093ECAB /* NewSelectedThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C9417129D9858D0093ECAB /* NewSelectedThemeView.swift */; };
+		31C9417429D9889B0093ECAB /* NewSelectedThemeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C9417329D9889B0093ECAB /* NewSelectedThemeTable.swift */; };
 		31EA189E29B92FCA001AF369 /* MultiProgressView in Frameworks */ = {isa = PBXBuildFile; productRef = 31EA189D29B92FCA001AF369 /* MultiProgressView */; };
 		31EA18A229BA571F001AF369 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 31EA18A129BA571F001AF369 /* Charts */; };
 		31EA18A929BA5A8D001AF369 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 31EA18A829BA5A8D001AF369 /* Algorithms */; };
@@ -126,7 +129,6 @@
 		31F005F629A54C8D0097C22E /* JsonModelCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F005F529A54C8D0097C22E /* JsonModelCategories.swift */; };
 		31F7E82129B7C1210070BDF0 /* Art.json in Resources */ = {isa = PBXBuildFile; fileRef = 31F7E82029B7C1210070BDF0 /* Art.json */; };
 		31F9BCB829A7732700C913AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31F9BCB729A7732700C913AE /* Assets.xcassets */; };
-		31F9BCBB29A7D17A00C913AE /* SelectedThemeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F9BCBA29A7D17A00C913AE /* SelectedThemeVC.swift */; };
 		31F9BCBD29A7FF9100C913AE /* SelectedThemeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F9BCBC29A7FF9100C913AE /* SelectedThemeHeader.swift */; };
 		31FB99132985956200FC1DF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB99122985956200FC1DF6 /* AppDelegate.swift */; };
 		31FB99152985956200FC1DF6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB99142985956200FC1DF6 /* SceneDelegate.swift */; };
@@ -166,7 +168,6 @@
 		314C8A7329C5CA0A008A19BB /* AppVoiceSelectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVoiceSelectionCell.swift; sourceTree = "<group>"; };
 		314C8A7529C5DCCE008A19BB /* voices.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = voices.json; path = Jsons/voices.json; sourceTree = SOURCE_ROOT; };
 		314C8A7729C5E64F008A19BB /* VoiceAppArchieverService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VoiceAppArchieverService.swift; path = ../../../../Downloads/VoiceAppArchieverService.swift; sourceTree = "<group>"; };
-		314C8A7D29C6FFBF008A19BB /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
 		314C8A8029C7050B008A19BB /* CategoriesTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesTableView.swift; sourceTree = "<group>"; };
 		314C8A8229C73F74008A19BB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		314C8ABC29C763EC008A19BB /* LogInPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInPopUp.swift; sourceTree = "<group>"; };
@@ -235,6 +236,10 @@
 		31C9046029AE9CF800D9B615 /* Politics.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Politics.json; path = Jsons/Politics.json; sourceTree = SOURCE_ROOT; };
 		31C9046229AE9D6800D9B615 /* Professions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Professions.json; path = Jsons/Professions.json; sourceTree = SOURCE_ROOT; };
 		31C9046429AFCB4900D9B615 /* The most popular verbs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "The most popular verbs.json"; path = "Jsons/The most popular verbs.json"; sourceTree = SOURCE_ROOT; };
+		31C9416B29D984CB0093ECAB /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		31C9416E29D985510093ECAB /* NewSelectedThemeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSelectedThemeVC.swift; sourceTree = "<group>"; };
+		31C9417129D9858D0093ECAB /* NewSelectedThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSelectedThemeView.swift; sourceTree = "<group>"; };
+		31C9417329D9889B0093ECAB /* NewSelectedThemeTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSelectedThemeTable.swift; sourceTree = "<group>"; };
 		31F005EA29A0163C0097C22E /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
 		31F005EC29A2134E0097C22E /* CategoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCell.swift; sourceTree = "<group>"; };
 		31F005EF29A510820097C22E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -242,7 +247,6 @@
 		31F005F529A54C8D0097C22E /* JsonModelCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonModelCategories.swift; sourceTree = "<group>"; };
 		31F7E82029B7C1210070BDF0 /* Art.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Art.json; path = Jsons/Art.json; sourceTree = SOURCE_ROOT; };
 		31F9BCB729A7732700C913AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		31F9BCBA29A7D17A00C913AE /* SelectedThemeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedThemeVC.swift; sourceTree = "<group>"; };
 		31F9BCBC29A7FF9100C913AE /* SelectedThemeHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedThemeHeader.swift; sourceTree = "<group>"; };
 		31FB990F2985956200FC1DF6 /* English Trainee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "English Trainee.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31FB99122985956200FC1DF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -330,7 +334,7 @@
 		314C8A7F29C704D9008A19BB /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				314C8A7D29C6FFBF008A19BB /* CategoriesView.swift */,
+				31C9416B29D984CB0093ECAB /* CategoriesView.swift */,
 				314C8A8029C7050B008A19BB /* CategoriesTableView.swift */,
 				31F005EC29A2134E0097C22E /* CategoriesCell.swift */,
 			);
@@ -364,6 +368,29 @@
 				31F005EF29A510820097C22E /* Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		31C9416D29D985350093ECAB /* NewSelectedTheme */ = {
+			isa = PBXGroup;
+			children = (
+				31C9416E29D985510093ECAB /* NewSelectedThemeVC.swift */,
+				317D261229B4E118008DCE2E /* CheckLearnedWordsCount.swift */,
+				31C9417029D9856E0093ECAB /* Views */,
+			);
+			path = NewSelectedTheme;
+			sourceTree = "<group>";
+		};
+		31C9417029D9856E0093ECAB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				31C9417129D9858D0093ECAB /* NewSelectedThemeView.swift */,
+				31C9417329D9889B0093ECAB /* NewSelectedThemeTable.swift */,
+				31B435F429A9557D00EFEA90 /* SelectedThemeCell.swift */,
+				31F9BCBC29A7FF9100C913AE /* SelectedThemeHeader.swift */,
+				3112093729B671DB00E20DAC /* NoLearnedWordsPopUp.swift */,
+				31FF235A29BE6D0600470220 /* AddNewUserWordPopUp.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		31EA189929B8FB36001AF369 /* Frameworks */ = {
@@ -458,19 +485,6 @@
 			path = TabBar;
 			sourceTree = "<group>";
 		};
-		31F9BCB929A7D0DF00C913AE /* SelectedThemeVC */ = {
-			isa = PBXGroup;
-			children = (
-				31F9BCBA29A7D17A00C913AE /* SelectedThemeVC.swift */,
-				31B435F429A9557D00EFEA90 /* SelectedThemeCell.swift */,
-				31F9BCBC29A7FF9100C913AE /* SelectedThemeHeader.swift */,
-				317D261229B4E118008DCE2E /* CheckLearnedWordsCount.swift */,
-				3112093729B671DB00E20DAC /* NoLearnedWordsPopUp.swift */,
-				31FF235A29BE6D0600470220 /* AddNewUserWordPopUp.swift */,
-			);
-			path = SelectedThemeVC;
-			sourceTree = "<group>";
-		};
 		31FB99062985956200FC1DF6 = {
 			isa = PBXGroup;
 			children = (
@@ -508,7 +522,7 @@
 				31F005FB29A6A3A70097C22E /* TabBar */,
 				3130D817299AC31200BF6041 /* Statistics */,
 				3130D854299FB4FF00BF6041 /* Categories */,
-				31F9BCB929A7D0DF00C913AE /* SelectedThemeVC */,
+				31C9416D29D985350093ECAB /* NewSelectedTheme */,
 				317D260B29B1FB7D008DCE2E /* QuizeGameVC */,
 				31FF235C29C2475600470220 /* SettingsVC */,
 			);
@@ -746,7 +760,7 @@
 				31FF235B29BE6D0600470220 /* AddNewUserWordPopUp.swift in Sources */,
 				3127A02E29C279CD004C90F9 /* AppThemeSelectionCell.swift in Sources */,
 				31FF235E29C2477500470220 /* MenuVC.swift in Sources */,
-				314C8A7E29C6FFBF008A19BB /* CategoriesView.swift in Sources */,
+				31C9416C29D984CB0093ECAB /* CategoriesView.swift in Sources */,
 				314C8A7429C5CA0A008A19BB /* AppVoiceSelectionCell.swift in Sources */,
 				3112093829B671DB00E20DAC /* NoLearnedWordsPopUp.swift in Sources */,
 				31FB99132985956200FC1DF6 /* AppDelegate.swift in Sources */,
@@ -760,16 +774,18 @@
 				3112093629B669F800E20DAC /* ResultPopUp.swift in Sources */,
 				31F005EB29A0163C0097C22E /* CategoriesVC.swift in Sources */,
 				31F9BCBD29A7FF9100C913AE /* SelectedThemeHeader.swift in Sources */,
+				31C9416F29D985510093ECAB /* NewSelectedThemeVC.swift in Sources */,
 				3127A02829C262F9004C90F9 /* AppThemeSelectionVC.swift in Sources */,
 				31FB99152985956200FC1DF6 /* SceneDelegate.swift in Sources */,
 				317D261129B489F4008DCE2E /* WordsArchiverService.swift in Sources */,
+				31C9417429D9889B0093ECAB /* NewSelectedThemeTable.swift in Sources */,
 				3127A02C29C278B2004C90F9 /* AppThemesNames.swift in Sources */,
 				31F005ED29A2134E0097C22E /* CategoriesCell.swift in Sources */,
 				31B435F529A9557D00EFEA90 /* SelectedThemeCell.swift in Sources */,
 				3127A02A29C27893004C90F9 /* SectionRowsNames.swift in Sources */,
 				31FF235129BBC19C00470220 /* StatisticsVC.swift in Sources */,
 				314C8A7829C5E64F008A19BB /* VoiceAppArchieverService.swift in Sources */,
-				31F9BCBB29A7D17A00C913AE /* SelectedThemeVC.swift in Sources */,
+				31C9417229D9858D0093ECAB /* NewSelectedThemeView.swift in Sources */,
 				31FF236029C251AB00470220 /* MenuCell.swift in Sources */,
 				314C8ABD29C763ED008A19BB /* LogInPopUp.swift in Sources */,
 				317D260D29B1FBFF008DCE2E /* QuizeGameVC.swift in Sources */,

@@ -12,6 +12,8 @@ class AddNewUserWordPopUp: UIViewController {
     
     var delegate: SelectedThemeVCProtocol?
     
+    var onNewWordInformation: ((String, String, String?) -> Void)?
+    
     lazy var containerView: UIView = {
         let view = UIView()
         view.backgroundColor = .white
@@ -101,7 +103,8 @@ class AddNewUserWordPopUp: UIViewController {
         
         
         if !originText.isEmpty && !translationText.isEmpty && originText.count < 29 && translationText.count < 29 {
-            self.delegate?.addNewWord(originText, translationText, transcriptionWordTextField.text)
+            self.delegate?.addNewWord(originText, translationText, transcriptionWordTextField.text)            
+            
             dismiss(animated: false, completion: nil)
         }
         
@@ -140,7 +143,7 @@ class AddNewUserWordPopUp: UIViewController {
         }
         containerView.snp.makeConstraints { make in
             make.left.right.equalTo(view).inset(30)
-            make.top.bottom.equalTo(view).inset(310)
+            make.top.bottom.equalTo(view).inset(300)
             make.center.equalTo(view)
         }
         popUpTitleLabel.snp.makeConstraints { make in

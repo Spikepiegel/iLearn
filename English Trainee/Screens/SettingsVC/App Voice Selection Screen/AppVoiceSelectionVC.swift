@@ -90,7 +90,7 @@ extension AppVoiceSelectionVC: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: AppVoiceSelectionCell.identifier, for: indexPath) as? AppVoiceSelectionCell else { return UITableViewCell() }
         
-        cell.updateVoiceName(voices[indexPath.row].voiceName)
+        cell.updateVoiceName(voices[indexPath.row].voiceName, voices[indexPath.row].voiceLanguage)
         
         if voices[indexPath.row].voiceIdentifier == voiceArchiever.retrieve() {
             cell.selectedAppVoiceImage.isHidden = false
