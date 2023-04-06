@@ -216,6 +216,7 @@ class QuizeGameVC: UIViewController, QuizeGameVCProtocol  {
         let gameAllWordsList = service.retrieve()
         ///List with game words
         var gameWords: [Word] = []
+        
         switch gameType {
         case "Practice the learned words":
             for questionWords in gameAllWordsList {
@@ -244,11 +245,9 @@ class QuizeGameVC: UIViewController, QuizeGameVCProtocol  {
         super.viewDidLoad()
         setupViews()
         setupConstraints()
-        //setGradientBackground()
         setupGradientVC()
 
         
-        let wordsList = getQuestionArray()
         createFirstQuestion(wordsList)
         
     }

@@ -175,7 +175,7 @@ class LogInPopUp: UIViewController {
         }
         containerView.snp.makeConstraints { make in
             make.left.right.equalTo(view).inset(30)
-            make.top.bottom.equalTo(view).inset(310)
+            make.height.equalTo(250)
             make.center.equalTo(view)
         }
         
@@ -204,7 +204,7 @@ class LogInPopUp: UIViewController {
         }
         
         enterButton.snp.makeConstraints { make in
-            make.top.equalTo(passwordTextField.snp_bottomMargin).offset(20)
+            make.top.equalTo(passwordTextField.snp_bottomMargin).offset(30)
             make.left.right.equalTo(containerView).inset(40)
             make.centerX.equalTo(containerView)
         }

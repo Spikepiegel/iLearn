@@ -18,7 +18,6 @@ final class CategoriesView: UIView {
         super.init(frame: frame)
         setupViews()
         setupConstraints()
-        //setupGradientVC()
     }
     
     required init?(coder: NSCoder) {

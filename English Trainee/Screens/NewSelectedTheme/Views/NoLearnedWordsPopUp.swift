@@ -31,10 +31,14 @@ class NoLearnedWordsPopUp: UIViewController {
     
     lazy var popText: UILabel = { //popTextLabel, labelPopText
         let label = UILabel()
-        label.text = "You don't have a list of the learned words yet"
+        label.text = """
+        You don't have a list of the learned words yet
+           Swipe the words to mark them as learned 📚
+        """
+        label.textAlignment = .center
         label.numberOfLines = 0
-        label.adjustsFontSizeToFitWidth = true
-        label.font = label.font.withSize(15)
+        //label.adjustsFontSizeToFitWidth = true
+        label.font = label.font.withSize(16)
         return label
     }()
     
@@ -56,6 +60,7 @@ class NoLearnedWordsPopUp: UIViewController {
         super.viewDidLoad()
         setupView()
         setupConstraints()
+        setupGradientVC()
     }
     
     func setupView() {
@@ -73,8 +78,8 @@ class NoLearnedWordsPopUp: UIViewController {
             make.edges.equalTo(view)
         }
         containerView.snp.makeConstraints { make in
-            make.left.right.equalTo(view).inset(30)
-            make.top.bottom.equalTo(view).inset(320)
+            make.left.right.equalTo(view).inset(25)
+            make.height.equalTo(140)
             make.center.equalTo(view)
         }
         popText.snp.makeConstraints { make in
@@ -90,4 +95,25 @@ class NoLearnedWordsPopUp: UIViewController {
     }
     
     
+}
+
+extension NoLearnedWordsPopUp {
+    func setupGradientVC() {
+        lazy var themeArchiever = ThemeAppArchiever(key: "selectedTheme")
+
+        switch themeArchiever.retrieve() {
+        case "Blue Skies":
+            containerView.backgroundColor = .white
+            popText.textColor = .black
+        case "Classic Black":
+            containerView.backgroundColor = .darkCellTheme
+            popText.textColor = .white
+        case "Classic White":
+            containerView.backgroundColor = .darkCellTheme
+            popText.textColor = .black
+
+        default:
+            break
+        }
+    }
 }

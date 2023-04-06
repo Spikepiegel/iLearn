@@ -52,11 +52,6 @@ class ResultPopUp: UIViewController {
         delegate?.closePupUp()
     }
     
-    let defaultHeight: CGFloat = 300
-    
-    var containerViewHeightConstraint: NSLayoutConstraint?
-    var containerViewBottomConstraint: NSLayoutConstraint?
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()

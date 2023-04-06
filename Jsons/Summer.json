@@ -82,8 +82,8 @@
   },
   {
     "id": 11,
-    "origin": "to attend an outdoor concert",
-    "translation": "посетить концерт на открытом воздухе",
+    "origin": "outdoor concert",
+    "translation": "концерт на открытом воздухе",
     "transcription": "[tu: əʹtend æn ͵aʋtʹdɔ: ʹkɒnsət]",
     "image": "  ",
     "example": "  "
@@ -203,7 +203,7 @@
   {
     "id": 26,
     "origin": "to play frisbee",
-    "translation": "запускать «летающую тарелку» (фризби)",
+    "translation": "запускать фризби",
     "transcription": "[tu: pleı ˈfrɪz.bi]",
     "image": "  ",
     "example": "  "
@@ -226,17 +226,17 @@
   },
   {
     "id": 29,
-    "origin": "to visit a botanical garden",
-    "translation": "посетить ботанический сад",
-    "transcription": "[tu: ʹvızıt ə,(eı) bəʹtænık(ə)l gɑ:dn]",
+    "origin": "botanical garden",
+    "translation": "ботанический сад",
+    "transcription": "bəʹtænık(ə)l gɑ:dn]",
     "image": "  ",
     "example": "  "
   },
   {
     "id": 30,
-    "origin": "to watch a fireworks display",
-    "translation": "смотреть салют",
-    "transcription": "[tu:] [wɒtʃ] [ə,(eı) ˈfaɪə.wɜːk dısʹpleı]",
+    "origin": "fireworks display",
+    "translation": "фейерверк-шоу",
+    "transcription": "[ˈfaɪə.wɜːk dısʹpleı]",
     "image": "  ",
     "example": "  "
   },

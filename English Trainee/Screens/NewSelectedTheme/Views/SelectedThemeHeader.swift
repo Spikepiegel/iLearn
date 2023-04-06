@@ -145,8 +145,7 @@ extension SelectedThemeHeader {
             gradientSubLayer?[0].removeFromSuperlayer()
         }
         
-        switch themeArchiever.retrieve()
-        {
+        switch themeArchiever.retrieve() {
         case "Blue Skies":
             
             themeLabel.textColor = .black

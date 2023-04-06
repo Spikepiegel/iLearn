@@ -19,7 +19,6 @@
 		314C8A7129C5C9D2008A19BB /* AppVoiceSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314C8A7029C5C9D2008A19BB /* AppVoiceSelectionVC.swift */; };
 		314C8A7429C5CA0A008A19BB /* AppVoiceSelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314C8A7329C5CA0A008A19BB /* AppVoiceSelectionCell.swift */; };
 		314C8A7629C5DCCE008A19BB /* voices.json in Resources */ = {isa = PBXBuildFile; fileRef = 314C8A7529C5DCCE008A19BB /* voices.json */; };
-		314C8A7829C5E64F008A19BB /* VoiceAppArchieverService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314C8A7729C5E64F008A19BB /* VoiceAppArchieverService.swift */; };
 		314C8A8129C7050B008A19BB /* CategoriesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314C8A8029C7050B008A19BB /* CategoriesTableView.swift */; };
 		314C8A8329C73F74008A19BB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 314C8A8229C73F74008A19BB /* GoogleService-Info.plist */; };
 		314C8A8629C74053008A19BB /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 314C8A8529C74053008A19BB /* FirebaseAnalytics */; };
@@ -116,9 +115,10 @@
 		31C9046329AE9D6800D9B615 /* Professions.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9046229AE9D6800D9B615 /* Professions.json */; };
 		31C9046529AFCB4900D9B615 /* The most popular verbs.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C9046429AFCB4900D9B615 /* The most popular verbs.json */; };
 		31C9416C29D984CB0093ECAB /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C9416B29D984CB0093ECAB /* CategoriesView.swift */; };
-		31C9416F29D985510093ECAB /* NewSelectedThemeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C9416E29D985510093ECAB /* NewSelectedThemeVC.swift */; };
-		31C9417229D9858D0093ECAB /* NewSelectedThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C9417129D9858D0093ECAB /* NewSelectedThemeView.swift */; };
-		31C9417429D9889B0093ECAB /* NewSelectedThemeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C9417329D9889B0093ECAB /* NewSelectedThemeTable.swift */; };
+		31C9416F29D985510093ECAB /* SelectedThemeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C9416E29D985510093ECAB /* SelectedThemeVC.swift */; };
+		31C9417229D9858D0093ECAB /* SelectedThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C9417129D9858D0093ECAB /* SelectedThemeView.swift */; };
+		31C9417429D9889B0093ECAB /* SelectedThemeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C9417329D9889B0093ECAB /* SelectedThemeTable.swift */; };
+		31C9417629DA215D0093ECAB /* VoiceAppArchieverService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C9417529DA215D0093ECAB /* VoiceAppArchieverService.swift */; };
 		31EA189E29B92FCA001AF369 /* MultiProgressView in Frameworks */ = {isa = PBXBuildFile; productRef = 31EA189D29B92FCA001AF369 /* MultiProgressView */; };
 		31EA18A229BA571F001AF369 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 31EA18A129BA571F001AF369 /* Charts */; };
 		31EA18A929BA5A8D001AF369 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 31EA18A829BA5A8D001AF369 /* Algorithms */; };
@@ -136,7 +136,7 @@
 		31FF235129BBC19C00470220 /* StatisticsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF235029BBC19C00470220 /* StatisticsVC.swift */; };
 		31FF235329BBC69F00470220 /* ThemeProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF235229BBC69F00470220 /* ThemeProgressView.swift */; };
 		31FF235729BE249A00470220 /* Phrases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF235629BE249A00470220 /* Phrases.swift */; };
-		31FF235929BE4D5300470220 /* Some.json in Resources */ = {isa = PBXBuildFile; fileRef = 31FF235829BE4D5300470220 /* Some.json */; };
+		31FF235929BE4D5300470220 /* TestTheme.json in Resources */ = {isa = PBXBuildFile; fileRef = 31FF235829BE4D5300470220 /* TestTheme.json */; };
 		31FF235B29BE6D0600470220 /* AddNewUserWordPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF235A29BE6D0600470220 /* AddNewUserWordPopUp.swift */; };
 		31FF235E29C2477500470220 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF235D29C2477500470220 /* MenuVC.swift */; };
 		31FF236029C251AB00470220 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF235F29C251AB00470220 /* MenuCell.swift */; };
@@ -167,7 +167,6 @@
 		314C8A7029C5C9D2008A19BB /* AppVoiceSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVoiceSelectionVC.swift; sourceTree = "<group>"; };
 		314C8A7329C5CA0A008A19BB /* AppVoiceSelectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVoiceSelectionCell.swift; sourceTree = "<group>"; };
 		314C8A7529C5DCCE008A19BB /* voices.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = voices.json; path = Jsons/voices.json; sourceTree = SOURCE_ROOT; };
-		314C8A7729C5E64F008A19BB /* VoiceAppArchieverService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VoiceAppArchieverService.swift; path = ../../../../Downloads/VoiceAppArchieverService.swift; sourceTree = "<group>"; };
 		314C8A8029C7050B008A19BB /* CategoriesTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesTableView.swift; sourceTree = "<group>"; };
 		314C8A8229C73F74008A19BB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		314C8ABC29C763EC008A19BB /* LogInPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInPopUp.swift; sourceTree = "<group>"; };
@@ -237,9 +236,10 @@
 		31C9046229AE9D6800D9B615 /* Professions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Professions.json; path = Jsons/Professions.json; sourceTree = SOURCE_ROOT; };
 		31C9046429AFCB4900D9B615 /* The most popular verbs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "The most popular verbs.json"; path = "Jsons/The most popular verbs.json"; sourceTree = SOURCE_ROOT; };
 		31C9416B29D984CB0093ECAB /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
-		31C9416E29D985510093ECAB /* NewSelectedThemeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSelectedThemeVC.swift; sourceTree = "<group>"; };
-		31C9417129D9858D0093ECAB /* NewSelectedThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSelectedThemeView.swift; sourceTree = "<group>"; };
-		31C9417329D9889B0093ECAB /* NewSelectedThemeTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSelectedThemeTable.swift; sourceTree = "<group>"; };
+		31C9416E29D985510093ECAB /* SelectedThemeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedThemeVC.swift; sourceTree = "<group>"; };
+		31C9417129D9858D0093ECAB /* SelectedThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedThemeView.swift; sourceTree = "<group>"; };
+		31C9417329D9889B0093ECAB /* SelectedThemeTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedThemeTable.swift; sourceTree = "<group>"; };
+		31C9417529DA215D0093ECAB /* VoiceAppArchieverService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceAppArchieverService.swift; sourceTree = "<group>"; };
 		31F005EA29A0163C0097C22E /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
 		31F005EC29A2134E0097C22E /* CategoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCell.swift; sourceTree = "<group>"; };
 		31F005EF29A510820097C22E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -256,7 +256,7 @@
 		31FF235029BBC19C00470220 /* StatisticsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsVC.swift; sourceTree = "<group>"; };
 		31FF235229BBC69F00470220 /* ThemeProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeProgressView.swift; sourceTree = "<group>"; };
 		31FF235629BE249A00470220 /* Phrases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phrases.swift; sourceTree = "<group>"; };
-		31FF235829BE4D5300470220 /* Some.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Some.json; path = Jsons/Some.json; sourceTree = SOURCE_ROOT; };
+		31FF235829BE4D5300470220 /* TestTheme.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = TestTheme.json; path = Jsons/TestTheme.json; sourceTree = SOURCE_ROOT; };
 		31FF235A29BE6D0600470220 /* AddNewUserWordPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewUserWordPopUp.swift; sourceTree = "<group>"; };
 		31FF235D29C2477500470220 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		31FF235F29C251AB00470220 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
@@ -373,7 +373,7 @@
 		31C9416D29D985350093ECAB /* NewSelectedTheme */ = {
 			isa = PBXGroup;
 			children = (
-				31C9416E29D985510093ECAB /* NewSelectedThemeVC.swift */,
+				31C9416E29D985510093ECAB /* SelectedThemeVC.swift */,
 				317D261229B4E118008DCE2E /* CheckLearnedWordsCount.swift */,
 				31C9417029D9856E0093ECAB /* Views */,
 			);
@@ -383,8 +383,8 @@
 		31C9417029D9856E0093ECAB /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				31C9417129D9858D0093ECAB /* NewSelectedThemeView.swift */,
-				31C9417329D9889B0093ECAB /* NewSelectedThemeTable.swift */,
+				31C9417129D9858D0093ECAB /* SelectedThemeView.swift */,
+				31C9417329D9889B0093ECAB /* SelectedThemeTable.swift */,
 				31B435F429A9557D00EFEA90 /* SelectedThemeCell.swift */,
 				31F9BCBC29A7FF9100C913AE /* SelectedThemeHeader.swift */,
 				3112093729B671DB00E20DAC /* NoLearnedWordsPopUp.swift */,
@@ -460,7 +460,7 @@
 				31C9045A29AE95A700D9B615 /* Weather.json */,
 				31C9045C29AE95F900D9B615 /* Weekday.json */,
 				31C9045E29AE991600D9B615 /* Work.json */,
-				31FF235829BE4D5300470220 /* Some.json */,
+				31FF235829BE4D5300470220 /* TestTheme.json */,
 				31C903F029AD314300D9B615 /* Themes.json */,
 			);
 			path = "Additional Files";
@@ -472,7 +472,7 @@
 				31F005F129A54C520097C22E /* JsonService.swift */,
 				317D261029B489F4008DCE2E /* WordsArchiverService.swift */,
 				3127A02F29C32CAF004C90F9 /* ThemeAppArchiverService.swift */,
-				314C8A7729C5E64F008A19BB /* VoiceAppArchieverService.swift */,
+				31C9417529DA215D0093ECAB /* VoiceAppArchieverService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -738,7 +738,7 @@
 				31C9044F29AE8C9800D9B615 /* Sport.json in Resources */,
 				31C9045729AE935F00D9B615 /* Travelling.json in Resources */,
 				31C9041D29AE71AD00D9B615 /* Economics.json in Resources */,
-				31FF235929BE4D5300470220 /* Some.json in Resources */,
+				31FF235929BE4D5300470220 /* TestTheme.json in Resources */,
 				31C9044D29AE8C1000D9B615 /* Space.json in Resources */,
 				317D261929B4FB00008DCE2E /* Random Words.json in Resources */,
 				31C9042129AE731300D9B615 /* Family.json in Resources */,
@@ -755,6 +755,7 @@
 			files = (
 				317D261329B4E118008DCE2E /* CheckLearnedWordsCount.swift in Sources */,
 				317D261B29B50090008DCE2E /* CorrectAnswerCheck.swift in Sources */,
+				31C9417629DA215D0093ECAB /* VoiceAppArchieverService.swift in Sources */,
 				31F005F629A54C8D0097C22E /* JsonModelCategories.swift in Sources */,
 				314C8ABF29C7754D008A19BB /* RegisterPopUp.swift in Sources */,
 				31FF235B29BE6D0600470220 /* AddNewUserWordPopUp.swift in Sources */,
@@ -774,18 +775,17 @@
 				3112093629B669F800E20DAC /* ResultPopUp.swift in Sources */,
 				31F005EB29A0163C0097C22E /* CategoriesVC.swift in Sources */,
 				31F9BCBD29A7FF9100C913AE /* SelectedThemeHeader.swift in Sources */,
-				31C9416F29D985510093ECAB /* NewSelectedThemeVC.swift in Sources */,
+				31C9416F29D985510093ECAB /* SelectedThemeVC.swift in Sources */,
 				3127A02829C262F9004C90F9 /* AppThemeSelectionVC.swift in Sources */,
 				31FB99152985956200FC1DF6 /* SceneDelegate.swift in Sources */,
 				317D261129B489F4008DCE2E /* WordsArchiverService.swift in Sources */,
-				31C9417429D9889B0093ECAB /* NewSelectedThemeTable.swift in Sources */,
+				31C9417429D9889B0093ECAB /* SelectedThemeTable.swift in Sources */,
 				3127A02C29C278B2004C90F9 /* AppThemesNames.swift in Sources */,
 				31F005ED29A2134E0097C22E /* CategoriesCell.swift in Sources */,
 				31B435F529A9557D00EFEA90 /* SelectedThemeCell.swift in Sources */,
 				3127A02A29C27893004C90F9 /* SectionRowsNames.swift in Sources */,
 				31FF235129BBC19C00470220 /* StatisticsVC.swift in Sources */,
-				314C8A7829C5E64F008A19BB /* VoiceAppArchieverService.swift in Sources */,
-				31C9417229D9858D0093ECAB /* NewSelectedThemeView.swift in Sources */,
+				31C9417229D9858D0093ECAB /* SelectedThemeView.swift in Sources */,
 				31FF236029C251AB00470220 /* MenuCell.swift in Sources */,
 				314C8ABD29C763ED008A19BB /* LogInPopUp.swift in Sources */,
 				317D260D29B1FBFF008DCE2E /* QuizeGameVC.swift in Sources */,

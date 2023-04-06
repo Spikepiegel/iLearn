@@ -26,7 +26,7 @@ final class CategoriesVC: UIViewController {
         categoriesView.tableView.onEvent = { [weak self] categoryName in
             
             let service = JsonServiceImpl()
-            let vc = NewSelectedThemeVC(selectedCategoryName: categoryName)
+            let vc = SelectedThemeVC(selectedCategoryName: categoryName)
             vc.jsonService = service //Dependency Injection
     
             vc.modalPresentationStyle = .fullScreen

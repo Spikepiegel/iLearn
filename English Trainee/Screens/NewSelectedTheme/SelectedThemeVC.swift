@@ -33,19 +33,17 @@ import AVFAudio
 
 
 protocol SelectedThemeVCProtocol {
-    //func openQuizeGameVC(_ gameType: String)
-    //func soundWord(_ soundedWord: String)
     func addNewWord(_ origin: String, _ translation: String, _ transcription: String?)
 }
 
 
-class NewSelectedThemeVC: UIViewController, SelectedThemeVCProtocol {
+class SelectedThemeVC: UIViewController, SelectedThemeVCProtocol {
     
     var selectedCategoryName: String
     
     var jsonService: JsonServiceProtocol?
     
-    var selectedThemeView: NewSelectedThemeView { return self.view as! NewSelectedThemeView }
+    var selectedThemeView: SelectedThemeView { return self.view as! SelectedThemeView }
     lazy var wordsArchiver = WordsArchiver(key: selectedCategoryName)
     var wordPopUp = AddNewUserWordPopUp()
     var header = SelectedThemeHeader()
@@ -62,7 +60,7 @@ class NewSelectedThemeVC: UIViewController, SelectedThemeVCProtocol {
     }
     
     override func loadView() {
-        self.view = NewSelectedThemeView(frame: UIScreen.main.bounds)
+        self.view = SelectedThemeView(frame: UIScreen.main.bounds)
     }
     
     override func viewDidLoad() {
@@ -79,6 +77,10 @@ class NewSelectedThemeVC: UIViewController, SelectedThemeVCProtocol {
         selectedThemeView.wordsTable.wordForSound = { [weak self] wordLabelSound in
             self?.soundWord(wordLabelSound)
         }
+        selectedThemeView.wordsTable.onTralingSwapTapped = { [weak self] updateWords in
+            self?.words = updateWords
+            self?.wordsArchiver.save(self!.words)
+        }
 
     }
     
@@ -93,7 +95,7 @@ class NewSelectedThemeVC: UIViewController, SelectedThemeVCProtocol {
     
 }
 
-extension NewSelectedThemeVC {
+extension SelectedThemeVC {
     ///Load words depending on selected category
     func loadWords() -> [Word] {
         
@@ -118,7 +120,7 @@ extension NewSelectedThemeVC {
     }
     
     func passWordsToTable() {
-        selectedThemeView.passWordsToTable(words, selectedCategoryName)
+        selectedThemeView.passWordsToTable(wordsArchiver.retrieve(), selectedCategoryName)
     }
     
     func showHideTanslationAllWords() {
@@ -128,8 +130,9 @@ extension NewSelectedThemeVC {
             for index in 0..<words.count {
                 words[index].translationIsHShown = true
             }
-            passWordsToTable()
+            wordsArchiver.save(words)
             allTranslationsStatus = true
+            passWordsToTable()
             selectedThemeView.wordsTable.reloadData()
             
         case true:
@@ -138,14 +141,15 @@ extension NewSelectedThemeVC {
             for index in 0..<words.count {
                 words[index].translationIsHShown = false
             }
-            passWordsToTable()
+            wordsArchiver.save(words)
             allTranslationsStatus = false
+            passWordsToTable()
             selectedThemeView.wordsTable.reloadData()
         }
     }
 }
 
-extension NewSelectedThemeVC {
+extension SelectedThemeVC {
     func openNewWordPopUp() {
         let vc = AddNewUserWordPopUp()
         vc.delegate = self

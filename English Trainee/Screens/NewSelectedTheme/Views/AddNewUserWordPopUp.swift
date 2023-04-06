@@ -119,6 +119,7 @@ class AddNewUserWordPopUp: UIViewController {
         super.viewDidLoad()
         setupView()
         setupConstraints()
+        setupGradientVC()
     }
     
     func setupView() {
@@ -143,7 +144,7 @@ class AddNewUserWordPopUp: UIViewController {
         }
         containerView.snp.makeConstraints { make in
             make.left.right.equalTo(view).inset(30)
-            make.top.bottom.equalTo(view).inset(300)
+            make.height.equalTo(255)
             make.center.equalTo(view)
         }
         popUpTitleLabel.snp.makeConstraints { make in
@@ -171,11 +172,35 @@ class AddNewUserWordPopUp: UIViewController {
         }
         
         addWordButton.snp.makeConstraints { make in
-            make.top.equalTo(transcriptionWordTextField.snp_bottomMargin).offset(20)
+            make.top.equalTo(transcriptionWordTextField.snp_bottomMargin).offset(25)
             make.left.right.equalTo(containerView).inset(40)
             make.centerX.equalTo(containerView)
         }
     }
     
     
+}
+
+extension AddNewUserWordPopUp {
+    func setupGradientVC() {
+        lazy var themeArchiever = ThemeAppArchiever(key: "selectedTheme")
+
+        switch themeArchiever.retrieve() {
+        case "Blue Skies":
+            closeButton.tintColor = .black
+            containerView.backgroundColor = .white
+            popUpTitleLabel.textColor = .black
+        case "Classic Black":
+            closeButton.tintColor = .white
+            containerView.backgroundColor = .darkCellTheme
+            popUpTitleLabel.textColor = .white
+        case "Classic White":
+            closeButton.tintColor = .black
+            containerView.backgroundColor = .darkCellTheme
+            popUpTitleLabel.textColor = .black
+
+        default:
+            break
+        }
+    }
 }

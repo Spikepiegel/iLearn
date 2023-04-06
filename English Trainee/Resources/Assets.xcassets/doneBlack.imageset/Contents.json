@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "cross.svg",
+      "filename" : "doneBlack.svg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "cross 1.svg",
+      "filename" : "doneBlack 1.svg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "cross 2.svg",
+      "filename" : "doneBlack 2.svg",
       "idiom" : "universal",
       "scale" : "3x"
     }

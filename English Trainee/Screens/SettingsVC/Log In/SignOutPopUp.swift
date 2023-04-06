@@ -104,7 +104,8 @@ class SignOutPopUp: UIViewController {
         }
         containerView.snp.makeConstraints { make in
             make.left.right.equalTo(view).inset(30)
-            make.top.bottom.equalTo(view).inset(350)
+           // make.top.bottom.equalTo(view).inset(350)
+            make.height.equalTo(120)
             make.center.equalTo(view)
         }
         
@@ -114,7 +115,7 @@ class SignOutPopUp: UIViewController {
         }
         
         popUpTitleLabel.snp.makeConstraints { make in
-            make.top.equalTo(closeButton.snp_bottomMargin).offset(20)
+            make.top.equalTo(closeButton.snp_bottomMargin).offset(5)
             make.centerX.equalTo(containerView)
         }
         

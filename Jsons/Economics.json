@@ -619,7 +619,7 @@
   {
     "id": 78,
     "origin": "GNP (Gross National Product)",
-    "translation": "ВНП (валовой национальный продукт)",
+    "translation": "ВНП (валовой нац. продукт)",
     "transcription": "[ ˌdʒɪˌenˈpiː ] [ ɡrəʊs ˈnæʃnəl ˈprɒdʌkt ]",
     "image": " ",
     "example": "  "
@@ -1075,7 +1075,7 @@
   {
     "id": 137,
     "origin": "raise labor productivity",
-    "translation": "повышать производительность труда",
+    "translation": "повышать производ-сть труда",
     "transcription": "[ reɪz ˈleɪbə ˌprɒdʌkˈtɪvɪti ]",
     "image": " ",
     "example": " "
@@ -1467,7 +1467,7 @@
   {
     "id": 187,
     "origin": "value added tax (VAT)",
-    "translation": "налог на добавленную стоимость (НДС)",
+    "translation": "налог на добавленную стоимость",
     "transcription": "[ ˈvæljuː ˈædɪd tæks væt ]",
     "image": " ",
     "example": " "

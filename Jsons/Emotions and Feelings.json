@@ -11,7 +11,7 @@
   {
     "id": 2,
     "origin": "afraid",
-    "translation": "испуганный, напуганный, боящийся",
+    "translation": "испуганный, напуганный",
     "transcription": "[ə'freıd]",
     "image": "  ",
     "example": "  "
@@ -43,7 +43,7 @@
   {
     "id": 6,
     "origin": "angry",
-    "translation": "сердитый, недовольный, разгневанный",
+    "translation": "сердитый, разгневанный",
     "transcription": "['æŋgrı]",
     "image": "  ",
     "example": "  "
@@ -83,7 +83,7 @@
   {
     "id": 11,
     "origin": "calm",
-    "translation": "спокойный, мирный, невозмутимый",
+    "translation": "спокойный, невозмутимый",
     "transcription": "[kɑ:m]",
     "image": "  ",
     "example": "  "
@@ -123,7 +123,7 @@
   {
     "id": 16,
     "origin": "despondent",
-    "translation": "унылый, подавленный, отчаявшийся",
+    "translation": "подавленный, отчаявшийся",
     "transcription": "[dıs'pɔndənt]",
     "image": "  ",
     "example": "  "
@@ -331,7 +331,7 @@
   {
     "id": 42,
     "origin": "shy",
-    "translation": "застенчивый, стеснительный, робкий",
+    "translation": "застенчивый, стеснительный",
     "transcription": "[ʃaı]",
     "image": " ",
     "example": "  "
@@ -363,7 +363,7 @@
   {
     "id": 46,
     "origin": "terrific",
-    "translation": "ужасающий, необычайный, огромный",
+    "translation": "ужасающий, огромный",
     "transcription": "[tə'rıfık]",
     "image": " ",
     "example": "  "

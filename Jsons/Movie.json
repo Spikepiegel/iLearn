@@ -12,7 +12,7 @@
     "id": 2,
     "origin": "2D / 2-D (2-dimensional)",
     "translation": "2Д, двумерный",
-    "transcription": "2D / 2-[di:] (2-[d(a)ıʹmenʃ(ə)nəl])",
+    "transcription": "2-[d(a)ıʹmenʃ(ə)nəl]",
     "image": "  ",
     "example": "  "
   },
@@ -20,7 +20,7 @@
     "id": 3,
     "origin": "3D / 3-D (3-dimensional)",
     "translation": "3Д, трехмерный",
-    "transcription": "3D / 3-[di:] (3-[d(a)ıʹmenʃ(ə)nəl])",
+    "transcription": "3-[d(a)ıʹmenʃ(ə)nəl]",
     "image": "  ",
     "example": "  "
   },
@@ -74,9 +74,9 @@
   },
   {
     "id": 10,
-    "origin": "backstage, behind the scenes",
+    "origin": "backstage",
     "translation": "за кулисами",
-    "transcription": "[ʹbæksteıdʒ, bıʹhaınd ðə siːn]",
+    "transcription": "[ʹbæksteıdʒ]",
     "image": "  ",
     "example": "  "
   },
@@ -138,17 +138,17 @@
   },
   {
     "id": 18,
-    "origin": "cinema (BrE), movie theater (AmE)",
+    "origin": "cinema (BrE)",
     "translation": "кино(театр)",
-    "transcription": "[ʹsınımə] (BrE), [ʹmu:vı ʹθıətə] (AmE)",
+    "transcription": "[ʹsınımə] (BrE)",
     "image": "  ",
     "example": "  "
   },
   {
     "id": 19,
-    "origin": "clapper, clapboard, clapperboard, slate (film)",
+    "origin": "clapboard",
     "translation": "хлопушка",
-    "transcription": "[ʹklæpə], [ʹklæpbɔ:d], [ʹklæpəbɔ:d], [sleıt (fılm)]",
+    "transcription": "[ʹklæpbɔ:d]",
     "image": "  ",
     "example": "  "
   },
@@ -241,17 +241,9 @@
     "example": "  "
   },
   {
-    "id": 31,
-    "origin": "drive-in-theatre",
-    "translation": "кинотеатр, куда можно въехать на автомобиле",
-    "transcription": "[draıv - ın - ʹθıətə]",
-    "image": " ",
-    "example": "  "
-  },
-  {
     "id": 32,
-    "origin": "dubbed film (dubbed in Russian)",
-    "translation": "дублированый фильм (дублированый на русский язык)",
+    "origin": "dubbed film",
+    "translation": "дублированый фильм",
     "transcription": "[dʌb fılm] ([dʌb [ın ʹrʌʃ(ə)n])",
     "image": " ",
     "example": "  "
@@ -275,7 +267,7 @@
   {
     "id": 35,
     "origin": "fade out",
-    "translation": "исчезать постепенно (об изображении)",
+    "translation": "исчезать постепенно",
     "transcription": "[feıd aʋt]",
     "image": " ",
     "example": "  "
@@ -299,7 +291,7 @@
   {
     "id": 38,
     "origin": "flash-back",
-    "translation": "воспоминания героя, возврат в прошлое",
+    "translation": "воспоминания героя",
     "transcription": "[flæʃ - bæk]",
     "image": " ",
     "example": "  "
@@ -395,7 +387,7 @@
   {
     "id": 50,
     "origin": "newsreel",
-    "translation": "кинотрейлер, киножурнал, хроникальный фильм",
+    "translation": "кинохроника",
     "transcription": "[ʹnju:zri:l]",
     "image": " ",
     "example": "  "
@@ -482,9 +474,9 @@
   },
   {
     "id": 61,
-    "origin": "screen version (of the novel)",
-    "translation": "экранизация (романа)",
-    "transcription": "[skri:n ʹvɜ:ʃ(ə)n] ([ɒv ðə ʹnɒv(ə)l])",
+    "origin": "screen version",
+    "translation": "экранизация",
+    "transcription": "[skri:n ʹvɜ:ʃ(ə)n]",
     "image": " ",
     "example": "  "
   },
@@ -659,7 +651,7 @@
   {
     "id": 83,
     "origin": "theatrical film",
-    "translation": "экранизация театральной постановки",
+    "translation": "экранизация театр. постановки",
     "transcription": "[θıʹætrık(ə)l fılm]",
     "image": " ",
     "example": " "

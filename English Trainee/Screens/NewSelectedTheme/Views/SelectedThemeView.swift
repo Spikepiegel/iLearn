@@ -8,13 +8,13 @@
 import UIKit
 import SnapKit
 
-class NewSelectedThemeView: UIView {
+class SelectedThemeView: UIView {
 
     var wordsArchiver: WordsArchiver?
     
 
     lazy var themeArchiever = ThemeAppArchiever(key: "selectedTheme")
-    var wordsTable = NewSelectedThemeTable.init()
+    var wordsTable = SelectedThemeTable.init()
 
     var onBackButonEvent: (()->Void)?
     var onShowHideTanslationEvent: (() -> Void)?
@@ -87,7 +87,7 @@ class NewSelectedThemeView: UIView {
     
 }
 
-extension NewSelectedThemeView {
+extension SelectedThemeView {
     func setupViews() {
         self.backgroundColor = .clear
         self.addSubview(backButton)
@@ -119,7 +119,7 @@ extension NewSelectedThemeView {
     
 }
 
-extension NewSelectedThemeView {
+extension SelectedThemeView {
     func setupGradientVC() {
         let gradientLayer = CAGradientLayer()
 

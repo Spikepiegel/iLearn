@@ -32,7 +32,7 @@ class StatisticsVC: UIViewController {
     }()
     
     private var contentSize: CGSize {
-        CGSize(width: view.frame.width, height: view.frame.height + 1800)
+        CGSize(width: view.frame.width, height: view.frame.height + 1650)
     }
     
     lazy var containerView: UIStackView = {
@@ -96,7 +96,6 @@ class StatisticsVC: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        loadThemeColor()
         setupViews()
         setupConstraints()
         createThemesProgressBars()
@@ -120,12 +119,6 @@ class StatisticsVC: UIViewController {
         totalProgressLabel.text = "Total progress \(getTotalProgress()) %"
         setupGradientVC()
 
-    }
-    
-    func loadThemeColor() {
-      //UserDefaults.standard.removeObject(forKey: "selectedTheme")
-        
-        
     }
     
 }
@@ -245,7 +238,7 @@ extension StatisticsVC {
     func calculatePercentageProgress(_ themeName: String) -> Float {
         
         let wordsArchiver = WordsArchiver(key: themeName)
-        //UserDefaults.standard.removeObject(forKey: themeName)
+        //UserDefaults.standard.removeObject(forKey: themeName) //Clean all categories cache
         var words = wordsArchiver.retrieve()
         if words.isEmpty {
             //wordsArchiver.save(jsonService?.loadJsonWords(filename: themeName) ?? [])

@@ -7,13 +7,15 @@
 
 import UIKit
 
-class NewSelectedThemeTable: UITableView {
+class SelectedThemeTable: UITableView {
     
     var words = [Word]()
     var selectedCategoryName = String()
     
     var gameType: ((String) -> ())?
     var wordForSound: ((String) -> ())?
+    //var onBackButtonTapped: (([Word]) -> ())?
+    var onTralingSwapTapped: (([Word]) -> ())?
     
     lazy var wordsArchiver = WordsArchiver(key: selectedCategoryName)
     var header = SelectedThemeHeader(frame: CGRect(x: 0, y: 0, width: 0, height: 310))
@@ -71,12 +73,11 @@ class NewSelectedThemeTable: UITableView {
 
 }
 
-extension NewSelectedThemeTable: UITableViewDelegate {
+extension SelectedThemeTable: UITableViewDelegate {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: SelectedThemeCell.identifier, for: indexPath) as? SelectedThemeCell  else {
             return UITableViewCell() }
         
-        //cell.soundDelegate = self
         let word = words[indexPath.row]
         cell.update(word)
         cell.backgroundColor = .clear
@@ -102,12 +103,12 @@ extension NewSelectedThemeTable: UITableViewDelegate {
             if self.words[indexPath.row].isLearned == nil || self.words[indexPath.row].isLearned == false {
                 self.words[indexPath.row].isLearned = true
                 cell.learnedWordImage.setImageAnimation(UIImage(named: "done"))
-                
+                self.onTralingSwapTapped?(self.words)
                 
             } else if self.words[indexPath.row].isLearned == true {
                 self.words[indexPath.row].isLearned?.toggle()
                 cell.learnedWordImage.setImageAnimation(UIImage(named: "unDone"))
-
+                self.onTralingSwapTapped?(self.words)
             }
             self.wordsArchiver.save(self.words)
             self.update()
@@ -117,12 +118,23 @@ extension NewSelectedThemeTable: UITableViewDelegate {
         done.backgroundColor = UIColor.init(red: 0/255.0, green: 0/255.0, blue: 0/255.0, alpha: 0.0)
         
         if cell.learnedWordImage.image == UIImage(named: "done") {
-            let crossImage = UIImage(named: "cross")
-            crossImage?.withTintColor(.systemPink, renderingMode: .alwaysTemplate)
             
+            var crossImage = UIImage(named: "")
+
+            if themeArchiever.retrieve() == "Classic White" || themeArchiever.retrieve() == "Blue Skies" {
+                 crossImage = UIImage(named: "crossBlack")
+            } else if themeArchiever.retrieve() == "Classic Black" {
+                 crossImage = UIImage(named: "crossWhite")
+            }
+                        
             done.image = crossImage
         } else {
-            done.image = UIImage(named: "done")
+            
+            if themeArchiever.retrieve() == "Classic White" || themeArchiever.retrieve() == "Blue Skies" {
+                done.image = UIImage(named: "doneBlack")
+            } else if themeArchiever.retrieve() == "Classic Black" {
+                done.image = UIImage(named: "doneWhite")
+            }
         }
         
         let configuration = UISwipeActionsConfiguration(actions: [done])
@@ -164,7 +176,7 @@ extension NewSelectedThemeTable: UITableViewDelegate {
     }
 }
 
-extension NewSelectedThemeTable: UITableViewDataSource {
+extension SelectedThemeTable: UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return words.count
