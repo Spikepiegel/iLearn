@@ -246,8 +246,6 @@ class QuizeGameVC: UIViewController, QuizeGameVCProtocol  {
         setupViews()
         setupConstraints()
         setupGradientVC()
-
-        
         createFirstQuestion(wordsList)
         
     }

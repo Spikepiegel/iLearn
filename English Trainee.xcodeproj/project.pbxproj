@@ -370,14 +370,13 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		31C9416D29D985350093ECAB /* NewSelectedTheme */ = {
+		31C9416D29D985350093ECAB /* SelectedTheme */ = {
 			isa = PBXGroup;
 			children = (
 				31C9416E29D985510093ECAB /* SelectedThemeVC.swift */,
-				317D261229B4E118008DCE2E /* CheckLearnedWordsCount.swift */,
 				31C9417029D9856E0093ECAB /* Views */,
 			);
-			path = NewSelectedTheme;
+			path = SelectedTheme;
 			sourceTree = "<group>";
 		};
 		31C9417029D9856E0093ECAB /* Views */ = {
@@ -389,6 +388,7 @@
 				31F9BCBC29A7FF9100C913AE /* SelectedThemeHeader.swift */,
 				3112093729B671DB00E20DAC /* NoLearnedWordsPopUp.swift */,
 				31FF235A29BE6D0600470220 /* AddNewUserWordPopUp.swift */,
+				317D261229B4E118008DCE2E /* CheckLearnedWordsCount.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -522,7 +522,7 @@
 				31F005FB29A6A3A70097C22E /* TabBar */,
 				3130D817299AC31200BF6041 /* Statistics */,
 				3130D854299FB4FF00BF6041 /* Categories */,
-				31C9416D29D985350093ECAB /* NewSelectedTheme */,
+				31C9416D29D985350093ECAB /* SelectedTheme */,
 				317D260B29B1FB7D008DCE2E /* QuizeGameVC */,
 				31FF235C29C2475600470220 /* SettingsVC */,
 			);

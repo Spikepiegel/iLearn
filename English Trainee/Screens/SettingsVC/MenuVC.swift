@@ -9,7 +9,7 @@ import UIKit
 import UIKit
 import Firebase
 
-class MenuVC: UIViewController, UINavigationControllerDelegate {
+class MenuVC: UIViewController {
     
     lazy var themeArchiever = ThemeAppArchiever(key: "selectedTheme")
     
@@ -72,7 +72,6 @@ extension MenuVC {
         view.backgroundColor = .clear
         view.addSubview(settingsTable)
         settingsTable.layer.cornerRadius = 15
-        
     }
     
     func setupConstraints() {

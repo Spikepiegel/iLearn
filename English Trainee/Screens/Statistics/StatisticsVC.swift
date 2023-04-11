@@ -147,7 +147,7 @@ extension StatisticsVC: MultiProgressViewDataSource {
         UIView.animate(withDuration: 1.5, delay: 0, options: .curveEaseInOut, animations: {
             progressView.setProgress(section: 0, to: firstProgress)
         }) { _ in
-            UIView.animate(withDuration: 0.5, delay: 0, options: .curveEaseInOut, animations: {
+            UIView.animate(withDuration: 2.5, delay: 0, options: .curveEaseInOut, animations: {
                 progressView.setProgress(section: 1, to: secondProgress)
             }, completion: nil)
         }
@@ -238,7 +238,7 @@ extension StatisticsVC {
     func calculatePercentageProgress(_ themeName: String) -> Float {
         
         let wordsArchiver = WordsArchiver(key: themeName)
-        //UserDefaults.standard.removeObject(forKey: themeName) //Clean all categories cache
+        UserDefaults.standard.removeObject(forKey: themeName) //Clean all categories cache
         var words = wordsArchiver.retrieve()
         if words.isEmpty {
             //wordsArchiver.save(jsonService?.loadJsonWords(filename: themeName) ?? [])
@@ -252,8 +252,8 @@ extension StatisticsVC {
             }
         }
         
-        
-        return learnedWordsCounter * Float(words.count) / 100
+        print(themeName, learnedWordsCounter, Float(words.count), learnedWordsCounter * 100 / Float(words.count) / 100)
+        return learnedWordsCounter * 100 / Float(words.count)
     }
     ///Method to animate bar every time when user opens this VC
     func updateProgressWhenScreenWasOpenedAgain() {
