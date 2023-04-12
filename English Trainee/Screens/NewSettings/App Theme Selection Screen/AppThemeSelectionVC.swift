@@ -95,7 +95,6 @@ extension AppThemeSelectionVC: UITableViewDataSource {
         themeSelectionTable.reloadData()
     }
     
-    
 }
 
 extension AppThemeSelectionVC: UITableViewDelegate {

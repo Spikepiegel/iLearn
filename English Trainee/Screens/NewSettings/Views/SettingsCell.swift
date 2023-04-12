@@ -8,7 +8,7 @@
 import UIKit
 import SnapKit
 
-class MenuCell: UITableViewCell {
+class SettingsCell: UITableViewCell {
     
     lazy var themeArchiever = ThemeAppArchiever(key: "selectedTheme")
     
@@ -32,6 +32,7 @@ class MenuCell: UITableViewCell {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         setupViews()
         setupConstraints()
+        setupGradientVC()
     }
     
     required init?(coder: NSCoder) {
@@ -57,9 +58,8 @@ class MenuCell: UITableViewCell {
     
 }
 
-extension MenuCell {
+extension SettingsCell {
     func setupGradientVC() {
-        
         
         switch themeArchiever.retrieve() {
         case "Blue Skies":

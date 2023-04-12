@@ -250,9 +250,6 @@ class QuizeGameVC: UIViewController, QuizeGameVCProtocol  {
         
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-
-    }
 }
 
 extension QuizeGameVC {

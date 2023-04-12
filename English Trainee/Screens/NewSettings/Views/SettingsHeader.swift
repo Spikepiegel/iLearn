@@ -9,7 +9,7 @@ import UIKit
 import SnapKit
 import Firebase
 
-class MenuHeader: UIView {
+class SettingsHeader: UIView {
 
     lazy var themeArchiever = ThemeAppArchiever(key: "selectedTheme")
 
@@ -41,7 +41,7 @@ class MenuHeader: UIView {
     
 }
 
-extension MenuHeader {
+extension SettingsHeader {
     
     func setupViews() {
         backgroundColor = .clear
@@ -67,7 +67,7 @@ extension MenuHeader {
     
 }
 
-extension MenuHeader {
+extension SettingsHeader {
     func setupGradientVC() {
         
         switch themeArchiever.retrieve()

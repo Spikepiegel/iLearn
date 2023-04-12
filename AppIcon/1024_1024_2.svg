@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2018 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="360mm" height="360mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 35946.24 35946.21"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:url(#id0)}
+    .fil2 {fill:url(#id1)}
+    .fil3 {fill:url(#id2)}
+    .fil1 {fill:url(#id3)}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="17973.12" y1="35946.21" x2="17973.12" y2="0">
+   <stop offset="0" style="stop-opacity:1; stop-color:#DAE2F8"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#6DD5FA"/>
+  </linearGradient>
+  <linearGradient id="id1" gradientUnits="userSpaceOnUse" x1="18907.39" y1="22625.98" x2="3129.72" y2="22625.98">
+   <stop offset="0" style="stop-opacity:1; stop-color:#B4B4B4"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#1F1B20"/>
+  </linearGradient>
+  <linearGradient id="id2" gradientUnits="userSpaceOnUse" xlink:href="#id1" x1="4667.03" y1="10061.36" x2="11797.8" y2="6979.95">
+  </linearGradient>
+  <linearGradient id="id3" gradientUnits="userSpaceOnUse" xlink:href="#id1" x1="15095.34" y1="26370.51" x2="28583.14" y2="12882.78">
+  </linearGradient>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_1448364309312">
+   <rect class="fil0" x="0" y="-0" width="35946.24" height="35946.21"/>
+   <path class="fil1" d="M24834.01 24472.91l0 -12780.67c0,-3411.35 -2765.34,-6176.73 -6176.7,-6176.73l-2901.22 0 0 18957.4c0,3411.19 2765.34,6176.53 6176.7,6176.53l9077.96 0c-3411.4,0 -6176.74,-2765.34 -6176.74,-6176.53z"/>
+   <path class="fil2" d="M14013.31 26153.57l0 -9303.02c0,-2483.11 -2765.34,-4496.03 -6176.69,-4496.03l-2901.22 0 0 13799.04c0,2482.99 2765.34,4495.88 6176.69,4495.88l9077.96 0c-3411.4,0 -6176.74,-2012.89 -6176.74,-4495.88z"/>
+   <ellipse class="fil3" cx="9048.78" cy="8167.87" rx="4032.45" ry="2871.07"/>
+  </g>
+ </g>
+</svg>

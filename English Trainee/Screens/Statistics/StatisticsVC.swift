@@ -142,6 +142,7 @@ extension StatisticsVC: MultiProgressViewDataSource {
         }
         return sectionView
     }
+    
     ///Method to animate progress of progress bar
     private func animateSetProgress(_ progressView: ThemeProgressView, firstProgress: Float, secondProgress: Float) {
         UIView.animate(withDuration: 1.5, delay: 0, options: .curveEaseInOut, animations: {
@@ -238,7 +239,7 @@ extension StatisticsVC {
     func calculatePercentageProgress(_ themeName: String) -> Float {
         
         let wordsArchiver = WordsArchiver(key: themeName)
-        UserDefaults.standard.removeObject(forKey: themeName) //Clean all categories cache
+        //UserDefaults.standard.removeObject(forKey: themeName) //Clean all categories cache
         var words = wordsArchiver.retrieve()
         if words.isEmpty {
             //wordsArchiver.save(jsonService?.loadJsonWords(filename: themeName) ?? [])

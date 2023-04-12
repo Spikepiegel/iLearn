@@ -14,7 +14,7 @@ class SignOutPopUp: UIViewController {
     
     lazy var themeArchiever = ThemeAppArchiever(key: "selectedTheme")
 
-    let menu = MenuVC()
+    let menu = SettingsVC()
     
     lazy var containerView: UIView = {
         let view = UIView()

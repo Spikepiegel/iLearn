@@ -26,7 +26,7 @@ final class AppTabBar: UITabBarController {
             setupVCs(viewController: CategoriesVC(),
                      title: "All Categories",
                      image: UIImage(named: "categories")),
-            setupVCs(viewController: MenuVC(),
+            setupVCs(viewController: SettingsVC(),
                      title: "Settings",
                      image: UIImage(named: "gear"))
         ]

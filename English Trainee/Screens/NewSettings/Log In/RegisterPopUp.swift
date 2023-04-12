@@ -1,5 +1,5 @@
 //
-//  LogInPopUp.swift
+//  RegisterPopUp.swift
 //  English Trainee
 //
 //  Created by Николай Лермонтов on 19.03.2023.
@@ -9,12 +9,12 @@ import Foundation
 import UIKit
 import Firebase
 
-class LogInPopUp: UIViewController {
+class RegisterInPopUp: UIViewController {
     
     lazy var themeArchiever = ThemeAppArchiever(key: "selectedTheme")
-
-    let menu = MenuVC()
     
+    let menu = SettingsVC()
+
     lazy var containerView: UIView = {
         let view = UIView()
         //view.backgroundColor = .white
@@ -34,7 +34,7 @@ class LogInPopUp: UIViewController {
     
     lazy var popUpTitleLabel: UILabel = {
         let label = UILabel()
-        label.text = "Log In"
+        label.text = "Sign In"
         label.font = label.font.withSize(20)
         return label
     }()
@@ -56,6 +56,19 @@ class LogInPopUp: UIViewController {
         
         button.addTarget(self, action: #selector(closePopUp), for: .touchUpInside)
         return button
+    }()
+    
+    lazy var usernameTextField: UITextField = {
+        let text = UITextField()
+        text.placeholder = "Username"
+        text.font = UIFont.systemFont(ofSize: 15)
+        text.borderStyle = UITextField.BorderStyle.roundedRect
+        text.autocorrectionType = UITextAutocorrectionType.no
+        text.keyboardType = UIKeyboardType.default
+        text.returnKeyType = UIReturnKeyType.done
+        text.clearButtonMode = UITextField.ViewMode.whileEditing
+        text.contentVerticalAlignment = UIControl.ContentVerticalAlignment.center
+        return text
     }()
     
     lazy var emailTextField: UITextField = {
@@ -88,9 +101,9 @@ class LogInPopUp: UIViewController {
     lazy var enterButton: UIButton = {
         let button = UIButton()
         button.backgroundColor = .lightGray
-        button.setTitle("Log In", for: .normal)
+        button.setTitle("Sign In", for: .normal)
         button.layer.cornerRadius = 10
-        button.addTarget(self, action: #selector(loginButton), for: .touchUpInside)
+        button.addTarget(self, action: #selector(registerButton), for: .touchUpInside)
         return button
     }()
     
@@ -110,32 +123,44 @@ class LogInPopUp: UIViewController {
         }
     }
     
-    @objc func loginButton() {
+    @objc func registerButton() {
         guard let email = emailTextField.text,
               let password = passwordTextField.text,
+              let username = usernameTextField.text,
               email != "",
               password != "",
+              username != "",
               email.contains("@") else {
             displayWarningLabel(withText: "Email or password is incorrect")
             return
         }
-                
-        Auth.auth().signIn(withEmail: email, password: password, completion: { [weak self] (user, error) in
-            if error != nil {
-                self?.displayWarningLabel(withText: "Error occured")
-                return
-            }
+        
+        Auth.auth().createUser(withEmail: email, password: password, completion: { [weak self] (user, error) in
             
-            if user != nil {
-                DispatchQueue.main.asyncAfter(deadline: .now() + 3, execute: { [weak self] in
-                    self?.menu.updateTableViewHeader()
-                })
-                self?.dismiss(animated: false, completion: nil) // тут когда всё ок
-                return
-            }
-            
-            self?.displayWarningLabel(withText: "Email or password is incorrect")
+            if error == nil {
+                if user != nil {
+                    let uid = (Auth.auth().currentUser?.uid)!
+                    let ref = Database.database().reference(withPath: "users").child(uid)
+                    ref.setValue(["uid": uid,
+                                  "email": email,
+                                  "username": username,
+                                  "creationDate": String(describing: Date())])
+                    self?.updateHeaderAfterRegistration()
 
+
+                    self?.dismiss(animated: false, completion: nil) // тут когда всё ок
+                    
+                }
+            } else {
+                self?.displayWarningLabel(withText: "This email/password is unavailable")
+            }
+            
+        })
+    }
+    
+    func updateHeaderAfterRegistration() {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3, execute: { [weak self] in
+            self?.menu.updateTableViewHeader()
         })
     }
     
@@ -161,6 +186,7 @@ class LogInPopUp: UIViewController {
         containerView.addSubview(closeButton)
         containerView.addSubview(popUpTitleLabel)
         containerView.addSubview(warningLabel)
+        containerView.addSubview(usernameTextField)
         containerView.addSubview(emailTextField)
         containerView.addSubview(passwordTextField)
         containerView.addSubview(enterButton)
@@ -175,7 +201,7 @@ class LogInPopUp: UIViewController {
         }
         containerView.snp.makeConstraints { make in
             make.left.right.equalTo(view).inset(30)
-            make.height.equalTo(250)
+            make.height.equalTo(280)
             make.center.equalTo(view)
         }
         
@@ -194,8 +220,13 @@ class LogInPopUp: UIViewController {
             make.centerX.equalTo(containerView)
         }
         
-        emailTextField.snp.makeConstraints { make in
+        usernameTextField.snp.makeConstraints { make in
             make.top.equalTo(warningLabel.snp_bottomMargin).offset(20)
+            make.left.right.equalTo(containerView).inset(10)
+        }
+        
+        emailTextField.snp.makeConstraints { make in
+            make.top.equalTo(usernameTextField.snp_bottomMargin).offset(20)
             make.left.right.equalTo(containerView).inset(10)
         }
         passwordTextField.snp.makeConstraints { make in
@@ -204,7 +235,7 @@ class LogInPopUp: UIViewController {
         }
         
         enterButton.snp.makeConstraints { make in
-            make.top.equalTo(passwordTextField.snp_bottomMargin).offset(30)
+            make.top.equalTo(passwordTextField.snp_bottomMargin).offset(20)
             make.left.right.equalTo(containerView).inset(40)
             make.centerX.equalTo(containerView)
         }
@@ -213,9 +244,9 @@ class LogInPopUp: UIViewController {
     
 }
 
-extension LogInPopUp {
+extension RegisterInPopUp {
     func setupGradientVC() {
-    
+        
         switch themeArchiever.retrieve() {
         case "Blue Skies":
             
@@ -232,7 +263,7 @@ extension LogInPopUp {
             enterButton.backgroundColor = .lightGray
             
         case "Classic White":
-
+            
             popUpTitleLabel.textColor = .black
             closeButton.tintColor = .black
             containerView.backgroundColor = .white
@@ -244,5 +275,3 @@ extension LogInPopUp {
     }
     
 }
-
- 
