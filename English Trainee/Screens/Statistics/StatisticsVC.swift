@@ -13,7 +13,7 @@ class StatisticsVC: UIViewController {
     
     lazy var themeArchiever = ThemeAppArchiever(key: "selectedTheme")
 
-    var jsonService: JsonServiceProtocol?
+    weak var jsonService: JsonServiceProtocol?
     let phrasesModel = Phrases()
     
     lazy var scrollView: UIScrollView = {

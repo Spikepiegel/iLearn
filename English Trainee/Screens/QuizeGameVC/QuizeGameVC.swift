@@ -8,12 +8,12 @@
 import UIKit
 import SnapKit
 
-protocol QuizeGameVCProtocol {
-    func closePupUp()
-}
+//protocol QuizeGameVCProtocol {
+//    func closePupUp()
+//}
 
 ///Screen with quize game. Game is depended on button user has selected.
-class QuizeGameVC: UIViewController, QuizeGameVCProtocol  {
+class QuizeGameVC: UIViewController  {
     
     lazy var themeArchiever = ThemeAppArchiever(key: "selectedTheme")
 

@@ -32,7 +32,7 @@ import UIKit
 import AVFAudio
 
 
-protocol SelectedThemeVCProtocol {
+protocol SelectedThemeVCProtocol: AnyObject {
     func addNewWord(_ origin: String, _ translation: String, _ transcription: String?)
 }
 
@@ -81,6 +81,10 @@ class SelectedThemeVC: UIViewController, SelectedThemeVCProtocol {
             self?.words = updateWords
             self?.wordsArchiver.save(self!.words)
         }
+        
+        selectedThemeView.wordsTable.onDeleteWord = { [weak self] wordNumber in
+            self?.deleteWord(wordNumber)
+        }
 
     }
     
@@ -96,6 +100,13 @@ class SelectedThemeVC: UIViewController, SelectedThemeVCProtocol {
 }
 
 extension SelectedThemeVC {
+    
+    func deleteWord(_ wordRow: Int) {
+        self.words.remove(at: wordRow)
+        self.wordsArchiver.save(self.words)
+        //selectedThemeView.wordsTable.reloadData()
+    }
+    
     ///Load words depending on selected category
     func loadWords() -> [Word] {
         
@@ -164,6 +175,8 @@ extension SelectedThemeVC {
         
         passWordsToTable()
         wordsArchiver.save(words)
+        selectedThemeView.wordsTable.loadWordsList(words, selectedCategoryName)
+
         selectedThemeView.wordsTable.reloadData()
         selectedThemeView.wordsTable.header.progressLabel.text = "Progress     \(selectedThemeView.wordsTable.getLearnedWordsCount()) / \(loadWords().count)"
     }

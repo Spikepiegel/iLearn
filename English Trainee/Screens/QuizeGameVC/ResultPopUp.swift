@@ -13,7 +13,7 @@ import UIKit
 class ResultPopUp: UIViewController {
     
     
-    var delegate: QuizeGameVC?
+    weak var delegate: QuizeGameVC?
     
     lazy var containerView: UIView = {
         let view = UIView()

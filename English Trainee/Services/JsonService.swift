@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol JsonServiceProtocol {
+protocol JsonServiceProtocol: AnyObject {
     func loadJsonCategories(filename fileName: String) -> [Item]?
     func loadJsonWords(filename fileName: String) -> [Word]?
 

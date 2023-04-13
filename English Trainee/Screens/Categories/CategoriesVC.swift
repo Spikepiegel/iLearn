@@ -8,9 +8,28 @@
 import UIKit
 import SnapKit
 
+final class ScreenFactory {
+    
+    static func makeCategoriesScreen() -> CategoriesVC {
+        
+        //let jsonService = JsonServiceImpl()
+        let vc = CategoriesVC.init()
+        vc.service = JsonServiceImpl()
+        return vc
+    }
+    
+    static func makeSelectedThemeScreen(name: String) -> SelectedThemeVC {
+        let vc = SelectedThemeVC(selectedCategoryName: name)
+        vc.jsonService = JsonServiceImpl()
+        return vc
+    }
+}
+
 //MARK: VC with all categories
 final class CategoriesVC: UIViewController {
         
+    var service: JsonServiceProtocol?
+
     var categoriesView: CategoriesView { return self.view as! CategoriesView }
     
     override func loadView() {
@@ -25,9 +44,10 @@ final class CategoriesVC: UIViewController {
     func setupTable() {
         categoriesView.tableView.onEvent = { [weak self] categoryName in
             
-            let service = JsonServiceImpl()
-            let vc = SelectedThemeVC(selectedCategoryName: categoryName)
-            vc.jsonService = service //Dependency Injection
+            let vc = ScreenFactory.makeSelectedThemeScreen(name: categoryName)
+            
+            //let vc = SelectedThemeVC(selectedCategoryName: categoryName)
+            //vc.jsonService = self?.service //Dependency Injection
     
             vc.modalPresentationStyle = .fullScreen
             self?.present(vc, animated: true)

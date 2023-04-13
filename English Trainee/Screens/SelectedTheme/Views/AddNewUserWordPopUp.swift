@@ -10,7 +10,7 @@ import UIKit
 
 class AddNewUserWordPopUp: UIViewController {
     
-    var delegate: SelectedThemeVCProtocol?
+    weak var delegate: SelectedThemeVCProtocol?
     
     var onNewWordInformation: ((String, String, String?) -> Void)?
     
@@ -100,11 +100,12 @@ class AddNewUserWordPopUp: UIViewController {
         
         guard let originText = originWordTextField.text?.lowercased() else { return }
         guard let translationText = translationWordTextField.text?.lowercased() else { return }
-        
+        let table = SelectedThemeTable()
         
         if !originText.isEmpty && !translationText.isEmpty && originText.count < 29 && translationText.count < 29 {
             self.delegate?.addNewWord(originText, translationText, transcriptionWordTextField.text)            
             
+            table.reloadData()
             dismiss(animated: false, completion: nil)
         }
         

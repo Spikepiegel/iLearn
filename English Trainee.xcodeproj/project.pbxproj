@@ -548,7 +548,6 @@
 		31FB99262985958700FC1DF6 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				31F005FB29A6A3A70097C22E /* TabBar */,
 				3130D817299AC31200BF6041 /* Statistics */,
 				3130D854299FB4FF00BF6041 /* Categories */,
 				31C9416D29D985350093ECAB /* SelectedTheme */,
@@ -586,6 +585,7 @@
 			children = (
 				31FB99122985956200FC1DF6 /* AppDelegate.swift */,
 				31FB99142985956200FC1DF6 /* SceneDelegate.swift */,
+				31F005FB29A6A3A70097C22E /* TabBar */,
 			);
 			path = App;
 			sourceTree = "<group>";

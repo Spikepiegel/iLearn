@@ -14,8 +14,8 @@ class SelectedThemeTable: UITableView {
     
     var gameType: ((String) -> ())?
     var wordForSound: ((String) -> ())?
-    //var onBackButtonTapped: (([Word]) -> ())?
     var onTralingSwapTapped: (([Word]) -> ())?
+    var onDeleteWord: ((Int) -> ())?
     
     lazy var wordsArchiver = WordsArchiver(key: selectedCategoryName)
     var header = SelectedThemeHeader(frame: CGRect(x: 0, y: 0, width: 0, height: 310))
@@ -145,6 +145,7 @@ extension SelectedThemeTable: UITableViewDelegate {
     func tableView(_ tableView: UITableView, leadingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
         let delete = UIContextualAction(style: .destructive, title: "") { (action, view, complete) in
             self.words.remove(at: indexPath.row)
+            self.onDeleteWord?(indexPath.row)
             self.deleteRows(at: [indexPath], with: .fade)
             self.endUpdates()
             self.wordsArchiver.save(self.words)

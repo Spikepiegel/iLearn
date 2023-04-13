@@ -1,13 +1,13 @@
 import UIKit
 import SnapKit
 
-protocol SelectedThemeHeaderProtocol {
-    func updateProgress()
-}
+//protocol SelectedThemeHeaderProtocol {
+//    func updateProgress()
+//}
 
 class SelectedThemeHeader: UIView {
     
-    var delegate: SelectedThemeVCProtocol?
+    weak var delegate: SelectedThemeVCProtocol?
     
     var onGameSelectedEvent: ((String) -> ())?
     

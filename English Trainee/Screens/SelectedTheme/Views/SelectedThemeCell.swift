@@ -17,7 +17,7 @@ final class SelectedThemeCell: UITableViewCell {
     var onSoundWordEvent: ((String) -> Void)?
     
     static let identifier = "SelectedThemeCell"
-    var soundDelegate: SelectedThemeVCProtocol?
+    //var soundDelegate: SelectedThemeVCProtocol?
     ///Word in English
     lazy var wordOriginLabel: UILabel = {
         let label = UILabel()
