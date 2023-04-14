@@ -26,7 +26,6 @@ class SettingsHeader: UIView {
     lazy var usernameLabel: UILabel = {
         let label = UILabel()
         label.font = UIFont(name: "Arial Rounded MT Bold", size: 30)
-        label.textColor = .red
         return label
     }()
     

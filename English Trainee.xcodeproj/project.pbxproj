@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3112093629B669F800E20DAC /* ResultPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3112093529B669F800E20DAC /* ResultPopUp.swift */; };
 		3112093829B671DB00E20DAC /* NoLearnedWordsPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3112093729B671DB00E20DAC /* NoLearnedWordsPopUp.swift */; };
+		311FAF6529E9BA1200DC6889 /* ScreenFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311FAF6429E9BA1200DC6889 /* ScreenFactory.swift */; };
 		3127A02829C262F9004C90F9 /* AppThemeSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3127A02729C262F9004C90F9 /* AppThemeSelectionVC.swift */; };
 		3127A02A29C27893004C90F9 /* SectionRowsNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3127A02929C27893004C90F9 /* SectionRowsNames.swift */; };
 		3127A02C29C278B2004C90F9 /* AppThemesNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3127A02B29C278B2004C90F9 /* AppThemesNames.swift */; };
@@ -141,7 +142,6 @@
 		31FF235729BE249A00470220 /* Phrases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF235629BE249A00470220 /* Phrases.swift */; };
 		31FF235929BE4D5300470220 /* TestTheme.json in Resources */ = {isa = PBXBuildFile; fileRef = 31FF235829BE4D5300470220 /* TestTheme.json */; };
 		31FF235B29BE6D0600470220 /* AddNewUserWordPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF235A29BE6D0600470220 /* AddNewUserWordPopUp.swift */; };
-		31FF235E29C2477500470220 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF235D29C2477500470220 /* MenuVC.swift */; };
 		31FF236029C251AB00470220 /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF235F29C251AB00470220 /* SettingsCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -161,6 +161,7 @@
 /* Begin PBXFileReference section */
 		3112093529B669F800E20DAC /* ResultPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultPopUp.swift; sourceTree = "<group>"; };
 		3112093729B671DB00E20DAC /* NoLearnedWordsPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoLearnedWordsPopUp.swift; sourceTree = "<group>"; };
+		311FAF6429E9BA1200DC6889 /* ScreenFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenFactory.swift; sourceTree = "<group>"; };
 		3127A02729C262F9004C90F9 /* AppThemeSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppThemeSelectionVC.swift; sourceTree = "<group>"; };
 		3127A02929C27893004C90F9 /* SectionRowsNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionRowsNames.swift; sourceTree = "<group>"; };
 		3127A02B29C278B2004C90F9 /* AppThemesNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppThemesNames.swift; sourceTree = "<group>"; };
@@ -264,7 +265,6 @@
 		31FF235629BE249A00470220 /* Phrases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phrases.swift; sourceTree = "<group>"; };
 		31FF235829BE4D5300470220 /* TestTheme.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = TestTheme.json; path = Jsons/TestTheme.json; sourceTree = SOURCE_ROOT; };
 		31FF235A29BE6D0600470220 /* AddNewUserWordPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewUserWordPopUp.swift; sourceTree = "<group>"; };
-		31FF235D29C2477500470220 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		31FF235F29C251AB00470220 /* SettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -368,7 +368,7 @@
 			path = QuizeGameVC;
 			sourceTree = "<group>";
 		};
-		31A5425F29E4E05B00D48D26 /* NewSettings */ = {
+		31A5425F29E4E05B00D48D26 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
 				31A5426229E4E09B00D48D26 /* SettingsVC.swift */,
@@ -377,7 +377,7 @@
 				31FF236129C2621200470220 /* App Theme Selection Screen */,
 				314C8A7229C5C9D7008A19BB /* App Voice Selection Screen */,
 			);
-			path = NewSettings;
+			path = Settings;
 			sourceTree = "<group>";
 		};
 		31A5426429E4E0A700D48D26 /* Views */ = {
@@ -552,8 +552,7 @@
 				3130D854299FB4FF00BF6041 /* Categories */,
 				31C9416D29D985350093ECAB /* SelectedTheme */,
 				317D260B29B1FB7D008DCE2E /* QuizeGameVC */,
-				31FF235C29C2475600470220 /* SettingsVC */,
-				31A5425F29E4E05B00D48D26 /* NewSettings */,
+				31A5425F29E4E05B00D48D26 /* Settings */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -585,17 +584,10 @@
 			children = (
 				31FB99122985956200FC1DF6 /* AppDelegate.swift */,
 				31FB99142985956200FC1DF6 /* SceneDelegate.swift */,
+				311FAF6429E9BA1200DC6889 /* ScreenFactory.swift */,
 				31F005FB29A6A3A70097C22E /* TabBar */,
 			);
 			path = App;
-			sourceTree = "<group>";
-		};
-		31FF235C29C2475600470220 /* SettingsVC */ = {
-			isa = PBXGroup;
-			children = (
-				31FF235D29C2477500470220 /* MenuVC.swift */,
-			);
-			path = SettingsVC;
 			sourceTree = "<group>";
 		};
 		31FF236129C2621200470220 /* App Theme Selection Screen */ = {
@@ -786,7 +778,6 @@
 				314C8ABF29C7754D008A19BB /* RegisterPopUp.swift in Sources */,
 				31FF235B29BE6D0600470220 /* AddNewUserWordPopUp.swift in Sources */,
 				3127A02E29C279CD004C90F9 /* AppThemeSelectionCell.swift in Sources */,
-				31FF235E29C2477500470220 /* MenuVC.swift in Sources */,
 				31C9416C29D984CB0093ECAB /* CategoriesView.swift in Sources */,
 				314C8A7429C5CA0A008A19BB /* AppVoiceSelectionCell.swift in Sources */,
 				3112093829B671DB00E20DAC /* NoLearnedWordsPopUp.swift in Sources */,
@@ -816,6 +807,7 @@
 				31C9417229D9858D0093ECAB /* SelectedThemeView.swift in Sources */,
 				31FF236029C251AB00470220 /* SettingsCell.swift in Sources */,
 				314C8ABD29C763ED008A19BB /* LogInPopUp.swift in Sources */,
+				311FAF6529E9BA1200DC6889 /* ScreenFactory.swift in Sources */,
 				317D260D29B1FBFF008DCE2E /* QuizeGameVC.swift in Sources */,
 				317D261529B4EB74008DCE2E /* QuestionUpdater.swift in Sources */,
 				314C8AC329C79453008A19BB /* SettingsHeader.swift in Sources */,

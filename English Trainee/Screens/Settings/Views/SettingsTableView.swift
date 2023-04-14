@@ -93,7 +93,7 @@ extension SettingsTableView: UITableViewDelegate {
         return names.nameSection[section]  //nameSection[section]
     }
     func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int){
-        let header = view as! UITableViewHeaderFooterView
+        let header = view as! UITableViewHeaderFooterView 
         
         switch themeArchiever.retrieve() {
         case "Blue Skies":
@@ -155,12 +155,5 @@ extension SettingsTableView: UITableViewDelegate {
             break
         }
     }
-    
-//    func scrollViewDidScroll(_ scrollView: UIScrollView) {
-//        let defaultOffset = self.safeAreaInsets.top
-//        let offset = scrollView.contentOffset.y + defaultOffset
-//        
-//        navigationController?.navigationBar.transform = .init(translationX: 0, y: min(0, -offset))
-//    }
     
 }

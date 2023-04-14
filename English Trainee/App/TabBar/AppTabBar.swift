@@ -10,6 +10,7 @@ import SnapKit
 
 final class AppTabBar: UITabBarController {
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupTabBar()
@@ -20,13 +21,13 @@ final class AppTabBar: UITabBarController {
     //MARK: TabBar Setup Settings
     private func setupTabBar() { //categories
         viewControllers = [
-            setupVCs(viewController: StatisticsVC(),
+            setupVCs(viewController: ScreenFactory.makeStatisticsScreen(),
                      title: "Statistics",
                      image: UIImage(named: "statistics")),
-            setupVCs(viewController: CategoriesVC(),
+            setupVCs(viewController: ScreenFactory.makeCategoriesScreen(),
                      title: "All Categories",
                      image: UIImage(named: "categories")),
-            setupVCs(viewController: SettingsVC(),
+            setupVCs(viewController: ScreenFactory.makeSettingsScreen(),
                      title: "Settings",
                      image: UIImage(named: "gear"))
         ]

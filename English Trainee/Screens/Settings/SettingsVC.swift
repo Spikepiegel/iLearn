@@ -30,34 +30,34 @@ class SettingsVC: UIViewController {
     
     func openCellWindow() {
         settingsView.tableView.onOpenRegisterPopUp = { [weak self] in
-            let vc = RegisterInPopUp()
+            let vc = ScreenFactory.makeRegisterPopUp()
             vc.modalPresentationStyle = .overCurrentContext
             vc.modalTransitionStyle = .crossDissolve
             self?.present(vc, animated: true)
         }
         
         settingsView.tableView.onSignOutPopUp = { [weak self] in
-            let vc = SignOutPopUp()
+            let vc = ScreenFactory.makeSignOutPopUp()
             vc.modalPresentationStyle = .overCurrentContext
             vc.modalTransitionStyle = .crossDissolve
             self?.present(vc, animated: true)
         }
         
         settingsView.tableView.onLogInPopUp = { [weak self] in
-            let vc = LogInPopUp()
+            let vc = ScreenFactory.makeLoginInPopUp()
             vc.modalPresentationStyle = .overCurrentContext
             vc.modalTransitionStyle = .crossDissolve
             self?.present(vc, animated: true)
         }
         
         settingsView.tableView.onAppThemeSelection = { [weak self] in
-            let vc = AppThemeSelectionVC()
+            let vc = ScreenFactory.makeThemeSelectionScreen()
             vc.modalPresentationStyle = .fullScreen
             self?.present(vc, animated: true)
         }
         
         settingsView.tableView.onAppVoiceSelection = { [weak self] in
-            let vc = AppVoiceSelectionVC()
+            let vc = ScreenFactory.makeVoiceSelectionScreen()
             vc.modalPresentationStyle = .fullScreen
             self?.present(vc, animated: true)
         }
@@ -65,6 +65,7 @@ class SettingsVC: UIViewController {
    
 
     func updateTableViewHeader() {
+        
         Auth.auth().addStateDidChangeListener { [weak self] (auth, user) in
             
             if user != nil {
@@ -78,10 +79,12 @@ class SettingsVC: UIViewController {
                         return
                     }
                     let userName = snapshot?.value as? String ?? "Unknown";
-                    self?.header.usernameLabel.text = "Hello, \(userName)"
+                    //self?.header.usernameLabel.text = "Hello, \(userName)"
+                    self?.settingsView.tableView.header.usernameLabel.text = "Hello, \(userName)"
                 });
             } else {
-                self?.header.usernameLabel.text = "Log In"
+                //self?.header.usernameLabel.text = "Log In"
+                self?.settingsView.tableView.header.usernameLabel.text = "Log In"
             }
         }
         

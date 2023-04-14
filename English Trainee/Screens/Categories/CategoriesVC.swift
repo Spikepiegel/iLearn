@@ -8,23 +8,6 @@
 import UIKit
 import SnapKit
 
-final class ScreenFactory {
-    
-    static func makeCategoriesScreen() -> CategoriesVC {
-        
-        //let jsonService = JsonServiceImpl()
-        let vc = CategoriesVC.init()
-        vc.service = JsonServiceImpl()
-        return vc
-    }
-    
-    static func makeSelectedThemeScreen(name: String) -> SelectedThemeVC {
-        let vc = SelectedThemeVC(selectedCategoryName: name)
-        vc.jsonService = JsonServiceImpl()
-        return vc
-    }
-}
-
 //MARK: VC with all categories
 final class CategoriesVC: UIViewController {
         

@@ -162,7 +162,7 @@ extension SelectedThemeVC {
 
 extension SelectedThemeVC {
     func openNewWordPopUp() {
-        let vc = AddNewUserWordPopUp()
+        let vc = ScreenFactory.makeAddNewUserWordPopUp()
         vc.delegate = self
         vc.modalPresentationStyle = .overCurrentContext
         vc.modalTransitionStyle = .crossDissolve
@@ -191,21 +191,21 @@ extension SelectedThemeVC {
         
         if gameType == "Practice the learned words" && checkLearnedWords > 0 {
             
-            let vc = QuizeGameVC(gameType: gameType, selectedTheme: selectedCategoryName)
+            let vc = ScreenFactory.makeQuizeGameScreen(gameType, selectedCategoryName)
             vc.modalPresentationStyle = .fullScreen
             vc.modalTransitionStyle = .flipHorizontal
             self.present(vc, animated: true)
             
         } else if gameType == "Practice the learned words" && checkLearnedWords == 0 {
-            let vc = NoLearnedWordsPopUp()
+            let vc = ScreenFactory.makeNoLearnedWordsPopUp()
+            
             vc.modalPresentationStyle = .overCurrentContext
             vc.modalTransitionStyle = .crossDissolve
             self.present(vc, animated: true)
         }
         
         if gameType == "Practice all words" {
-            
-            let vc = QuizeGameVC(gameType: gameType, selectedTheme: selectedCategoryName)
+            let vc = ScreenFactory.makeQuizeGameScreen(gameType, selectedCategoryName)
             vc.modalPresentationStyle = .fullScreen
             vc.modalTransitionStyle = .flipHorizontal
             self.present(vc, animated: true)
