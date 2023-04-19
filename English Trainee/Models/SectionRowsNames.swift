@@ -13,7 +13,8 @@ struct SectionsRowsNames {
                        "Feedback"]
     
     let firstSectionRowsName = ["Sign In",
-                                "Log In"]
+                                "Log In",
+                                "Delete an account"]
     
     let sectondSectionRowsName = ["Theme",
                                   "Voice"]

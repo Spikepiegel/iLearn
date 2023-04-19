@@ -78,4 +78,9 @@ final class ScreenFactory {
         return vc
     }
     
+    static func makeDeleteAccountPopUp() -> DeleteAccountPopUp {
+        let vc = DeleteAccountPopUp()
+        return vc
+    }
+    
 }

@@ -33,10 +33,12 @@ class SettingsHeader: UIView {
         super.init(frame: frame)
         setupViews()
         setupConstraints()
+        setupGradientVC()
     }
     required init?(coder: NSCoder) {
         fatalError()
     }
+    
     
 }
 
@@ -61,7 +63,7 @@ extension SettingsHeader {
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        setupGradientVC()
+        //setupGradientVC()
     }
     
 }
@@ -78,7 +80,6 @@ extension SettingsHeader {
 
         case "Classic White":
             usernameLabel.textColor = .black
-
         default:
             break
         }

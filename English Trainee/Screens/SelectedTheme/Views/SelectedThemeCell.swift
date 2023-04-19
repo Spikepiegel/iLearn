@@ -51,7 +51,6 @@ final class SelectedThemeCell: UITableViewCell {
         
         guard let wordForSound = wordOriginLabel.text else { return }
         onSoundWordEvent?(wordForSound)
-        //soundDelegate?.soundWord(wordOriginLabel.text!)
     }
     
     ///Icon which mark the cell with word, which user has learned
@@ -121,7 +120,6 @@ extension SelectedThemeCell {
         }
         soundEnglishWordButton.snp.makeConstraints { make in
             make.top.equalTo(wordTranscriptionLabel.snp_topMargin)
-            //make.left.equalTo(contentView.snp_rightMargin).inset(40)
             make.right.equalTo(contentView.snp_rightMargin).inset(5)
             make.bottom.equalTo(wordTranscriptionLabel.snp_bottomMargin)
         }

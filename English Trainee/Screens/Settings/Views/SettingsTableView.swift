@@ -12,6 +12,7 @@ class SettingsTableView: UITableView {
     
     var onOpenRegisterPopUp: (() -> ())?
     var onSignOutPopUp: (() -> ())?
+    var onDeleteAccount: (() -> ())?
     var onLogInPopUp: (() -> ())?
     var onAppThemeSelection: (() -> ())?
     var onAppVoiceSelection: (() -> ())?
@@ -46,18 +47,22 @@ extension SettingsTableView {
 
 extension SettingsTableView: UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 3
+    #warning("Feedback поставить значение 3")
+        return 2
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
         switch section {
         case 0:
-            return 2
+            return 3
         case 1:
             return 2
+            #warning("Feedback")
+//        case 2:
+//            return 3
         default:
-            return 3
+            return 0
         }
         
     }
@@ -75,9 +80,10 @@ extension SettingsTableView: UITableViewDataSource {
         case 1:
             cell.rowTitleLabel.text = names.sectondSectionRowsName[indexPath.row]
             cell.chevronImage.isHidden = false
-        case 2:
-            cell.rowTitleLabel.text = names.thirdSectionRowsName[indexPath.row]
-            cell.chevronImage.isHidden = true
+        #warning("Feedback")
+//        case 2:
+//            cell.rowTitleLabel.text = names.thirdSectionRowsName[indexPath.row]
+//            cell.chevronImage.isHidden = true
         default:
             break
         }
@@ -92,31 +98,37 @@ extension SettingsTableView: UITableViewDelegate {
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return names.nameSection[section]  //nameSection[section]
     }
+        
     func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int){
-        let header = view as! UITableViewHeaderFooterView 
+
+        let header = view as! UITableViewHeaderFooterView
         
         switch themeArchiever.retrieve() {
         case "Blue Skies":
             header.textLabel?.textColor = UIColor.black
             
         case "Classic Black":
-            header.textLabel?.textColor = UIColor.whiteTheme
+            header.textLabel?.textColor  = UIColor.white
             
         case "Classic White":
-            header.textLabel?.textColor = UIColor.black
+            header.textLabel?.textColor  = UIColor.black
         default:
             break
         }
     }
     
+    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         switch indexPath.section {
-            
+        
+        ///Account Settings
         case 0:
             switch indexPath.row {
+            ///Sign In Cell
             case 0:
                 self.onOpenRegisterPopUp?()
+            ///Log In Cell
             case 1:
                 
                 Auth.auth().addStateDidChangeListener { (auth, user) in
@@ -127,21 +139,25 @@ extension SettingsTableView: UITableViewDelegate {
                         self.onLogInPopUp?()
                     }
                 }
-                
+            ///Delete an acount cell
+            case 2:
+                self.onDeleteAccount?()
             default:
                 break
             }
-            
+        ///App Settings Section
         case 1:
             switch indexPath.row {
+            ///Change app theme cell
             case 0:
                 self.onAppThemeSelection?()
+            ///Change app voice cell
             case 1:
                 self.onAppVoiceSelection?()
             default:
                 break
             }
-            
+        ///Feedback section
         case 2:
             switch indexPath.row {
             case 0: break

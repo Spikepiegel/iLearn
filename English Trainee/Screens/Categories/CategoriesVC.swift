@@ -28,9 +28,6 @@ final class CategoriesVC: UIViewController {
         categoriesView.tableView.onEvent = { [weak self] categoryName in
             
             let vc = ScreenFactory.makeSelectedThemeScreen(name: categoryName)
-            
-            //let vc = SelectedThemeVC(selectedCategoryName: categoryName)
-            //vc.jsonService = self?.service //Dependency Injection
     
             vc.modalPresentationStyle = .fullScreen
             self?.present(vc, animated: true)

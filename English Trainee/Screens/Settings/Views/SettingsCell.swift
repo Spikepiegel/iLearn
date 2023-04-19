@@ -17,7 +17,6 @@ class SettingsCell: UITableViewCell {
     lazy var rowTitleLabel: UILabel = {
         let label = UILabel()
         label.textColor = .black
-        label.text = "123"
         return label
     }()
     

@@ -24,6 +24,7 @@ class SettingsVC: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         settingsView.setupGradientVC()
+        settingsView.tableView.header.setupGradientVC()
         updateTableViewHeader()
         settingsView.tableView.reloadData()
     }
@@ -38,6 +39,13 @@ class SettingsVC: UIViewController {
         
         settingsView.tableView.onSignOutPopUp = { [weak self] in
             let vc = ScreenFactory.makeSignOutPopUp()
+            vc.modalPresentationStyle = .overCurrentContext
+            vc.modalTransitionStyle = .crossDissolve
+            self?.present(vc, animated: true)
+        }
+        
+        settingsView.tableView.onDeleteAccount = { [weak self] in
+            let vc = ScreenFactory.makeDeleteAccountPopUp()
             vc.modalPresentationStyle = .overCurrentContext
             vc.modalTransitionStyle = .crossDissolve
             self?.present(vc, animated: true)
@@ -83,7 +91,6 @@ class SettingsVC: UIViewController {
                     self?.settingsView.tableView.header.usernameLabel.text = "Hello, \(userName)"
                 });
             } else {
-                //self?.header.usernameLabel.text = "Log In"
                 self?.settingsView.tableView.header.usernameLabel.text = "Log In"
             }
         }
