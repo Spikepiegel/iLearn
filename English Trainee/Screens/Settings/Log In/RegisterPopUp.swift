@@ -202,7 +202,8 @@ class RegisterInPopUp: UIViewController {
         containerView.snp.makeConstraints { make in
             make.left.right.equalTo(view).inset(30)
             make.height.equalTo(280)
-            make.center.equalTo(view)
+            make.centerY.equalToSuperview().offset(-80)
+            make.centerX.equalTo(view)
         }
         
         closeButton.snp.makeConstraints { make in
