@@ -78,7 +78,7 @@ extension UIColor {
     ///Phrase button on the first screen  gradient
     
     static var leftPhraseButtom: UIColor {
-        #colorLiteral(red: 0.1137254902, green: 0.168627451, blue: 0.3921568627, alpha: 1)
+        #colorLiteral(red: 0.2477203175, green: 0.8029238085, blue: 0.9686274529, alpha: 1)
     }
     static var rightPhraseButtom: UIColor {
         #colorLiteral(red: 0.9725490196, green: 0.8039215686, blue: 0.8549019608, alpha: 1)
@@ -161,24 +161,3 @@ extension UIView {
     }
 }
 
-//    extension UIImage {
-//    static func gradientImage(with bounds: CGRect,
-//                            colors: [CGColor],
-//                            locations: [NSNumber]?) -> UIImage? {
-//
-//        let gradientLayer = CAGradientLayer()
-//        gradientLayer.frame = bounds
-//        gradientLayer.colors = colors
-//        // This makes it horizontal
-//        gradientLayer.startPoint = CGPoint(x: 0.0,
-//                                        y: 0.5)
-//        gradientLayer.endPoint = CGPoint(x: 1.0,
-//                                        y: 0.5)
-//
-//        UIGraphicsBeginImageContext(gradientLayer.bounds.size)
-//        gradientLayer.render(in: UIGraphicsGetCurrentContext()!)
-//        guard let image = UIGraphicsGetImageFromCurrentImageContext() else { return nil }
-//        UIGraphicsEndImageContext()
-//        return image
-//    }
-//}

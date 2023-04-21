@@ -8,6 +8,7 @@
 import UIKit
 import SnapKit
 
+
 final class AppTabBar: UITabBarController {
     
     
@@ -63,7 +64,7 @@ final class AppTabBar: UITabBarController {
         
         tabBar.tintColor = .white
         tabBar.unselectedItemTintColor = .unselectedItem
-        
+        self.selectedIndex = 1
     }
     
     override func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {

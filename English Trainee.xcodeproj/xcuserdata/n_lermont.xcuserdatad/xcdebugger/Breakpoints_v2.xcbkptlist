@@ -318,8 +318,8 @@
             filePath = "English Trainee/Screens/SelectedTheme/SelectedThemeVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "180"
-            endingLineNumber = "180"
+            startingLineNumber = "193"
+            endingLineNumber = "193"
             landmarkName = "addNewWord(_:_:_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -334,8 +334,8 @@
             filePath = "English Trainee/Screens/SelectedTheme/SelectedThemeVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "181"
-            endingLineNumber = "181"
+            startingLineNumber = "194"
+            endingLineNumber = "194"
             landmarkName = "addNewWord(_:_:_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -376,7 +376,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "55E70B48-1B52-469D-9DD8-6B88ED09C272"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "English Trainee/Screens/SelectedTheme/Views/SelectedThemeTable.swift"
@@ -392,7 +392,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "7E4F247F-BDF5-4729-B028-2B55368352A5"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "English Trainee/Screens/SelectedTheme/Views/SelectedThemeTable.swift"
@@ -418,6 +418,53 @@
             endingLineNumber = "77"
             landmarkName = "updateTableViewHeader()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B6363626-02DA-42C7-899E-50B87C4265D9 - fd05c8cec2603f77"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "English_Trainee.SettingsVC.updateTableViewHeader() -&gt; ()"
+                  moduleName = "English Trainee"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/n_lermont/Desktop/English%20Trainee/English%20Trainee/Screens/Settings/SettingsVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "B6363626-02DA-42C7-899E-50B87C4265D9 - 7911bdb438dde990"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.FIRAuth, Swift.Optional&lt;__C.FIRUser&gt;) -&gt; () in English_Trainee.SettingsVC.updateTableViewHeader() -&gt; ()"
+                  moduleName = "English Trainee"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/n_lermont/Desktop/English%20Trainee/English%20Trainee/Screens/Settings/SettingsVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "B6363626-02DA-42C7-899E-50B87C4265D9 - ffaca8f5d1ef8f99"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;, Swift.Optional&lt;__C.FIRDataSnapshot&gt;) -&gt; () in closure #1 (__C.FIRAuth, Swift.Optional&lt;__C.FIRUser&gt;) -&gt; () in English_Trainee.SettingsVC.updateTableViewHeader() -&gt; ()"
+                  moduleName = "English Trainee"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/n_lermont/Desktop/English%20Trainee/English%20Trainee/Screens/Settings/SettingsVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "136">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -466,6 +513,38 @@
             endingLineNumber = "89"
             landmarkName = "updateTableViewHeader()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3AC33819-B85B-4869-920D-FD13E0A072C9 - ffaca8f5d1ef8d6d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;, Swift.Optional&lt;__C.FIRDataSnapshot&gt;) -&gt; () in closure #1 (__C.FIRAuth, Swift.Optional&lt;__C.FIRUser&gt;) -&gt; () in English_Trainee.SettingsVC.updateTableViewHeader() -&gt; ()"
+                  moduleName = "English Trainee"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/n_lermont/Desktop/English%20Trainee/English%20Trainee/Screens/Settings/SettingsVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "224">
+               </Location>
+               <Location
+                  uuid = "3AC33819-B85B-4869-920D-FD13E0A072C9 - ffaca8f5d1ef8d6d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;, Swift.Optional&lt;__C.FIRDataSnapshot&gt;) -&gt; () in closure #1 (__C.FIRAuth, Swift.Optional&lt;__C.FIRUser&gt;) -&gt; () in English_Trainee.SettingsVC.updateTableViewHeader() -&gt; ()"
+                  moduleName = "English Trainee"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/n_lermont/Desktop/English%20Trainee/English%20Trainee/Screens/Settings/SettingsVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "456">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -481,6 +560,70 @@
             startingLineNumber = "94"
             endingLineNumber = "94"
             landmarkName = "updateTableViewHeader()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D012876E-7077-4F95-AB96-3A3AC85CC088"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "English Trainee/Screens/SelectedTheme/SelectedThemeVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "soundWord(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7A4FE380-EE6D-4970-871C-65251F5F0D7C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "English Trainee/Screens/SelectedTheme/SelectedThemeVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "soundWord(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "853B971B-1C33-4D6B-B8F3-D1311454955C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "English Trainee/Screens/SelectedTheme/SelectedThemeVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "soundWord(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2E743CDD-3636-47FA-AE41-E85EB9ACE4A1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "English Trainee/Screens/SelectedTheme/Views/SelectedThemeTable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "loadWordsList(_:_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

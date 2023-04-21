@@ -34,7 +34,7 @@ class LogInPopUp: UIViewController {
     
     lazy var popUpTitleLabel: UILabel = {
         let label = UILabel()
-        label.text = "Log In"
+        label.text = "Sign In"
         label.font = label.font.withSize(20)
         return label
     }()
@@ -88,7 +88,7 @@ class LogInPopUp: UIViewController {
     lazy var enterButton: UIButton = {
         let button = UIButton()
         button.backgroundColor = .lightGray
-        button.setTitle("Log In", for: .normal)
+        button.setTitle("Sign In", for: .normal)
         button.layer.cornerRadius = 10
         button.addTarget(self, action: #selector(loginButton), for: .touchUpInside)
         return button

@@ -57,7 +57,7 @@ extension SettingsTableView: UITableViewDataSource {
         case 0:
             return 3
         case 1:
-            return 2
+            return 1
             #warning("Feedback")
 //        case 2:
 //            return 3
@@ -152,8 +152,8 @@ extension SettingsTableView: UITableViewDelegate {
             case 0:
                 self.onAppThemeSelection?()
             ///Change app voice cell
-            case 1:
-                self.onAppVoiceSelection?()
+//            case 1:
+//                self.onAppVoiceSelection?()
             default:
                 break
             }

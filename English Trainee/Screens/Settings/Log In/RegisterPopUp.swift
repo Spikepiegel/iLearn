@@ -34,7 +34,7 @@ class RegisterInPopUp: UIViewController {
     
     lazy var popUpTitleLabel: UILabel = {
         let label = UILabel()
-        label.text = "Sign In"
+        label.text = "Sign Up"
         label.font = label.font.withSize(20)
         return label
     }()
@@ -101,7 +101,7 @@ class RegisterInPopUp: UIViewController {
     lazy var enterButton: UIButton = {
         let button = UIButton()
         button.backgroundColor = .lightGray
-        button.setTitle("Sign In", for: .normal)
+        button.setTitle("Sign Up", for: .normal)
         button.layer.cornerRadius = 10
         button.addTarget(self, action: #selector(registerButton), for: .touchUpInside)
         return button

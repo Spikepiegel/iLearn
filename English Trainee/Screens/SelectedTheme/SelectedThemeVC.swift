@@ -30,6 +30,8 @@
 import Foundation
 import UIKit
 import AVFAudio
+import AVFoundation
+import AVKit
 
 
 protocol SelectedThemeVCProtocol: AnyObject {
@@ -39,6 +41,8 @@ protocol SelectedThemeVCProtocol: AnyObject {
 
 class SelectedThemeVC: UIViewController, SelectedThemeVCProtocol {
     
+    let synthesizer = AVSpeechSynthesizer()
+
     var selectedCategoryName: String
     
     var jsonService: JsonServiceProtocol?
@@ -48,7 +52,6 @@ class SelectedThemeVC: UIViewController, SelectedThemeVCProtocol {
     var wordPopUp = AddNewUserWordPopUp()
     var header = SelectedThemeHeader()
     
-    let synthesizer = AVSpeechSynthesizer()
     lazy var voiceArchiever = VoiceAppArchiever(key: "appVoice")
 
     var words = [Word]()
@@ -95,6 +98,16 @@ class SelectedThemeVC: UIViewController, SelectedThemeVCProtocol {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         selectedThemeView.setupGradientVC()
+    }
+    
+    func soundWord(_ soundedWord: String) {
+        let utterance = AVSpeechUtterance(string: soundedWord)
+        //utterance.voice = AVSpeechSynthesisVoice(language: "en-AU")
+        //utterance.voice = AVSpeechSynthesisVoice(identifier: voiceArchiever.retrieve())
+        utterance.voice = AVSpeechSynthesisVoice(language: "en-EN")
+        utterance.rate = 0.3
+        
+        synthesizer.speak(utterance)
     }
     
 }
@@ -213,11 +226,5 @@ extension SelectedThemeVC {
         }
     }
     
-    func soundWord(_ soundedWord: String) {
-        let utterance = AVSpeechUtterance(string: soundedWord)
-        utterance.voice = AVSpeechSynthesisVoice(identifier: voiceArchiever.retrieve())
-        utterance.rate = 0.3
-        
-        synthesizer.speak(utterance)
-    }
+
 }
