@@ -102,9 +102,7 @@ class SelectedThemeVC: UIViewController, SelectedThemeVCProtocol {
     
     func soundWord(_ soundedWord: String) {
         let utterance = AVSpeechUtterance(string: soundedWord)
-        //utterance.voice = AVSpeechSynthesisVoice(language: "en-AU")
-        //utterance.voice = AVSpeechSynthesisVoice(identifier: voiceArchiever.retrieve())
-        utterance.voice = AVSpeechSynthesisVoice(language: "en-EN")
+        utterance.voice = AVSpeechSynthesisVoice(identifier: voiceArchiever.retrieve())
         utterance.rate = 0.3
         
         synthesizer.speak(utterance)

@@ -31,8 +31,7 @@ final class VoiceAppArchiever {
     
     func retrieve() -> String {
         
-        //Data -> Array<Word>
-        guard let data = UserDefaults.standard.data(forKey: key) else { return "com.apple.ttsbundle.siri_male_en-US_compact" }
+        guard let data = UserDefaults.standard.data(forKey: key) else { return "com.apple.ttsbundle.Daniel-compact" }
         do {
             let array = try decoder.decode(String.self, from: data)
             return array

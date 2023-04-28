@@ -7,13 +7,6 @@
 
 import Foundation
 
-//Класс-сервис - бизнес-логика - архивируем массив участников
-
-//protocol WordsArchiver {
-//    func save(_ Words: [Friend])
-//    func retrieve() -> [Friend]
-//}
-
 final class WordsArchiver {
     
     private let encoder = JSONEncoder()

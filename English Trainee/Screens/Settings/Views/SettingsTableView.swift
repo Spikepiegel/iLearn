@@ -7,8 +7,11 @@
 
 import UIKit
 import Firebase
+import StoreKit
 
 class SettingsTableView: UITableView {
+    
+    
     
     var onOpenRegisterPopUp: (() -> ())?
     var onSignOutPopUp: (() -> ())?
@@ -16,6 +19,9 @@ class SettingsTableView: UITableView {
     var onLogInPopUp: (() -> ())?
     var onAppThemeSelection: (() -> ())?
     var onAppVoiceSelection: (() -> ())?
+    var onRateTheApp: (() -> ())?
+    var onSendEmail: (() -> ())?
+    var onShareTheApp: (() -> ())?
     
     lazy var themeArchiever = ThemeAppArchiever(key: "selectedTheme")
 
@@ -47,8 +53,7 @@ extension SettingsTableView {
 
 extension SettingsTableView: UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
-    #warning("Feedback поставить значение 3")
-        return 2
+        return 3
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -57,10 +62,9 @@ extension SettingsTableView: UITableViewDataSource {
         case 0:
             return 3
         case 1:
-            return 1
-            #warning("Feedback")
-//        case 2:
-//            return 3
+            return 2
+        case 2:
+            return 3
         default:
             return 0
         }
@@ -80,10 +84,9 @@ extension SettingsTableView: UITableViewDataSource {
         case 1:
             cell.rowTitleLabel.text = names.sectondSectionRowsName[indexPath.row]
             cell.chevronImage.isHidden = false
-        #warning("Feedback")
-//        case 2:
-//            cell.rowTitleLabel.text = names.thirdSectionRowsName[indexPath.row]
-//            cell.chevronImage.isHidden = true
+        case 2:
+            cell.rowTitleLabel.text = names.thirdSectionRowsName[indexPath.row]
+            cell.chevronImage.isHidden = true
         default:
             break
         }
@@ -152,18 +155,21 @@ extension SettingsTableView: UITableViewDelegate {
             case 0:
                 self.onAppThemeSelection?()
             ///Change app voice cell
-//            case 1:
-//                self.onAppVoiceSelection?()
+            case 1:
+                self.onAppVoiceSelection?()
             default:
                 break
             }
         ///Feedback section
         case 2:
             switch indexPath.row {
-            case 0: break
+        ///Rate app in the App Store
+            case 0:
+                self.onRateTheApp?()
             case 1:
-                break
-            case 2: break
+                self.onSendEmail?()
+            case 2:
+                self.onShareTheApp?()
             default:
                 break
             }

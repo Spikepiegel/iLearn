@@ -32,8 +32,8 @@ class NoLearnedWordsPopUp: UIViewController {
     lazy var popText: UILabel = { //popTextLabel, labelPopText
         let label = UILabel()
         label.text = """
-        There is no list of the learned words yet
-           Swipe the words to mark them as learned 📚
+        У тебя пока нет выученных слов
+        Свайпай слова влево 📚
         """
         label.textAlignment = .center
         label.numberOfLines = 0

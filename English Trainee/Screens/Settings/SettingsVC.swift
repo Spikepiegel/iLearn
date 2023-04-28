@@ -7,6 +7,7 @@
 
 import UIKit
 import Firebase
+import MessageUI
 
 class SettingsVC: UIViewController {
     
@@ -20,6 +21,8 @@ class SettingsVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         openCellWindow()
+        
+       
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -69,6 +72,44 @@ class SettingsVC: UIViewController {
             vc.modalPresentationStyle = .fullScreen
             self?.present(vc, animated: true)
         }
+        
+        settingsView.tableView.onRateTheApp = {
+            let productURL = URL(string: "https://itunes.apple.com/app/id6447917283")!
+
+            var components = URLComponents(url: productURL, resolvingAgainstBaseURL: false)
+            components?.queryItems = [
+              URLQueryItem(name: "action", value: "write-review")
+            ]
+
+            guard let writeReviewURL = components?.url else {
+              return
+            }
+
+            UIApplication.shared.open(writeReviewURL)
+        }
+        
+        settingsView.tableView.onSendEmail = { [weak self] in
+            if MFMailComposeViewController.canSendMail() {
+                let composer = MFMailComposeViewController()
+                composer.mailComposeDelegate = self
+                composer.setToRecipients(["dev.nikolay.sidorov@yandex.ru"])
+                composer.setSubject("Предложение")
+                composer.setMessageBody("Добрый день, ...", isHTML: false)
+                
+                self?.present(composer, animated: true)
+            }
+            
+        }
+        
+        settingsView.tableView.onShareTheApp = { [weak self] in
+            let productURL = URL(string: "https://itunes.apple.com/app/id6447917283")!
+            let activityViewController = UIActivityViewController(activityItems: [productURL],
+                                                                  applicationActivities: nil)
+
+            self?.present(activityViewController, animated: true, completion: nil)
+        }
+        
+        
     }
    
 
@@ -95,5 +136,11 @@ class SettingsVC: UIViewController {
             }
         }
         
+    }
+}
+
+extension SettingsVC: MFMailComposeViewControllerDelegate {
+    func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
+        controller.dismiss(animated: true, completion: nil)
     }
 }

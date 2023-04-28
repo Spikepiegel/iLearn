@@ -361,6 +361,13 @@
 			path = "Log In";
 			sourceTree = "<group>";
 		};
+		3177741729FAC732003E229E /* Rate App */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Rate App";
+			sourceTree = "<group>";
+		};
 		317D260B29B1FB7D008DCE2E /* QuizeGameVC */ = {
 			isa = PBXGroup;
 			children = (
@@ -380,6 +387,7 @@
 				314C8ABB29C763B5008A19BB /* Log In */,
 				31FF236129C2621200470220 /* App Theme Selection Screen */,
 				314C8A7229C5C9D7008A19BB /* App Voice Selection Screen */,
+				3177741729FAC732003E229E /* Rate App */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -962,7 +970,7 @@
 				CODE_SIGN_ENTITLEMENTS = "English Trainee/English Trainee.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YGKQ6UQ529;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "English Trainee/Resources/Info.plist";
@@ -979,7 +987,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.2;
+				MARKETING_VERSION = 1.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Nikolay-Lermontov.iLearn";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1000,7 +1008,7 @@
 				CODE_SIGN_ENTITLEMENTS = "English Trainee/English Trainee.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YGKQ6UQ529;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "English Trainee/Resources/Info.plist";
@@ -1017,7 +1025,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.2;
+				MARKETING_VERSION = 1.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Nikolay-Lermontov.iLearn";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

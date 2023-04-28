@@ -17,7 +17,7 @@ struct SectionsRowsNames {
                                 "Delete an account"]
     
     let sectondSectionRowsName = ["Theme",
-                                  /*"Voice"*/]
+                                  "Voice"]
     
     let thirdSectionRowsName = ["Rate app in the App Store",
                                 "Write to developer by email",
