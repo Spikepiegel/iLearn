@@ -239,7 +239,7 @@ extension StatisticsVC {
     func calculatePercentageProgress(_ themeName: String) -> Float {
         
         let wordsArchiver = WordsArchiver(key: themeName)
-        //UserDefaults.standard.removeObject(forKey: themeName) //Clean all categories cache
+        UserDefaults.standard.removeObject(forKey: themeName) //Clean all categories cache
         var words = wordsArchiver.retrieve()
         if words.isEmpty {
             //wordsArchiver.save(jsonService?.loadJsonWords(filename: themeName) ?? [])

@@ -124,9 +124,9 @@
   },
   {
     "id": 16,
-    "origin": "CPU",
+    "origin": "Central Processing Unit",
     "translation": "центральный процессор",
-    "transcription": " ",
+    "transcription": "[ˈsentrəl ˈprəʊsesɪŋ ˈjuːnɪt]",
     "image": "  ",
     "example": "  "
   },
@@ -254,7 +254,7 @@
   {
     "id": 32,
     "origin": "to enable",
-    "translation": "давать возможность или право на ч-т",
+    "translation": "давать возможность",
     "transcription": "[tu: ıʹneıb(ə)l]",
     "image": " ",
     "example": "  "

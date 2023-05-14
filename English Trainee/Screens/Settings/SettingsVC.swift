@@ -140,7 +140,21 @@ class SettingsVC: UIViewController {
 }
 
 extension SettingsVC: MFMailComposeViewControllerDelegate {
-    func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
-        controller.dismiss(animated: true, completion: nil)
-    }
+    func mailComposeController(_ controller: MFMailComposeViewController,
+                                   didFinishWith result: MFMailComposeResult,
+                                   error: Error?) {
+            switch result {
+            case .sent:
+                print("Email sent")
+            case .saved:
+                print("Draft saved")
+            case .cancelled:
+                print("Email cancelled")
+            case  .failed:
+                print("Email failed")
+            @unknown default:
+                break
+            }
+            controller.dismiss(animated: true, completion: nil)
+        }
 }

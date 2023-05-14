@@ -124,6 +124,8 @@
 		31C9417229D9858D0093ECAB /* SelectedThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C9417129D9858D0093ECAB /* SelectedThemeView.swift */; };
 		31C9417429D9889B0093ECAB /* SelectedThemeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C9417329D9889B0093ECAB /* SelectedThemeTable.swift */; };
 		31C9417629DA215D0093ECAB /* VoiceAppArchieverService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C9417529DA215D0093ECAB /* VoiceAppArchieverService.swift */; };
+		31D3DA942A10C96B00FAED17 /* PhotoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D3DA932A10C96B00FAED17 /* PhotoResponse.swift */; };
+		31D3DA962A10CAF000FAED17 /* ImageLoaderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D3DA952A10CAF000FAED17 /* ImageLoaderService.swift */; };
 		31EA189E29B92FCA001AF369 /* MultiProgressView in Frameworks */ = {isa = PBXBuildFile; productRef = 31EA189D29B92FCA001AF369 /* MultiProgressView */; };
 		31EA18A229BA571F001AF369 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 31EA18A129BA571F001AF369 /* Charts */; };
 		31EA18A929BA5A8D001AF369 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 31EA18A829BA5A8D001AF369 /* Algorithms */; };
@@ -250,6 +252,8 @@
 		31C9417129D9858D0093ECAB /* SelectedThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedThemeView.swift; sourceTree = "<group>"; };
 		31C9417329D9889B0093ECAB /* SelectedThemeTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedThemeTable.swift; sourceTree = "<group>"; };
 		31C9417529DA215D0093ECAB /* VoiceAppArchieverService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceAppArchieverService.swift; sourceTree = "<group>"; };
+		31D3DA932A10C96B00FAED17 /* PhotoResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoResponse.swift; sourceTree = "<group>"; };
+		31D3DA952A10CAF000FAED17 /* ImageLoaderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoaderService.swift; sourceTree = "<group>"; };
 		31F005EA29A0163C0097C22E /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
 		31F005EC29A2134E0097C22E /* CategoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCell.swift; sourceTree = "<group>"; };
 		31F005EF29A510820097C22E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -514,6 +518,7 @@
 				317D261029B489F4008DCE2E /* WordsArchiverService.swift */,
 				3127A02F29C32CAF004C90F9 /* ThemeAppArchiverService.swift */,
 				31C9417529DA215D0093ECAB /* VoiceAppArchieverService.swift */,
+				31D3DA952A10CAF000FAED17 /* ImageLoaderService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -577,6 +582,7 @@
 				31FF235629BE249A00470220 /* Phrases.swift */,
 				3127A02929C27893004C90F9 /* SectionRowsNames.swift */,
 				3127A02B29C278B2004C90F9 /* AppThemesNames.swift */,
+				31D3DA932A10C96B00FAED17 /* PhotoResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -795,6 +801,7 @@
 				314C8A7429C5CA0A008A19BB /* AppVoiceSelectionCell.swift in Sources */,
 				3112093829B671DB00E20DAC /* NoLearnedWordsPopUp.swift in Sources */,
 				31A5426329E4E09B00D48D26 /* SettingsVC.swift in Sources */,
+				31D3DA962A10CAF000FAED17 /* ImageLoaderService.swift in Sources */,
 				31FB99132985956200FC1DF6 /* AppDelegate.swift in Sources */,
 				314C8A8129C7050B008A19BB /* CategoriesTableView.swift in Sources */,
 				31F005F029A510820097C22E /* Extensions.swift in Sources */,
@@ -806,6 +813,7 @@
 				3112093629B669F800E20DAC /* ResultPopUp.swift in Sources */,
 				31A5426629E4E0BF00D48D26 /* SettingsView.swift in Sources */,
 				31F005EB29A0163C0097C22E /* CategoriesVC.swift in Sources */,
+				31D3DA942A10C96B00FAED17 /* PhotoResponse.swift in Sources */,
 				3151612B29EEEA1B00421752 /* DeleteAccountPopUp.swift in Sources */,
 				31F9BCBD29A7FF9100C913AE /* SelectedThemeHeader.swift in Sources */,
 				31C9416F29D985510093ECAB /* SelectedThemeVC.swift in Sources */,

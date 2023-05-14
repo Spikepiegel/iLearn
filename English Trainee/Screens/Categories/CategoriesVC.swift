@@ -15,14 +15,21 @@ final class CategoriesVC: UIViewController {
 
     var categoriesView: CategoriesView { return self.view as! CategoriesView }
     
+    let photoAPI = PhotoApiService()
+    
     override func loadView() {
         self.view = CategoriesView(frame: UIScreen.main.bounds)
     }
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupTable()
+        photoAPI.getPhoto { photo in
+            print(photo)
+        }
     }
+    
     
     func setupTable() {
         categoriesView.tableView.onEvent = { [weak self] categoryName in
