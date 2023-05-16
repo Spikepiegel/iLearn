@@ -126,6 +126,7 @@
 		31C9417629DA215D0093ECAB /* VoiceAppArchieverService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C9417529DA215D0093ECAB /* VoiceAppArchieverService.swift */; };
 		31D3DA942A10C96B00FAED17 /* PhotoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D3DA932A10C96B00FAED17 /* PhotoResponse.swift */; };
 		31D3DA962A10CAF000FAED17 /* ImageLoaderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D3DA952A10CAF000FAED17 /* ImageLoaderService.swift */; };
+		31D3DA982A142CEC00FAED17 /* NetworkDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D3DA972A142CEC00FAED17 /* NetworkDataFetcher.swift */; };
 		31EA189E29B92FCA001AF369 /* MultiProgressView in Frameworks */ = {isa = PBXBuildFile; productRef = 31EA189D29B92FCA001AF369 /* MultiProgressView */; };
 		31EA18A229BA571F001AF369 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 31EA18A129BA571F001AF369 /* Charts */; };
 		31EA18A929BA5A8D001AF369 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 31EA18A829BA5A8D001AF369 /* Algorithms */; };
@@ -254,6 +255,7 @@
 		31C9417529DA215D0093ECAB /* VoiceAppArchieverService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceAppArchieverService.swift; sourceTree = "<group>"; };
 		31D3DA932A10C96B00FAED17 /* PhotoResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoResponse.swift; sourceTree = "<group>"; };
 		31D3DA952A10CAF000FAED17 /* ImageLoaderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoaderService.swift; sourceTree = "<group>"; };
+		31D3DA972A142CEC00FAED17 /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
 		31F005EA29A0163C0097C22E /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
 		31F005EC29A2134E0097C22E /* CategoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCell.swift; sourceTree = "<group>"; };
 		31F005EF29A510820097C22E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -519,6 +521,7 @@
 				3127A02F29C32CAF004C90F9 /* ThemeAppArchiverService.swift */,
 				31C9417529DA215D0093ECAB /* VoiceAppArchieverService.swift */,
 				31D3DA952A10CAF000FAED17 /* ImageLoaderService.swift */,
+				31D3DA972A142CEC00FAED17 /* NetworkDataFetcher.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -811,6 +814,7 @@
 				314C8A7129C5C9D2008A19BB /* AppVoiceSelectionVC.swift in Sources */,
 				3127A03029C32CAF004C90F9 /* ThemeAppArchiverService.swift in Sources */,
 				3112093629B669F800E20DAC /* ResultPopUp.swift in Sources */,
+				31D3DA982A142CEC00FAED17 /* NetworkDataFetcher.swift in Sources */,
 				31A5426629E4E0BF00D48D26 /* SettingsView.swift in Sources */,
 				31F005EB29A0163C0097C22E /* CategoriesVC.swift in Sources */,
 				31D3DA942A10C96B00FAED17 /* PhotoResponse.swift in Sources */,
