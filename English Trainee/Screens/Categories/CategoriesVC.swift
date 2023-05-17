@@ -15,7 +15,8 @@ final class CategoriesVC: UIViewController {
 
     var categoriesView: CategoriesView { return self.view as! CategoriesView }
     
-    let photoAPI = NetworkDataFetcher()
+    
+    let imageFetcher = HTMLParserService()
     
     override func loadView() {
         self.view = CategoriesView(frame: UIScreen.main.bounds)
@@ -25,11 +26,8 @@ final class CategoriesVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupTable()
-        photoAPI.fetchImages(searchTerm: "nature") { (results) in
-            results?.results.map {(photo) in
-                print(photo.urls.small)
-            }
-        }
+        
+        imageFetcher.fetchFirstImageURL(searchTerm: "achieve")
     }
     
     
