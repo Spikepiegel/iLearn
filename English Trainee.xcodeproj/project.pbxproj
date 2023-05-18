@@ -56,6 +56,7 @@
 		3151612B29EEEA1B00421752 /* DeleteAccountPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3151612A29EEEA1B00421752 /* DeleteAccountPopUp.swift */; };
 		31517B7C2A1568DA00C69446 /* HTMLParserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31517B7B2A1568DA00C69446 /* HTMLParserService.swift */; };
 		31517B7F2A1569BC00C69446 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 31517B7E2A1569BC00C69446 /* SwiftSoup */; };
+		3179FA8D2A16B5F7008CE04B /* ImagePopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3179FA8C2A16B5F7008CE04B /* ImagePopUp.swift */; };
 		317D260D29B1FBFF008DCE2E /* QuizeGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317D260C29B1FBFF008DCE2E /* QuizeGameVC.swift */; };
 		317D261129B489F4008DCE2E /* WordsArchiverService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317D261029B489F4008DCE2E /* WordsArchiverService.swift */; };
 		317D261329B4E118008DCE2E /* CheckLearnedWordsCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317D261229B4E118008DCE2E /* CheckLearnedWordsCount.swift */; };
@@ -184,6 +185,7 @@
 		3151612929EDFA8C00421752 /* English Trainee.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "English Trainee.entitlements"; sourceTree = "<group>"; };
 		3151612A29EEEA1B00421752 /* DeleteAccountPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteAccountPopUp.swift; sourceTree = "<group>"; };
 		31517B7B2A1568DA00C69446 /* HTMLParserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLParserService.swift; sourceTree = "<group>"; };
+		3179FA8C2A16B5F7008CE04B /* ImagePopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePopUp.swift; sourceTree = "<group>"; };
 		317D260C29B1FBFF008DCE2E /* QuizeGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizeGameVC.swift; sourceTree = "<group>"; };
 		317D261029B489F4008DCE2E /* WordsArchiverService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsArchiverService.swift; sourceTree = "<group>"; };
 		317D261229B4E118008DCE2E /* CheckLearnedWordsCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLearnedWordsCount.swift; sourceTree = "<group>"; };
@@ -381,6 +383,7 @@
 				3112093529B669F800E20DAC /* ResultPopUp.swift */,
 				317D261429B4EB74008DCE2E /* QuestionUpdater.swift */,
 				317D261A29B50090008DCE2E /* CorrectAnswerCheck.swift */,
+				3179FA8C2A16B5F7008CE04B /* ImagePopUp.swift */,
 			);
 			path = QuizeGameVC;
 			sourceTree = "<group>";
@@ -794,6 +797,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				317D261329B4E118008DCE2E /* CheckLearnedWordsCount.swift in Sources */,
+				3179FA8D2A16B5F7008CE04B /* ImagePopUp.swift in Sources */,
 				317D261B29B50090008DCE2E /* CorrectAnswerCheck.swift in Sources */,
 				31C9417629DA215D0093ECAB /* VoiceAppArchieverService.swift in Sources */,
 				31A5426829E4E14B00D48D26 /* SettingsTableView.swift in Sources */,

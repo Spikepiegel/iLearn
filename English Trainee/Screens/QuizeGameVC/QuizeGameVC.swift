@@ -15,8 +15,10 @@ import SnapKit
 ///Screen with quize game. Game is depended on button user has selected.
 class QuizeGameVC: UIViewController  {
     
+    let parser = HTMLParserService()
+    
     lazy var themeArchiever = ThemeAppArchiever(key: "selectedTheme")
-
+    
     lazy var wordsList = getQuestionArray()
     lazy var correctAnswerVariants = QuestionUpdater(fullWordsInformationList: wordsList).createEnglishWordsArray()
     
@@ -73,6 +75,49 @@ class QuizeGameVC: UIViewController  {
         label.center = questionStack.center
         return label
     }()
+    
+    lazy var helpButton : UIButton = {
+        let button = UIButton()
+        button.setImage(UIImage(named: "quizeHelp"), for: .normal)
+        
+        button.addTarget(self, action: #selector(helpButtonTapped), for: .touchUpInside)
+        
+        return button
+    }()
+
+    @objc func helpButtonTapped(sender: UIButton!) {
+        let vc = ImagePopUp()
+        vc.modalPresentationStyle = .overCurrentContext
+        
+        let word = wordsList[numberOfQuestion].origin
+        
+        parser.fetchFirstImageURL(searchTerm: word) { imageUrl in
+               DispatchQueue.main.async {
+                   vc.imageUrl = imageUrl
+                   self.present(vc, animated: false)
+               }
+        }
+    }
+    
+    func loadImage(from url: URL, completion: @escaping (UIImage?) -> Void) {
+        let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
+            if let error = error {
+                print("Ошибка загрузки изображения: \(error.localizedDescription)")
+                completion(nil)
+                return
+            }
+            
+            guard let data = data, let image = UIImage(data: data) else {
+                print("Невозможно создать изображение из загруженных данных")
+                completion(nil)
+                return
+            }
+            
+            completion(image)
+        }
+        
+        task.resume()
+    }
     
     lazy var progressView: UIProgressView = {
         let progressView = UIProgressView(progressViewStyle: .bar)
@@ -265,6 +310,7 @@ extension QuizeGameVC {
         questionStack.addArrangedSubview(progressLabel)
         questionStack.addArrangedSubview(progressView)
         questionStack.addArrangedSubview(questionLabel)
+        questionStack.addArrangedSubview(helpButton)
     }
     
     func setupConstraints() {
@@ -280,6 +326,12 @@ extension QuizeGameVC {
         }
         progressLabel.snp.makeConstraints { make in
             make.left.equalTo(questionStack)
+        }
+        helpButton.snp.makeConstraints { make in
+            make.top.equalTo(progressLabel)
+            make.left.equalTo(progressLabel).inset(285)
+            make.right.equalTo(progressLabel).inset(5)
+            make.bottom.equalTo(progressLabel)
         }
         progressView.snp.makeConstraints { make in
             make.top.equalTo(questionStack).inset(50)
@@ -368,6 +420,7 @@ extension QuizeGameVC {
             progressView.trackTintColor = .lightGray
             progressView.progressTintColor = .blue
             questionStack.layer.borderWidth = 0
+            helpButton.tintColor = .black
             
         case "Classic Black":
             let colorTop =  UIColor.black.cgColor
@@ -380,6 +433,7 @@ extension QuizeGameVC {
             self.view.layer.insertSublayer(gradientLayer, at:0)
             
             backButton.tintColor = .lightGray
+            helpButton.tintColor = .black
             questionStack.backgroundColor = .lightGray
             progressView.trackTintColor = .gray
             progressView.progressTintColor = .blue
@@ -396,6 +450,7 @@ extension QuizeGameVC {
             self.view.layer.insertSublayer(gradientLayer, at:0)
             
             backButton.tintColor = .black
+            helpButton.tintColor = .black
             questionStack.backgroundColor = .white
             questionStack.layer.borderWidth = 0
             

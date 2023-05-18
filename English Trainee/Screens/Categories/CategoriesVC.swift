@@ -16,7 +16,7 @@ final class CategoriesVC: UIViewController {
     var categoriesView: CategoriesView { return self.view as! CategoriesView }
     
     
-    let imageFetcher = HTMLParserService()
+  //  let imageFetcher = HTMLParserService()
     
     override func loadView() {
         self.view = CategoriesView(frame: UIScreen.main.bounds)
@@ -27,7 +27,7 @@ final class CategoriesVC: UIViewController {
         super.viewDidLoad()
         setupTable()
         
-        imageFetcher.fetchFirstImageURL(searchTerm: "achieve")
+       // imageFetcher.fetchFirstImageURL(searchTerm: "achieve")
     }
     
     
