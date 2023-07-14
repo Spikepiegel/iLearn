@@ -26,8 +26,6 @@ final class CategoriesVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupTable()
-        
-       // imageFetcher.fetchFirstImageURL(searchTerm: "achieve")
     }
     
     

@@ -5,27 +5,6 @@
 //  Created by Николай Лермонтов on 02.04.2023.
 //
 //
-// 1. Configure Views - Root View
-// 2. Layout Views - Root View
-// 3. Update Views - Root View
-//
-// 4. Update Model - VC
-//
-// 5. Navigation - VC
-//
-// 6. Busness Logic - Services
-//
-// 7. Event Handling - VC
-//
-// 8. Configure Module - VC
-//
-// 9. State Pattern (loading, loaded, empty, error) -
-//
-// 10. Delegate/Datasource - VC
-//
-// 11. DI container - VC
-//
-// */
 
 import Foundation
 import UIKit
