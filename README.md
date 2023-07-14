@@ -76,3 +76,6 @@
     </td>
   </tr>
 </table>
+
+[Ссылка на видео](ReadmeImages/11.MOV)
+
