@@ -3,6 +3,7 @@
 <h2 align="left"> Information </h2> 
 <p> This is my first pet project that I have done to make the opportunity to learn English more accessible. Thanks to this project, I gained a lot of new knowledge and used the existing ones. </p>
 
+
 <p><strong>⚙️ The application has the following functions:</strong></p>
 <li> Improving the vocabulary of English words </li>
 <li> Statistics on learned words </li> 
