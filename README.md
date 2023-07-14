@@ -7,3 +7,13 @@
 <li> Improving the vocabulary of English words </li>
 <li> Statistics on learned words </li> 
 <li> Learning and repeating words using a quiz game based on the Ebbinghaus method </li> 
+
+<p><strong> Tools and libraries </strong></p>
+<li> Swift  </li>
+<li> UIKit </li> 
+<li> Clean MVC </li> 
+<li> API </li> 
+<li> JSON </li> 
+<li> Firebase integration </li> 
+<li> SnapKit </li> 
+<li> Multi Progress Bar </li> 
