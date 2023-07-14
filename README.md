@@ -30,5 +30,5 @@
 
 <p><strong> 📸 Photo and Video: </strong></p>
 
-<img src="ReadmeImages/example.jpg" alt="Example Image" width="200" height="200">
+<img src="ReadmeImages/1.jpeg" alt="Example Image" width="200" height="200">
 
