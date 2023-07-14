@@ -12,6 +12,8 @@
 <li> Swift  </li>
 <li> UIKit </li> 
 <li> AVFoundation </li> 
+<li> AVFAudio </li> 
+<li> StoreKit </li> 
 <li> Clean MVC </li> 
 <li> API </li> 
 <li> Swift Soup </li> 
