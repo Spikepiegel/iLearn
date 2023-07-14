@@ -6,4 +6,4 @@
 <p> The application has the following functions: </p>
 <li> Improving the vocabulary of English words </li>
 <li> Statistics on learned words </li> 
-<li> ILearning and repeating words using a quiz game based on the Ebbinghaus method </li> 
+<li> Learning and repeating words using a quiz game based on the Ebbinghaus method </li> 
