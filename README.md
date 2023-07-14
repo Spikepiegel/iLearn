@@ -11,6 +11,7 @@
 <p><strong> Tools and Libraries </strong></p>
 <li> Swift  </li>
 <li> UIKit </li> 
+<li> AVFoundation </li> 
 <li> Clean MVC </li> 
 <li> API </li> 
 <li> Swift Soup </li> 
