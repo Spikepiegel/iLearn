@@ -21,3 +21,7 @@
 <li> Firebase integration </li> 
 <li> SnapKit </li> 
 <li> Multi Progress Bar </li> 
+
+<p><strong> 📸 Photo and Video: </strong></p>
+
+
