@@ -33,10 +33,10 @@
 <table>
   <tr>
     <td align="center">
-      <img src="ReadmeImages/3.jpeg" alt="Example Image" width="250" height="480">
+      <img src="ReadmeImages/11.MOV" alt="Example Image" width="250" height="480">
     </td>
     <td align="center">
-      <img src="ReadmeImages/1.jpeg" alt="Example Image" width="250" height="480">
+      <img src="ReadmeImages/3.jpeg" alt="Example Image" width="250" height="480">
     </td>
     <td align="center">
       <img src="ReadmeImages/2.jpeg" alt="Example Image" width="250" height="480">
