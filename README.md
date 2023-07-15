@@ -12,6 +12,7 @@
 
 
 <p><strong> 🏙️ Tools and Libraries </strong></p>
+<li> iOS 13+  </li>
 <li> Swift  </li>
 <li> UIKit </li> 
 <li> AVFoundation </li> 
