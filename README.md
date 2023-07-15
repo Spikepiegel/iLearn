@@ -22,8 +22,8 @@
 <li> Swift Soup </li> 
 <li> JSON </li> 
 <li> Firebase integration </li> 
-<li> SnapKit </li> 
-<li> Multi Progress Bar </li> 
+<li> Multi Progress Bar - <a href="https://github.com/mac-gallagher/MultiProgressView">MultiProgressView</a></li>
+</ul>
 
 <p>     </p>
 
