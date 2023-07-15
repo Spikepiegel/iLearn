@@ -19,12 +19,11 @@
 <li> StoreKit </li> 
 <li> Clean MVC </li> 
 <li> API </li> 
-<li> Swift Soup </li> 
+<li><a href="https://github.com/Bouke/Lark">SwiftSoap</a></li>
 <li> JSON </li> 
 <li> Firebase integration </li> 
 <li><a href="https://github.com/mac-gallagher/MultiProgressView">MultiProgressView</a></li>
 </ul>
-
 <p>     </p>
 
 <p><strong> 📸 Photo and Video: </strong></p>
