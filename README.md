@@ -29,7 +29,8 @@
 <p>     </p>
 
 <p><strong> 📸 Photo and Video: </strong></p>
-[![Название видео](https://img.youtube.com/vi/vAOwVhF0oFI/0.jpg)](https://youtu.be/vAOwVhF0oFI)
+<h1 align="left"><a href="https://youtu.be/vAOwVhF0oFI" target="_blank">Video Preview</a> 
+
 <table>
   <tr>
     <td align="center">
