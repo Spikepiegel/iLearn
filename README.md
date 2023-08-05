@@ -22,7 +22,7 @@
 <li> API </li> 
 <li><a href="https://github.com/scinfu/SwiftSoup">SwiftSoap</a></li>
 <li> JSON </li> 
-<li> Firebase integration </li> 
+<li> Firebase integration - Analitycs/Auth/DataBase </li> 
 <li><a href="https://github.com/mac-gallagher/MultiProgressView">MultiProgressView</a></li>
 </ul>
 <p>     </p>
